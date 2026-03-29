@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="card">
+
+  <!-- Word + POS header -->
+  <div class="word-main">{{Word}}</div>
+  <div style="text-align: center; margin-top: 6px;">
+    <span class="pos-badge">{{POS}}</span>
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- Korean meaning -->
+  <div class="meaning-kr">{{MeaningKR}}</div>
+
+  <!-- Synonyms -->
+  <div class="section-title">유의어</div>
+  <div class="synonyms">{{Synonyms}}</div>
+
+  <hr class="section-divider">
+
+  <!-- Exam example sentences -->
+  <div class="section-title">기출 예문</div>
+  <div class="example-sentence">{{ExamExamples}}</div>
+
+  <!-- Book example sentence -->
+  <div class="section-title">노랭이 예문</div>
+  <div class="example-sentence">{{BookExample}}</div>
+
+  <hr class="section-divider">
+
+  <!-- Footer metadata -->
+  <div class="metadata">
+    <span>Day {{Day}}</span>
+    <span class="metadata-sep">|</span>
+    <span>Hackers #{{VocabID}}</span>
+  </div>
+
+</div>
+</body>
+</html>

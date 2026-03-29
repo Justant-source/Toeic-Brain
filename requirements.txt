@@ -1,0 +1,25 @@
+# PDF parsing
+PyMuPDF>=1.24.0
+pdfplumber>=0.11.0
+
+# OCR (optional)
+pytesseract>=0.3.10
+
+# NLP
+spacy>=3.7.0
+nltk>=3.8.0
+
+# Anki deck generation
+genanki>=0.13.0
+
+# Data processing
+pandas>=2.2.0
+
+# Configuration
+PyYAML>=6.0.0
+
+# Report generation
+Jinja2>=3.1.0
+
+# Testing
+pytest>=8.0.0

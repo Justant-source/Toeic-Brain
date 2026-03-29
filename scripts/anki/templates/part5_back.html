@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="card">
+
+  <!-- Question header (repeated for context) -->
+  <div class="question-header">
+    <span class="tag tag-correct">Part5</span>
+    <span class="tag tag-volume">Vol.{{Volume}}</span>
+    <span class="tag tag-category">Q.{{QuestionNumber}}</span>
+    <span class="tag tag-category">유형: {{Category}}</span>
+  </div>
+
+  <!-- Correct answer highlight -->
+  <ul class="choices">
+    <li class="choice-item answer-correct">
+      <span class="choice-label">정답 ({{Answer}})</span>
+      <span>{{AnswerText}}</span>
+    </li>
+  </ul>
+
+  <hr class="section-divider">
+
+  <!-- Explanation -->
+  <div class="explanation">
+    <div class="explanation-title">해설</div>
+    {{Explanation}}
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- Vocabulary info -->
+  <div class="vocab-info">
+    <div class="vocab-info-title">핵심 어휘</div>
+    {{VocabInfo}}
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- Footer metadata -->
+  <div class="metadata">
+    <span>Vol.{{Volume}}</span>
+    <span class="metadata-sep">|</span>
+    <span>Part5</span>
+    <span class="metadata-sep">|</span>
+    <span>#{{QuestionNumber}}</span>
+    <span class="metadata-sep">|</span>
+    <span>{{Category}}</span>
+  </div>
+
+</div>
+</body>
+</html>

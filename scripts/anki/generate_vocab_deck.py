@@ -1,0 +1,298 @@
+"""
+노랭이 단어 + 기출 예문을 결합한 Anki 단어장 덱(.apkg)을 생성한다. 출력: output/anki/toeic_vocab.apkg
+"""
+
+import sys
+sys.stdout.reconfigure(encoding='utf-8')
+
+import argparse
+import json
+from pathlib import Path
+
+import genanki
+import yaml
+
+# ── Project root ──────────────────────────────────────────────────────────────
+PROJECT_ROOT = Path(__file__).resolve().parents[2]  # scripts/anki/../../
+
+# ── Stable model ID (never change) ───────────────────────────────────────────
+VOCAB_MODEL_ID = 1607392319
+
+
+# ── Helpers ───────────────────────────────────────────────────────────────────
+
+def load_config() -> dict:
+    cfg_path = PROJECT_ROOT / "config.yaml"
+    if cfg_path.exists():
+        with cfg_path.open(encoding="utf-8") as f:
+            return yaml.safe_load(f)
+    return {}
+
+
+def load_json(path: Path) -> list | dict | None:
+    if not path.exists():
+        return None
+    with path.open(encoding="utf-8") as f:
+        return json.load(f)
+
+
+def read_text(path: Path) -> str:
+    with path.open(encoding="utf-8") as f:
+        return f.read()
+
+
+# ── Tag generation ────────────────────────────────────────────────────────────
+
+def make_tags(entry: dict, has_mapping: bool) -> list[str]:
+    tags: list[str] = []
+
+    # Day tag
+    day = entry.get("day")
+    if day is not None:
+        try:
+            tags.append(f"hackers::day{int(day):02d}")
+        except (ValueError, TypeError):
+            tags.append(f"hackers::day{day}")
+
+    # Frequency tag
+    freq = entry.get("frequency", "")
+    if "★★★" in freq:
+        tags.append("frequency::high")
+    elif "★★" in freq:
+        tags.append("frequency::mid")
+    elif "★" in freq:
+        tags.append("frequency::low")
+
+    # POS tag
+    pos_raw = (entry.get("pos") or "").lower()
+    if "verb" in pos_raw or "동사" in pos_raw:
+        tags.append("pos::verb")
+    elif "noun" in pos_raw or "명사" in pos_raw:
+        tags.append("pos::noun")
+    elif "adj" in pos_raw or "형용사" in pos_raw:
+        tags.append("pos::adj")
+    elif "adv" in pos_raw or "부사" in pos_raw:
+        tags.append("pos::adv")
+
+    # 기출 tag
+    tags.append("기출등장::있음" if has_mapping else "기출등장::없음")
+
+    return tags
+
+
+# ── Field value builders ──────────────────────────────────────────────────────
+
+def build_exam_examples(mapping_entry: dict | None) -> str:
+    """Return an HTML string of numbered exam examples, or a fallback message."""
+    if mapping_entry is None:
+        return "기출 예문 없음"
+
+    occurrences = mapping_entry.get("occurrences") or []
+    if not occurrences:
+        return "기출 예문 없음"
+
+    parts: list[str] = []
+    for i, occ in enumerate(occurrences, start=1):
+        context = (occ.get("context") or "").strip()
+        question_id = occ.get("question_id", "")
+        form_used = occ.get("form_used", "")
+
+        meta_parts: list[str] = []
+        if question_id:
+            meta_parts.append(f"Q{question_id}")
+        if form_used and form_used.lower() != mapping_entry.get("word", "").lower():
+            meta_parts.append(f"형태: {form_used}")
+        if occ.get("as_answer"):
+            meta_parts.append("정답")
+
+        meta_str = f' <span style="color:#9CA3AF;font-size:12px;">({", ".join(meta_parts)})</span>' if meta_parts else ""
+        parts.append(f'<div style="margin-bottom:6px;">{i}. {context}{meta_str}</div>')
+
+    return "\n".join(parts)
+
+
+def build_book_example(entry: dict) -> str:
+    sentence = (entry.get("example_sentence") or "").strip()
+    translation = (entry.get("example_translation") or "").strip()
+    if sentence and translation:
+        return f"{sentence}<br><span style='color:#6B7280;font-size:13px;'>{translation}</span>"
+    return sentence or translation or ""
+
+
+def build_synonyms(entry: dict) -> str:
+    synonyms = entry.get("synonyms") or []
+    if not synonyms:
+        return ""
+    items = "".join(
+        f'<span class="synonym-item">{s.strip()}</span>'
+        for s in synonyms
+        if s.strip()
+    )
+    return f'<div class="synonyms">{items}</div>'
+
+
+# ── Card builder ──────────────────────────────────────────────────────────────
+
+def build_note(
+    model: genanki.Model,
+    entry: dict,
+    mapping_entry: dict | None,
+) -> genanki.Note:
+    has_mapping = mapping_entry is not None and bool(mapping_entry.get("occurrences"))
+    exam_count = mapping_entry.get("total_count", 0) if mapping_entry else 0
+
+    fields = [
+        entry.get("word") or "",
+        entry.get("pos") or "",
+        entry.get("meaning_kr") or "",
+        entry.get("frequency") or "",
+        str(exam_count),
+        build_synonyms(entry),
+        build_exam_examples(mapping_entry),
+        build_book_example(entry),
+        str(entry.get("day") or ""),
+        entry.get("id") or "",
+    ]
+
+    tags = make_tags(entry, has_mapping)
+    return genanki.Note(model=model, fields=fields, tags=tags)
+
+
+# ── Main ──────────────────────────────────────────────────────────────────────
+
+def parse_args() -> argparse.Namespace:
+    p = argparse.ArgumentParser(
+        description="Generate Anki vocab deck (.apkg) from processed JSON files."
+    )
+    p.add_argument(
+        "--vocab",
+        type=Path,
+        default=PROJECT_ROOT / "data/processed/vocab/hackers_vocab.json",
+        help="Path to vocab JSON (default: data/processed/vocab/hackers_vocab.json)",
+    )
+    p.add_argument(
+        "--mapping",
+        type=Path,
+        default=PROJECT_ROOT / "data/mapped/word_question_map.json",
+        help="Path to mapping JSON (default: data/mapped/word_question_map.json)",
+    )
+    p.add_argument(
+        "--output",
+        type=Path,
+        default=PROJECT_ROOT / "output/anki/toeic_vocab.apkg",
+        help="Output .apkg path (default: output/anki/toeic_vocab.apkg)",
+    )
+    return p.parse_args()
+
+
+def main() -> None:
+    args = parse_args()
+    cfg = load_config()
+
+    # ── Load templates & CSS ──────────────────────────────────────────────────
+    templates_dir = PROJECT_ROOT / "scripts/anki/templates"
+    styles_dir = PROJECT_ROOT / "scripts/anki/styles"
+
+    front_html = read_text(templates_dir / "vocab_front.html")
+    back_html = read_text(templates_dir / "vocab_back.html")
+    css = read_text(styles_dir / "card_style.css")
+
+    # ── Load vocab ────────────────────────────────────────────────────────────
+    vocab_data = load_json(args.vocab)
+    if vocab_data is None:
+        print(f"[ERROR] Vocab file not found: {args.vocab}", file=sys.stderr)
+        sys.exit(1)
+    if not isinstance(vocab_data, list):
+        print("[ERROR] Vocab JSON must be a list of objects.", file=sys.stderr)
+        sys.exit(1)
+
+    # ── Load mapping (optional) ───────────────────────────────────────────────
+    mapping_raw = load_json(args.mapping)
+    if mapping_raw is None:
+        print(f"[INFO] Mapping file not found ({args.mapping.name}). Generating without exam examples.")
+        mapping_by_id: dict[str, dict] = {}
+    else:
+        # Support both list and dict shapes
+        if isinstance(mapping_raw, list):
+            mapping_by_id = {str(m.get("vocab_id", m.get("word", ""))): m for m in mapping_raw}
+        else:
+            mapping_by_id = {str(k): v for k, v in mapping_raw.items()}
+        print(f"[INFO] Mapping loaded: {len(mapping_by_id)} entries.")
+
+    # ── Build genanki model ───────────────────────────────────────────────────
+    model = genanki.Model(
+        VOCAB_MODEL_ID,
+        "Toeic Brain Vocab",
+        fields=[
+            {"name": "Word"},
+            {"name": "POS"},
+            {"name": "MeaningKR"},
+            {"name": "Frequency"},
+            {"name": "ExamCount"},
+            {"name": "Synonyms"},
+            {"name": "ExamExamples"},
+            {"name": "BookExample"},
+            {"name": "Day"},
+            {"name": "VocabID"},
+        ],
+        templates=[
+            {
+                "name": "Vocab Card",
+                "qfmt": front_html,
+                "afmt": back_html,
+            }
+        ],
+        css=css,
+    )
+
+    # ── Deck ID from config ───────────────────────────────────────────────────
+    deck_id: int = (
+        cfg.get("anki", {}).get("vocab_deck", {}).get("id", 2026032901)
+    )
+    deck_name: str = (
+        cfg.get("anki", {}).get("vocab_deck", {}).get("name", "Toeic Brain::단어장")
+    )
+    deck = genanki.Deck(deck_id, deck_name)
+
+    # ── Sort vocab entries: Day asc, then word asc ────────────────────────────
+    def sort_key(e: dict):
+        try:
+            day = int(e.get("day") or 0)
+        except (ValueError, TypeError):
+            day = 0
+        return (day, (e.get("word") or "").lower())
+
+    sorted_vocab = sorted(vocab_data, key=sort_key)
+
+    # ── Build cards ───────────────────────────────────────────────────────────
+    tag_stats: dict[str, int] = {}
+
+    for entry in sorted_vocab:
+        vocab_id = str(entry.get("id") or entry.get("word") or "")
+        # Try lookup by vocab_id, then by word
+        mapping_entry = mapping_by_id.get(vocab_id) or mapping_by_id.get(
+            str(entry.get("word") or "")
+        )
+        note = build_note(model, entry, mapping_entry)
+        deck.add_note(note)
+        for tag in note.tags:
+            tag_stats[tag] = tag_stats.get(tag, 0) + 1
+
+    # ── Write output ──────────────────────────────────────────────────────────
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    genanki.Package(deck).write_to_file(str(args.output))
+
+    # ── Stats ─────────────────────────────────────────────────────────────────
+    total = len(sorted_vocab)
+    print(f"\n✓ Deck generated: {args.output}")
+    print(f"  Total cards   : {total}")
+    print(f"  Deck name     : {deck_name}  (id={deck_id})")
+
+    # Tag breakdown (sorted)
+    print("\n  Tag breakdown:")
+    for tag in sorted(tag_stats):
+        print(f"    {tag:<35} {tag_stats[tag]:>5} cards")
+
+
+if __name__ == "__main__":
+    main()

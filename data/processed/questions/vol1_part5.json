@@ -1,0 +1,5051 @@
+[
+  {
+    "id": "vol1_test01_part5_101",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 101,
+    "sentence": "Ms. Durkin asked for volunteers to help ------- with the employee fitness program.",
+    "choices": {
+      "A": "she",
+      "B": "her",
+      "C": "hers",
+      "D": "herself"
+    },
+    "answer": null,
+    "category": "대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_102",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 102,
+    "sentence": "Lasner Electronics1 staff have extensive ------- of current hardware systems.",
+    "choices": {
+      "A": "know",
+      "B": "known",
+      "C": "knowledge",
+      "D": "knowledgeable"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_103",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 103,
+    "sentence": "------- a year, Tarrin Industrial Supply audits the accounts of all of its factories.",
+    "choices": {
+      "A": "Once",
+      "B": "Immediately",
+      "C": "Directly",
+      "D": "Yet"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_104",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 104,
+    "sentence": "Ms. Pham requested a refund-------the coffeemaker she received was damaged.",
+    "choices": {
+      "A": "despite",
+      "B": "why",
+      "C": "concerning",
+      "D": "because"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_105",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 105,
+    "sentence": "Information------- the artwork in the lobby is available at the reception desk.",
+    "choices": {
+      "A": "across",
+      "B": "about",
+      "C": "upon",
+      "D": "except"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_106",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 106,
+    "sentence": "With the Gema XTI binoculars, users can ------- see objects that are more than 100 meters away.",
+    "choices": {
+      "A": "ease",
+      "B": "easy",
+      "C": "easily",
+      "D": "easier"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_107",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 107,
+    "sentence": "The Physical Therapy Association is committed to keeping costs-------for its certification programs.",
+    "choices": {
+      "A": "affordable",
+      "B": "permitted",
+      "C": "cutting",
+      "D": "necessary"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_108",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 108,
+    "sentence": "Mr. Brennel------- positions in various areas of the company before he became president.",
+    "choices": {
+      "A": "occupation",
+      "B": "occupational",
+      "C": "occupying",
+      "D": "occupied"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_109",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 109,
+    "sentence": "To remain on schedule, editors must submit all------- to the book to the authors by Friday.",
+    "choices": {
+      "A": "ideas",
+      "B": "essays",
+      "C": "revisions",
+      "D": "suggestions"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_110",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 110,
+    "sentence": "------- industry professionals are allowed to purchase tickets to the Kuo Photography Fair.",
+    "choices": {
+      "A": "Only",
+      "B": "Until",
+      "C": "Unless",
+      "D": "Quite"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_111",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 111,
+    "sentence": "At Pharmbeck's banquet, Mr. Jones------- a trophy for his performance in this year's quality-improvement initiative.",
+    "choices": {
+      "A": "accepted",
+      "B": "congratulated",
+      "C": "nominated",
+      "D": "hoped"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_112",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 112,
+    "sentence": "Ms. Suto claims that important market trends become-------with the use of data analysis.",
+    "choices": {
+      "A": "predict",
+      "B": "prediction",
+      "C": "predictable",
+      "D": "predictably"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_113",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 113,
+    "sentence": "One of Grommer Consulting^ goals is to enhance the relationship-------salespeople and their customers.",
+    "choices": {
+      "A": "inside",
+      "B": "within",
+      "C": "around",
+      "D": "between"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_114",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 114,
+    "sentence": "Depending on your answers to the survey, we------- you to collect additional information.",
+    "choices": {
+      "A": "may call",
+      "B": "are calling",
+      "C": "have been called",
+      "D": "must be calling"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_115",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 115,
+    "sentence": "------- Jemburger opened its newest franchise, the first 100 customers were given free hamburgers.",
+    "choices": {
+      "A": "Now",
+      "B": "When",
+      "C": "As if",
+      "D": "After all"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_116",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 116,
+    "sentence": "Please include the serial number of your product in any------- with the customer service department.",
+    "choices": {
+      "A": "corresponds",
+      "B": "correspondence",
+      "C": "correspondingly",
+      "D": "correspondent"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_117",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 117,
+    "sentence": "The award-winning film Underwater Secrets promotes awareness-------ocean pollution and its effects on our planet.",
+    "choices": {
+      "A": "of",
+      "B": "to",
+      "C": "from",
+      "D": "with"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_118",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 118,
+    "sentence": "BYF Company specializes in------- promotional items to help companies advertise their brand.",
+    "choices": {
+      "A": "personally",
+      "B": "personalized",
+      "C": "personality",
+      "D": "personalizes"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_119",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 119,
+    "sentence": "------- the rent increase is less than 2 percent, Selwin Electrical Supply will continue to lease the space.",
+    "choices": {
+      "A": "As long as",
+      "B": "Along with",
+      "C": "Not only",
+      "D": "Otherwise"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_120",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 120,
+    "sentence": "Belden HospitaPs chief of staff meets regularly with the staff to ensure that procedures------- correctly.",
+    "choices": {
+      "A": "to be performed",
+      "B": "would have performed",
+      "C": "had been performed",
+      "D": "are being performed"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_121",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 121,
+    "sentence": "Any requests for time off should be addressed to the-------department supervisor.",
+    "choices": {
+      "A": "urgent",
+      "B": "appropriate",
+      "C": "subsequent",
+      "D": "deliverable"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_122",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 122,
+    "sentence": "World Fish Supply delivers the freshest fish possible thanks to innovative-------and shipping methods.",
+    "choices": {
+      "A": "preserves",
+      "B": "preserved",
+      "C": "preserve",
+      "D": "preservation"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_123",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 123,
+    "sentence": "Company executives are currently reviewing the annual budget------- submitted to them by the Financial Planning department.",
+    "choices": {
+      "A": "requirements",
+      "B": "deliveries",
+      "C": "developers",
+      "D": "qualities"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_124",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 124,
+    "sentence": "Even the CEO had to admit that Prasma Designs* win was-------the result of fortunate timing.",
+    "choices": {
+      "A": "parts",
+      "B": "parted",
+      "C": "partly",
+      "D": "parting"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_125",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 125,
+    "sentence": "Mr. Singh took notes on-------the focus group discussed during the morning session.",
+    "choices": {
+      "A": "each",
+      "B": "several",
+      "C": "another",
+      "D": "everything"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_126",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 126,
+    "sentence": "Last year, Tadaka Computer Solutions ranked third-------in regional earnings.",
+    "choices": {
+      "A": "together",
+      "B": "overall",
+      "C": "consecutively",
+      "D": "generally"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_127",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 127,
+    "sentence": "------- the popularity of the BPT39 wireless speaker, production will be increased fivefold starting next month.",
+    "choices": {
+      "A": "On behalf of",
+      "B": "Whether",
+      "C": "Moreover",
+      "D": "As a result of"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_128",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 128,
+    "sentence": "Zypo Properties has just signed a lease agreement with the law firm-------offices are on the third floor.",
+    "choices": {
+      "A": "how",
+      "B": "what",
+      "C": "whose",
+      "D": "wherever"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_129",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 129,
+    "sentence": "------- events this year caused profits in the second and third quarters to differ significantly from original projections.",
+    "choices": {
+      "A": "Total",
+      "B": "Marginal",
+      "C": "Representative",
+      "D": "Unforeseen"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test01_part5_130",
+    "volume": 1,
+    "test": 1,
+    "part": 5,
+    "question_number": 130,
+    "sentence": "The timeline for the pathway lighting project was extended to-------input from the environmental commission.",
+    "choices": {
+      "A": "use up",
+      "B": "believe in",
+      "C": "make into",
+      "D": "allow for"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_101",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 101,
+    "sentence": "Ms. Carpenter will be attending the conference with-------marketing team.",
+    "choices": {
+      "A": "she",
+      "B": "her",
+      "C": "hers",
+      "D": "herself"
+    },
+    "answer": null,
+    "category": "대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_102",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 102,
+    "sentence": "------- the last ten years, Bay City’s population has grown by about 27 percent.",
+    "choices": {
+      "A": "As",
+      "B": "Against",
+      "C": "During",
+      "D": "Below"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_103",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 103,
+    "sentence": "Please congratulate Alan Schmit,-------of the Leadership Award in Nursing at Knoll Hospital.",
+    "choices": {
+      "A": "won",
+      "B": "wins",
+      "C": "winning",
+      "D": "winner"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_104",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 104,
+    "sentence": "Ireland's largest software producer will ------- be opening a large facility in Cork.",
+    "choices": {
+      "A": "soon",
+      "B": "such",
+      "C": "ever",
+      "D": "like"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_105",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 105,
+    "sentence": "Ashburn Bank’s online service has been in high demand------- .",
+    "choices": {
+      "A": "lateness",
+      "B": "later",
+      "C": "lately",
+      "D": "latest"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_106",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 106,
+    "sentence": "The------- of videos to electronic press releases can help companies showcase their products.",
+    "choices": {
+      "A": "content",
+      "B": "addition",
+      "C": "pictures",
+      "D": "promotion"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_107",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 107,
+    "sentence": "Ms. Hyun is reviewing the training manual to see if updates------- .",
+    "choices": {
+      "A": "have need",
+      "B": "needing",
+      "C": "are needed",
+      "D": "to be needed"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_108",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 108,
+    "sentence": "When leaving the auditorium, please exit ------- the doors on the lower level.",
+    "choices": {
+      "A": "except",
+      "B": "inside",
+      "C": "without",
+      "D": "through"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_109",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 109,
+    "sentence": "The judges for this year’s screenplay competition include-------from Hanovi Studios.",
+    "choices": {
+      "A": "represents",
+      "B": "representatives",
+      "C": "represented",
+      "D": "represent"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_110",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 110,
+    "sentence": "I have attached my resume detailing my ------- experience in the hotel industry.",
+    "choices": {
+      "A": "extensive",
+      "B": "punctual",
+      "C": "prospective",
+      "D": "accepted"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_111",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 111,
+    "sentence": "Remember to check the spelling of Mr. Kamashi’s name when------- the document.",
+    "choices": {
+      "A": "revising",
+      "B": "revises",
+      "C": "revised",
+      "D": "revise"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_112",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 112,
+    "sentence": "Residents visited City Hall to ask------- developers will preserve the historic properties.",
+    "choices": {
+      "A": "although",
+      "B": "since",
+      "C": "whether",
+      "D": "both"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_113",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 113,
+    "sentence": "The Ford Group's proposed advertising campaign is by far the most-------we have seen so far.",
+    "choices": {
+      "A": "innovate",
+      "B": "innovative",
+      "C": "innovations",
+      "D": "innovatively"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_114",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 114,
+    "sentence": "Solei Landscaping announced that the design for the Cherry Hill building complex is------- complete.",
+    "choices": {
+      "A": "almost",
+      "B": "nearby",
+      "C": "anytime",
+      "D": "yet"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_116",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 116,
+    "sentence": "In preparation for Mr. Kumar's retirement at the end of March, the Carolex Corporation will need to------- a new facilities director.",
+    "choices": {
+      "A": "resume",
+      "B": "compete",
+      "C": "recruit",
+      "D": "conduct"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_117",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 117,
+    "sentence": "The team's contributions to the Ripton Group’s marketing plan were very------- acknowledged.",
+    "choices": {
+      "A": "favor",
+      "B": "favorably",
+      "C": "favorable",
+      "D": "favored"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_118",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 118,
+    "sentence": "------- receiving the engineering award, Ms. Kwon made a point of thanking longtime mentors.",
+    "choices": {
+      "A": "Onto",
+      "B": "Unlike",
+      "C": "About",
+      "D": "Upon"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_119",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 119,
+    "sentence": "Please read the list of-------qualifications to ensure that you have the necessary education and experience for the position.",
+    "choices": {
+      "A": "slight",
+      "B": "equal",
+      "C": "obliged",
+      "D": "essential"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_120",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 120,
+    "sentence": "Choosing the best software tool to eliminate computer viruses is rarely simple,-------it is important to seek expert advice.",
+    "choices": {
+      "A": "why",
+      "B": "then",
+      "C": "nor",
+      "D": "so sei , 、 ■ , \\ ) z 、 ■ \" , A B c D / ( \\ / ( \\ z ( \\ z ( \\"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_121",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 121,
+    "sentence": "Ms. Delgado would like to meet with all loan officers------- reviewing any more loan applications.",
+    "choices": {
+      "A": "now that",
+      "B": "as though",
+      "C": "before",
+      "D": "often"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_122",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 122,
+    "sentence": "Cedar Branch Hill has a------- as a business-friendly environment that provides efficient licensing and other legal processes.",
+    "choices": {
+      "A": "prediction",
+      "B": "courtesy",
+      "C": "reputation",
+      "D": "statement"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_123",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 123,
+    "sentence": "The actors held an additional rehearsal ------- perfect their performance in the final scene.",
+    "choices": {
+      "A": "considerably",
+      "B": "in order to",
+      "C": "nevertheless",
+      "D": "as a result of"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_124",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 124,
+    "sentence": "RZT Technology will double the size of its Toronto laboratory to-------the organization's rapid growth.",
+    "choices": {
+      "A": "assign",
+      "B": "investigate",
+      "C": "experience",
+      "D": "accommodate"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_125",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 125,
+    "sentence": "Even though Smithton Electronics* second quarter was not-------，the company plans to invest large sums on research.",
+    "choices": {
+      "A": "profitable",
+      "B": "profiting",
+      "C": "profitability",
+      "D": "profitably"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_126",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 126,
+    "sentence": "The Williamsport Hotel is an ideal venue for the conference because of its------- to the airport.",
+    "choices": {
+      "A": "achievement",
+      "B": "proximity",
+      "C": "competence",
+      "D": "exception"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_127",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 127,
+    "sentence": "The second training session is for employees------- responsibilities include processing payroll forms.",
+    "choices": {
+      "A": "whose",
+      "B": "which",
+      "C": "what",
+      "D": "who"
+    },
+    "answer": null,
+    "category": "관계대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_128",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 128,
+    "sentence": "------- poorly the high-speed printer may be functioning, it is still making copies that are adequate for our purposes.",
+    "choices": {
+      "A": "Rather",
+      "B": "Seldom",
+      "C": "However",
+      "D": "Thoroughly"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_129",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 129,
+    "sentence": "The long-awaited Weka 2XG digital camera will finally be-------at a product exhibition on August 16.",
+    "choices": {
+      "A": "reduced",
+      "B": "unveiled",
+      "C": "consulted",
+      "D": "resolved"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test02_part5_130",
+    "volume": 1,
+    "test": 2,
+    "part": 5,
+    "question_number": 130,
+    "sentence": "Northeast Community Finance------- an online system in order to shorten service lines at branch locations.",
+    "choices": {
+      "A": "has implemented",
+      "B": "to be implementing",
+      "C": "to have been implementing",
+      "D": "is implemented"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_101",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 101,
+    "sentence": "York Development Corporation marked the ------- of the Ford Road office complex with a ribbon-cutting ceremony.",
+    "choices": {
+      "A": "opens",
+      "B": "opening",
+      "C": "opened",
+      "D": "openly"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_102",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 102,
+    "sentence": "Staff at the Bismarck Hotel were------- helpful to us during our stay.",
+    "choices": {
+      "A": "quite",
+      "B": "enough",
+      "C": "far",
+      "D": "early"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_103",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 103,
+    "sentence": "Ms. Luo will explain some possible consequences of the-------merger with the Wilson-Peek Corporation.",
+    "choices": {
+      "A": "proposed",
+      "B": "proposal",
+      "C": "proposition",
+      "D": "proposing"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_104",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 104,
+    "sentence": "The Springdale supermarket survey------- will be released a week after they are evaluated.",
+    "choices": {
+      "A": "events",
+      "B": "stores",
+      "C": "results",
+      "D": "coupons"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_105",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 105,
+    "sentence": "The new printer operates more------- than the previous model did.",
+    "choices": {
+      "A": "quickest",
+      "B": "quickness",
+      "C": "quick",
+      "D": "quickly"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_106",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 106,
+    "sentence": "Here at Vanguard Buying Club,-------help members find quality merchandise at the lowest possible prices.",
+    "choices": {
+      "A": "us",
+      "B": "our",
+      "C": "we",
+      "D": "ourselves"
+    },
+    "answer": null,
+    "category": "대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_107",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 107,
+    "sentence": "Management announced that all salespeople would be receiving a bonus this year,------- in time for summer vacations.",
+    "choices": {
+      "A": "just",
+      "B": "as",
+      "C": "only",
+      "D": "by"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_108",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 108,
+    "sentence": "According to Florida Digital Designer Magazine, many graphic designers do not consider------- to be traditional artists.",
+    "choices": {
+      "A": "it",
+      "B": "their",
+      "C": "themselves",
+      "D": "itself"
+    },
+    "answer": null,
+    "category": "대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_109",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 109,
+    "sentence": "A wooden bridge crossing the wading pond -------to the hotePs nine-hole golf course.",
+    "choices": {
+      "A": "prepares",
+      "B": "leads",
+      "C": "presents",
+      "D": "takes"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_110",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 110,
+    "sentence": "A special sale on stationery-------on the Write Things Web site yesterday.",
+    "choices": {
+      "A": "was announced",
+      "B": "announced",
+      "C": "was announcing",
+      "D": "to announce"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_111",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 111,
+    "sentence": "All produce transported by Gocargo Trucking is refrigerated-------upon pickup to prevent spoilage.",
+    "choices": {
+      "A": "lately",
+      "B": "promptly",
+      "C": "potentially",
+      "D": "clearly"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_112",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 112,
+    "sentence": "The Ferrera Museum plans to exhibit a collection of Lucia Almeida's most -------sculptures.",
+    "choices": {
+      "A": "innovative",
+      "B": "innovation",
+      "C": "innovatively",
+      "D": "innovate"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_113",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 113,
+    "sentence": "The bank’s cashier windows are open daily from 8:00 a.m. to 4:00 p.m.------- on Sundays.",
+    "choices": {
+      "A": "except",
+      "B": "until",
+      "C": "nor",
+      "D": "yet"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_114",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 114,
+    "sentence": "Inventory control and warehousing strategies-------within the responsibilities of the supply chain manager.",
+    "choices": {
+      "A": "have",
+      "B": "cover",
+      "C": "mark",
+      "D": "fall"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_115",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 115,
+    "sentence": "Of all the truck models available today, it can be difficult to figure out-------would best suit your company's needs.",
+    "choices": {
+      "A": "when",
+      "B": "why",
+      "C": "which",
+      "D": "where"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_116",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 116,
+    "sentence": "CEO Yoshiro Kasai has expressed complete faith in Fairway Maritime’s------- to deliver the product on time.",
+    "choices": {
+      "A": "belief",
+      "B": "measure",
+      "C": "problem",
+      "D": "ability"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_117",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 117,
+    "sentence": "At Derwin Securities, trainees alternate ------- attending information sessions and working closely with assigned mentors.",
+    "choices": {
+      "A": "along",
+      "B": "against",
+      "C": "between",
+      "D": "near"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_118",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 118,
+    "sentence": "Company Vice President Astrid Barretto had no------- to being considered for the position of CEO.",
+    "choices": {
+      "A": "objected",
+      "B": "objecting",
+      "C": "objects",
+      "D": "objection"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_119",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 119,
+    "sentence": "Belinda McKay fans who are-------to the author’s formal writing style will be surprised by her latest biography.",
+    "choices": {
+      "A": "fortunate",
+      "B": "readable",
+      "C": "comparable",
+      "D": "accustomed"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_120",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 120,
+    "sentence": "The Southeast Asia Business Convention will feature-------known and respected leaders from countries across the region.",
+    "choices": {
+      "A": "widen",
+      "B": "wider",
+      "C": "widely",
+      "D": "wide ■I m uu"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_121",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 121,
+    "sentence": "------- the high cost of fuel, customers are buying smaller, more efficient cars.",
+    "choices": {
+      "A": "Together with",
+      "B": "Instead of",
+      "C": "As well as",
+      "D": "Because of"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_122",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 122,
+    "sentence": "Over the past ten years, Bellworth Medical Clinic------- Atlan Protection officers for all security needs.",
+    "choices": {
+      "A": "is hiring",
+      "B": "were hiring",
+      "C": "has hired",
+      "D": "was hired"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_123",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 123,
+    "sentence": "The driver will make three-------to deliver the package before it is returned to our warehouse.",
+    "choices": {
+      "A": "attempts",
+      "B": "pursuits",
+      "C": "aims",
+      "D": "experiences"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_124",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 124,
+    "sentence": "We congratulate all Riverside employees, whose-------effort has resulted in a 20 percent reduction in waste disposal costs.",
+    "choices": {
+      "A": "collect",
+      "B": "collective",
+      "C": "collects",
+      "D": "collector"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_125",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 125,
+    "sentence": "Andrzej Ptak’s photography Web site will be available online-------we have finished organizing and cataloging his work.",
+    "choices": {
+      "A": "how",
+      "B": "once",
+      "C": "so too",
+      "D": "not only"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_126",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 126,
+    "sentence": "The initial feedback from early buyers of the Sunbell XC2 mobile phone indicates that they found it-------to use.",
+    "choices": {
+      "A": "conveniences",
+      "B": "conveniently",
+      "C": "convenience",
+      "D": "convenient"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_127",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 127,
+    "sentence": "------- space in the bathroom was limited, the contractor managed to fit in two sinks and a shower.",
+    "choices": {
+      "A": "Both",
+      "B": "So that",
+      "C": "Whether",
+      "D": "Even though"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_128",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 128,
+    "sentence": "The staff must-------as much market-research data as possible before planning the advertising campaign.",
+    "choices": {
+      "A": "equip",
+      "B": "compile",
+      "C": "endorse",
+      "D": "compose"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_129",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 129,
+    "sentence": "------- a national holiday falls on a Thursday, the Barstow Company allows employees to take off Friday as well.",
+    "choices": {
+      "A": "Even",
+      "B": "For",
+      "C": "Nearly",
+      "D": "Whenever"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test03_part5_130",
+    "volume": 1,
+    "test": 3,
+    "part": 5,
+    "question_number": 130,
+    "sentence": "------- materials for the advanced Farsi course include an audio CD and a DVD.",
+    "choices": {
+      "A": "Supplementary",
+      "B": "Consequential",
+      "C": "Persistent",
+      "D": "Cooperative"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_101",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 101,
+    "sentence": "The regional manager will arrive tomorrow, so please ensure that all-------documents are ready.",
+    "choices": {
+      "A": "she",
+      "B": "her",
+      "C": "hers",
+      "D": "herself"
+    },
+    "answer": null,
+    "category": "대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_102",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 102,
+    "sentence": "The historic Waldridge Building was constructed nearly 200 years-------.",
+    "choices": {
+      "A": "away",
+      "B": "enough",
+      "C": "ago",
+      "D": "still"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_103",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 103,
+    "sentence": "Consumers------- enthusiastically to the new colors developed by Sanwell Paint.",
+    "choices": {
+      "A": "responding",
+      "B": "response",
+      "C": "responsively",
+      "D": "responded"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_104",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 104,
+    "sentence": "The------- files contain your employment contract and information about our company.",
+    "choices": {
+      "A": "directed",
+      "B": "attached",
+      "C": "interested",
+      "D": "connected"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_105",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 105,
+    "sentence": "Please submit each reimbursement request ------- according to its category, as outlined in last month’s memo.",
+    "choices": {
+      "A": "separately",
+      "B": "separateness",
+      "C": "separates",
+      "D": "separate"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_106",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 106,
+    "sentence": "Customers can wait in the reception area ------- our mechanics complete the car repairs.",
+    "choices": {
+      "A": "whether",
+      "B": "except",
+      "C": "while",
+      "D": "during"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_107",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 107,
+    "sentence": "No one without a pass will be granted------- to the conference.",
+    "choices": {
+      "A": "admission",
+      "B": "is admitting",
+      "C": "admitted",
+      "D": "to admit"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_108",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 108,
+    "sentence": "To receive an electronic reminder when payment is due, set up an online account ------- Albright Bank.",
+    "choices": {
+      "A": "of",
+      "B": "about",
+      "C": "over",
+      "D": "with"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_109",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 109,
+    "sentence": "The registration fee is-------refundable up to two weeks prior to the conference date.",
+    "choices": {
+      "A": "fullest",
+      "B": "fuller",
+      "C": "fully",
+      "D": "full"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_110",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 110,
+    "sentence": "All identifying information has been------- from this letter of complaint so that it can be used for training purposes.",
+    "choices": {
+      "A": "produced",
+      "B": "extended",
+      "C": "removed",
+      "D": "resolved"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_111",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 111,
+    "sentence": "------- this time next year, Larkview Technology will have acquired two new subsidiaries.",
+    "choices": {
+      "A": "To",
+      "B": "By",
+      "C": "Quite",
+      "D": "Begin"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_112",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 112,
+    "sentence": "Table reservations for------- greater than ten must be made at least one day in advance.",
+    "choices": {
+      "A": "plates",
+      "B": "meals",
+      "C": "sizes",
+      "D": "parties"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_113",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 113,
+    "sentence": "Because of------- weather conditions, tonights concert in Harbin Park has been canceled.",
+    "choices": {
+      "A": "worsening",
+      "B": "worsens",
+      "C": "worsen",
+      "D": "worst"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_114",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 114,
+    "sentence": "Ms. Al-Omani will rely------- team leaders to develop employee incentive programs.",
+    "choices": {
+      "A": "onto",
+      "B": "into",
+      "C": "within",
+      "D": "upon"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_115",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 115,
+    "sentence": "Survey------- analyze the layout of a land area above and below ground level.",
+    "choices": {
+      "A": "technicians",
+      "B": "technically",
+      "C": "technical",
+      "D": "technicality"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_116",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 116,
+    "sentence": "------- assemble your Gessen product, first read all instructions and gather all required tools.",
+    "choices": {
+      "A": "For the purpose of",
+      "B": "To be sure",
+      "C": "In order to",
+      "D": "For example"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_117",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 117,
+    "sentence": "Online shoppers who experience long waits for their orders tend-------the business low ratings.",
+    "choices": {
+      "A": "have given",
+      "B": "gave",
+      "C": "to give",
+      "D": "giving"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_118",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 118,
+    "sentence": "------- of the new Delran train station will begin in late September.",
+    "choices": {
+      "A": "Association",
+      "B": "Construction",
+      "C": "Violation",
+      "D": "Comprehension"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_119",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 119,
+    "sentence": "The computing power of the new laptop is ------- to any desktop computer in the same price range.",
+    "choices": {
+      "A": "compare",
+      "B": "comparing",
+      "C": "comparison",
+      "D": "comparable"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_120",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 120,
+    "sentence": "Dr. Yuina Hashimoto recently added another doctor to her practice,------- allowing more patients to be seen.",
+    "choices": {
+      "A": "that",
+      "B": "thus",
+      "C": "which",
+      "D": "so that"
+    },
+    "answer": null,
+    "category": "관계대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_121",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 121,
+    "sentence": "Graden Hotel------- its superior reputation thanks to the leadership of its president, Marcia Clemente.",
+    "choices": {
+      "A": "practiced",
+      "B": "treated",
+      "C": "heard",
+      "D": "earned"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_122",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 122,
+    "sentence": "Aki Katsuro’s latest novel is his most exciting------- and is sure to make Radin Books' best-seller list.",
+    "choices": {
+      "A": "just",
+      "B": "later",
+      "C": "yet",
+      "D": "very"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_123",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 123,
+    "sentence": "Thanks------- to pastry chef Ana Villagra, Lauducci's Restaurant has become a favorite with local patrons.",
+    "choices": {
+      "A": "largely",
+      "B": "larger",
+      "C": "large",
+      "D": "largest"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_124",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 124,
+    "sentence": "At Crintack Manufacturing, we acknowledge our------- to provide a safe workplace for our employees.",
+    "choices": {
+      "A": "assumption",
+      "B": "valuation",
+      "C": "perception",
+      "D": "obligation"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_125",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 125,
+    "sentence": "------- Mr. Donovan had expected the charity event to be a success, the response from the community still overwhelmed him.",
+    "choices": {
+      "A": "Whenever",
+      "B": "Although",
+      "C": "Even so",
+      "D": "In spite of"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_126",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 126,
+    "sentence": "This free mobile app provides------- calendar updates, so salespeople will never miss an appointment.",
+    "choices": {
+      "A": "casual",
+      "B": "equal",
+      "C": "continual",
+      "D": "eventual"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_127",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 127,
+    "sentence": "Most senior managers approved the architect's proposal for the office layout, although-------expressed concerns about the cost.",
+    "choices": {
+      "A": "one",
+      "B": "one another",
+      "C": "each other",
+      "D": "other"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_128",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 128,
+    "sentence": "Greenville Library has hired an office assistant not only to perform general office duties------- to support an ongoing special project.",
+    "choices": {
+      "A": "but also",
+      "B": "only if",
+      "C": "other than",
+      "D": "as for"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_129",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 129,
+    "sentence": "The lease with The Pawlicki Group-------if modifications to the existing offices are made.",
+    "choices": {
+      "A": "had continued",
+      "B": "will be continued",
+      "C": "was continuing",
+      "D": "has been continuing"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test04_part5_130",
+    "volume": 1,
+    "test": 4,
+    "part": 5,
+    "question_number": 130,
+    "sentence": "Wrazen Associates------- a summary with a list of recommendations as a routine part of any audit.",
+    "choices": {
+      "A": "realizes",
+      "B": "induces",
+      "C": "causes",
+      "D": "issues"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_101",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 101,
+    "sentence": "Ms. Tillinghast has received several awards ------- her innovative ideas.",
+    "choices": {
+      "A": "away",
+      "B": "for",
+      "C": "often",
+      "D": "across"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_102",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 102,
+    "sentence": "Using proper techniques to-------items drastically reduces the risk of back injury.",
+    "choices": {
+      "A": "select",
+      "B": "lift",
+      "C": "damage",
+      "D": "attract"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_103",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 103,
+    "sentence": "Restaurants in Rondale must follow all ------- health guidelines.",
+    "choices": {
+      "A": "local",
+      "B": "locals",
+      "C": "locally",
+      "D": "localize"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_104",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 104,
+    "sentence": "Sinee’s Catering is always-------to deliver outstanding food to your special events.",
+    "choices": {
+      "A": "ready",
+      "B": "skillful",
+      "C": "complete",
+      "D": "delicious"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_105",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 105,
+    "sentence": "A------- way to support economic growth in Ludlow City is to shop at area businesses.",
+    "choices": {
+      "A": "practice",
+      "B": "practicing",
+      "C": "practical",
+      "D": "practically"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_106",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 106,
+    "sentence": "A record number of appliance-------came into the Port of Reece last month.",
+    "choices": {
+      "A": "shipments",
+      "B": "shipping",
+      "C": "shipment",
+      "D": "shipped"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_107",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 107,
+    "sentence": "At Sloat Publishing, interns are assigned to a------- of positions with increasing responsibility.",
+    "choices": {
+      "A": "frequency",
+      "B": "length",
+      "C": "shortage",
+      "D": "series"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_108",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 108,
+    "sentence": "The conference fee-------admittance to more than twenty workshops and seminars.",
+    "choices": {
+      "A": "include",
+      "B": "includes",
+      "C": "is included",
+      "D": "including"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_109",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 109,
+    "sentence": "Cabinetmaker Finley Orcheta uses the finest woodworking machines imported------- Denmark.",
+    "choices": {
+      "A": "from",
+      "B": "against",
+      "C": "about",
+      "D": "before"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_110",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 110,
+    "sentence": "Senior hotel manager salaries differ —■ by company, location, and experience.",
+    "choices": {
+      "A": "great",
+      "B": "greater",
+      "C": "greatly",
+      "D": "greatest"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_115",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 115,
+    "sentence": "Prices at Taylor City Books are------- lower than at other online bookstores.",
+    "choices": {
+      "A": "more significant",
+      "B": "significant",
+      "C": "significance",
+      "D": "significantly"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_116",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 116,
+    "sentence": "The------- of this workshop is to equip business leaders with the tools to make prudent financial decisions.",
+    "choices": {
+      "A": "guide",
+      "B": "experience",
+      "C": "aim",
+      "D": "solution"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_111",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 111,
+    "sentence": "Pantep, Inc., works-------with customers to establish long-term partnerships.",
+    "choices": {
+      "A": "nearly",
+      "B": "closely",
+      "C": "recently",
+      "D": "newly"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_112",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 112,
+    "sentence": "Adalet Farm's unique method of irrigating vegetables has proved to be-------effective.",
+    "choices": {
+      "A": "far",
+      "B": "correctly",
+      "C": "highly",
+      "D": "much"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_113",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 113,
+    "sentence": "Customers who submit payments------- March 10 will be charged a late fee.",
+    "choices": {
+      "A": "after",
+      "B": "behind",
+      "C": "quite",
+      "D": "almost"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_114",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 114,
+    "sentence": "The poll shows how often company executives make financial decisions that are------- by employee opinions.",
+    "choices": {
+      "A": "acted",
+      "B": "trained",
+      "C": "reminded",
+      "D": "influenced"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_117",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 117,
+    "sentence": "A marketing campaign was designed to target------- of the three demographics we identified.",
+    "choices": {
+      "A": "which HI",
+      "B": "other m",
+      "C": "either",
+      "D": "each U1"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_118",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 118,
+    "sentence": "------- food critics recommend ZJ’s Bistro as the best restaurant in the area, most local residents prefer Dree's Cafe.",
+    "choices": {
+      "A": "Whenever",
+      "B": "Although",
+      "C": "So that",
+      "D": "Among"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_119",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 119,
+    "sentence": "Green Grocer customers should request assistance from staff instead of removing products from the top shelves-------.",
+    "choices": {
+      "A": "themselves",
+      "B": "their own",
+      "C": "them",
+      "D": "their"
+    },
+    "answer": null,
+    "category": "대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_120",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 120,
+    "sentence": "Skovent Products, sales revenue showed a ------- improvement at the end of last quarter.",
+    "choices": {
+      "A": "respective",
+      "B": "crowded",
+      "C": "marked",
+      "D": "diverse"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_121",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 121,
+    "sentence": "Before work can begin at the construction site, the------- permit applications must be processed.",
+    "choices": {
+      "A": "relevant",
+      "B": "relevantly",
+      "C": "relevance",
+      "D": "relevancies"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_126",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 126,
+    "sentence": "Any furniture purchased at Marty’s Superstore throughout February will be delivered-------five business days.",
+    "choices": {
+      "A": "since",
+      "B": "between",
+      "C": "within",
+      "D": "above"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_122",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 122,
+    "sentence": "During negotiations, Mr. DuPont insisted that price-------be implemented without delay.",
+    "choices": {
+      "A": "expectations",
+      "B": "institutions",
+      "C": "sensations",
+      "D": "reductions"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_123",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 123,
+    "sentence": "After the team meeting next week, Ms. Li ------- whether the project deadline needs to be changed.",
+    "choices": {
+      "A": "to decide",
+      "B": "deciding",
+      "C": "will decide",
+      "D": "has decided"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_124",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 124,
+    "sentence": "------- the proposal for the Southside Library garden was incomplete and had an unclear timetable, it was rejected.",
+    "choices": {
+      "A": "Until",
+      "B": "Because",
+      "C": "While",
+      "D": "Unless"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_125",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 125,
+    "sentence": "As the rental agreement with the Smith Group is set------- soon, the available office space can be advertised.",
+    "choices": {
+      "A": "expired",
+      "B": "to expire",
+      "C": "will have expired",
+      "D": "expiring"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_127",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 127,
+    "sentence": "The manager presented data on employee performance with-------on measurable achievements.",
+    "choices": {
+      "A": "emphatic",
+      "B": "emphasis",
+      "C": "emphasize",
+      "D": "emphasized"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_128",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 128,
+    "sentence": "Even employees who-------were not familiar with the new software program have found it easy to use.",
+    "choices": {
+      "A": "initially",
+      "B": "annually",
+      "C": "successfully",
+      "D": "inadvertently"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_129",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 129,
+    "sentence": "Supervisors will not-------approve time off for employees during peak operational months.",
+    "choices": {
+      "A": "generalization",
+      "B": "generalize",
+      "C": "generally",
+      "D": "general"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test05_part5_130",
+    "volume": 1,
+    "test": 5,
+    "part": 5,
+    "question_number": 130,
+    "sentence": "Toronto is one of three cities being-------as the host for the next convention of the Global Society of Accountants.",
+    "choices": {
+      "A": "found",
+      "B": "categorized",
+      "C": "known",
+      "D": "considered"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_101",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 101,
+    "sentence": "Jesper Associates currently has-------with 26 different food suppliers.",
+    "choices": {
+      "A": "contracting",
+      "B": "contracts",
+      "C": "contractor",
+      "D": "contract"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_102",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 102,
+    "sentence": "Passengers must be at the gate------- 25 minutes prior to boarding their flight.",
+    "choices": {
+      "A": "at least",
+      "B": "as much",
+      "C": "in case",
+      "D": "by then"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_103",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 103,
+    "sentence": "Deltran analytics software can help------- identify issues, predict trends, and improve business.",
+    "choices": {
+      "A": "you",
+      "B": "your",
+      "C": "yours",
+      "D": "yourself"
+    },
+    "answer": null,
+    "category": "대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_104",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 104,
+    "sentence": "The technology department-------to purchase three new servers next year.",
+    "choices": {
+      "A": "announces",
+      "B": "thinks",
+      "C": "predicts",
+      "D": "plans"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_105",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 105,
+    "sentence": "Jennson Motors hired an-------new efficiency expert last month.",
+    "choices": {
+      "A": "approximate",
+      "B": "angular",
+      "C": "exceptional",
+      "D": "eventual"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_106",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 106,
+    "sentence": "Mr. WinkePs-------responsibilities include auditing and financial review of large clients.",
+    "choices": {
+      "A": "accounts",
+      "B": "accounted",
+      "C": "accounting",
+      "D": "accountable"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_107",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 107,
+    "sentence": "The prime minister greeted foreign diplomats-------a luncheon today in London.",
+    "choices": {
+      "A": "at",
+      "B": "had",
+      "C": "such",
+      "D": "where"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_108",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 108,
+    "sentence": "The management team at Otto Corporation offers incentives-------employee productivity.",
+    "choices": {
+      "A": "stimulate",
+      "B": "to stimulate",
+      "C": "will stimulate",
+      "D": "are stimulating"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_109",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 109,
+    "sentence": "In response to customer-------，Lopez Naturals will release a line of organic soaps.",
+    "choices": {
+      "A": "demand",
+      "B": "permit",
+      "C": "arrival",
+      "D": "account"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_110",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 110,
+    "sentence": "Before the computers leave the factory, they are-------thoroughly to ensure they have no defects.",
+    "choices": {
+      "A": "selected",
+      "B": "inspected",
+      "C": "attached",
+      "D": "managed"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_111",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 111,
+    "sentence": "WRUZ Radio will broadcast a new show ------- to business news and economic analysis.",
+    "choices": {
+      "A": "allowed",
+      "B": "prepared",
+      "C": "dedicated",
+      "D": "introduced"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_112",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 112,
+    "sentence": "Mr. Okada met------- with the building manager to discuss the demolition project.",
+    "choices": {
+      "A": "frequent",
+      "B": "什equenting",
+      "C": "frequently",
+      "D": "frequented"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_115",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 115,
+    "sentence": "------- it is relatively small, the fitness center at Ginder Apartments is very popular with residents.",
+    "choices": {
+      "A": "Reasoning",
+      "B": "Essentially",
+      "C": "Although",
+      "D": "Throughout"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_116",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 116,
+    "sentence": "All communications must be approved by the public relations director before they can be shared------- .",
+    "choices": {
+      "A": "certainly",
+      "B": "externally",
+      "C": "deeply",
+      "D": "utterly"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_117",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 117,
+    "sentence": "Providing precision welding to a-------array of industries, Mistone Metalworks recently celebrated a century of service in Quebec.",
+    "choices": {
+      "A": "widely",
+      "B": "widen",
+      "C": "width",
+      "D": "wide"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_118",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 118,
+    "sentence": "Mr. Kim considers punctuality a crucial ------- for all his assistants to have.",
+    "choices": {
+      "A": "device",
+      "B": "type",
+      "C": "action",
+      "D": "trait"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_113",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 113,
+    "sentence": "Mr. Montri politely------- the job offer 什om Barranca Shipping Company.",
+    "choices": {
+      "A": "declined",
+      "B": "decreased",
+      "C": "prevented",
+      "D": "converted"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_114",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 114,
+    "sentence": "Written permission must-------before using Thavor Corporation's logo.",
+    "choices": {
+      "A": "to obtain",
+      "B": "obtained",
+      "C": "be obtained",
+      "D": "obtaining"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_119",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 119,
+    "sentence": "The chief financial officer has-------the importance of attracting new customers next quarter.",
+    "choices": {
+      "A": "applied",
+      "B": "demanded",
+      "C": "administered",
+      "D": "emphasized"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_120",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 120,
+    "sentence": "Sewerd Furnishings is closing some of its showrooms because customers are------- ordering furniture online.",
+    "choices": {
+      "A": "increasing",
+      "B": "increase",
+      "C": "increasingly",
+      "D": "increased"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_121",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 121,
+    "sentence": "construction in progress at the old town hall building, tourist groups will not be allowed to enter the site.",
+    "choices": {
+      "A": "Now that",
+      "B": "While",
+      "C": "Even if",
+      "D": "Due to"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_126",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 126,
+    "sentence": "The Klassin Group’s booth at the Liberty Architecture Expo has garnered much------- .",
+    "choices": {
+      "A": "interest",
+      "B": "interests",
+      "C": "interested",
+      "D": "interesting"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_122",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 122,
+    "sentence": "Several drilling-technology experts will present the results of their-------on June 23.",
+    "choices": {
+      "A": "comprehension",
+      "B": "resolution",
+      "C": "investigation",
+      "D": "specification"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_123",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 123,
+    "sentence": "The store had a-------display to promote the newest book from the best-selling mystery author.",
+    "choices": {
+      "A": "default",
+      "B": "grateful",
+      "C": "talented",
+      "D": "massive"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_124",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 124,
+    "sentence": "Most of the people-------attended yesterday’s workshop have already submitted their feedback.",
+    "choices": {
+      "A": "who",
+      "B": "those",
+      "C": "whose",
+      "D": "some"
+    },
+    "answer": null,
+    "category": "관계대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_125",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 125,
+    "sentence": "Both tasty and healthy, the tomato salad at Al什edi’s Bistro is also large------- to be served as a main dish.",
+    "choices": {
+      "A": "enough",
+      "B": "fully",
+      "C": "nearly",
+      "D": "well"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_127",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 127,
+    "sentence": "Save 25 percent on any printer-------you buy a laptop computer at Diego’s Electronics.",
+    "choices": {
+      "A": "whereas",
+      "B": "whenever",
+      "C": "such as",
+      "D": "seeing that"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_128",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 128,
+    "sentence": "The recently adopted policy restructures the company’s debt according to a------- five-step plan.",
+    "choices": {
+      "A": "managing",
+      "B": "manageably",
+      "C": "manages",
+      "D": "manageable"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_129",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 129,
+    "sentence": "The quality assurance department needs to hire additional staff------- production has increased by 50 percent.",
+    "choices": {
+      "A": "even though",
+      "B": "since",
+      "C": "because of",
+      "D": "therefore"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test06_part5_130",
+    "volume": 1,
+    "test": 6,
+    "part": 5,
+    "question_number": 130,
+    "sentence": "Your order cannot------- until we have received full payment.",
+    "choices": {
+      "A": "to process",
+      "B": "be processed",
+      "C": "being processed",
+      "D": "has processed"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_101",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 101,
+    "sentence": "If-------are not satisfied with an item, return it for a full refund within 30 days of purchase.",
+    "choices": {
+      "A": "you",
+      "B": "your",
+      "C": "yours",
+      "D": "yourself"
+    },
+    "answer": null,
+    "category": "대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_102",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 102,
+    "sentence": "The location of next month’s online gaming forum is yet to be------- .",
+    "choices": {
+      "A": "concluded",
+      "B": "prevented",
+      "C": "invited",
+      "D": "decided"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_103",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 103,
+    "sentence": "Guests were-------with the table decorations for the company banquet.",
+    "choices": {
+      "A": "impressive",
+      "B": "impressed",
+      "C": "impressing",
+      "D": "impressively"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_104",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 104,
+    "sentence": "The Shubert Company is------- effective at helping power plants reduce their carbon dioxide emissions.",
+    "choices": {
+      "A": "once",
+      "B": "far",
+      "C": "early",
+      "D": "very"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_105",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 105,
+    "sentence": "Mr. Hodges------- that volunteers sign up to assist with the Hannock River cleanup by Friday.",
+    "choices": {
+      "A": "requesting",
+      "B": "to be requested",
+      "C": "requests",
+      "D": "to request"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_106",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 106,
+    "sentence": "Last year, the Daejeon English A/ews------- the number of readers by adding a digital subscription option.",
+    "choices": {
+      "A": "needed",
+      "B": "increased",
+      "C": "joined",
+      "D": "asked"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_107",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 107,
+    "sentence": "Before the updated design can go into ------- , it must be approved by management.",
+    "choices": {
+      "A": "product",
+      "B": "producer",
+      "C": "productive",
+      "D": "production"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_108",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 108,
+    "sentence": "The economic development summit will be held-------the Xi’an Trade Tower on September 22.",
+    "choices": {
+      "A": "to",
+      "B": "at",
+      "C": "down",
+      "D": "of"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_109",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 109,
+    "sentence": "Inclement weather was-------responsible for the low turnout at Saturdays Exton Music Festival.",
+    "choices": {
+      "A": "largely",
+      "B": "large",
+      "C": "largest",
+      "D": "larger"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_110",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 110,
+    "sentence": "Our most recent survey was sent to clients just last week,------- it is too soon to send another one.",
+    "choices": {
+      "A": "when",
+      "B": "since",
+      "C": "so",
+      "D": "finally"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_111",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 111,
+    "sentence": "------- necklace that is shipped 斤om Gillis Designers is given a thorough quality check.",
+    "choices": {
+      "A": "Whenever",
+      "B": "Also",
+      "C": "All",
+      "D": "Each"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_112",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 112,
+    "sentence": "Ms. Valdez’ sales numbers are good------- for her to be considered for the employee-of-the-month award.",
+    "choices": {
+      "A": "forward",
+      "B": "even",
+      "C": "ahead",
+      "D": "enough"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_113",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 113,
+    "sentence": "Aaron Park’s new book features photographs of homes designed and built by the homeowners------- .",
+    "choices": {
+      "A": "itself",
+      "B": "himself",
+      "C": "themselves",
+      "D": "ourselves"
+    },
+    "answer": null,
+    "category": "대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_114",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 114,
+    "sentence": "It is-------for the audience to hold its applause until the speaker has finished.",
+    "choices": {
+      "A": "enthusiastic",
+      "B": "casual",
+      "C": "exclusive",
+      "D": "customary"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_115",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 115,
+    "sentence": "Despite------- that Legend Air would perform poorly with the entry of cheaper competition, it posted strong second-quarter earnings.",
+    "choices": {
+      "A": "predicted",
+      "B": "predictable",
+      "C": "predicts",
+      "D": "predictions"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_116",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 116,
+    "sentence": "Mr. Nigam was-------retirement when his boss asked him to be the head of security at the new facility.",
+    "choices": {
+      "A": "under",
+      "B": "ahead of",
+      "C": "nearby",
+      "D": "close to"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_117",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 117,
+    "sentence": "Main Street Restaurant offers a menu of ------- prepared lunch and dinner meals.",
+    "choices": {
+      "A": "thought",
+      "B": "thoughtfulness",
+      "C": "thoughts",
+      "D": "thoughtfully"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_118",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 118,
+    "sentence": "------- our public relations manager, Ms. Ghazarian has just been appointed vice president of media relations.",
+    "choices": {
+      "A": "Sincerely",
+      "B": "Immediately",
+      "C": "Solely",
+      "D": "Formerly"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_119",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 119,
+    "sentence": "Videos of Korean pop music have become very popular-------adolescents worldwide.",
+    "choices": {
+      "A": "including",
+      "B": "whereas",
+      "C": "among",
+      "D": "within"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_120",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 120,
+    "sentence": "Milante Shoes-------altered the firm’s marketing strategy after a recent economic shift.",
+    "choices": {
+      "A": "quick",
+      "B": "quickest",
+      "C": "quickly",
+      "D": "quicken"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_121",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 121,
+    "sentence": "The annual report has been posted online, ------- the director’s office has not yet received a printed copy.",
+    "choices": {
+      "A": "but",
+      "B": "why",
+      "C": "with",
+      "D": "once"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_122",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 122,
+    "sentence": "Hasin Fariz turned a study on the------- effects of sleep into a best-selling book.",
+    "choices": {
+      "A": "favorable",
+      "B": "favor",
+      "C": "favors",
+      "D": "favorably"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_123",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 123,
+    "sentence": "Wynston Containers is-------a yearly shutdown of its factory so that it can be evaluated for safety and efficiency.",
+    "choices": {
+      "A": "involving",
+      "B": "participating",
+      "C": "implementing",
+      "D": "producing"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_124",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 124,
+    "sentence": "The Girard Botanical Archive has almost 300,000 plant-------，all neatly pressed onto archival paper.",
+    "choices": {
+      "A": "authorities",
+      "B": "specimens",
+      "C": "founders",
+      "D": "specifics"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_125",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 125,
+    "sentence": "Hotels and universities are-------to recycle their used mattresses through the city’s recycling program.",
+    "choices": {
+      "A": "systematic",
+      "B": "eligible",
+      "C": "familiar",
+      "D": "successful"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_126",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 126,
+    "sentence": "The------- to review plans to replace the Tronton Bridge will be scheduled soon.",
+    "choices": {
+      "A": "heard",
+      "B": "hears",
+      "C": "hearing",
+      "D": "hear"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_127",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 127,
+    "sentence": "Kovox Ltd. aims to optimize quality------- reducing the impact on the environment.",
+    "choices": {
+      "A": "which",
+      "B": "while",
+      "C": "because",
+      "D": "unless"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_128",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 128,
+    "sentence": "The grocery store------- vegetables from out of town until local prices went down last month.",
+    "choices": {
+      "A": "is buying",
+      "B": "will be buying",
+      "C": "has been buying",
+      "D": "had been buying"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_129",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 129,
+    "sentence": "All Hershel Industries employees must have a valid ID card-------enter the building.",
+    "choices": {
+      "A": "in order to",
+      "B": "as long as",
+      "C": "regarding",
+      "D": "always"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test07_part5_130",
+    "volume": 1,
+    "test": 7,
+    "part": 5,
+    "question_number": 130,
+    "sentence": "------- and cost factored equally in choosing Cantavox as our main supplier.",
+    "choices": {
+      "A": "Reliability",
+      "B": "Allowance",
+      "C": "Dependence",
+      "D": "Estimation"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_101",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 101,
+    "sentence": "Ms. Villanueva has extensive experience in corporate-------and budgeting.",
+    "choices": {
+      "A": "financially",
+      "B": "financed",
+      "C": "financial",
+      "D": "finance"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_102",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 102,
+    "sentence": "Because Mr. Lewis works so-------, he was given a pay raise.",
+    "choices": {
+      "A": "bright",
+      "B": "hard",
+      "C": "tight",
+      "D": "sharp"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_103",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 103,
+    "sentence": "Full of old-fashioned charm, the Bronstad Inn------- offers modern conveniences.",
+    "choices": {
+      "A": "plus",
+      "B": "else",
+      "C": "also",
+      "D": "less"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_104",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 104,
+    "sentence": "Franklin Bookstore will be moving next month------- a larger location on Queen Street.",
+    "choices": {
+      "A": "to",
+      "B": "at",
+      "C": "out",
+      "D": "over"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_105",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 105,
+    "sentence": "Marina Hou------- considered becoming an actor before deciding to write plays instead.",
+    "choices": {
+      "A": "briefly",
+      "B": "briefs",
+      "C": "briefing",
+      "D": "briefed"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_106",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 106,
+    "sentence": "On Fixit Time's Web site, homeowners will find economical solutions for-------repairs.",
+    "choices": {
+      "A": "dark",
+      "B": "broken",
+      "C": "cleaning",
+      "D": "common"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_107",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 107,
+    "sentence": "Walter Keegan was-------hired as a salesperson, but he soon became head of the marketing department.",
+    "choices": {
+      "A": "originality",
+      "B": "original",
+      "C": "originals",
+      "D": "originally"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_108",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 108,
+    "sentence": "Durr Island has become popular with tourists-------its rich culture of art and music.",
+    "choices": {
+      "A": "provided that",
+      "B": "because of",
+      "C": "even",
+      "D": "how"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_109",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 109,
+    "sentence": "While he is not enthusiastic about the suggestions, Mr. Shang-------them.",
+    "choices": {
+      "A": "considering",
+      "B": "to consider",
+      "C": "will consider",
+      "D": "consider"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_110",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 110,
+    "sentence": "The design-------of Tavalyo Toys has been relocated to the company's headquarters.",
+    "choices": {
+      "A": "division",
+      "B": "specification",
+      "C": "allowance",
+      "D": "construction"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_111",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 111,
+    "sentence": "The Merrick Travel Agency organizes tours of national monuments and other-------sites in the St. Petersburg area.",
+    "choices": {
+      "A": "historian",
+      "B": "historic",
+      "C": "historically",
+      "D": "histories"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_112",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 112,
+    "sentence": "The MHS wireless speaker not only works with smartphones-------is waterproof as well.",
+    "choices": {
+      "A": "but",
+      "B": "and",
+      "C": "however",
+      "D": "besides"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_113",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 113,
+    "sentence": "Assistant managers are largely responsible for the day-to-day operations in------- departments.",
+    "choices": {
+      "A": "theirs",
+      "B": "them",
+      "C": "their",
+      "D": "they"
+    },
+    "answer": null,
+    "category": "대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_114",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 114,
+    "sentence": "Customers must-------review the terms of the fitness center's membership agreement before they sign it.",
+    "choices": {
+      "A": "smoothly",
+      "B": "probably",
+      "C": "legibly",
+      "D": "thoroughly"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_115",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 115,
+    "sentence": "We made a-------estimate of how many tourists to expect in the coming month.",
+    "choices": {
+      "A": "conservative",
+      "B": "conservation",
+      "C": "conservatism",
+      "D": "conservatively"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_116",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 116,
+    "sentence": "Once they have completed three years of employment, the workers at Loruja------- additional vacation time.",
+    "choices": {
+      "A": "reserve",
+      "B": "earn",
+      "C": "continue",
+      "D": "find"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_117",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 117,
+    "sentence": "------- has time at the end of the day should make sure that all of the file cabinets are locked.",
+    "choices": {
+      "A": "Whom",
+      "B": "Who",
+      "C": "Whoever",
+      "D": "Whose"
+    },
+    "answer": null,
+    "category": "관계대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_118",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 118,
+    "sentence": "North River Linens promises next-day shipping------- Asia.",
+    "choices": {
+      "A": "without",
+      "B": "between",
+      "C": "throughout",
+      "D": "along"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_119",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 119,
+    "sentence": "------- last year, the unpublished novel by Martin Sim has attracted intense interest from several publishing companies.",
+    "choices": {
+      "A": "Discover",
+      "B": "Discovery",
+      "C": "Discovered",
+      "D": "Discovering"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_120",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 120,
+    "sentence": "Hoonton Realty clients can search property listings in------- neighborhood by using a special online database.",
+    "choices": {
+      "A": "other",
+      "B": "several",
+      "C": "all",
+      "D": "any"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_121",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 121,
+    "sentence": "Exceptional service is what sets our hotels apart from those of our-------.",
+    "choices": {
+      "A": "compete",
+      "B": "competing",
+      "C": "competitive",
+      "D": "competition"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_122",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 122,
+    "sentence": "The Internet connection will be closely monitored------- the source of the slowdown can be confirmed.",
+    "choices": {
+      "A": "why",
+      "B": "until",
+      "C": "due to",
+      "D": "just as"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_123",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 123,
+    "sentence": "Thank you for being one of Danton Transportation's most-------customers over the past ten years.",
+    "choices": {
+      "A": "valuation",
+      "B": "valued",
+      "C": "value",
+      "D": "values"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_124",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 124,
+    "sentence": "Mr. Tang is a successful recruiter because he can quickly-------talented sales agents from the rest.",
+    "choices": {
+      "A": "distinguish",
+      "B": "persuade",
+      "C": "alter",
+      "D": "assist"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_125",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 125,
+    "sentence": "Ms. Penner assured us that------- work stopped during the power failure, production targets would be met.",
+    "choices": {
+      "A": "although",
+      "B": "at",
+      "C": "her",
+      "D": "never"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_126",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 126,
+    "sentence": "Please provide the exact dimensions of the custom fence you would like built, and your quote will be adjusted-------.",
+    "choices": {
+      "A": "namely",
+      "B": "accordingly",
+      "C": "frequently",
+      "D": "supposedly"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_127",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 127,
+    "sentence": "The vice president of Chestonville Bank believes that-------employees is vital to the company’s success.",
+    "choices": {
+      "A": "empowered",
+      "B": "empower",
+      "C": "empowering",
+      "D": "empowers"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_128",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 128,
+    "sentence": "The-------for the city councifs Monday meeting is posted on the municipal Web site by 3:00 p.m. on the preceding Friday.",
+    "choices": {
+      "A": "catalog",
+      "B": "inventory",
+      "C": "agenda",
+      "D": "record"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_129",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 129,
+    "sentence": "The building inspector declared the new facility-------sound and ready to open.",
+    "choices": {
+      "A": "structured",
+      "B": "structuring",
+      "C": "structural",
+      "D": "structurally"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test08_part5_130",
+    "volume": 1,
+    "test": 8,
+    "part": 5,
+    "question_number": 130,
+    "sentence": "Dr. Huertas received the-------Brighton Award for her groundbreaking work in plant biology.",
+    "choices": {
+      "A": "overwhelmed",
+      "B": "intentional",
+      "C": "prestigious",
+      "D": "deserving"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_101",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 101,
+    "sentence": "Every batch of sauce at Generita's Bistro is processed meticulously by-------expert chefs.",
+    "choices": {
+      "A": "they",
+      "B": "their",
+      "C": "them",
+      "D": "themselves"
+    },
+    "answer": null,
+    "category": "대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_102",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 102,
+    "sentence": "Computerization of medical records------- increases a physician’s ability to diagnose and treat patients.",
+    "choices": {
+      "A": "great",
+      "B": "greatly",
+      "C": "greatness",
+      "D": "greatest"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_103",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 103,
+    "sentence": "At Rojelle’s Fine Dining, we use the freshest ------- available to make our salads.",
+    "choices": {
+      "A": "applications",
+      "B": "subjects",
+      "C": "ingredients",
+      "D": "factors"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_105",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 105,
+    "sentence": "The chefs are still waiting for a-------date for the new convection oven that was ordered two weeks ago.",
+    "choices": {
+      "A": "shipper",
+      "B": "ships",
+      "C": "shipments",
+      "D": "shipping"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_106",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 106,
+    "sentence": "Mr. Kang works------- with our internal team members as well as various regional sales representatives.",
+    "choices": {
+      "A": "mildly",
+      "B": "nearly",
+      "C": "closely",
+      "D": "narrowly"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_107",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 107,
+    "sentence": "Fashion designer Hye-Ja Pak knows------- to update her line in response to changing tastes.",
+    "choices": {
+      "A": "and",
+      "B": "when",
+      "C": "need",
+      "D": "for"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_108",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 108,
+    "sentence": "The samba class was so well-------that the Yulara Dance School decided to make the course a permanent offering.",
+    "choices": {
+      "A": "attended",
+      "B": "educated",
+      "C": "gathered",
+      "D": "protected READING TEST In the Reading test, you will read a variety of texts and answer several different types of reading comprehension questions. The entire Reading test will last 75 minutes. There are three parts, and directions are given for each part. You are encouraged to answer as many questions as possible within the time allowed. You must mark your answers on the separate answer sheet. Do not write your answers in your test book. PART 5 Directions: A word or phrase is missing in each of the sentences below. Four answer choices are given below each sentence. Select the best answer to complete the sentence. Then mark the letter (A), (B), (C), or (D) on your answer sheet. \\ u / \\ ) / \\ } / \\ ) / A B c D / ( \\ / ( \\ / f l \\"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_109",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 109,
+    "sentence": "The factory will be situated away------- the city's residential area to reduce complaints about noise and emissions.",
+    "choices": {
+      "A": "from",
+      "B": "about",
+      "C": "with",
+      "D": "out"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_110",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 110,
+    "sentence": "Ms. Kuramoto selected the most------- mailing option available.",
+    "choices": {
+      "A": "economical",
+      "B": "economy",
+      "C": "economize",
+      "D": "economized"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_111",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 111,
+    "sentence": "Companies without information technology specialists can-------on Vyber Software Advisers for assistance with online services.",
+    "choices": {
+      "A": "reliable",
+      "B": "reliably",
+      "C": "rely",
+      "D": "relying"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_112",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 112,
+    "sentence": "Next year, our team will have a new task, ------- is to review design portfolios.",
+    "choices": {
+      "A": "although",
+      "B": "which",
+      "C": "after",
+      "D": "because"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_113",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 113,
+    "sentence": "Cook the meat for 30 minutes to ensure ------- readiness to be eaten.",
+    "choices": {
+      "A": "both",
+      "B": "this",
+      "C": "its",
+      "D": "that"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_114",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 114,
+    "sentence": "Amoxitron’s research team will hire------- interns to assist with laboratory duties.",
+    "choices": {
+      "A": "given",
+      "B": "several",
+      "C": "whole",
+      "D": "natural"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_115",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 115,
+    "sentence": "the new acai juice blend has proved so popular, we should move quickly to increase our production volume.",
+    "choices": {
+      "A": "If",
+      "B": "Whether",
+      "C": "Since",
+      "D": "Unless"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_116",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 116,
+    "sentence": "New emissions standards have forced Rider Auto to modify the process of engine------- .",
+    "choices": {
+      "A": "construction",
+      "B": "constructed",
+      "C": "constructive",
+      "D": "construct"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_117",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 117,
+    "sentence": "Maki Kayano’s book offers techniques for ------- business tasks with speed and precision.",
+    "choices": {
+      "A": "executing",
+      "B": "equipping",
+      "C": "returning",
+      "D": "involving"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_118",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 118,
+    "sentence": "To control costs, updated credit card readers will be installed in branch stores-------.",
+    "choices": {
+      "A": "gradual",
+      "B": "gradually",
+      "C": "more gradual",
+      "D": "most gradual"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_119",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 119,
+    "sentence": "In this quarter, the Montel Beverage Company is expecting sales-------£160,000 and £180,000.",
+    "choices": {
+      "A": "without",
+      "B": "among",
+      "C": "throughout",
+      "D": "between"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_120",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 120,
+    "sentence": "Because Mount Akoyola is so challenging for climbers,------- have reached its peak.",
+    "choices": {
+      "A": "any",
+      "B": "either",
+      "C": "other",
+      "D": "few"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_121",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 121,
+    "sentence": "King Street Bridge will be closed in the month of September-------repair work.",
+    "choices": {
+      "A": "because of",
+      "B": "so that",
+      "C": "as if",
+      "D": "rather than"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_122",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 122,
+    "sentence": "Ms. Tanig니chi’s supervisor commended her for negotiating-------with Furuyama Corporation.",
+    "choices": {
+      "A": "effective",
+      "B": "effecting",
+      "C": "effected",
+      "D": "effectively"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_123",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 123,
+    "sentence": "Staff members may reserve the conference room------- they need it.",
+    "choices": {
+      "A": "somewhere",
+      "B": "whatever",
+      "C": "everything",
+      "D": "anytime"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_124",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 124,
+    "sentence": "The public relations director must have a high level of------- in English and Spanish.",
+    "choices": {
+      "A": "proficiency",
+      "B": "advancement",
+      "C": "routine",
+      "D": "strength"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_125",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 125,
+    "sentence": "Patterson Products-------seeks innovative ways of meeting changing consumer demand.",
+    "choices": {
+      "A": "dually",
+      "B": "favorably",
+      "C": "continually",
+      "D": "generically"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_126",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 126,
+    "sentence": "Mr. Volante is working at home tomorrow so he------- the technical report without any distractions.",
+    "choices": {
+      "A": "can finish",
+      "B": "would finish",
+      "C": "finished",
+      "D": "has been finishing"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_127",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 127,
+    "sentence": "All of the billing procedures remain the same,------- new payment codes need to be inserted into the invoice documents.",
+    "choices": {
+      "A": "in order that",
+      "B": "during",
+      "C": "across from",
+      "D": "except that"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_128",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 128,
+    "sentence": "The lightweight design of the new sedan is ------- because it can cause the vehicle to slide on icy roads.",
+    "choices": {
+      "A": "possible",
+      "B": "mechanical",
+      "C": "questionable",
+      "D": "multiple"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_129",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 129,
+    "sentence": "When the bank president retired, the common------- was that the vice president would take over.",
+    "choices": {
+      "A": "assume",
+      "B": "assumption",
+      "C": "assuming",
+      "D": "assumable"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test09_part5_130",
+    "volume": 1,
+    "test": 9,
+    "part": 5,
+    "question_number": 130,
+    "sentence": "West Bengali Airlines------- fees for oversized items that are still within weight limitations.",
+    "choices": {
+      "A": "invites",
+      "B": "cooperates",
+      "C": "transports",
+      "D": "waives"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_101",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 101,
+    "sentence": "Please contact the product distributor, not the retail store, if-------need replacement parts.",
+    "choices": {
+      "A": "your",
+      "B": "you",
+      "C": "yourself",
+      "D": "yours"
+    },
+    "answer": null,
+    "category": "대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_103",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 103,
+    "sentence": "Sage Bistro's menu features a-------variety of seafood items than Almaner Pavilion's.",
+    "choices": {
+      "A": "wide",
+      "B": "widest",
+      "C": "wider",
+      "D": "widely"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_104",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 104,
+    "sentence": "Frequent training enables our technicians to resolve most computer problems-------.",
+    "choices": {
+      "A": "swiftly",
+      "B": "avoidably",
+      "C": "doubtfully",
+      "D": "rigidly"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_105",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 105,
+    "sentence": "Most of the manufacturing sector has reported higher profits as a result of the trade-------.",
+    "choices": {
+      "A": "agreement",
+      "B": "agreeing",
+      "C": "agreeably",
+      "D": "agrees"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_106",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 106,
+    "sentence": "The cooking instructions call for reducing the heat and letting the sauce simmer------- it thickens.",
+    "choices": {
+      "A": "whereas",
+      "B": "likewise",
+      "C": "instead",
+      "D": "until"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_107",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 107,
+    "sentence": "The Cullingford Bridge took a-------short amount of time to be repaired.",
+    "choices": {
+      "A": "surprise",
+      "B": "surprisingly",
+      "C": "surprising",
+      "D": "surprised"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_108",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 108,
+    "sentence": "The company*s summer picnic is------- held outside town, in Warren County Lakeside Park.",
+    "choices": {
+      "A": "apart",
+      "B": "always",
+      "C": "much",
+      "D": "far READING TEST In the Reading test, you will read a variety of texts and answer several different types of reading comprehension questions. The entire Reading test will last 75 minutes. There are three parts, and directions are given for each part. You are encouraged to answer as many questions as possible within the time allowed. You must mark your answers on the separate answer sheet. Do not write your answers in your test book. PART 5 Directions: A word or phrase is missing in each of the sentences below. Four answer choices are given below each sentence. Select the best answer to complete the sentence. Then mark the letter (A), (B), (C), or (D) on your answer sheet. at by tof o 、 — , \\ ) / \\ 、 - , A B c D / l \\ / l \\ / f \\ ✓ ( >"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_109",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 109,
+    "sentence": "Ms. Navarro wants to fill the administrative assistant------- as soon as possible.",
+    "choices": {
+      "A": "worker",
+      "B": "employment",
+      "C": "position",
+      "D": "experience"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_110",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 110,
+    "sentence": "The item that Ms. Bak ordered from our catalog is------- until 16 October.",
+    "choices": {
+      "A": "unavailable",
+      "B": "occupied",
+      "C": "uneventful",
+      "D": "delivered"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_111",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 111,
+    "sentence": "Kespi Brand cookies, delicious by-------, are even better when paired with a glass of milk.",
+    "choices": {
+      "A": "they",
+      "B": "theirs",
+      "C": "them",
+      "D": "themselves"
+    },
+    "answer": null,
+    "category": "대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_112",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 112,
+    "sentence": "The North India Electricians Association ------- various online courses covering licensure, safety, and technology.",
+    "choices": {
+      "A": "offers",
+      "B": "takes",
+      "C": "pays",
+      "D": "allows"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_113",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 113,
+    "sentence": "The latest survey shows that our downtown store is more-------for local shoppers than our suburban location.",
+    "choices": {
+      "A": "conveniences",
+      "B": "conveniently",
+      "C": "convenience",
+      "D": "convenient"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_114",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 114,
+    "sentence": "Weaving Fire is the most popular television show------- women ages 18-34.",
+    "choices": {
+      "A": "among",
+      "B": "toward",
+      "C": "within",
+      "D": "along"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_115",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 115,
+    "sentence": "------- a designer has completed a prototype product, the rest of the team will be invited to critique it.",
+    "choices": {
+      "A": "So that",
+      "B": "Whether",
+      "C": "From",
+      "D": "After"
+    },
+    "answer": null,
+    "category": "접속사/전치사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_116",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 116,
+    "sentence": "Rather than archiving routine e-mails, please delete them-------.",
+    "choices": {
+      "A": "especially",
+      "B": "likewise",
+      "C": "quite",
+      "D": "instead"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_117",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 117,
+    "sentence": "Mr. Khana made a phone call yesterday during which he-------for the delay in the shipment of the clothing order.",
+    "choices": {
+      "A": "to apologize",
+      "B": "apologized",
+      "C": "apologize",
+      "D": "will be apologizing"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_118",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 118,
+    "sentence": "Following many months of research, the marketing team finally decided on a------- for the new perfume bottle.",
+    "choices": {
+      "A": "force",
+      "B": "style",
+      "C": "belief",
+      "D": "request"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_119",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 119,
+    "sentence": "For more information about product warranties or-------your new appliance, please contact customer service.",
+    "choices": {
+      "A": "to register",
+      "B": "registered",
+      "C": "registers",
+      "D": "registration"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_120",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 120,
+    "sentence": "There will be a software upgrade tomorrow, ------- please back up any important files you have stored on the server.",
+    "choices": {
+      "A": "rather",
+      "B": "while",
+      "C": "so",
+      "D": "because 정 O"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_121",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 121,
+    "sentence": "Ambassador Chaturvedi wrote in his memoir that his parents taught him to do each job well,------- it was.",
+    "choices": {
+      "A": "whoever",
+      "B": "anyone",
+      "C": "everything",
+      "D": "whatever"
+    },
+    "answer": null,
+    "category": "관계대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_122",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 122,
+    "sentence": "Yields from your garden will-------rise as you add Natrium Compost to the soil.",
+    "choices": {
+      "A": "steady",
+      "B": "steadying",
+      "C": "steadily",
+      "D": "steadier"
+    },
+    "answer": null,
+    "category": "비교급/최상급",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_123",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 123,
+    "sentence": "The Tokyo division handles product------- and customer service for the company.",
+    "choices": {
+      "A": "distribute",
+      "B": "distributor",
+      "C": "distribution",
+      "D": "distributed"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_124",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 124,
+    "sentence": "Our newest executive assistant will be responsible for-------between the marketing and accounting departments.",
+    "choices": {
+      "A": "coordination",
+      "B": "attention",
+      "C": "appreciation",
+      "D": "consideration"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_125",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 125,
+    "sentence": "Hemlin Corporation is looking for a sales representative------- primary role will be expanding business in the northwest region.",
+    "choices": {
+      "A": "that",
+      "B": "whose",
+      "C": "who",
+      "D": "which"
+    },
+    "answer": null,
+    "category": "관계대명사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_126",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 126,
+    "sentence": "To eliminate------- inventory of winter outerwear, Ashley Fashions has cut prices on all coats, hats, and scarves.",
+    "choices": {
+      "A": "chilly",
+      "B": "adequate",
+      "C": "excess",
+      "D": "revised"
+    },
+    "answer": null,
+    "category": "어휘",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_127",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 127,
+    "sentence": "Search the Labesse Financial Web site for the most current and detailed-------of investment options.",
+    "choices": {
+      "A": "explain",
+      "B": "explanation",
+      "C": "to explain",
+      "D": "explainable"
+    },
+    "answer": null,
+    "category": "품사",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_128",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 128,
+    "sentence": "The last paragraph-------to have been added to the contract as an afterthought.",
+    "choices": {
+      "A": "arranged",
+      "B": "permitted",
+      "C": "transferred",
+      "D": "appeared"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_129",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 129,
+    "sentence": "Unless the shipment of tiles arrives early, work on the lobby floor-------after the holiday.",
+    "choices": {
+      "A": "has commenced",
+      "B": "commencing",
+      "C": "will commence",
+      "D": "commenced"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  },
+  {
+    "id": "vol1_test10_part5_130",
+    "volume": 1,
+    "test": 10,
+    "part": 5,
+    "question_number": 130,
+    "sentence": "Neeson Pro garments are made of a synthetic blend that is-------to staining.",
+    "choices": {
+      "A": "exposed",
+      "B": "automatic",
+      "C": "limited",
+      "D": "vulnerable"
+    },
+    "answer": null,
+    "category": "동사시제/태",
+    "explanation": null
+  }
+]

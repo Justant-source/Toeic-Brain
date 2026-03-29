@@ -1,0 +1,292 @@
+/* ============================================================
+   Toeic Brain — Anki Card Styles
+   Covers: Vocab cards and Part5 cards
+   ============================================================ */
+
+/* ----- Base card container --------------------------------- */
+.card {
+  font-family: 'Pretendard', 'Apple SD Gothic Neo', sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #FAFAFA;
+  border-radius: 12px;
+}
+
+/* ----- Word / heading -------------------------------------- */
+.word-main {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1A1A1A;
+  text-align: center;
+}
+
+/* ----- Korean meaning -------------------------------------- */
+.meaning-kr {
+  font-size: 20px;
+  color: #333;
+  margin-top: 8px;
+}
+
+/* ----- Example sentence block ------------------------------ */
+.example-sentence {
+  background: #F0F4F8;
+  padding: 12px 16px;
+  border-left: 4px solid #3B82F6;
+  border-radius: 4px;
+  margin: 12px 0;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* ----- Tags ------------------------------------------------ */
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin: 2px;
+}
+
+.tag-correct  { background: #D1FAE5; color: #065F46; }
+.tag-category { background: #DBEAFE; color: #1E40AF; }
+.tag-volume   { background: #F3E8FF; color: #6B21A8; }
+
+/* ============================================================
+   Part 5 — Question header
+   ============================================================ */
+.question-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #555;
+}
+
+/* ============================================================
+   Part 5 — Answer choices
+   ============================================================ */
+.choices {
+  list-style: none;
+  margin: 16px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.choice-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px 14px;
+  background: #FFFFFF;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #1A1A1A;
+}
+
+.choice-label {
+  font-weight: 700;
+  flex-shrink: 0;
+  color: #3B82F6;
+}
+
+/* Correct answer — green highlight */
+.answer-correct {
+  background: #D1FAE5;
+  border-color: #34D399;
+  color: #065F46;
+  font-weight: 600;
+}
+
+.answer-correct .choice-label {
+  color: #065F46;
+}
+
+/* Wrong answer — red highlight (used when reviewing distractors) */
+.answer-wrong {
+  background: #FEE2E2;
+  border-color: #FCA5A5;
+  color: #991B1B;
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.answer-wrong .choice-label {
+  color: #991B1B;
+}
+
+/* ============================================================
+   Part 5 — Explanation section
+   ============================================================ */
+.explanation {
+  background: #FFFBEB;
+  border-left: 4px solid #F59E0B;
+  border-radius: 4px;
+  padding: 12px 16px;
+  margin: 12px 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #1A1A1A;
+}
+
+.explanation-title {
+  font-weight: 700;
+  font-size: 13px;
+  color: #92400E;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* ============================================================
+   Part 5 — Vocabulary info (back side)
+   ============================================================ */
+.vocab-info {
+  background: #F8FAFC;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin: 12px 0;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.vocab-info-title {
+  font-weight: 700;
+  font-size: 13px;
+  color: #1E40AF;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.vocab-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 2px 0;
+}
+
+.vocab-word {
+  font-weight: 600;
+  color: #1A1A1A;
+  min-width: 120px;
+}
+
+.vocab-meaning {
+  color: #555;
+}
+
+/* ============================================================
+   Synonyms
+   ============================================================ */
+.synonyms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0;
+}
+
+.synonym-item {
+  display: inline-block;
+  background: #EFF6FF;
+  color: #1D4ED8;
+  border: 1px solid #BFDBFE;
+  border-radius: 6px;
+  padding: 2px 10px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+/* ============================================================
+   Metadata footer
+   ============================================================ */
+.metadata {
+  margin-top: 20px;
+  padding-top: 12px;
+  font-size: 12px;
+  color: #9CA3AF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.metadata-sep {
+  color: #D1D5DB;
+}
+
+/* ============================================================
+   Frequency stars
+   ============================================================ */
+.frequency {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin: 6px 0;
+  font-size: 14px;
+  color: #F59E0B;
+}
+
+.frequency-label {
+  font-size: 12px;
+  color: #9CA3AF;
+  margin-left: 4px;
+}
+
+.exam-count {
+  font-size: 13px;
+  color: #6B7280;
+  margin-left: 6px;
+}
+
+/* ============================================================
+   Section divider
+   ============================================================ */
+.section-divider {
+  border: none;
+  border-top: 1px solid #E5E7EB;
+  margin: 16px 0;
+}
+
+/* ============================================================
+   Misc utility
+   ============================================================ */
+.section-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #9CA3AF;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 14px 0 6px;
+}
+
+.pos-badge {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 500;
+  color: #6B7280;
+  background: #F3F4F6;
+  border-radius: 4px;
+  padding: 1px 7px;
+  margin-top: 4px;
+}
+
+/* AnkiDroid safe reset */
+* {
+  box-sizing: border-box;
+}
+
+body, .card {
+  -webkit-text-size-adjust: 100%;
+}

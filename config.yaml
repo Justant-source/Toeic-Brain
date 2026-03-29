@@ -1,0 +1,41 @@
+# Toeic Brain 전역 설정
+
+project:
+  name: "Toeic Brain"
+  version: "1.0.0"
+  description: "ETS 기출문제 + 노랭이 단어장 → Anki 학습 시스템"
+
+paths:
+  raw_data: "data/raw"
+  processed_data: "data/processed"
+  mapped_data: "data/mapped"
+  output: "output"
+  templates: "scripts/anki/templates"
+  styles: "scripts/anki/styles"
+
+ets:
+  volumes: [1, 2, 3, 4, 5]
+  parts: [5, 6, 7]
+  file_pattern: "ets_vol{volume}.pdf"
+
+vocab:
+  source: "hackers_vocab.pdf"
+  total_days: 30
+
+anki:
+  vocab_deck:
+    name: "Toeic Brain::단어장"
+    id: 2026032901
+  part5_deck:
+    name: "Toeic Brain::Part5 기출"
+    id: 2026032902
+
+categories:
+  - "품사"
+  - "동사시제/태"
+  - "접속사/전치사"
+  - "관계대명사"
+  - "어휘"
+  - "대명사"
+  - "비교급/최상급"
+  - "기타문법"

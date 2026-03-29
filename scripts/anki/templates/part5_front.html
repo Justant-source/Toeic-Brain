@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="card">
+
+  <!-- Question header: Part5, Volume, Question number -->
+  <div class="question-header">
+    <span class="tag tag-correct">Part5</span>
+    <span class="tag tag-volume">Vol.{{Volume}}</span>
+    <span class="tag tag-category">Q.{{QuestionNumber}}</span>
+  </div>
+
+  <!-- Category type -->
+  <div style="margin-bottom: 14px;">
+    <span class="tag tag-category">유형: {{Category}}</span>
+  </div>
+
+  <!-- Question sentence -->
+  <div class="example-sentence" style="font-size: 16px; font-weight: 500;">
+    {{Sentence}}
+  </div>
+
+  <hr class="section-divider">
+
+  <!-- Answer choices -->
+  <ul class="choices">
+    <li class="choice-item">
+      <span class="choice-label">(A)</span>
+      <span>{{ChoiceA}}</span>
+    </li>
+    <li class="choice-item">
+      <span class="choice-label">(B)</span>
+      <span>{{ChoiceB}}</span>
+    </li>
+    <li class="choice-item">
+      <span class="choice-label">(C)</span>
+      <span>{{ChoiceC}}</span>
+    </li>
+    <li class="choice-item">
+      <span class="choice-label">(D)</span>
+      <span>{{ChoiceD}}</span>
+    </li>
+  </ul>
+
+</div>
+</body>
+</html>

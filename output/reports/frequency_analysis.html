@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Word Frequency Analysis — TOEIC Brain</title>
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; background:#f8f9fa; color:#212529; margin:0; padding:24px; }
+  h1 { color:#0d6efd; border-bottom:2px solid #0d6efd; padding-bottom:8px; }
+  h2 { color:#495057; margin-top:36px; }
+  table { border-collapse:collapse; width:100%; max-width:900px; background:#fff;
+           box-shadow:0 1px 4px rgba(0,0,0,.12); border-radius:6px; overflow:hidden; margin-bottom:32px; }
+  th { background:#0d6efd; color:#fff; padding:10px 14px; text-align:left; font-size:.9rem; }
+  td { padding:7px 14px; border-bottom:1px solid #dee2e6; font-size:.875rem; }
+  tr:last-child td { border-bottom:none; }
+  tr:hover td { background:#e9f2ff; }
+  .rank { color:#6c757d; width:50px; text-align:center; }
+  .word { font-weight:600; }
+  .cnt  { color:#0d6efd; text-align:right; }
+  .pct  { color:#6c757d; text-align:right; }
+  .bar div { background:#0d6efd55; height:14px; border-radius:3px; min-width:2px; }
+  .summary { background:#fff; border-left:4px solid #0d6efd; padding:12px 18px;
+              margin-bottom:28px; border-radius:0 6px 6px 0; max-width:600px;
+              box-shadow:0 1px 3px rgba(0,0,0,.08); }
+</style>
+</head>
+<body>
+<h1>Word Frequency Analysis — TOEIC Brain ETS Part 5</h1>
+<div class="summary">
+  <strong>Total tokens analysed:</strong> 18,126<br>
+  <strong>Unique words (after stop-word filter):</strong> 6,421<br>
+  <strong>Volumes:</strong> Vol 1, Vol 2, Vol 3, Vol 4, Vol 5
+</div>
+
+<h2>Top 100 Most Frequent Words (All Volumes)</h2>
+<table>
+<thead><tr>
+  <th>Rank</th><th>Word</th><th>Count</th><th>% of tokens</th><th>Bar</th>
+</tr></thead>
+<tbody>
+<tr><td class='rank'>1</td><td class='word'>new</td><td class='cnt'>128</td><td class='pct'>0.71%</td><td class='bar'><div style='width:28px'></div></td></tr>
+<tr><td class='rank'>2</td><td class='word'>mr</td><td class='cnt'>122</td><td class='pct'>0.67%</td><td class='bar'><div style='width:26px'></div></td></tr>
+<tr><td class='rank'>3</td><td class='word'>ms</td><td class='cnt'>116</td><td class='pct'>0.64%</td><td class='bar'><div style='width:25px'></div></td></tr>
+<tr><td class='rank'>4</td><td class='word'>company</td><td class='cnt'>83</td><td class='pct'>0.46%</td><td class='bar'><div style='width:18px'></div></td></tr>
+<tr><td class='rank'>5</td><td class='word'>because</td><td class='cnt'>61</td><td class='pct'>0.34%</td><td class='bar'><div style='width:13px'></div></td></tr>
+<tr><td class='rank'>6</td><td class='word'>next</td><td class='cnt'>57</td><td class='pct'>0.31%</td><td class='bar'><div style='width:12px'></div></td></tr>
+<tr><td class='rank'>7</td><td class='word'>last</td><td class='cnt'>54</td><td class='pct'>0.30%</td><td class='bar'><div style='width:11px'></div></td></tr>
+<tr><td class='rank'>8</td><td class='word'>year</td><td class='cnt'>53</td><td class='pct'>0.29%</td><td class='bar'><div style='width:11px'></div></td></tr>
+<tr><td class='rank'>9</td><td class='word'>office</td><td class='cnt'>50</td><td class='pct'>0.28%</td><td class='bar'><div style='width:11px'></div></td></tr>
+<tr><td class='rank'>10</td><td class='word'>employees</td><td class='cnt'>49</td><td class='pct'>0.27%</td><td class='bar'><div style='width:10px'></div></td></tr>
+<tr><td class='rank'>11</td><td class='word'>customers</td><td class='cnt'>47</td><td class='pct'>0.26%</td><td class='bar'><div style='width:10px'></div></td></tr>
+<tr><td class='rank'>12</td><td class='word'>time</td><td class='cnt'>47</td><td class='pct'>0.26%</td><td class='bar'><div style='width:10px'></div></td></tr>
+<tr><td class='rank'>13</td><td class='word'>please</td><td class='cnt'>46</td><td class='pct'>0.25%</td><td class='bar'><div style='width:10px'></div></td></tr>
+<tr><td class='rank'>14</td><td class='word'>meeting</td><td class='cnt'>42</td><td class='pct'>0.23%</td><td class='bar'><div style='width:9px'></div></td></tr>
+<tr><td class='rank'>15</td><td class='word'>department</td><td class='cnt'>41</td><td class='pct'>0.23%</td><td class='bar'><div style='width:9px'></div></td></tr>
+<tr><td class='rank'>16</td><td class='word'>several</td><td class='cnt'>40</td><td class='pct'>0.22%</td><td class='bar'><div style='width:8px'></div></td></tr>
+<tr><td class='rank'>17</td><td class='word'>until</td><td class='cnt'>39</td><td class='pct'>0.22%</td><td class='bar'><div style='width:8px'></div></td></tr>
+<tr><td class='rank'>18</td><td class='word'>business</td><td class='cnt'>39</td><td class='pct'>0.22%</td><td class='bar'><div style='width:8px'></div></td></tr>
+<tr><td class='rank'>19</td><td class='word'>online</td><td class='cnt'>38</td><td class='pct'>0.21%</td><td class='bar'><div style='width:8px'></div></td></tr>
+<tr><td class='rank'>20</td><td class='word'>order</td><td class='cnt'>38</td><td class='pct'>0.21%</td><td class='bar'><div style='width:8px'></div></td></tr>
+<tr><td class='rank'>21</td><td class='word'>answer</td><td class='cnt'>38</td><td class='pct'>0.21%</td><td class='bar'><div style='width:8px'></div></td></tr>
+<tr><td class='rank'>22</td><td class='word'>team</td><td class='cnt'>37</td><td class='pct'>0.20%</td><td class='bar'><div style='width:8px'></div></td></tr>
+<tr><td class='rank'>23</td><td class='word'>work</td><td class='cnt'>36</td><td class='pct'>0.20%</td><td class='bar'><div style='width:7px'></div></td></tr>
+<tr><td class='rank'>24</td><td class='word'>staff</td><td class='cnt'>35</td><td class='pct'>0.19%</td><td class='bar'><div style='width:7px'></div></td></tr>
+<tr><td class='rank'>25</td><td class='word'>even</td><td class='cnt'>35</td><td class='pct'>0.19%</td><td class='bar'><div style='width:7px'></div></td></tr>
+<tr><td class='rank'>26</td><td class='word'>month</td><td class='cnt'>35</td><td class='pct'>0.19%</td><td class='bar'><div style='width:7px'></div></td></tr>
+<tr><td class='rank'>27</td><td class='word'>project</td><td class='cnt'>34</td><td class='pct'>0.19%</td><td class='bar'><div style='width:7px'></div></td></tr>
+<tr><td class='rank'>28</td><td class='word'>years</td><td class='cnt'>34</td><td class='pct'>0.19%</td><td class='bar'><div style='width:7px'></div></td></tr>
+<tr><td class='rank'>29</td><td class='word'>city</td><td class='cnt'>34</td><td class='pct'>0.19%</td><td class='bar'><div style='width:7px'></div></td></tr>
+<tr><td class='rank'>30</td><td class='word'>sales</td><td class='cnt'>34</td><td class='pct'>0.19%</td><td class='bar'><div style='width:7px'></div></td></tr>
+<tr><td class='rank'>31</td><td class='word'>one</td><td class='cnt'>33</td><td class='pct'>0.18%</td><td class='bar'><div style='width:7px'></div></td></tr>
+<tr><td class='rank'>32</td><td class='word'>within</td><td class='cnt'>33</td><td class='pct'>0.18%</td><td class='bar'><div style='width:7px'></div></td></tr>
+<tr><td class='rank'>33</td><td class='word'>although</td><td class='cnt'>33</td><td class='pct'>0.18%</td><td class='bar'><div style='width:7px'></div></td></tr>
+<tr><td class='rank'>34</td><td class='word'>three</td><td class='cnt'>33</td><td class='pct'>0.18%</td><td class='bar'><div style='width:7px'></div></td></tr>
+<tr><td class='rank'>35</td><td class='word'>only</td><td class='cnt'>32</td><td class='pct'>0.18%</td><td class='bar'><div style='width:7px'></div></td></tr>
+<tr><td class='rank'>36</td><td class='word'>week</td><td class='cnt'>32</td><td class='pct'>0.18%</td><td class='bar'><div style='width:7px'></div></td></tr>
+<tr><td class='rank'>37</td><td class='word'>service</td><td class='cnt'>31</td><td class='pct'>0.17%</td><td class='bar'><div style='width:6px'></div></td></tr>
+<tr><td class='rank'>38</td><td class='word'>soon</td><td class='cnt'>29</td><td class='pct'>0.16%</td><td class='bar'><div style='width:6px'></div></td></tr>
+<tr><td class='rank'>39</td><td class='word'>since</td><td class='cnt'>29</td><td class='pct'>0.16%</td><td class='bar'><div style='width:6px'></div></td></tr>
+<tr><td class='rank'>40</td><td class='word'>building</td><td class='cnt'>29</td><td class='pct'>0.16%</td><td class='bar'><div style='width:6px'></div></td></tr>
+<tr><td class='rank'>41</td><td class='word'>while</td><td class='cnt'>29</td><td class='pct'>0.16%</td><td class='bar'><div style='width:6px'></div></td></tr>
+<tr><td class='rank'>42</td><td class='word'>best</td><td class='cnt'>28</td><td class='pct'>0.15%</td><td class='bar'><div style='width:6px'></div></td></tr>
+<tr><td class='rank'>43</td><td class='word'>use</td><td class='cnt'>27</td><td class='pct'>0.15%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>44</td><td class='word'>make</td><td class='cnt'>27</td><td class='pct'>0.15%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>45</td><td class='word'>marketing</td><td class='cnt'>27</td><td class='pct'>0.15%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>46</td><td class='word'>many</td><td class='cnt'>27</td><td class='pct'>0.15%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>47</td><td class='word'>reading</td><td class='cnt'>27</td><td class='pct'>0.15%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>48</td><td class='word'>complete</td><td class='cnt'>26</td><td class='pct'>0.14%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>49</td><td class='word'>two</td><td class='cnt'>26</td><td class='pct'>0.14%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>50</td><td class='word'>day</td><td class='cnt'>26</td><td class='pct'>0.14%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>51</td><td class='word'>test</td><td class='cnt'>26</td><td class='pct'>0.14%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>52</td><td class='word'>questions</td><td class='cnt'>26</td><td class='pct'>0.14%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>53</td><td class='word'>available</td><td class='cnt'>25</td><td class='pct'>0.14%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>54</td><td class='word'>first</td><td class='cnt'>25</td><td class='pct'>0.14%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>55</td><td class='word'>now</td><td class='cnt'>25</td><td class='pct'>0.14%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>56</td><td class='word'>software</td><td class='cnt'>25</td><td class='pct'>0.14%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>57</td><td class='word'>site</td><td class='cnt'>25</td><td class='pct'>0.14%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>58</td><td class='word'>product</td><td class='cnt'>24</td><td class='pct'>0.13%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>59</td><td class='word'>made</td><td class='cnt'>24</td><td class='pct'>0.13%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>60</td><td class='word'>though</td><td class='cnt'>24</td><td class='pct'>0.13%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>61</td><td class='word'>given</td><td class='cnt'>23</td><td class='pct'>0.13%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>62</td><td class='word'>customer</td><td class='cnt'>23</td><td class='pct'>0.13%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>63</td><td class='word'>conference</td><td class='cnt'>23</td><td class='pct'>0.13%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>64</td><td class='word'>well</td><td class='cnt'>23</td><td class='pct'>0.13%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>65</td><td class='word'>park</td><td class='cnt'>23</td><td class='pct'>0.13%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>66</td><td class='word'>local</td><td class='cnt'>23</td><td class='pct'>0.13%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>67</td><td class='word'>among</td><td class='cnt'>23</td><td class='pct'>0.13%</td><td class='bar'><div style='width:5px'></div></td></tr>
+<tr><td class='rank'>68</td><td class='word'>possible</td><td class='cnt'>22</td><td class='pct'>0.12%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>69</td><td class='word'>financial</td><td class='cnt'>22</td><td class='pct'>0.12%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>70</td><td class='word'>end</td><td class='cnt'>22</td><td class='pct'>0.12%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>71</td><td class='word'>some</td><td class='cnt'>22</td><td class='pct'>0.12%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>72</td><td class='word'>members</td><td class='cnt'>22</td><td class='pct'>0.12%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>73</td><td class='word'>web</td><td class='cnt'>22</td><td class='pct'>0.12%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>74</td><td class='word'>receive</td><td class='cnt'>22</td><td class='pct'>0.12%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>75</td><td class='word'>recently</td><td class='cnt'>22</td><td class='pct'>0.12%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>76</td><td class='word'>store</td><td class='cnt'>22</td><td class='pct'>0.12%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>77</td><td class='word'>herself</td><td class='cnt'>21</td><td class='pct'>0.12%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>78</td><td class='word'>despite</td><td class='cnt'>21</td><td class='pct'>0.12%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>79</td><td class='word'>information</td><td class='cnt'>21</td><td class='pct'>0.12%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>80</td><td class='word'>group</td><td class='cnt'>21</td><td class='pct'>0.12%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>81</td><td class='word'>clients</td><td class='cnt'>21</td><td class='pct'>0.12%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>82</td><td class='word'>employee</td><td class='cnt'>20</td><td class='pct'>0.11%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>83</td><td class='word'>hers</td><td class='cnt'>20</td><td class='pct'>0.11%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>84</td><td class='word'>additional</td><td class='cnt'>20</td><td class='pct'>0.11%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>85</td><td class='word'>along</td><td class='cnt'>20</td><td class='pct'>0.11%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>86</td><td class='word'>whether</td><td class='cnt'>20</td><td class='pct'>0.11%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>87</td><td class='word'>need</td><td class='cnt'>20</td><td class='pct'>0.11%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>88</td><td class='word'>position</td><td class='cnt'>20</td><td class='pct'>0.11%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>89</td><td class='word'>part</td><td class='cnt'>20</td><td class='pct'>0.11%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>90</td><td class='word'>offers</td><td class='cnt'>20</td><td class='pct'>0.11%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>91</td><td class='word'>except</td><td class='cnt'>19</td><td class='pct'>0.10%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>92</td><td class='word'>production</td><td class='cnt'>19</td><td class='pct'>0.10%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>93</td><td class='word'>experience</td><td class='cnt'>19</td><td class='pct'>0.10%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>94</td><td class='word'>enough</td><td class='cnt'>19</td><td class='pct'>0.10%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>95</td><td class='word'>management</td><td class='cnt'>19</td><td class='pct'>0.10%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>96</td><td class='word'>manager</td><td class='cnt'>19</td><td class='pct'>0.10%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>97</td><td class='word'>attend</td><td class='cnt'>19</td><td class='pct'>0.10%</td><td class='bar'><div style='width:4px'></div></td></tr>
+<tr><td class='rank'>98</td><td class='word'>help</td><td class='cnt'>18</td><td class='pct'>0.10%</td><td class='bar'><div style='width:3px'></div></td></tr>
+<tr><td class='rank'>99</td><td class='word'>book</td><td class='cnt'>18</td><td class='pct'>0.10%</td><td class='bar'><div style='width:3px'></div></td></tr>
+<tr><td class='rank'>100</td><td class='word'>percent</td><td class='cnt'>18</td><td class='pct'>0.10%</td><td class='bar'><div style='width:3px'></div></td></tr>
+
+</tbody>
+</table>
+
+<h2>Top 10 Per Volume</h2>
+<table>
+<thead><tr>
+  <th>Rank</th><th>Vol 1 Top 10</th><th>Vol 2 Top 10</th><th>Vol 3 Top 10</th><th>Vol 4 Top 10</th><th>Vol 5 Top 10</th>
+</tr></thead>
+<tbody>
+<tr><td class='rank'>1</td><td>new <span class='cnt'>(22)</span></td><td>mr <span class='cnt'>(30)</span></td><td>new <span class='cnt'>(25)</span></td><td>new <span class='cnt'>(26)</span></td><td>mr <span class='cnt'>(31)</span></td></tr>
+<tr><td class='rank'>2</td><td>ms <span class='cnt'>(19)</span></td><td>ms <span class='cnt'>(29)</span></td><td>ms <span class='cnt'>(23)</span></td><td>company <span class='cnt'>(25)</span></td><td>new <span class='cnt'>(31)</span></td></tr>
+<tr><td class='rank'>3</td><td>mr <span class='cnt'>(19)</span></td><td>new <span class='cnt'>(24)</span></td><td>mr <span class='cnt'>(20)</span></td><td>mr <span class='cnt'>(22)</span></td><td>ms <span class='cnt'>(26)</span></td></tr>
+<tr><td class='rank'>4</td><td>company <span class='cnt'>(17)</span></td><td>employees <span class='cnt'>(15)</span></td><td>company <span class='cnt'>(19)</span></td><td>ms <span class='cnt'>(19)</span></td><td>because <span class='cnt'>(14)</span></td></tr>
+<tr><td class='rank'>5</td><td>because <span class='cnt'>(16)</span></td><td>next <span class='cnt'>(11)</span></td><td>last <span class='cnt'>(14)</span></td><td>year <span class='cnt'>(14)</span></td><td>last <span class='cnt'>(13)</span></td></tr>
+<tr><td class='rank'>6</td><td>last <span class='cnt'>(13)</span></td><td>building <span class='cnt'>(11)</span></td><td>office <span class='cnt'>(13)</span></td><td>next <span class='cnt'>(13)</span></td><td>office <span class='cnt'>(13)</span></td></tr>
+<tr><td class='rank'>7</td><td>online <span class='cnt'>(12)</span></td><td>meeting <span class='cnt'>(10)</span></td><td>order <span class='cnt'>(12)</span></td><td>please <span class='cnt'>(13)</span></td><td>meeting <span class='cnt'>(13)</span></td></tr>
+<tr><td class='rank'>8</td><td>answer <span class='cnt'>(12)</span></td><td>office <span class='cnt'>(10)</span></td><td>next <span class='cnt'>(11)</span></td><td>answer <span class='cnt'>(12)</span></td><td>department <span class='cnt'>(13)</span></td></tr>
+<tr><td class='rank'>9</td><td>customers <span class='cnt'>(11)</span></td><td>because <span class='cnt'>(10)</span></td><td>because <span class='cnt'>(11)</span></td><td>until <span class='cnt'>(11)</span></td><td>next <span class='cnt'>(12)</span></td></tr>
+<tr><td class='rank'>10</td><td>please <span class='cnt'>(11)</span></td><td>company <span class='cnt'>(10)</span></td><td>now <span class='cnt'>(11)</span></td><td>project <span class='cnt'>(11)</span></td><td>company <span class='cnt'>(12)</span></td></tr>
+
+</tbody>
+</table>
+
+</body>
+</html>

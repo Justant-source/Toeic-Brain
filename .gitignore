@@ -1,0 +1,33 @@
+# Raw data (copyrighted materials)
+data/raw/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output (large binary files)
+output/anki/*.apkg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
