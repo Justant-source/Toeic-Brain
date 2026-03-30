@@ -1,0 +1,1449 @@
+[
+  {
+    "word": "collection",
+    "meaning_kr": "소장품, 수집물; 징수, 수금",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0203",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "exhibition",
+    "meaning_kr": "전시회",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0204",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "celebrity",
+    "meaning_kr": "유명인사, 명사",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0205",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "live",
+    "meaning_kr": "(라디오, TV가)생방송인",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0206",
+    "pos": [
+      "adjective",
+      "adverb",
+      "verb"
+    ]
+  },
+  {
+    "word": "improvise",
+    "meaning_kr": "(연주, 연설 등을)즉흥적으로 하다, 즉석에서 만들다.",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0207",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "popular",
+    "meaning_kr": "인기있는",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0208",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "donation",
+    "meaning_kr": "기증, 기부",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0209",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "alumni",
+    "meaning_kr": "동창생들, 졸업생들",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0210",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "present",
+    "meaning_kr": "제시하다, 현재의, 참석한",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0211",
+    "pos": [
+      "noun",
+      "verb",
+      "adjective"
+    ]
+  },
+  {
+    "word": "admission",
+    "meaning_kr": "입장",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0212",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "banquet",
+    "meaning_kr": "연회, 만찬",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0213",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "anniversary",
+    "meaning_kr": "기념일",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0214",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "required",
+    "meaning_kr": "필수의, 의무적인",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0215",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "succeed",
+    "meaning_kr": "성공하다, 뒤를 잇다",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0216",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "rest",
+    "meaning_kr": "쉬다,휴식, 나머지",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0217",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "fund-raising",
+    "meaning_kr": "모금",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0218",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "resume",
+    "meaning_kr": "재개하다, 다시 시작하다",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0219",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "issue",
+    "meaning_kr": "(출판물의)제 ~호; 문제, 쟁점",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0220",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "subscription",
+    "meaning_kr": "(정기발행물의) 구독",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0221",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "appear",
+    "meaning_kr": "나타나다, 출현하다",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0222",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "accompany",
+    "meaning_kr": "동행하다, 동반하다",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0223",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "edition",
+    "meaning_kr": "(간행물의)판",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0224",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "specifically",
+    "meaning_kr": "명확하게, 분명히; 특히, 특별히",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0225",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "anonymous",
+    "meaning_kr": "익명의, 이름을 모르는",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0226",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "commit",
+    "meaning_kr": "헌신하다, 전념하다",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0227",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "information",
+    "meaning_kr": "유익한, 정보를 주는",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0228",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "audience",
+    "meaning_kr": "청중, 관중",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0229",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "author",
+    "meaning_kr": "작가, 저자",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0230",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "note",
+    "meaning_kr": "주목하다; 특별히 언급하다.",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0231",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "antique",
+    "meaning_kr": "골동품",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0232",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "manuscript",
+    "meaning_kr": "원고",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0233",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "beneficial",
+    "meaning_kr": "유익한, 이로운",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0234",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "upcoming",
+    "meaning_kr": "곧 있을, 다가오는",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0235",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "lend",
+    "meaning_kr": "빌려주다",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0236",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "current",
+    "meaning_kr": "현재의,; 현행의, 통용되는",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0237",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "local",
+    "meaning_kr": "지방의, 고장의",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0238",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "variety",
+    "meaning_kr": "다양성, 변화",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0239",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "advocate",
+    "meaning_kr": "옹호자",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0240",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "contributor",
+    "meaning_kr": "기고가, 공헌자",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0241",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "defy",
+    "meaning_kr": "저항하다; (설명,묘사등이)거의 불가능하다",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0242",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "fascinating",
+    "meaning_kr": "매혹적인, 황홀한",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0243",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "showing",
+    "meaning_kr": "(영화, 연극의)상영; 전시",
+    "day": 6,
+    "level": "기초",
+    "id": "hw_0244",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "amusement park",
+    "meaning_kr": "놀이동산",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1563",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "water the plants",
+    "meaning_kr": "화초에 물을 주다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1564",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "ancient history",
+    "meaning_kr": "고대 역사",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1565",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "amuse",
+    "meaning_kr": "재미있게 하다, 즐겁게 하다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1566",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "artifact",
+    "meaning_kr": "공예품",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1567",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "artistic",
+    "meaning_kr": "예술적인",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1568",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "auditorium",
+    "meaning_kr": "강당",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1569",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "donate",
+    "meaning_kr": "기부하다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1570",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "be booked up",
+    "meaning_kr": "예약이 차다, 매진되다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1571",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "even though",
+    "meaning_kr": "비록~일지라도",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1572",
+    "pos": [
+      "conjunction"
+    ]
+  },
+  {
+    "word": "box office",
+    "meaning_kr": "매표소",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1573",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "exhibit",
+    "meaning_kr": "전시회, 전시하다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1574",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "cheerful",
+    "meaning_kr": "쾌활한, 명랑한",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1575",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "free admission",
+    "meaning_kr": "무료입장",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1576",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "choir",
+    "meaning_kr": "합창단",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1577",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "make oneself at home",
+    "meaning_kr": "편히 쉬다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1578",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "entertain",
+    "meaning_kr": "즐겁게 하다, 대접하다, 환대하다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1579",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "municipal",
+    "meaning_kr": "자치 도시의, 시립의",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1580",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "flower arrangement",
+    "meaning_kr": "꽃꽃이",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1581",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "owed",
+    "meaning_kr": "(돈을) 빚지고 있는",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1582",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "flower bed",
+    "meaning_kr": "화단",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1583",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "several",
+    "meaning_kr": "몇몇의, 몇 개의",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1584",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "go to a film",
+    "meaning_kr": "영화 보러 가다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1585",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "spectator",
+    "meaning_kr": "관중",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1586",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "grip",
+    "meaning_kr": "꽉 잡다, 움켜잡다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1587",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "usher",
+    "meaning_kr": "(극장 등의)좌석 안내원",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1588",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "have a race",
+    "meaning_kr": "경주하다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1589",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "win a contest",
+    "meaning_kr": "대회에서 이기다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1590",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "jog along the street",
+    "meaning_kr": "길을 따라 조깅하다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1591",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "admission to",
+    "meaning_kr": "~로 입장",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1592",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "musical instrument",
+    "meaning_kr": "악기",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1593",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "contestant",
+    "meaning_kr": "경기자, 경쟁자",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1594",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "oar",
+    "meaning_kr": "노, 노를 젓다, 물장구를 치다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1595",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "delight",
+    "meaning_kr": "기쁨",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1596",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "oil painting",
+    "meaning_kr": "유화",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1597",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "do one's hair",
+    "meaning_kr": "머리 손질하다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1598",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "outdoor",
+    "meaning_kr": "야외의",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1599",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "enjoyable",
+    "meaning_kr": "재미있는, 즐거운",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1600",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "paddle",
+    "meaning_kr": "노, 노를 젓다, 물장구를 치다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1601",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "group rate",
+    "meaning_kr": "단체 요금",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1602",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "premiere",
+    "meaning_kr": "특별 개봉, 초연",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1603",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "head for",
+    "meaning_kr": "~로 향하다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1604",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "rake leaves",
+    "meaning_kr": "(갈퀴로) 낙엽을 긁어모으다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1605",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "out of order",
+    "meaning_kr": "고장 난",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1606",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "recreational activity",
+    "meaning_kr": "오락 활동",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1607",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "periodical",
+    "meaning_kr": "정기 간행물, 주기적인",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1608",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "right",
+    "meaning_kr": "권리, 바른, 옳은",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1609",
+    "pos": [
+      "noun",
+      "adjective",
+      "adverb"
+    ]
+  },
+  {
+    "word": "playing field",
+    "meaning_kr": "경기장",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1610",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "running time",
+    "meaning_kr": "(영화) 상영 시간",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1611",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "register for",
+    "meaning_kr": "~에 등록하다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1612",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "sail a boat",
+    "meaning_kr": "보트를 타고 항해하다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1613",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "show up",
+    "meaning_kr": "나타나다, 돋보이게 하다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1614",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "slide down",
+    "meaning_kr": "미끄러져 내려가다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1615",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "take a tour",
+    "meaning_kr": "여행하다, 둘러보다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1616",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "splash",
+    "meaning_kr": "(물을) 튀기다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1617",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "sport tournament",
+    "meaning_kr": "운동 경기",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1618",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "stadium",
+    "meaning_kr": "경기장",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1619",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "stay up",
+    "meaning_kr": "(잠을 자지 않고) 일어나 있다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1620",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "stroll",
+    "meaning_kr": "한가롭게 거닐다, 산책하다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1621",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "take a break",
+    "meaning_kr": "잠깐 휴식을 취하다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1622",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "take A for a walk",
+    "meaning_kr": "A를 산책에 데려가다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1623",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "take a photograph",
+    "meaning_kr": "사진을 찍다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1624",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "take a walk",
+    "meaning_kr": "산책하다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1625",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "take great pleasure",
+    "meaning_kr": "큰 즐거움을 찾다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1626",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "touch up a photograph",
+    "meaning_kr": "사진을 조금 수정하다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1627",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "vacation package",
+    "meaning_kr": "휴가 패키지, 여행 패키지",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1628",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "wait for seats",
+    "meaning_kr": "자리를 기다리다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1629",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "wait in line",
+    "meaning_kr": "줄을 서서 기다리다",
+    "day": 6,
+    "level": "800",
+    "id": "hw_1630",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "be in line",
+    "meaning_kr": "줄서다",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3416",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "for change",
+    "meaning_kr": "기분 전환으로",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3417",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "pass the time",
+    "meaning_kr": "시간을 보내다, 시간을 떼우다",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3418",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "pose",
+    "meaning_kr": "자세를 취하다, (사진 등을 위한)자세",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3419",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "stay tuned",
+    "meaning_kr": "채널을 고정시키다",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3420",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "vacate",
+    "meaning_kr": "집을 비우다, 방을 비우다",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3421",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "appreciative",
+    "meaning_kr": "감사하는",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3422",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "casually",
+    "meaning_kr": "(복장을)캐주얼하게, 약식으로",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3423",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "enlightening",
+    "meaning_kr": "계몽적인, 깨우치는",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3424",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "enthusiastically",
+    "meaning_kr": "열광적으로, 매우 열심히",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3425",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "excellence",
+    "meaning_kr": "우수, 탁월성",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3426",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "excursion",
+    "meaning_kr": "소풍",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3427",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "festivity",
+    "meaning_kr": "축제, 축하행사",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3428",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "flock",
+    "meaning_kr": "떼 지어가다, 모이다, 무리, 떼",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3429",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "intriguingly",
+    "meaning_kr": "흥미를 자아내어, 호기심을 자극하여",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3430",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "leg room",
+    "meaning_kr": "(자동차 등에) 다리를 뻗을 수 있는 공간",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3431",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "mural",
+    "meaning_kr": "벽화",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3432",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "portrait",
+    "meaning_kr": "초상화",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3433",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "publication",
+    "meaning_kr": "출판, 출판물",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3434",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "sculpture",
+    "meaning_kr": "조각상",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3435",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "transferable",
+    "meaning_kr": "양도가능한, 이동가능한",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3436",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "unsanitary",
+    "meaning_kr": "비위생적인",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3437",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "be in the mood for-ing",
+    "meaning_kr": "~하고 싶은 기분이다",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3438",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "botanical garden",
+    "meaning_kr": "식물원",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3439",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "censorship",
+    "meaning_kr": "검열(제도)",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3440",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "have yet to do",
+    "meaning_kr": "아직~해야 한다, 아직~하고 있지 않다",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3441",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "intermission",
+    "meaning_kr": "(연극·영화의) 휴식 시간, 막간",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3442",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "memoirs",
+    "meaning_kr": "회고록, 전기",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3443",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "must-see",
+    "meaning_kr": "꼭 보아야 할 것",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3444",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "rally",
+    "meaning_kr": "랠리, (자동차·오토바이 등의 경주), 집회",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3445",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "ridiculous",
+    "meaning_kr": "우스꽝스러운, 터무니없는",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3446",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "roam around",
+    "meaning_kr": "이리저리 돌아다니다",
+    "day": 6,
+    "level": "900",
+    "id": "hw_3447",
+    "pos": [
+      "verb"
+    ]
+  }
+]

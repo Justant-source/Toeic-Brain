@@ -1,0 +1,1404 @@
+[
+  {
+    "word": "research",
+    "meaning_kr": "연구, 조사",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0403",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "devise",
+    "meaning_kr": "고안하다, 발명하다",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0404",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "revolutionary",
+    "meaning_kr": "혁명적인",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0405",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "innovative",
+    "meaning_kr": "혁신적인",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0406",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "feature",
+    "meaning_kr": "특징, 특색, 특징으로 삼다, 특별히 포함하다",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0407",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "inspiration",
+    "meaning_kr": "영감",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0408",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "sufficiently",
+    "meaning_kr": "충분히(sufficient 충분한, 충분)",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0409",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "patent",
+    "meaning_kr": "특허, 특허권, 특허품",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0410",
+    "pos": [
+      "noun",
+      "adjective",
+      "verb"
+    ]
+  },
+  {
+    "word": "envision",
+    "meaning_kr": "(장래의 일 등을)계획하다, 상상하다",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0411",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "extend",
+    "meaning_kr": "연장하다; (기간을)늘리다;\n(감사의 뜻을)말하다, 베풀다",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0412",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "following",
+    "meaning_kr": "~후에, 다음의, 다음에 오는",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0413",
+    "pos": [
+      "noun",
+      "adjective",
+      "preposition"
+    ]
+  },
+  {
+    "word": "intend",
+    "meaning_kr": "~할 작정이다; 의도하다",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0414",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "grant",
+    "meaning_kr": "(인정하여 정식으로)수여하다, 주다,\n(연구비, 장학금등의)보조금",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0415",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "allow",
+    "meaning_kr": "~하게 하다, ~을 허락하다",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0416",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "inspect",
+    "meaning_kr": "~을 검사하다, 조사하다",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0417",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "improve",
+    "meaning_kr": "향상시키다, 개선하다",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0418",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "increasingly",
+    "meaning_kr": "점점, 더욱 더",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0419",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "invest",
+    "meaning_kr": "투자하다, 운용하다",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0420",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "various",
+    "meaning_kr": "여러 가지의, 가지각색의",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0421",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "upgrade",
+    "meaning_kr": "업그레이드, 개량형\n업그레이드하다, 개선하다",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0422",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "manual",
+    "meaning_kr": "설명서, 안내서",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0423",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "explore",
+    "meaning_kr": "조사하다, 탐구하다",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0424",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "response",
+    "meaning_kr": "응답, 대답",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0425",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "appearance",
+    "meaning_kr": "외관, 외모",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0426",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "successful",
+    "meaning_kr": "성공적인, 성공한",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0427",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "hold",
+    "meaning_kr": "~을 수용하다, ~을 담다;\n(회의 등을)개최하다, 열다",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0428",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "advance",
+    "meaning_kr": "진보, 전진",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0429",
+    "pos": [
+      "noun",
+      "verb",
+      "adjective"
+    ]
+  },
+  {
+    "word": "reliable",
+    "meaning_kr": "믿을 만한, 신뢰할 수 있는",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0430",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "quality",
+    "meaning_kr": "품질, 질",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0431",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "domestic",
+    "meaning_kr": "국내의, 국산의",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0432",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "development",
+    "meaning_kr": "개발, 발전",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0433",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "availability",
+    "meaning_kr": "(입수)가능성, 유효성, 유용성",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0434",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "update",
+    "meaning_kr": "갱신, 개정, 갱신하다,\n최신의 것으로 하다",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0435",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "accurate",
+    "meaning_kr": "정확한",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0436",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "complicate",
+    "meaning_kr": "복잡한(complicatedly복잡하게)",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0437",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "accomplished",
+    "meaning_kr": "숙련된, 노련한",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0438",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "inquiry",
+    "meaning_kr": "문의, 질문",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0439",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "indication",
+    "meaning_kr": "징후, 조짐",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0440",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "manufacturer",
+    "meaning_kr": "제조회사, 제조업자",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0441",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "compatible",
+    "meaning_kr": "호환되는, 양립할 수 있는(compatibility 양립성, 호환성)",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0442",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "superior",
+    "meaning_kr": "우수한, 상급의",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0443",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "absolute",
+    "meaning_kr": "완전한, 완전무결한",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0444",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "broaden",
+    "meaning_kr": "넓히다",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0445",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "corrosion",
+    "meaning_kr": "부식",
+    "day": 11,
+    "level": "기초",
+    "id": "hw_0446",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "go straight to",
+    "meaning_kr": "~으로 직행하다",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1903",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "technical",
+    "meaning_kr": "기술적인",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1904",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "laboratory",
+    "meaning_kr": "실험실",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1905",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "unfavorable",
+    "meaning_kr": "불리한, 호의적이지 않은",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1906",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "latest work",
+    "meaning_kr": "최신 작품",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1907",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "vulnerable to",
+    "meaning_kr": "~에 취약한",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1908",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "lightweight",
+    "meaning_kr": "가벼운, 경량의",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1909",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "be carried out",
+    "meaning_kr": "수행되다",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1910",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "out-of-date",
+    "meaning_kr": "시대에 뒤떨어진, 구식의",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1911",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "be designed to do",
+    "meaning_kr": "~하도록 고안되다",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1912",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "product designer",
+    "meaning_kr": "제품 설계자",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1913",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "breakthrough",
+    "meaning_kr": "(과학 등의) 비약적 발전",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1914",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "product display",
+    "meaning_kr": "제품 진열",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1915",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "by the time",
+    "meaning_kr": "그때까지",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1916",
+    "pos": [
+      "conjunction"
+    ]
+  },
+  {
+    "word": "redesign",
+    "meaning_kr": "재설계, 새 디자인",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1917",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "collaboration",
+    "meaning_kr": "공동 작업(연구)",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1918",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "trial period",
+    "meaning_kr": "시범 사용 기간",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1919",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "copyright",
+    "meaning_kr": "저작권",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1920",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "try out",
+    "meaning_kr": "시험해 보다",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1921",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "custom-built",
+    "meaning_kr": "주문 제작된",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1922",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "unplug the equipment",
+    "meaning_kr": "장비의 플러그를 뽑다",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1923",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "customize",
+    "meaning_kr": "주문에 응하여 만들다",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1924",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "up-to-date",
+    "meaning_kr": "최신의",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1925",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "disruption",
+    "meaning_kr": "중단, 혼란",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1926",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "user's guide",
+    "meaning_kr": "사용자 설명서",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1927",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "energy efficiency",
+    "meaning_kr": "에너지 효율",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1928",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "waterproof",
+    "meaning_kr": "방수의",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1929",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "energy source",
+    "meaning_kr": "에너지원",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1930",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "well-prepared",
+    "meaning_kr": "잘 준비된",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1931",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "expand into",
+    "meaning_kr": "~으로 확장하다",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1932",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "with the lights on",
+    "meaning_kr": "불을 켠 채로",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1933",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "fuel consumption",
+    "meaning_kr": "연료 소비",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1934",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "advancement",
+    "meaning_kr": "진보, 전진, 승진",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1935",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "guidance",
+    "meaning_kr": "안내, 지도",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1936",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "appliance",
+    "meaning_kr": "전기 제품",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1937",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "keep one's eye on",
+    "meaning_kr": "~에서 눈을 떼지 않다, ~을 감시하다",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1938",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "aside from",
+    "meaning_kr": "~을 제외하고, ~에 더하여",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1939",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "limited edition",
+    "meaning_kr": "한정판",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1940",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "certified",
+    "meaning_kr": "공인된, 면허를 받은",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1941",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "long-lasting",
+    "meaning_kr": "오래 지속되는",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1942",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "complementary",
+    "meaning_kr": "보완적인",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1943",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "plenty of",
+    "meaning_kr": "많은",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1944",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "composition",
+    "meaning_kr": "구성",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1945",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "smoke detector",
+    "meaning_kr": "화재 탐지기",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1946",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "consist of",
+    "meaning_kr": "~으로 이루어져 있다",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1947",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "cooperative",
+    "meaning_kr": "협력적인, 협동의",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1948",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "delighted",
+    "meaning_kr": "기뻐하는, 즐거워하는",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1949",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "designed",
+    "meaning_kr": "계획적인, 고의의",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1950",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "durable",
+    "meaning_kr": "내구성 있는, 튼튼한",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1951",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "electronics",
+    "meaning_kr": "전자 공학, 전자 기술",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1952",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "except for",
+    "meaning_kr": "~을 제외하고",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1953",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "exploration",
+    "meaning_kr": "탐사, 탐구",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1954",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "imaginable",
+    "meaning_kr": "상상 할 수 있는",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1955",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "innovate",
+    "meaning_kr": "혁신하다, 쇄신하다",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1956",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "interpretation",
+    "meaning_kr": "해석, 설명",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1957",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "licensed",
+    "meaning_kr": "인가된, 자격증을 소지한",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1958",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "mechanical",
+    "meaning_kr": "기계상의, 기계로 움직이는",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1959",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "prediction",
+    "meaning_kr": "예측",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1960",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "prototype",
+    "meaning_kr": "모델, 본보기",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1961",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "quantity",
+    "meaning_kr": "수량",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1962",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "remnant",
+    "meaning_kr": "나머지",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1963",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "screen",
+    "meaning_kr": "스크린, 심사하다",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1964",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "suspend",
+    "meaning_kr": "중지하다",
+    "day": 11,
+    "level": "800",
+    "id": "hw_1965",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "streamline",
+    "meaning_kr": "(일 등을) 능률적으로하다, 합리화하다",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3576",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "state-of-the-art",
+    "meaning_kr": "최신식의",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3577",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "cutting-edge",
+    "meaning_kr": "최첨단의",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3578",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "distill",
+    "meaning_kr": "증류하다",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3579",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "bewildering",
+    "meaning_kr": "당혹게 하는",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3580",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "staple",
+    "meaning_kr": "기본 식료품",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3581",
+    "pos": [
+      "noun",
+      "adjective",
+      "verb"
+    ]
+  },
+  {
+    "word": "obsolete",
+    "meaning_kr": "쓸모없게 된, 안 쓰이는",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3582",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "steer",
+    "meaning_kr": "조종하다",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3583",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "be geared to",
+    "meaning_kr": "~에 맞춰져 있다",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3584",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "transparent",
+    "meaning_kr": "투명한",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3585",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "configuration",
+    "meaning_kr": "배치",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3586",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "ornamental",
+    "meaning_kr": "장식적인, 장식의",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3587",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "patronize",
+    "meaning_kr": "~을 단골로 삼다, 거래하다",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3588",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "quality control standards",
+    "meaning_kr": "품질 관리 기준",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3589",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "embedded",
+    "meaning_kr": "삽입된, 포함된",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3590",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "hectic",
+    "meaning_kr": "몹시 바쁜",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3591",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "sturdily",
+    "meaning_kr": "튼튼하게, 완강하게",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3592",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "intently",
+    "meaning_kr": "주의 깊게",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3593",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "top-of-the-line",
+    "meaning_kr": "최고급의",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3594",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "implant",
+    "meaning_kr": "이식하다,(사상을)심어주다",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3595",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "dysfunction",
+    "meaning_kr": "기능 장애, 역기능",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3596",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "bring out",
+    "meaning_kr": "(제품을)출시하다,(능력을)끌어내다",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3597",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "reassign",
+    "meaning_kr": "(임무 등을) 다시 맡기다, 새로 발령내다",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3598",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "apparatus",
+    "meaning_kr": "장치, 기구",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3599",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "concurrently",
+    "meaning_kr": "동시에",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3600",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "flammable",
+    "meaning_kr": "타기 쉬운",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3601",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "evolve",
+    "meaning_kr": "서서히 발달하다, 진화하다",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3602",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "concession",
+    "meaning_kr": "양보, (당국의) 면허",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3603",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "detectable",
+    "meaning_kr": "발견할 수 있는",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3604",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "specimen",
+    "meaning_kr": "견본",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3605",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "achievable",
+    "meaning_kr": "성취할 수 있는, 달성할 수 있는",
+    "day": 11,
+    "level": "900",
+    "id": "hw_3606",
+    "pos": [
+      "adjective"
+    ]
+  }
+]

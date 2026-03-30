@@ -1,0 +1,1422 @@
+[
+  {
+    "word": "international",
+    "meaning_kr": "국제적인",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0527",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "attraction",
+    "meaning_kr": "관광 명소",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0528",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "itinerary",
+    "meaning_kr": "여행 일정",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0529",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "exotic",
+    "meaning_kr": "이국적인, 매혹적인",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0530",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "diverse",
+    "meaning_kr": "다양한",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0531",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "superb",
+    "meaning_kr": "최고의, 뛰어난",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0532",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "baggage",
+    "meaning_kr": "수화물",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0533",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "destination",
+    "meaning_kr": "목적지",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0534",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "missing",
+    "meaning_kr": "분실된, 없어진",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0535",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "locate",
+    "meaning_kr": "(~의 위치를)찾아내다;\n~을 위치시키다",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0536",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "approximately",
+    "meaning_kr": "대략",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0537",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "duty",
+    "meaning_kr": "관세,세금; 직무,의무",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0538",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "process",
+    "meaning_kr": "과정, 처리하다",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0539",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "board",
+    "meaning_kr": "탑승하다, 이사회",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0540",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "comfortable",
+    "meaning_kr": "편안한",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0541",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "declare",
+    "meaning_kr": "(세관에서)신고하다",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0542",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "specify",
+    "meaning_kr": "명시하다 (specification 열거, 명시, 명세서)",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0543",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "depart",
+    "meaning_kr": "출발하다",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0544",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "emergency",
+    "meaning_kr": "비상시, 비상 사태",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0545",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "passenger",
+    "meaning_kr": "승객",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0546",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "outgoing",
+    "meaning_kr": "(장소를)출발하는, 떠나는;\n(지위를)떠나는",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0547",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "tighly",
+    "meaning_kr": "단단히, 꽉",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0548",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "tour",
+    "meaning_kr": "(공장,시설 등의)견학, 짧은 여행",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0549",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "carrier",
+    "meaning_kr": "항공사, 수송기, 수송 회사",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0550",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "customarily",
+    "meaning_kr": "관례상, 습관적으로",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0551",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "confuse",
+    "meaning_kr": "혼란시키다 (refuse 거절하다, 거부하다)",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0552",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "arrive",
+    "meaning_kr": "도착하다",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0553",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "brochure",
+    "meaning_kr": "(홍보용)소책자, 브로셔",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0554",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "involve",
+    "meaning_kr": "수반하다, 포함하다; 참여시키다",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0555",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "ship",
+    "meaning_kr": "(배나 다른 운송 수단으로)운송하다, 수송하다, 선박, 배",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0556",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "suitcase",
+    "meaning_kr": "여행가방",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0557",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "unavailable",
+    "meaning_kr": "이용할 수 없는, 구할 수 없는",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0558",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "fill out/in",
+    "meaning_kr": "(서류에)기입하다, 적어 넣다",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0559",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "customs",
+    "meaning_kr": "세관",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0560",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "away",
+    "meaning_kr": "떨어져서",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0561",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "dramatic",
+    "meaning_kr": "멋진, 극적인; 급격한",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0562",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "hospitality",
+    "meaning_kr": "환대, 친절",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0563",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "indulge",
+    "meaning_kr": "빠지다, 탐닉하다",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0564",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "proximity",
+    "meaning_kr": "가까움, 근접함",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0565",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "seating",
+    "meaning_kr": "(집합적)좌석 설비; 좌석 배열",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0566",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "unlimited",
+    "meaning_kr": "무제한의",
+    "day": 14,
+    "level": "기초",
+    "id": "hw_0567",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "aboard",
+    "meaning_kr": "배로, 승선하여, ~에 타고",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2102",
+    "pos": [
+      "adverb",
+      "preposition"
+    ]
+  },
+  {
+    "word": "take one's bag off",
+    "meaning_kr": "가방을 내려놓다",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2103",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "aircraft",
+    "meaning_kr": "항공기",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2104",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "train conductor",
+    "meaning_kr": "기차 차장",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2105",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "airfare",
+    "meaning_kr": "항공 요금",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2106",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "travel agency",
+    "meaning_kr": "여행사",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2107",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "aisle seat",
+    "meaning_kr": "통로 쪽 좌석",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2108",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "unload",
+    "meaning_kr": "짐을 내리다",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2109",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "be on a trip",
+    "meaning_kr": "여행을 하다",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2110",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "unlock",
+    "meaning_kr": "자물쇠를 열다",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2111",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "board flight",
+    "meaning_kr": "비행기에 탑승하다",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2112",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "walking tour",
+    "meaning_kr": "도보 여행",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2113",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "boarding gate",
+    "meaning_kr": "탑승구",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2114",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "distant",
+    "meaning_kr": "멀리 떨어진",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2115",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "boarding pass",
+    "meaning_kr": "(비행기)탑승권",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2116",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "favor",
+    "meaning_kr": "호의, 친절",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2117",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "boarding time",
+    "meaning_kr": "탑승 시간",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2118",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "overhead",
+    "meaning_kr": "머리 위의",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2119",
+    "pos": [
+      "adjective",
+      "adverb",
+      "noun"
+    ]
+  },
+  {
+    "word": "by air",
+    "meaning_kr": "비행기로",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2120",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "remains",
+    "meaning_kr": "유물",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2121",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "carry-on baggage",
+    "meaning_kr": "기내 휴대 수하물",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2122",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "rightly",
+    "meaning_kr": "당연히, 마땅히",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2123",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "connecting flight",
+    "meaning_kr": "연결 항공편",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2124",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "tastefully",
+    "meaning_kr": "고상하게, 우아하게",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2125",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "crew",
+    "meaning_kr": "승무원",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2126",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "travel arrangement",
+    "meaning_kr": "여행 준비",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2127",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "cruise",
+    "meaning_kr": "유람선 여행",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2128",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "accumulate",
+    "meaning_kr": "축적하다",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2129",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "currency exchange",
+    "meaning_kr": "환전",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2130",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "geographic",
+    "meaning_kr": "지리상의",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2131",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "drift",
+    "meaning_kr": "떠다니다",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2132",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "go through customs",
+    "meaning_kr": "세관을 통과하다",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2133",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "ferry",
+    "meaning_kr": "여객선",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2134",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "jet lag",
+    "meaning_kr": "시차증(여행 시 시차로 인한 피로)",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2135",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "flight attendant",
+    "meaning_kr": "승무원",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2136",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "memorable",
+    "meaning_kr": "기억할 만한, 잊혀지지 않는",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2137",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "fluid",
+    "meaning_kr": "액체, 마실 것",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2138",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "memorial",
+    "meaning_kr": "기념물, 기념의",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2139",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "guest pass",
+    "meaning_kr": "손님용 입장권",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2140",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "precisely",
+    "meaning_kr": "정확히",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2141",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "guided tour",
+    "meaning_kr": "가이드 동반 여행",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2142",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "round trip",
+    "meaning_kr": "왕복 여행",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2143",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "immigration",
+    "meaning_kr": "입국 심사, 이민",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2144",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "runway",
+    "meaning_kr": "활주로",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2145",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "in-flight",
+    "meaning_kr": "기내의",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2146",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "seasickness",
+    "meaning_kr": "뱃멀미",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2147",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "landing",
+    "meaning_kr": "착륙",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2148",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "sensation",
+    "meaning_kr": "느낌, 감각",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2149",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "landmark",
+    "meaning_kr": "유명한 건물, 유명한 장소",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2150",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "suburban train line",
+    "meaning_kr": "교외로 나가는 열차선",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2151",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "layover",
+    "meaning_kr": "(비행 시의) 도중 하차, 경유지",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2152",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "voyage",
+    "meaning_kr": "(원거리) 항해",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2153",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "leave for",
+    "meaning_kr": "~로 떠나다",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2154",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "wildlife",
+    "meaning_kr": "야생 동물",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2155",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "line up",
+    "meaning_kr": "한 줄로 늘어서다, 줄을 이루다",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2156",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "luggage tag",
+    "meaning_kr": "수하물 표",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2157",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "mainland",
+    "meaning_kr": "본토",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2158",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "missing luggage",
+    "meaning_kr": "분실 수하물",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2159",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "native",
+    "meaning_kr": "그 지방 고유의",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2160",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "observation tower",
+    "meaning_kr": "관측탑, 전망탑",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2161",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "overbook",
+    "meaning_kr": "예약을 정원 이상으로 받다",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2162",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "overhead rack",
+    "meaning_kr": "(머리 위의 짐 넣는) 선반",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2163",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "port",
+    "meaning_kr": "항구",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2164",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "porter",
+    "meaning_kr": "운반인, 짐꾼",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2165",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "reclaim",
+    "meaning_kr": "(분실물을) 되찾다",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2166",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "row the boat",
+    "meaning_kr": "배를 젓다",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2167",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "stop over",
+    "meaning_kr": "~에 잠깐 들르다",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2168",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "take off",
+    "meaning_kr": "이륙하다",
+    "day": 14,
+    "level": "800",
+    "id": "hw_2169",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "dispense",
+    "meaning_kr": "나누어 주다",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3670",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "presumable",
+    "meaning_kr": "가정할 수 있는,있음직한",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3671",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "carousel",
+    "meaning_kr": "(공항의) 회전식 수화물 컨베이어",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3672",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "lodging",
+    "meaning_kr": "임시 숙소,하숙",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3673",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "disembark",
+    "meaning_kr": "(비행기∙배에서) 내리다",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3674",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "remittance",
+    "meaning_kr": "송금",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3675",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "buckle up",
+    "meaning_kr": "안전벨트를 매다",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3676",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "barge",
+    "meaning_kr": "짐배",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3677",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "confer",
+    "meaning_kr": "협의하다,의논하다",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3678",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "concourse",
+    "meaning_kr": "중앙 홀,중앙 광장",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3679",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "stall",
+    "meaning_kr": "상품 진열대",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3680",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "airsickness",
+    "meaning_kr": "비행기 멀미",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3681",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "be left unattended",
+    "meaning_kr": "방치되다",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3682",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "prestigious",
+    "meaning_kr": "명성 있는",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3683",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "channel",
+    "meaning_kr": "해협; 수로",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3684",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "deck",
+    "meaning_kr": "갑판",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3685",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "charter plane",
+    "meaning_kr": "전세 비행기",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3686",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "quarantine desk",
+    "meaning_kr": "검역대",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3687",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "aviation",
+    "meaning_kr": "비행",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3688",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "allowance",
+    "meaning_kr": "허용치; 참작,특별한 고려",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3689",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "impound",
+    "meaning_kr": "(물건을) 압수하다",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3690",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "harbor",
+    "meaning_kr": "항구",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3691",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "motion sickness",
+    "meaning_kr": "(탈것에 의한) 멀미",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3692",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "swap",
+    "meaning_kr": "맞바꾸다,교환하다",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3693",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "tie the boat to",
+    "meaning_kr": "배를 ~에 정박시키다",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3694",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "life preserver",
+    "meaning_kr": "(구명 조끼 등의) 구명 기구",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3695",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "dock",
+    "meaning_kr": "선창,부두",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3696",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "turn up",
+    "meaning_kr": "나타나다,찾게 되다",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3697",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "touch down",
+    "meaning_kr": "착륙하다",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3698",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "turbulence",
+    "meaning_kr": "난기류",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3699",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "vessel",
+    "meaning_kr": "대형 선박",
+    "day": 14,
+    "level": "900",
+    "id": "hw_3700",
+    "pos": [
+      "noun"
+    ]
+  }
+]

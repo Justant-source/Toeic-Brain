@@ -7,6 +7,7 @@ project:
 
 paths:
   raw_data: "data/raw"
+  raw_questions: "data/raw/question"
   processed_data: "data/processed"
   mapped_data: "data/mapped"
   output: "output"
@@ -16,7 +17,7 @@ paths:
 ets:
   volumes: [1, 2, 3, 4, 5]
   parts: [5, 6, 7]
-  file_pattern: "ets_vol{volume}.pdf"
+  file_pattern: "data/raw/question/ets_vol{volume}.pdf"
 
 vocab:
   source: "hackers_vocab.pdf"
@@ -29,6 +30,11 @@ anki:
   part5_deck:
     name: "Toeic Brain::Part5 기출"
     id: 2026032902
+
+vault:
+  output_dir: "vault"
+  chapter_map: "data/processed/vocab/chapter_map.json"
+  word_examples: "data/mapped/word_ets_examples.json"
 
 categories:
   - "품사"

@@ -1,0 +1,1417 @@
+[
+  {
+    "word": "proposal",
+    "meaning_kr": "제안, 계획",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0568",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "alliance",
+    "meaning_kr": "동맹, 제휴",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0569",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "stipulation",
+    "meaning_kr": "계약 조건",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0570",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "term",
+    "meaning_kr": "조건; 임기, 기한",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0571",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "compromise",
+    "meaning_kr": "타협, 화해",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0572",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "negotiation",
+    "meaning_kr": "협상, 교섭",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0573",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "agreement",
+    "meaning_kr": "계약, 협정; 합의",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0574",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "deadlock",
+    "meaning_kr": "교착 상태",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0575",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "review",
+    "meaning_kr": "검토하다, 재조사하다",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0576",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "contract",
+    "meaning_kr": "계약(서),계약하다, 수축하다",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0577",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "signature",
+    "meaning_kr": "서명",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0578",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "originally",
+    "meaning_kr": "원래, 처음에는",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0579",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "direction",
+    "meaning_kr": "방향, 지시, 감독",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0580",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "initially",
+    "meaning_kr": "처음에, 초기에",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0581",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "expire",
+    "meaning_kr": "(계약등이)만료되다",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0582",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "collaborate",
+    "meaning_kr": "협력하다, 공동으로 일하다",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0583",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "dedicate",
+    "meaning_kr": "전념하다, 헌신하다, 바치다(indicate 나타내다)",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0584",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "revised",
+    "meaning_kr": "수정된, 변경된",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0585",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "imperative",
+    "meaning_kr": "반드시 해야 하는, 필수적인",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0586",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "cooperatively",
+    "meaning_kr": "협력하여, 협조적으로",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0587",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "commission",
+    "meaning_kr": "수수료, 커미션; 위원회\n(일 등을)의뢰하다, 주문하다",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0588",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "omit",
+    "meaning_kr": "빠뜨리다, 생략하다",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0589",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "conflict",
+    "meaning_kr": "대립, 충돌, 갈등",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0590",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "renew",
+    "meaning_kr": "(계약 등을)갱신하다",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0591",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "proficient",
+    "meaning_kr": "능숙한, 능한",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0592",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "confidentiality",
+    "meaning_kr": "기밀, 비밀",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0593",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "dispute",
+    "meaning_kr": "분쟁, 논쟁",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0594",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "objection",
+    "meaning_kr": "반대, 이익",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0595",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "define",
+    "meaning_kr": "규정하다, 정의하다",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0596",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "impression",
+    "meaning_kr": "인상",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0597",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "security",
+    "meaning_kr": "보안, 안전, 보호",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0598",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "option",
+    "meaning_kr": "선택권",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0599",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "proceed",
+    "meaning_kr": "(일을)진행하다, 진척되다",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0600",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "modify",
+    "meaning_kr": "수정하다, 일부 변경하다",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0601",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "narrow",
+    "meaning_kr": "(범위 등을)좁히다",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0602",
+    "pos": [
+      "verb",
+      "adjective"
+    ]
+  },
+  {
+    "word": "bid",
+    "meaning_kr": "입찰",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0603",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "settle",
+    "meaning_kr": "해결하다, 처리하다",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0604",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "terminate",
+    "meaning_kr": "끝내다, 종결시키다",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0605",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "challenging",
+    "meaning_kr": "도전적인, 힘든",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0606",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "foundation",
+    "meaning_kr": "토대, 기초",
+    "day": 15,
+    "level": "기초",
+    "id": "hw_0607",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "close a deal",
+    "meaning_kr": "계약을 체결하다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2170",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "sort of",
+    "meaning_kr": "다소, 얼마간, 말하자면",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2171",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "complicate",
+    "meaning_kr": "복잡하게 하다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2172",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "surely",
+    "meaning_kr": "틀림없이, 꼭",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2173",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "dial a number",
+    "meaning_kr": "전화번호를 돌리다, 전화를 걸다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2174",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "surprise",
+    "meaning_kr": "놀라게 하다, 놀라운 일",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2175",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "disadvantage",
+    "meaning_kr": "불이익",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2176",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "uninterested",
+    "meaning_kr": "흥미 없는, 무관심한",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2177",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "focus on",
+    "meaning_kr": "~에 집중하다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2178",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "verbal",
+    "meaning_kr": "말의, 구두의",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2179",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "for ages",
+    "meaning_kr": "오랫동안",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2180",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "virtual",
+    "meaning_kr": "사실상의",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2181",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "household",
+    "meaning_kr": "가족, 가구 세대",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2182",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "within reason",
+    "meaning_kr": "온당한 범위 내에서",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2183",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "I have no idea.",
+    "meaning_kr": "잘 모르겠어요.",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2184",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "be in agreement",
+    "meaning_kr": "동의하다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2185",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "lock up",
+    "meaning_kr": "(자물쇠를 채워) 보관하다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2186",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "draw up a new agreement",
+    "meaning_kr": "새 계약서를 작성하다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2187",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "make a deposit",
+    "meaning_kr": "계약금을 치르다, 보증금을 치르다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2188",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "enclosure",
+    "meaning_kr": "동봉(한 것), 동봉물, 둘러쌈",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2189",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "make a mistake",
+    "meaning_kr": "실수하다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2190",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "generation gap",
+    "meaning_kr": "세대 차이",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2191",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "peak",
+    "meaning_kr": "절정, 최고점",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2192",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "have difficulty (in) -ing",
+    "meaning_kr": "~하는데 어려움을 겪다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2193",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "rain check",
+    "meaning_kr": "우천 교환권, 후일 구매권",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2194",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "in an attempt to",
+    "meaning_kr": "~하려는 시도로",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2195",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "rent out",
+    "meaning_kr": "~을 임대하다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2196",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "in appreciation of",
+    "meaning_kr": "~에 감사하여",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2197",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "rental agreement",
+    "meaning_kr": "임대 계약서",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2198",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "in print",
+    "meaning_kr": "인쇄된",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2199",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "rough",
+    "meaning_kr": "힘든, 거친",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2200",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "in summary",
+    "meaning_kr": "요약하면",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2201",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "royalty",
+    "meaning_kr": "저작권 사용료",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2202",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "lifetime employment",
+    "meaning_kr": "종신 고용",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2203",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "run in several directions",
+    "meaning_kr": "여러 방향으로 뻗어 있다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2204",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "low-income resident",
+    "meaning_kr": "저소득 주민",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2205",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "scare",
+    "meaning_kr": "겁주다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2206",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "make a bid",
+    "meaning_kr": "입찰하다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2207",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "sign a contract",
+    "meaning_kr": "계약서에 서명하다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2208",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "make a contract with",
+    "meaning_kr": "~와 계약을 맺다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2209",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "under a contract",
+    "meaning_kr": "계약 하에",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2210",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "on hand",
+    "meaning_kr": "가까이에",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2211",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "win a contract",
+    "meaning_kr": "계약을 따내다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2212",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "replica",
+    "meaning_kr": "복제품",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2213",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "agreeable",
+    "meaning_kr": "기꺼이 동의하는, 기분 좋은",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2214",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "rigid",
+    "meaning_kr": "엄격한, 완고한",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2215",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "call out",
+    "meaning_kr": "~를 부르다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2216",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "security deposit",
+    "meaning_kr": "보증금",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2217",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "convincing",
+    "meaning_kr": "설득력 있는",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2218",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "sequential",
+    "meaning_kr": "순차적인",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2219",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "diplomatic",
+    "meaning_kr": "외교상의",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2220",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "successful candidate",
+    "meaning_kr": "합격자",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2221",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "equality",
+    "meaning_kr": "같음, 평등, 대등",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2222",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "take A seriously",
+    "meaning_kr": "A를 진지하게 받아들이다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2223",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "ethical",
+    "meaning_kr": "윤리적인, 도덕에 관계된",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2224",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "hesitate",
+    "meaning_kr": "망설이다, 머뭇거리다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2225",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "in contrast",
+    "meaning_kr": "반대로",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2226",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "instrumental",
+    "meaning_kr": "(어떤 일을 하는 데) 중요한",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2227",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "lengthen",
+    "meaning_kr": "길어지다, 늘이다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2228",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "make a move",
+    "meaning_kr": "행동을 취하다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2229",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "offend",
+    "meaning_kr": "(규칙을) 위반하다",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2230",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "opposing",
+    "meaning_kr": "대립하는, 반대하는",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2231",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "origin",
+    "meaning_kr": "시초, 기원",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2232",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "rational",
+    "meaning_kr": "합리적인",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2233",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "recognition",
+    "meaning_kr": "인정",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2234",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "refusal",
+    "meaning_kr": "거절, 거부",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2235",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "sarcastic",
+    "meaning_kr": "풍자적인, 빈정거리는",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2236",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "selected",
+    "meaning_kr": "선택된, 선발된",
+    "day": 15,
+    "level": "800",
+    "id": "hw_2237",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "moderator",
+    "meaning_kr": "(토론 등의) 사회자, 중재자",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3701",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "solicit",
+    "meaning_kr": "요청하다, 간청하다",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3702",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "commercial relations",
+    "meaning_kr": "통상 관계",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3703",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "It is no wonder(that)",
+    "meaning_kr": "~은 당연하다",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3704",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "relinquish",
+    "meaning_kr": "포기하다",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3705",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "mediation",
+    "meaning_kr": "조정, 중재",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3706",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "preferential treatment",
+    "meaning_kr": "우대",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3707",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "omission",
+    "meaning_kr": "생략, 누락",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3708",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "rocky",
+    "meaning_kr": "장애가 많은",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3709",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "credit limit",
+    "meaning_kr": "신용대출 한도액",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3710",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "trustworthy",
+    "meaning_kr": "믿을 수 있는",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3711",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "inconclusively",
+    "meaning_kr": "결론 없이, 요점 없이",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3712",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "subcontract",
+    "meaning_kr": "하청 계약",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3713",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "recollection",
+    "meaning_kr": "회상, 회고",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3714",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "embark",
+    "meaning_kr": "착수하다,나서다",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3715",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "foil",
+    "meaning_kr": "좌절시키다",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3716",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "down payment",
+    "meaning_kr": "계약금, 첫 할부금",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3717",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "portray",
+    "meaning_kr": "(인물∙풍경을) 그리다",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3718",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "reinstall",
+    "meaning_kr": "재설치하다",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3719",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "annotated",
+    "meaning_kr": "(책 등이) 주석이 달린",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3720",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "impartially",
+    "meaning_kr": "공명정대하게, 치우치지 않게",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3721",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "think over",
+    "meaning_kr": "숙고하다",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3722",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "repave",
+    "meaning_kr": "(도로를) 재포장하다",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3723",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "originate in",
+    "meaning_kr": "~에서 시작되다",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3724",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "affiliation",
+    "meaning_kr": "합병",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3725",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "subcontractor",
+    "meaning_kr": "하청인, 하청업자",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3726",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "beside the point",
+    "meaning_kr": "요점을 벗어난",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3727",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "run the risk of",
+    "meaning_kr": "~의 위험을 무릅쓰다",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3728",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "remembrance",
+    "meaning_kr": "추억",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3729",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "arbitration",
+    "meaning_kr": "중재",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3730",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "provision",
+    "meaning_kr": "(조약의) 조항",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3731",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "reconcile",
+    "meaning_kr": "화해시키다, 양립시키다",
+    "day": 15,
+    "level": "900",
+    "id": "hw_3732",
+    "pos": [
+      "verb"
+    ]
+  }
+]

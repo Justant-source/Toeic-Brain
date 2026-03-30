@@ -1,0 +1,1437 @@
+[
+  {
+    "word": "congestion",
+    "meaning_kr": "(교통의)체증, 혼잡\n(congest 혼잡하게 하다)",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0976",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "alleviate",
+    "meaning_kr": "완화하다",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0977",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "divert",
+    "meaning_kr": "우회시키다, 다른 곳으로 돌리다",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0978",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "detour",
+    "meaning_kr": "우회",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0979",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "fuel",
+    "meaning_kr": "연료",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0980",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "malfunction",
+    "meaning_kr": "오작동, 기능불량",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0981",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "permit",
+    "meaning_kr": "허락하다, 허가증",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0982",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "transportation",
+    "meaning_kr": "교통(수단), 운송 수단",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0983",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "opportunity",
+    "meaning_kr": "기회",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0984",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "clearly",
+    "meaning_kr": "명확히",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0985",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "ongoing",
+    "meaning_kr": "계속 진행 중인",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0986",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "detailed",
+    "meaning_kr": "상세한",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0987",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "alternative",
+    "meaning_kr": "대안, 대체, 다른, 대신의",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0988",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "obtain",
+    "meaning_kr": "획득하다, 얻다",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0989",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "designated",
+    "meaning_kr": "지정된",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0990",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "intersection",
+    "meaning_kr": "교차로, 교차지점",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0991",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "equip",
+    "meaning_kr": "갖추다, 설비하다",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0992",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "commute",
+    "meaning_kr": "통근하다",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0993",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "downtown",
+    "meaning_kr": "시내에서, 도심지로",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0994",
+    "pos": [
+      "noun",
+      "adverb",
+      "adjective"
+    ]
+  },
+  {
+    "word": "automotive",
+    "meaning_kr": "자동차의",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0995",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "closure",
+    "meaning_kr": "폐쇄",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0996",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "vehicle",
+    "meaning_kr": "차량, 운송 수단",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0997",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "platform",
+    "meaning_kr": "승강장",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0998",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "official",
+    "meaning_kr": "공무원, 관리, 공식적인",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_0999",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "transit",
+    "meaning_kr": "교통, 수송, 통과하다",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_1000",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "fare",
+    "meaning_kr": "교통요금",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_1001",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "expense",
+    "meaning_kr": "비용, 지출",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_1002",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "trust",
+    "meaning_kr": "신뢰, 신임, 믿다, 신뢰하다",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_1003",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "head",
+    "meaning_kr": "(~의 방향으로)나아가다, 향하게 하다",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_1004",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "drive",
+    "meaning_kr": "(차 등을)운전하다, 타고가다, 조종하다",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_1005",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "fine",
+    "meaning_kr": "벌금",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_1006",
+    "pos": [
+      "noun",
+      "adjective",
+      "verb"
+    ]
+  },
+  {
+    "word": "pass",
+    "meaning_kr": "지나가다, 통과하다",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_1007",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "securely",
+    "meaning_kr": "(매듭 등이)단단하게, 튼튼하게",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_1008",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "prominently",
+    "meaning_kr": "눈에 잘 띄게, 두드러지게\n(prominent 눈에 띄는)",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_1009",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "reserved",
+    "meaning_kr": "예약된, 예약한; 지정된",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_1010",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "average",
+    "meaning_kr": "평균치, 평균",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_1011",
+    "pos": [
+      "noun",
+      "adjective",
+      "verb"
+    ]
+  },
+  {
+    "word": "collision",
+    "meaning_kr": "충돌",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_1012",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "tow",
+    "meaning_kr": "견인하다",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_1013",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "reverse",
+    "meaning_kr": "뒤의, 반대의",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_1014",
+    "pos": [
+      "noun",
+      "verb",
+      "adjective"
+    ]
+  },
+  {
+    "word": "obstruct",
+    "meaning_kr": "(전망 등을)가리다, 차단하다;\n(도로 등을)막다\n(obstruction 장애물, 방해물)",
+    "day": 25,
+    "level": "기초",
+    "id": "hw_1015",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "across the street",
+    "meaning_kr": "길을 가로질러",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2849",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "stop for fuel",
+    "meaning_kr": "주유소에 들르다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2850",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "around the corner",
+    "meaning_kr": "길모퉁이에, 임박한, 매우 가까이에 있는",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2851",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "storage compartment",
+    "meaning_kr": "짐 싣는 곳",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2852",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "be closed to traffic",
+    "meaning_kr": "왕래를 금하다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2853",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "street sign",
+    "meaning_kr": "도로 표지판",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2854",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "be held up in traffic",
+    "meaning_kr": "교통체증에 걸리다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2855",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "toll price",
+    "meaning_kr": "통행료",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2856",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "be lined with",
+    "meaning_kr": "줄지어 있다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2857",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "traffic jam",
+    "meaning_kr": "교통정체",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2858",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "broadcast",
+    "meaning_kr": "방송하다, 방송",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2859",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "walk through",
+    "meaning_kr": "~을 통과해 걷다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2860",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "bypass",
+    "meaning_kr": "우회로",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2861",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "walking distance",
+    "meaning_kr": "걸어서 갈 수 있는 거리",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2862",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "carpool",
+    "meaning_kr": "승용차 함께 타기를 하다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2863",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "walkway",
+    "meaning_kr": "통로",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2864",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "come to a standstill",
+    "meaning_kr": "멈추다, 정지하다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2865",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "windshield",
+    "meaning_kr": "바람막이 창",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2866",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "commuter",
+    "meaning_kr": "통근자",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2867",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "creation",
+    "meaning_kr": "창조",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2868",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "cross the street",
+    "meaning_kr": "길을 건너다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2869",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "motivate",
+    "meaning_kr": "동기를 부여하다, 자극하다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2870",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "direct traffic",
+    "meaning_kr": "교통정리를 하다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2871",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "normal",
+    "meaning_kr": "정상, 표준",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2872",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "driver's license",
+    "meaning_kr": "운전 면허증",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2873",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "still",
+    "meaning_kr": "조용한, 정지한, 여전히",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2874",
+    "pos": [
+      "adjective",
+      "adverb"
+    ]
+  },
+  {
+    "word": "driveway",
+    "meaning_kr": "차도, (집, 차고까지의) 진입로",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2875",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "traffic signal",
+    "meaning_kr": "교통 신호",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2876",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "driving direction",
+    "meaning_kr": "주행방향",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2877",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "valuable",
+    "meaning_kr": "소중한, 귀중한",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2878",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "footrest(=footstool)",
+    "meaning_kr": "발받침",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2879",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "volunteer",
+    "meaning_kr": "자원봉사자",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2880",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "get a ride",
+    "meaning_kr": "차를 얻어 타다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2881",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "at full speed",
+    "meaning_kr": "전속력으로",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2882",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "get lost",
+    "meaning_kr": "길을 잃다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2883",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "clear A from B",
+    "meaning_kr": "A를 B에서 치우다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2884",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "get to",
+    "meaning_kr": "~에 도착하다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2885",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "collide",
+    "meaning_kr": "충돌하다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2886",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "give A a ride",
+    "meaning_kr": "A를 태워주다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2887",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "congested",
+    "meaning_kr": "(사람·교통이) 붐비는, 혼잡한",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2888",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "have a flat tire",
+    "meaning_kr": "타이어에 바람이 빠지다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2889",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "encounter",
+    "meaning_kr": "(우연히) 만나다, (문제에) 부닥치다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2890",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "headlight",
+    "meaning_kr": "전조등",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2891",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "move forward",
+    "meaning_kr": "앞으로 나아가다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2892",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "land at the dock",
+    "meaning_kr": "부두에 정박하다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2893",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "principal(=primary)",
+    "meaning_kr": "주요한, 주된, (단체의)장, 교장",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2894",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "lane",
+    "meaning_kr": "차선",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2895",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "public transportation",
+    "meaning_kr": "대중교통",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2896",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "lean over the railing",
+    "meaning_kr": "난간 위로 기대다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2897",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "standing room",
+    "meaning_kr": "입석",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2898",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "license plate number",
+    "meaning_kr": "차량 번호",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2899",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "steering wheel",
+    "meaning_kr": "핸들",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2900",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "lock the key in the car",
+    "meaning_kr": "열쇠를 차에 두고 잠그다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2901",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "traffic congestion",
+    "meaning_kr": "교통체증",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2902",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "make a stop",
+    "meaning_kr": "정지하다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2903",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "make a transfer",
+    "meaning_kr": "(차를) 갈아타다, 바꾸다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2904",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "march",
+    "meaning_kr": "행진하다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2905",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "mileage",
+    "meaning_kr": "주행거리",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2906",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "navigation",
+    "meaning_kr": "항해, 운항",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2907",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "one-way ticket",
+    "meaning_kr": "편도 차표",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2908",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "parking garage",
+    "meaning_kr": "차고",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2909",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "pathway",
+    "meaning_kr": "통행로",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2910",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "push one's way through",
+    "meaning_kr": "~을 뚫고 지나가다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2911",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "ride away",
+    "meaning_kr": "타고가다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2912",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "road sign",
+    "meaning_kr": "도로표지",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2913",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "roadwork(=road construction)",
+    "meaning_kr": "도로 공사",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2914",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "shortcut",
+    "meaning_kr": "지름길",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2915",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "stop at a light",
+    "meaning_kr": "신호등에서 정지하다",
+    "day": 25,
+    "level": "800",
+    "id": "hw_2916",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "compact car",
+    "meaning_kr": "소형차",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4020",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "towing service",
+    "meaning_kr": "견인 서비스",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4021",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "pass by",
+    "meaning_kr": "지나가다",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4022",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "pave",
+    "meaning_kr": "(도로를) 포장하다",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4023",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "necessitate",
+    "meaning_kr": "~을 필요하게 만들다",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4024",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "conform",
+    "meaning_kr": "(규칙 등에) 부합하다, 따르다",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4025",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "fuel-efficient",
+    "meaning_kr": "연료 효율이 높은",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4026",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "wagon",
+    "meaning_kr": "화물 기차",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4027",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "ridership",
+    "meaning_kr": "(공공 교통 기관의) 이용자 수, 승객 수",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4028",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "pull into",
+    "meaning_kr": "(배가 항구에) 서다",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4029",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "specialist",
+    "meaning_kr": "전문가, 전공자",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4030",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "navigate",
+    "meaning_kr": "길을 찾다",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4031",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "opposition",
+    "meaning_kr": "반대, 대항",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4032",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "streetcar",
+    "meaning_kr": "전차",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4033",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "pedestrian",
+    "meaning_kr": "보행자",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4034",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "bear",
+    "meaning_kr": "~을 몸에 지니다",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4035",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "emphatic",
+    "meaning_kr": "단호한, 강한",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4036",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "give off",
+    "meaning_kr": "방출하다",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4037",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "passerby",
+    "meaning_kr": "행인",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4038",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "spoke",
+    "meaning_kr": "바퀴살",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4039",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "be towed away",
+    "meaning_kr": "(차가) 견인되다",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4040",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "sidewalk",
+    "meaning_kr": "보도",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4041",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "ramp",
+    "meaning_kr": "경사로",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4042",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "bicycle rack",
+    "meaning_kr": "자전거 보관대",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4043",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "overnight express",
+    "meaning_kr": "심야 고속",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4044",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "drawbridge",
+    "meaning_kr": "도개교(위로 들어올리는 다리)",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4045",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "gratuity",
+    "meaning_kr": "팁, 봉사료",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4046",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "inconveniently",
+    "meaning_kr": "불편하게",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4047",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "carriage",
+    "meaning_kr": "차량",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4048",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "surround",
+    "meaning_kr": "둘러싸다, 에워싸다",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4049",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "hastily",
+    "meaning_kr": "급히, 서둘러서",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4050",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "refurbish",
+    "meaning_kr": "개조하다, 새로 꾸미다",
+    "day": 25,
+    "level": "900",
+    "id": "hw_4051",
+    "pos": [
+      "verb"
+    ]
+  }
+]

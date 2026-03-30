@@ -6,7 +6,9 @@ import sys
 sys.stdout.reconfigure(encoding='utf-8')
 
 import argparse
+import html
 import json
+import re
 from pathlib import Path
 
 import genanki
@@ -54,17 +56,21 @@ def make_tags(entry: dict, has_mapping: bool) -> list[str]:
         except (ValueError, TypeError):
             tags.append(f"hackers::day{day}")
 
-    # Frequency tag
-    freq = entry.get("frequency", "")
-    if "★★★" in freq:
+    # Frequency tag — supports ★ symbols or level string (기초/중급/고급)
+    freq = entry.get("frequency", "") or entry.get("level", "")
+    if "★★★" in freq or freq in ("고급", "high"):
         tags.append("frequency::high")
-    elif "★★" in freq:
+    elif "★★" in freq or freq in ("중급", "mid"):
         tags.append("frequency::mid")
-    elif "★" in freq:
+    elif "★" in freq or freq in ("기초", "low"):
         tags.append("frequency::low")
 
-    # POS tag
-    pos_raw = (entry.get("pos") or "").lower()
+    # POS tag — supports both string and list shapes
+    pos_val = entry.get("pos") or ""
+    if isinstance(pos_val, list):
+        pos_raw = " ".join(pos_val).lower()
+    else:
+        pos_raw = str(pos_val).lower()
     if "verb" in pos_raw or "동사" in pos_raw:
         tags.append("pos::verb")
     elif "noun" in pos_raw or "명사" in pos_raw:
@@ -82,8 +88,48 @@ def make_tags(entry: dict, has_mapping: bool) -> list[str]:
 
 # ── Field value builders ──────────────────────────────────────────────────────
 
-def build_exam_examples(mapping_entry: dict | None) -> str:
-    """Return an HTML string of numbered exam examples, or a fallback message."""
+def build_exam_examples(
+    mapping_entry: dict | None,
+    ets_entry: dict | None = None,
+    word: str = "",
+) -> str:
+    """Return an HTML string of numbered exam examples, or a fallback message.
+
+    Supports two data formats:
+    - Old format (word_question_map.json): mapping_entry with occurrences[].context
+    - New format (word_ets_examples.json): ets_entry with examples[].sentence + source
+    """
+    MAX_EXAMPLES = 5
+
+    # ── New format: word_ets_examples.json ───────────────────────────────────
+    if ets_entry is not None:
+        examples = ets_entry.get("examples") or []
+        if examples:
+            parts: list[str] = []
+            for i, ex in enumerate(examples[:MAX_EXAMPLES], start=1):
+                raw_sent = (ex.get("sentence") or "").strip()
+                # Convert **bold** before escaping so we can preserve it
+                raw_sent = re.sub(r'\*\*(.+?)\*\*', lambda m: '\x00' + m.group(1) + '\x01', raw_sent)
+                sentence = html.escape(raw_sent)
+                # Restore bold placeholders → <b>...</b>
+                sentence = re.sub('\x00(.+?)\x01', r'<b>\1</b>', sentence)
+                source = (ex.get("source") or "").strip()
+                matched_form = (ex.get("matched_form") or "").strip()
+
+                meta_parts: list[str] = []
+                if source:
+                    meta_parts.append(source)
+                if matched_form and matched_form.lower() != word.lower():
+                    meta_parts.append(f"형태: {matched_form}")
+
+                meta_str = (
+                    f' <span style="color:#9CA3AF;font-size:12px;">({", ".join(meta_parts)})</span>'
+                    if meta_parts else ""
+                )
+                parts.append(f'<div style="margin-bottom:6px;">{i}. {sentence}{meta_str}</div>')
+            return "\n".join(parts)
+
+    # ── Old format: word_question_map.json ────────────────────────────────────
     if mapping_entry is None:
         return "기출 예문 없음"
 
@@ -91,8 +137,8 @@ def build_exam_examples(mapping_entry: dict | None) -> str:
     if not occurrences:
         return "기출 예문 없음"
 
-    parts: list[str] = []
-    for i, occ in enumerate(occurrences, start=1):
+    parts = []
+    for i, occ in enumerate(occurrences[:MAX_EXAMPLES], start=1):
         context = (occ.get("context") or "").strip()
         question_id = occ.get("question_id", "")
         form_used = occ.get("form_used", "")
@@ -100,7 +146,7 @@ def build_exam_examples(mapping_entry: dict | None) -> str:
         meta_parts: list[str] = []
         if question_id:
             meta_parts.append(f"Q{question_id}")
-        if form_used and form_used.lower() != mapping_entry.get("word", "").lower():
+        if form_used and form_used.lower() != (mapping_entry.get("word") or word or "").lower():
             meta_parts.append(f"형태: {form_used}")
         if occ.get("as_answer"):
             meta_parts.append("정답")
@@ -137,25 +183,48 @@ def build_note(
     model: genanki.Model,
     entry: dict,
     mapping_entry: dict | None,
+    ets_entry: dict | None = None,
 ) -> genanki.Note:
-    has_mapping = mapping_entry is not None and bool(mapping_entry.get("occurrences"))
-    exam_count = mapping_entry.get("total_count", 0) if mapping_entry else 0
+    # has_mapping: True if either old mapping or new ets_examples has data
+    old_has = mapping_entry is not None and bool(mapping_entry.get("occurrences"))
+    new_has = ets_entry is not None and bool(ets_entry.get("examples"))
+    has_mapping = old_has or new_has
+
+    # exam_count: prefer new format's total_count, fall back to old
+    if ets_entry is not None:
+        exam_count = ets_entry.get("total_count", 0)
+    elif mapping_entry is not None:
+        exam_count = mapping_entry.get("total_count", 0)
+    else:
+        exam_count = 0
+
+    pos_val = entry.get("pos") or ""
+    pos_str = ", ".join(pos_val) if isinstance(pos_val, list) else str(pos_val)
+    freq_str = entry.get("frequency") or entry.get("level") or ""
+    word_str = entry.get("word") or ""
 
     fields = [
-        entry.get("word") or "",
-        entry.get("pos") or "",
+        html.escape(word_str),
+        pos_str,
         entry.get("meaning_kr") or "",
-        entry.get("frequency") or "",
+        freq_str,
         str(exam_count),
         build_synonyms(entry),
-        build_exam_examples(mapping_entry),
+        build_exam_examples(mapping_entry, ets_entry=ets_entry, word=word_str),
         build_book_example(entry),
         str(entry.get("day") or ""),
         entry.get("id") or "",
     ]
 
+    # Stable GUID from vocab ID so re-imports update, not duplicate
+    note_id = entry.get("id") or entry.get("word") or ""
     tags = make_tags(entry, has_mapping)
-    return genanki.Note(model=model, fields=fields, tags=tags)
+    return genanki.Note(
+        guid=genanki.guid_for(note_id),
+        model=model,
+        fields=fields,
+        tags=tags,
+    )
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -175,6 +244,12 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         default=PROJECT_ROOT / "data/mapped/word_question_map.json",
         help="Path to mapping JSON (default: data/mapped/word_question_map.json)",
+    )
+    p.add_argument(
+        "--ets-examples",
+        type=Path,
+        default=PROJECT_ROOT / "data/mapped/word_ets_examples.json",
+        help="Path to word_ets_examples.json (default: data/mapped/word_ets_examples.json)",
     )
     p.add_argument(
         "--output",
@@ -206,10 +281,10 @@ def main() -> None:
         print("[ERROR] Vocab JSON must be a list of objects.", file=sys.stderr)
         sys.exit(1)
 
-    # ── Load mapping (optional) ───────────────────────────────────────────────
+    # ── Load mapping (optional, old format) ──────────────────────────────────
     mapping_raw = load_json(args.mapping)
     if mapping_raw is None:
-        print(f"[INFO] Mapping file not found ({args.mapping.name}). Generating without exam examples.")
+        print(f"[INFO] Mapping file not found ({args.mapping.name}). Generating without old-format exam examples.")
         mapping_by_id: dict[str, dict] = {}
     else:
         # Support both list and dict shapes
@@ -218,6 +293,20 @@ def main() -> None:
         else:
             mapping_by_id = {str(k): v for k, v in mapping_raw.items()}
         print(f"[INFO] Mapping loaded: {len(mapping_by_id)} entries.")
+
+    # ── Load ETS examples (optional, new format) ──────────────────────────────
+    ets_raw = load_json(args.ets_examples)
+    if ets_raw is None:
+        print(f"[INFO] ETS examples file not found ({args.ets_examples.name}). Skipping.")
+        ets_by_word: dict[str, dict] = {}
+    else:
+        # word_ets_examples.json is a dict keyed by word (original casing)
+        if isinstance(ets_raw, dict):
+            ets_by_word = {k.lower(): v for k, v in ets_raw.items()}
+        else:
+            ets_by_word = {}
+        words_with_examples = sum(1 for v in ets_by_word.values() if v.get("total_count", 0) > 0)
+        print(f"[INFO] ETS examples loaded: {len(ets_by_word)} words, {words_with_examples} with examples.")
 
     # ── Build genanki model ───────────────────────────────────────────────────
     model = genanki.Model(
@@ -262,18 +351,29 @@ def main() -> None:
             day = 0
         return (day, (e.get("word") or "").lower())
 
-    sorted_vocab = sorted(vocab_data, key=sort_key)
+    # Filter out deleted entries
+    active_vocab = [e for e in vocab_data if not e.get("deleted")]
+    deleted_count = len(vocab_data) - len(active_vocab)
+    if deleted_count:
+        print(f"[INFO] Skipped {deleted_count} deleted vocab entry/entries.")
+    sorted_vocab = sorted(active_vocab, key=sort_key)
 
     # ── Build cards ───────────────────────────────────────────────────────────
     tag_stats: dict[str, int] = {}
 
     for entry in sorted_vocab:
         vocab_id = str(entry.get("id") or entry.get("word") or "")
-        # Try lookup by vocab_id, then by word
+        word_lower = (entry.get("word") or "").lower()
+
+        # Try lookup by vocab_id, then by word (old mapping format)
         mapping_entry = mapping_by_id.get(vocab_id) or mapping_by_id.get(
             str(entry.get("word") or "")
         )
-        note = build_note(model, entry, mapping_entry)
+
+        # Lookup in new ETS examples format (case-insensitive by word)
+        ets_entry = ets_by_word.get(word_lower)
+
+        note = build_note(model, entry, mapping_entry, ets_entry=ets_entry)
         deck.add_note(note)
         for tag in note.tags:
             tag_stats[tag] = tag_stats.get(tag, 0) + 1

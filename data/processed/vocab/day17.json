@@ -1,0 +1,1419 @@
+[
+  {
+    "word": "fragile",
+    "meaning_kr": "깨지기 쉬운",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0649",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "perishable",
+    "meaning_kr": "부패하기 쉬운",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0650",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "deliver",
+    "meaning_kr": "배달하다; (연설을)하다",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0651",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "ensure",
+    "meaning_kr": "확실하게 하다, 보장하다",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0652",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "courier",
+    "meaning_kr": "급송 택배, 운반인",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0653",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "carton",
+    "meaning_kr": "(큰)판지상자",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0654",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "address",
+    "meaning_kr": "주소,\n(어려운 문제 등을)처리하다,다루다",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0655",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "shipment",
+    "meaning_kr": "선적, (화물의)발송;\n수송품, 적하물",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0656",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "particularly",
+    "meaning_kr": "특히",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0657",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "adequately",
+    "meaning_kr": "적절히",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0658",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "article",
+    "meaning_kr": "물품, 물건; 기사, 논설",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0659",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "efficient",
+    "meaning_kr": "(기계, 방법 등이)효과적인,능률적인",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0660",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "agency",
+    "meaning_kr": "대행 회사, 대리점",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0661",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "enclose",
+    "meaning_kr": "~을 동봉하다; ~을 둘러싸다, 애워싸다",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0662",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "careful",
+    "meaning_kr": "조심스러운, 주의 깊은",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0663",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "pick up",
+    "meaning_kr": "~을 찾다; (사람,물건 등을) 도중에 태우다",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0664",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "carry",
+    "meaning_kr": "지니다; (물건을)팔다, 가게에 놓다",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0665",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "attach",
+    "meaning_kr": "붙이다, 접착하다, 첨부하다",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0666",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "formerly",
+    "meaning_kr": "이전에",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0667",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "package",
+    "meaning_kr": "소포, 꾸러미",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0668",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "react",
+    "meaning_kr": "반응하다, 대응하다",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0669",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "content",
+    "meaning_kr": "내용물",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0670",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "convenience",
+    "meaning_kr": "편의, 편리",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0671",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "acknowledge",
+    "meaning_kr": "인정하다; (편지 등의)수령을 알리다, 감사하다",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0672",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "caution",
+    "meaning_kr": "주의, 조심",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0673",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "correspondence",
+    "meaning_kr": "편지, 통신문",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0674",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "separate",
+    "meaning_kr": "분리하다; 분류하다",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0675",
+    "pos": [
+      "verb",
+      "adjective"
+    ]
+  },
+  {
+    "word": "remarkable",
+    "meaning_kr": "현저한, 두드러진(markedly 현저하게 눈에 띄게)",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0676",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "handle",
+    "meaning_kr": "취급하다, 다루다",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0677",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "warehouse",
+    "meaning_kr": "창고, 저장소",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0678",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "impose",
+    "meaning_kr": "(세금 등을)부과하다",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0679",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "storage",
+    "meaning_kr": "보관소, 저장소",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0680",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "detach",
+    "meaning_kr": "분리하다, 떼다, (attach 붙이다)",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0681",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "envelope",
+    "meaning_kr": "봉투",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0682",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "exclusion",
+    "meaning_kr": "제외, 배제",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0683",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "recipient",
+    "meaning_kr": "수신자",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0684",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "affix",
+    "meaning_kr": "(우표 등을)붙이다",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0685",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "incorrect",
+    "meaning_kr": "부정확한",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0686",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "oblige",
+    "meaning_kr": "어쩔 수 없이 ~하게 하다,\n~에게 강요하다",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0687",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "step",
+    "meaning_kr": "단계; 조치, 수단",
+    "day": 17,
+    "level": "기초",
+    "id": "hw_0688",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "as of now",
+    "meaning_kr": "현재로서는",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2306",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "discard",
+    "meaning_kr": "버리다",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2307",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "broker",
+    "meaning_kr": "중개인",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2308",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "express mail",
+    "meaning_kr": "급행 우편",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2309",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "canal",
+    "meaning_kr": "운하, 수로",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2310",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "fortunately",
+    "meaning_kr": "다행스럽게도, 운 좋게도",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2311",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "carry a large parcel",
+    "meaning_kr": "큰 짐을 운반하다",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2312",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "ideally",
+    "meaning_kr": "이상적으로, 완벽하게",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2313",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "closing",
+    "meaning_kr": "폐쇄, 폐회의, 마감하는",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2314",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "load size",
+    "meaning_kr": "적재 수하물 크기",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2315",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "courier service",
+    "meaning_kr": "택배회사",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2316",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "marginally",
+    "meaning_kr": "아주 조금, 미미하게",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2317",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "door-to-door delivery",
+    "meaning_kr": "택배",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2318",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "ordered",
+    "meaning_kr": "정돈된, (질서) 정연한",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2319",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "drive off",
+    "meaning_kr": "(차를)출발시키다, 몰아내다",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2320",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "ordering",
+    "meaning_kr": "정리, 배치",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2321",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "drop off",
+    "meaning_kr": "갖다주다, 내려놓다",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2322",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "ordinarily",
+    "meaning_kr": "보통은, 정상적으로는",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2323",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "dry cleaner(=drycleaner's)",
+    "meaning_kr": "세탁소",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2324",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "packaging",
+    "meaning_kr": "포장, 포장재",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2325",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "floor manager",
+    "meaning_kr": "매장감독",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2326",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "provided(that)",
+    "meaning_kr": "(만약)~라면",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2327",
+    "pos": [
+      "conjunction"
+    ]
+  },
+  {
+    "word": "hold onto the handrail",
+    "meaning_kr": "난간을 붙잡다",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2328",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "respond to",
+    "meaning_kr": "~에 응답하다",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2329",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "in transit",
+    "meaning_kr": "운송 중에",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2330",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "separation",
+    "meaning_kr": "분리, 구분",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2331",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "inn",
+    "meaning_kr": "여관",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2332",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "sizable",
+    "meaning_kr": "상당한 크기의, 꽤 큰",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2333",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "lab report",
+    "meaning_kr": "실험 보고서",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2334",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "society",
+    "meaning_kr": "사회, 협회",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2335",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "lab technician",
+    "meaning_kr": "연구실 기술자",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2336",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "accelerate",
+    "meaning_kr": "촉진하다, 가속화하다",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2337",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "lace",
+    "meaning_kr": "끈, 끈을 묶다",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2338",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "additional charge",
+    "meaning_kr": "추가 요금",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2339",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "legal department",
+    "meaning_kr": "법률부서",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2340",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "ahead of schedule",
+    "meaning_kr": "예정보다 일찍",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2341",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "load A onto B",
+    "meaning_kr": "A를 B에 싣다",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2342",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "at the last minute",
+    "meaning_kr": "막판에",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2343",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "load a truck",
+    "meaning_kr": "트럭에 짐을 싣다",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2344",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "by hand",
+    "meaning_kr": "인편으로, 손으로",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2345",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "loaded with",
+    "meaning_kr": "(짐을) 실은",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2346",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "car maintenance",
+    "meaning_kr": "자동차 정비",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2347",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "loading",
+    "meaning_kr": "적재, 선적",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2348",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "city official",
+    "meaning_kr": "시 공무원",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2349",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "lost in delivery",
+    "meaning_kr": "배송 중에 분실된",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2350",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "free of charge",
+    "meaning_kr": "무료",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2351",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "mailing list",
+    "meaning_kr": "우편물 수취인 명부",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2352",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "postage",
+    "meaning_kr": "우편 요금",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2353",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "make a delivery",
+    "meaning_kr": "배달하다",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2354",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "trade negotiation",
+    "meaning_kr": "무역 협상",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2355",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "packing tape",
+    "meaning_kr": "포장테이프",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2356",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "trade show",
+    "meaning_kr": "무역 박람회",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2357",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "pass over",
+    "meaning_kr": "~의 위를 지나가다",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2358",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "without delay",
+    "meaning_kr": "지연되지 않고",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2359",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "pavement",
+    "meaning_kr": "포장도로, 인도",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2360",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "people on foot",
+    "meaning_kr": "보행자들",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2361",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "pick up passengers",
+    "meaning_kr": "승객을 태우다",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2362",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "pier",
+    "meaning_kr": "부두, 방파제, 선창",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2363",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "pile up",
+    "meaning_kr": "~을 쌓다",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2364",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "postal",
+    "meaning_kr": "우편의",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2365",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "strap",
+    "meaning_kr": "끈(줄)으로 묶다",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2366",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "time limit",
+    "meaning_kr": "기한",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2367",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "waterway",
+    "meaning_kr": "(배가 다닐 수 있는) 수로, 항로",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2368",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "weigh",
+    "meaning_kr": "무게가~이다",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2369",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "weight limit",
+    "meaning_kr": "중량 제한",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2370",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "wrap up",
+    "meaning_kr": "~을 싸다, ~을 포장하다",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2371",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "correction",
+    "meaning_kr": "정정, 수정",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2372",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "delivery option",
+    "meaning_kr": "배송 선택 사항",
+    "day": 17,
+    "level": "800",
+    "id": "hw_2373",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "institute",
+    "meaning_kr": "협회, 연구소",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3765",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "selective",
+    "meaning_kr": "선택적인, 까다로운",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3766",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "stow",
+    "meaning_kr": "(짐을) 넣다, 싣다",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3767",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "progression",
+    "meaning_kr": "진행, 진전",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3768",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "freight",
+    "meaning_kr": "운송 화물, 화물 운송",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3769",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "logistics",
+    "meaning_kr": "물류, 실행 계획",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3770",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "loading dock",
+    "meaning_kr": "하역장",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3771",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "expatriate",
+    "meaning_kr": "국적을 상실한 사람",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3772",
+    "pos": [
+      "noun",
+      "verb",
+      "adjective"
+    ]
+  },
+  {
+    "word": "alumni association",
+    "meaning_kr": "동창회",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3773",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "reciprocal",
+    "meaning_kr": "상호의, 서로의",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3774",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "decidedly",
+    "meaning_kr": "확실히, 명백히; 단호히",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3775",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "surplus",
+    "meaning_kr": "잉여, 흑자",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3776",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "expedite",
+    "meaning_kr": "신속히 처리하다, 진척시키다",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3777",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "embargo",
+    "meaning_kr": "(특정 상품의) 무역 금지, 통상 금지",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3778",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "oversight",
+    "meaning_kr": "부주의; 감독",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3779",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "heritage",
+    "meaning_kr": "전통, 유산",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3780",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "registered mail",
+    "meaning_kr": "등기 우편",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3781",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "province",
+    "meaning_kr": "지방",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3782",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "consulate",
+    "meaning_kr": "영사관",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3783",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "import license",
+    "meaning_kr": "수입 허가(서)",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3784",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "openly",
+    "meaning_kr": "터놓고, 솔직하게",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3785",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "wheelbarrow",
+    "meaning_kr": "손수레",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3786",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "handling",
+    "meaning_kr": "처리; 조작",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3787",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "realtor",
+    "meaning_kr": "부동산 중개업자",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3788",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "intended recipient",
+    "meaning_kr": "해당 수취인",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3789",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "institution",
+    "meaning_kr": "기관,(학교∙병원 등의) 시설",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3790",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "classified",
+    "meaning_kr": "기밀의",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3791",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "inaugurate",
+    "meaning_kr": "정식으로 ~을 개시하다",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3792",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "janitor",
+    "meaning_kr": "(건물) 관리인",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3793",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "bilateral",
+    "meaning_kr": "쌍방의",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3794",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "diplomat",
+    "meaning_kr": "외교관",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3795",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "transportable",
+    "meaning_kr": "수송 가능한, 운반 가능한",
+    "day": 17,
+    "level": "900",
+    "id": "hw_3796",
+    "pos": [
+      "adjective"
+    ]
+  }
+]

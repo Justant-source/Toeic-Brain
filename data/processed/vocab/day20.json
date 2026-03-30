@@ -1,0 +1,1417 @@
+[
+  {
+    "word": "audit",
+    "meaning_kr": "회계 감사, 심사",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0768",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "accounting",
+    "meaning_kr": "회계",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0769",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "budget",
+    "meaning_kr": "예산",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0770",
+    "pos": [
+      "noun",
+      "verb",
+      "adjective"
+    ]
+  },
+  {
+    "word": "financial",
+    "meaning_kr": "재정의, 금전상의",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0771",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "curtail",
+    "meaning_kr": "~을 줄이다, 삭감하다\n(curtailment 단축)",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0772",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "deficit",
+    "meaning_kr": "적자, 부족액",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0773",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "recently",
+    "meaning_kr": "최근에",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0774",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "substantially",
+    "meaning_kr": "크게, 상당히\n(substantial 상당한, 재력이 있는)",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0775",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "committee",
+    "meaning_kr": "위원회",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0776",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "frequently",
+    "meaning_kr": "자주, 흔히",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0777",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "capability",
+    "meaning_kr": "능력, 역량",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0778",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "proceeds",
+    "meaning_kr": "수익금",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0779",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "reimburse",
+    "meaning_kr": "변제하다, 상환하다",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0780",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "considerably",
+    "meaning_kr": "상당히, 많이",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0781",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "adequate",
+    "meaning_kr": "충분한, 적절한\n(adequately 적절히, 충분히)",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0782",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "total",
+    "meaning_kr": "총계의, 전부의",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0783",
+    "pos": [
+      "noun",
+      "verb",
+      "adjective"
+    ]
+  },
+  {
+    "word": "allocate",
+    "meaning_kr": "할당하다, 배분하다\n(allocation 할당)",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0784",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "inspector",
+    "meaning_kr": "조사관, 감독관\n(inspect 검사하다)",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0785",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "preferred",
+    "meaning_kr": "선호되는, 우선의",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0786",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "quarter",
+    "meaning_kr": "사분기; 4분의1",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0787",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "interrupt",
+    "meaning_kr": "중단시키다, 방해하다\n(interruption 방해, 중지, 중단)",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0788",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "browse",
+    "meaning_kr": "흝어보다, 둘러보다",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0789",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "prompt",
+    "meaning_kr": "즉각적인; 신속한, 촉발하다, 유도하다 (promptly 신속히)",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0790",
+    "pos": [
+      "adjective",
+      "verb",
+      "adverb"
+    ]
+  },
+  {
+    "word": "deduct",
+    "meaning_kr": "공제하다, 빼다\n(deduction 공제)",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0791",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "measurement",
+    "meaning_kr": "측정, 측량; 치수",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0792",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "shorten",
+    "meaning_kr": "단축하다, 짧게하다",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0793",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "amend",
+    "meaning_kr": "수정하다\n(amendable 개정할 수 있는)",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0794",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "calculate",
+    "meaning_kr": "계산하다, 산출하다",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0795",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "exempt",
+    "meaning_kr": "면제된, ~이 없는\n(exemption 면제)",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0796",
+    "pos": [
+      "adjective",
+      "verb"
+    ]
+  },
+  {
+    "word": "deficient",
+    "meaning_kr": "부족한, 불충분한",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0797",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "compare",
+    "meaning_kr": "비교하다",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0798",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "fortunate",
+    "meaning_kr": "운 좋은",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0799",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "expenditure",
+    "meaning_kr": "지출, 비용",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0800",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "accurately",
+    "meaning_kr": "정확하게",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0801",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "worth",
+    "meaning_kr": "~의 가치가 있는, (얼마)어치, 가치",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0802",
+    "pos": [
+      "adjective",
+      "noun",
+      "preposition"
+    ]
+  },
+  {
+    "word": "excess",
+    "meaning_kr": "초과, 초과량",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0803",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "fiscal",
+    "meaning_kr": "회계의, 재정상의",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0804",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "incidental",
+    "meaning_kr": "부수적인",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0805",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "inflation",
+    "meaning_kr": "물가상승, 인플레이션, 통화팽창",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0806",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "liable",
+    "meaning_kr": "책임져야 할; ~하기 쉬운",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0807",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "spend",
+    "meaning_kr": "~을 쓰다, 소비하다",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0808",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "turnover",
+    "meaning_kr": "총 매상고, 거래액; 이직률",
+    "day": 20,
+    "level": "기초",
+    "id": "hw_0809",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "a copy of",
+    "meaning_kr": "(책·서류) 한 부",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2510",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "badly",
+    "meaning_kr": "가까스로, 거의 ~하지 않는",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2511",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "at a fast pace",
+    "meaning_kr": "빠른 속도로",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2512",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "be owned by",
+    "meaning_kr": "~의 소유이다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2513",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "be assigned to",
+    "meaning_kr": "~로 배정되다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2514",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "be suited for",
+    "meaning_kr": "~에 적합하다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2515",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "be similar to",
+    "meaning_kr": "~과 유사하다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2516",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "bookkeeper",
+    "meaning_kr": "경리",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2517",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "bring together",
+    "meaning_kr": "불러 모으다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2518",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "bound for",
+    "meaning_kr": "(기차·배가)~행인",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2519",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "certainly",
+    "meaning_kr": "확실히",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2520",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "calculation",
+    "meaning_kr": "계산",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2521",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "charge for",
+    "meaning_kr": "~에 대한 대금",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2522",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "cancellation",
+    "meaning_kr": "취소",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2523",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "cut down",
+    "meaning_kr": "~을 줄이다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2524",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "capital",
+    "meaning_kr": "자본",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2525",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "decide on",
+    "meaning_kr": "~으로 결정하다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2526",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "category",
+    "meaning_kr": "범주, 부분",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2527",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "flat",
+    "meaning_kr": "일률적인, 바람이 빠진, 아파트",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2528",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "claim refund",
+    "meaning_kr": "환불을 요구하다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2529",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "flawless",
+    "meaning_kr": "결점 없는",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2530",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "collectively",
+    "meaning_kr": "집합적으로, 총괄하여",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2531",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "handbook",
+    "meaning_kr": "안내서",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2532",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "combine A with B",
+    "meaning_kr": "A를 B와 결합시키다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2533",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "handwritten",
+    "meaning_kr": "손으로 쓴",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2534",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "commercial use",
+    "meaning_kr": "상업적 이용",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2535",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "phenomenon",
+    "meaning_kr": "현상",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2536",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "common interest",
+    "meaning_kr": "공동의 이익, 공동 관심사",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2537",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "record high",
+    "meaning_kr": "최고 기록",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2538",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "compose",
+    "meaning_kr": "작성하다, 구성하다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2539",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "reset",
+    "meaning_kr": "(기계를) 다시 맞추다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2540",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "consulting firm",
+    "meaning_kr": "자문회사",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2541",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "see if",
+    "meaning_kr": "~인지 여부를 확인하다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2542",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "conversion",
+    "meaning_kr": "전환",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2543",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "sequel",
+    "meaning_kr": "속편, 결과",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2544",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "digit",
+    "meaning_kr": "숫자",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2545",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "set up a date",
+    "meaning_kr": "날짜를 잡다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2546",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "monetary",
+    "meaning_kr": "금전의, 재정적인",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2547",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "sharpen",
+    "meaning_kr": "날카롭게 만들다, (기술을) 향상시키다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2548",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "outlay",
+    "meaning_kr": "지출, 경비",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2549",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "side by side",
+    "meaning_kr": "나란히",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2550",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "place of origin",
+    "meaning_kr": "원산지",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2551",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "A and B alike",
+    "meaning_kr": "A와 B 모두 마찬가지로",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2552",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "purchase order",
+    "meaning_kr": "구입 주문(서)",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2553",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "accountant",
+    "meaning_kr": "회계사",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2554",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "rigorously",
+    "meaning_kr": "엄격히",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2555",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "by contrast",
+    "meaning_kr": "그와 대조적으로",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2556",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "shipping and handling fee",
+    "meaning_kr": "(운임·포장료 등) 배송 취급 요금",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2557",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "chief financial officer(CEO)",
+    "meaning_kr": "최고 재무 책임자",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2558",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "unplug device",
+    "meaning_kr": "기계의 플러그를 뽑다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2559",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "corrective",
+    "meaning_kr": "(이전에 잘못된 것을) 바로잡는",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2560",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "well in advance",
+    "meaning_kr": "훨씬 앞서서",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2561",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "displace",
+    "meaning_kr": "대신하다, 옮겨 놓다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2562",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "far from",
+    "meaning_kr": "결코 -이 아닌",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2563",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "frequency",
+    "meaning_kr": "빈도",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2564",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "impressively",
+    "meaning_kr": "인상적으로, 인상 깊게",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2565",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "keep to oneself",
+    "meaning_kr": "비밀로 하다, 독차지 하다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2566",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "overly",
+    "meaning_kr": "지나치게, 몹시",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2567",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "reasonable",
+    "meaning_kr": "적당한, 너무 비싸지 않은",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2568",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "take after",
+    "meaning_kr": "~를 닮다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2569",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "unfamiliar",
+    "meaning_kr": "익숙지 않은, 낯선",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2570",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "A be followed by B",
+    "meaning_kr": "A 다음에 B가 오다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2571",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "a string of",
+    "meaning_kr": "일련의, 한 줄의",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2572",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "activate",
+    "meaning_kr": "작동시키다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2573",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "add up to",
+    "meaning_kr": "합계가 ~이다",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2574",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "annual budget",
+    "meaning_kr": "연간 예산",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2575",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "annual report",
+    "meaning_kr": "연례 보고서",
+    "day": 20,
+    "level": "800",
+    "id": "hw_2576",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "ledger",
+    "meaning_kr": "회계 장부",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3861",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "adjournment",
+    "meaning_kr": "연기, 휴회",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3862",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "cash reserves",
+    "meaning_kr": "현금 보유고",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3863",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "inconsistency",
+    "meaning_kr": "불일치",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3864",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "preclude",
+    "meaning_kr": "막다",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3865",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "pretax",
+    "meaning_kr": "세금 공제 전의",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3866",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "plus tax",
+    "meaning_kr": "세금 별도",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3867",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "in place",
+    "meaning_kr": "제자리에",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3868",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "statistics",
+    "meaning_kr": "통계학",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3869",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "back order",
+    "meaning_kr": "이월 주문",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3870",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "be in the red",
+    "meaning_kr": "적자 상태에 있다",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3871",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "liability",
+    "meaning_kr": "책임",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3872",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "classification",
+    "meaning_kr": "분류; 등급",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3873",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "pros and cons",
+    "meaning_kr": "찬반양론; 이해득실",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3874",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "implicate",
+    "meaning_kr": "연루되었음을 시사하다",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3875",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "incrementally",
+    "meaning_kr": "증가하여",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3876",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "stringently",
+    "meaning_kr": "엄격히, 엄중하게",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3877",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "year-end",
+    "meaning_kr": "연말의",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3878",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "substantively",
+    "meaning_kr": "사실상, 실제로",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3879",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "whereabout",
+    "meaning_kr": "소재, 행방",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3880",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "discrepancy",
+    "meaning_kr": "불일치, 차이",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3881",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "reliably",
+    "meaning_kr": "신뢰할 수 있게, 확실하게",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3882",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "amply",
+    "meaning_kr": "풍부하게, 충분히",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3883",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "precedent",
+    "meaning_kr": "전례",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3884",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "be in the black",
+    "meaning_kr": "흑자 상태에 있다",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3885",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "operation budget",
+    "meaning_kr": "운영 예산",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3886",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "levy",
+    "meaning_kr": "부과금",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3887",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "relevance",
+    "meaning_kr": "적절, 타당성; 관련성",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3888",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "vary from A to B",
+    "meaning_kr": "상황에 따라 다르다",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3889",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "by a considerable margin",
+    "meaning_kr": "큰 차이로",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3890",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "break-even point",
+    "meaning_kr": "손익 분기점",
+    "day": 20,
+    "level": "900",
+    "id": "hw_3891",
+    "pos": [
+      "noun"
+    ]
+  }
+]

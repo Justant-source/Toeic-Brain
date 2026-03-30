@@ -1,761 +1,484 @@
 """
-ETS 정답 및 해설 PDF에서 정답, 카테고리, 해설을 추출하여
-기존 문제 JSON에 병합한다.
-
-OCR 완료된 PDF(ets_vol{N}_anwer_ocr.pdf)에서 텍스트를 추출하거나,
-원본 이미지 PDF에서 직접 OCR을 수행할 수 있다.
+ETS 정답 및 해설 PDF에서 정답과 해설을 추출하여 기존 JSON에 반영하는 스크립트.
+Google Vision API를 사용하여 OCR을 수행한다.
 
 Usage:
-    python extract_answers.py --volume 1              # Process vol1
-    python extract_answers.py --all                   # Process all volumes
-    python extract_answers.py --volume 1 --ocr        # OCR from original PDF
-    python extract_answers.py --volume 1 --dry-run    # Show without saving
+    py -3 scripts/extract/extract_answers.py --vol 4
+    py -3 scripts/extract/extract_answers.py --vol 1 2 3 4 5
 """
 
-import sys
-
-sys.stdout.reconfigure(encoding="utf-8")
-
-import argparse
 import json
-import logging
-import os
 import re
-import shutil
-import tempfile
+import sys
+import io
+import os
+import argparse
+import logging
 from pathlib import Path
-from typing import Optional
 
-# ---------------------------------------------------------------------------
-# Environment setup (must precede library imports that use temp dirs)
-# ---------------------------------------------------------------------------
-PROJECT_ROOT = Path(__file__).resolve().parents[2]  # C:\Data\Toeic Brain
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8")
 
-os.environ["TESSDATA_PREFIX"] = str(PROJECT_ROOT / "tessdata")
-_tmp_dir = str(PROJECT_ROOT / "data" / "raw" / "answer" / "_tmp")
-os.environ["TMPDIR"] = _tmp_dir
-os.environ["TEMP"] = _tmp_dir
-os.environ["TMP"] = _tmp_dir
-tempfile.tempdir = _tmp_dir
-
-import fitz  # PyMuPDF
-
-# Lazy import for pytesseract (only needed with --ocr)
-_pytesseract = None
-
-
-def _get_pytesseract():
-    global _pytesseract
-    if _pytesseract is None:
-        import pytesseract
-
-        pytesseract.pytesseract.tesseract_cmd = (
-            r"C:\Program Files\Tesseract-OCR\tesseract.exe"
-        )
-        _pytesseract = pytesseract
-    return _pytesseract
-
-
-# ---------------------------------------------------------------------------
-# Logging
-# ---------------------------------------------------------------------------
-_handler = logging.StreamHandler(sys.stdout)
-_handler.setFormatter(
-    logging.Formatter("%(asctime)s [%(levelname)s] %(message)s", datefmt="%H:%M:%S")
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(message)s",
+    handlers=[logging.StreamHandler(sys.stdout)],
 )
-logging.basicConfig(level=logging.INFO, handlers=[_handler])
-log = logging.getLogger(__name__)
+logger = logging.getLogger(__name__)
 
-# ---------------------------------------------------------------------------
-# Constants / Paths
-# ---------------------------------------------------------------------------
-ANSWER_DIR = PROJECT_ROOT / "data" / "raw" / "answer"
-QUESTIONS_DIR = PROJECT_ROOT / "data" / "processed" / "questions"
+import pymupdf
 
-DPI = 300
-LANG = "kor+eng"
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+RAW_DIR = BASE_DIR / "data" / "raw" / "answer"
+QUESTIONS_DIR = BASE_DIR / "data" / "processed" / "questions"
+CACHE_DIR = BASE_DIR / "data" / "raw" / "answer" / "ocr_cache"
 
-# Part 5 question numbers
-Q_START = 101
-Q_END = 130
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = str(
+    BASE_DIR / ".secret" / "key.json"
+)
 
-# Full test question range (Parts 5–7, used for answer grid scanning)
-FULL_Q_START = 101
-FULL_Q_END = 200
-
-# ---------------------------------------------------------------------------
-# OCR correction: characters commonly misread by Tesseract / Acrobat OCR
-# Applied to answer grid letters only.
-# '0' (zero) and 'O' (letter O) are ambiguous between C and D;
-# resolved using the explanation text when possible.
-# ---------------------------------------------------------------------------
-OCR_LETTER_MAP = {
+# OCR 오류 보정: (8) -> B, (0) -> D 등
+OCR_ANSWER_MAP = {
     "8": "B",
-    "4": "A",
-    "ㅁ": "D",
-    "o": "C",  # lowercase o
-    "0": "C",  # zero -> default C, may be overridden
-    "O": "C",  # uppercase O -> default C, may be overridden
-}
-
-VALID_ANSWERS = {"A", "B", "C", "D"}
-
-# ---------------------------------------------------------------------------
-# Category normalization
-# ---------------------------------------------------------------------------
-CATEGORY_MAP = {
-    # 품사 (part of speech position)
-    "형용사자리": "품사",
-    "명사자리": "품사",
-    "부사자리": "품사",
-    "동사자리": "품사",
-    "분사자리": "품사",
-    "형용사": "품사",
-    "명사": "품사",
-    "부사": "품사",
-    "동사": "품사",
-    "분사": "품사",
-    "품사": "품사",
-    # 어휘 (vocabulary)
-    "형용사어휘": "어휘",
-    "명사어휘": "어휘",
-    "부사어휘": "어휘",
-    "동사어휘": "어휘",
-    "어휘": "어휘",
-    # 접속사/전치사
-    "접속사자리": "접속사/전치사",
-    "전치사자리": "접속사/전치사",
-    "접속사": "접속사/전치사",
-    "전치사": "접속사/전치사",
-    "접속부사": "접속사/전치사",
-    # 대명사
-    "인칭대명사": "대명사",
-    "재귀대명사": "대명사",
-    "대명사자리": "대명사",
-    "대명사": "대명사",
-    "지시대명사": "대명사",
-    # 관계대명사
-    "관계대명사": "관계대명사",
-    "관계부사": "관계대명사",
-    # 동사 시제/태
-    "시제": "동사시제/태",
-    "태": "동사시제/태",
-    "수동태": "동사시제/태",
-    "능동태": "동사시제/태",
-    "동사시제": "동사시제/태",
-    "동사의태": "동사시제/태",
-    "동사의수": "동사시제/태",
-    "수일치": "동사시제/태",
-    # 비교급/최상급
-    "비교급": "비교급/최상급",
-    "최상급": "비교급/최상급",
-    "비교구문": "비교급/최상급",
+    "0": "D",
+    "}": "",
+    "{": "",
+    "|": "",
+    "l": "",
 }
 
 
-def normalize_category(raw: str) -> str:
-    """Normalize a raw OCR category string to a standard category."""
-    # Remove all whitespace (OCR adds spaces between Korean chars)
-    cleaned = re.sub(r"\s+", "", raw).strip()
-    # Remove trailing punctuation / underscores
-    cleaned = re.sub(r"[_\-.,。·]+$", "", cleaned)
-    # Remove leading punctuation / underscores
-    cleaned = re.sub(r"^[_\-.,。·]+", "", cleaned)
-
-    # Try direct map
-    if cleaned in CATEGORY_MAP:
-        return CATEGORY_MAP[cleaned]
-
-    # Try partial matching: check if any key is a substring of cleaned
-    for key, val in CATEGORY_MAP.items():
-        if key in cleaned:
-            return val
-
-    # Return cleaned as-is if no match
-    return cleaned if cleaned else "기타문법"
+def fix_ocr_answer(raw: str) -> str:
+    """OCR 인식 오류를 보정하여 A/B/C/D 중 하나로 변환."""
+    raw = raw.strip()
+    for bad, good in OCR_ANSWER_MAP.items():
+        raw = raw.replace(bad, good)
+    raw = raw.strip()
+    if raw in ("A", "B", "C", "D"):
+        return raw
+    return raw
 
 
-# ---------------------------------------------------------------------------
-# Text extraction
-# ---------------------------------------------------------------------------
+def extract_answer_key(page_text: str) -> dict[int, str]:
+    """정답표 페이지에서 {문항번호: 정답} 딕셔너리를 추출 (garbled text OK)."""
+    answers = {}
+    page_text = re.sub(r"(\d{2})\s(\d)\s*\(", r"\1\2 (", page_text)
+    for match in re.finditer(r"(\d{3})\s*\(([A-D08}{|l]+)\)?", page_text):
+        q_num = int(match.group(1))
+        raw_answer = match.group(2)
+        answer = fix_ocr_answer(raw_answer)
+        answers[q_num] = answer
+    return answers
 
 
-def load_text_from_ocr_pdf(path: Path) -> str:
-    """Extract full text from an OCR'd (searchable) PDF using PyMuPDF."""
-    log.info("텍스트 추출 (OCR PDF): %s", path.name)
-    doc = fitz.open(str(path))
-    pages = []
-    for i, page in enumerate(doc):
-        text = page.get_text("text")
-        pages.append(f"\n===PAGE {i + 1}===\n{text}")
-    doc.close()
-    full = "\n".join(pages)
-    log.info("  총 %d 페이지, %d 문자 추출", len(pages), len(full))
-    return full
+def _get_page_text(doc: pymupdf.Document, page_idx: int, vol_cache: Path) -> str:
+    """PDF 페이지의 텍스트를 가져옴. OCR 캐시가 있으면 캐시 우선 사용."""
+    cache_file = vol_cache / f"page_{page_idx + 1:04d}.txt"
+    if cache_file.exists():
+        return cache_file.read_text(encoding="utf-8")
+    return doc[page_idx].get_text()
 
 
-def ocr_from_original(path: Path) -> str:
-    """OCR an original image PDF page by page, return concatenated text."""
-    pytesseract = _get_pytesseract()
-    from PIL import Image
+def find_test_structure(
+    doc: pymupdf.Document, vol_cache: Path
+) -> list[dict]:
+    """PDF의 각 테스트 구조를 파악: 정답표 페이지, Part5/6/7 해설 범위."""
+    tests = []
+    for page_idx in range(len(doc)):
+        text = doc[page_idx].get_text()
+        answers = extract_answer_key(text)
+        if len(answers) >= 50:
+            tests.append({
+                "answer_page": page_idx,
+                "answers": answers,
+                "part5_pages": [],
+                "part6_pages": [],
+                "part7_pages": [],
+            })
 
-    log.info("직접 OCR 수행: %s", path.name)
-    Path(_tmp_dir).mkdir(parents=True, exist_ok=True)
+    # 각 테스트의 Part5/6/7 해설 페이지 범위 결정
+    for i, test in enumerate(tests):
+        start = test["answer_page"]
+        end = tests[i + 1]["answer_page"] if i + 1 < len(tests) else len(doc)
 
-    doc = fitz.open(str(path))
-    total = len(doc)
-    pages = []
+        part5_start = None
+        part6_start = None
+        part7_start = None
 
-    for i in range(total):
-        page = doc[i]
-        pix = page.get_pixmap(dpi=DPI)
-        img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
-        try:
-            text = pytesseract.image_to_string(img, lang=LANG)
-        except Exception as e:
-            log.warning("  페이지 %d OCR 실패: %s", i + 1, e)
-            text = ""
-        pages.append(f"\n===PAGE {i + 1}===\n{text}")
+        for page_idx in range(start, end):
+            # garbled text layer와 OCR 캐시 모두 확인
+            text = _get_page_text(doc, page_idx, vol_cache)
+            if re.search(r"PART\s*[5S]\b|PARTS\b|Part\s*5\b", text) and part5_start is None:
+                part5_start = page_idx
+            if re.search(r"PART\s*6\b|Part\s*6\b", text) and part6_start is None:
+                part6_start = page_idx
+            if re.search(r"PART\s*7\b|Part\s*7\b", text) and part7_start is None:
+                part7_start = page_idx
 
-        if (i + 1) % 20 == 0 or i == total - 1:
-            log.info("  OCR 진행: %d/%d 페이지", i + 1, total)
+        # Part5 pages: from part5_start to part6_start INCLUSIVE
+        # (Part5 마지막 문제들이 Part6 시작 페이지에 포함될 수 있음)
+        if part5_start is not None:
+            if part6_start is not None:
+                p5_end = part6_start + 1  # Part6 시작 페이지 포함
+            elif part7_start is not None:
+                p5_end = part7_start + 1
+            else:
+                p5_end = end
+            test["part5_pages"] = list(range(part5_start, p5_end))
 
-    doc.close()
-    full = "\n".join(pages)
-    log.info("  총 %d 페이지, %d 문자 추출", total, len(full))
-    return full
+        if part6_start is not None:
+            p6_end = (part7_start + 1) if part7_start else end
+            test["part6_pages"] = list(range(part6_start, p6_end))
 
+        if part7_start is not None:
+            test["part7_pages"] = list(range(part7_start, end))
 
-def get_text_for_volume(volume: int, use_ocr: bool = False) -> str:
-    """
-    Get full text for a volume, either from Acrobat OCR PDF or by OCR'ing
-    the original image PDF directly with Tesseract.
-
-    Raises FileNotFoundError with a descriptive message if neither PDF is found.
-    """
-    ocr_path = ANSWER_DIR / f"ets_vol{volume}_anwer_ocr.pdf"
-    orig_path = ANSWER_DIR / f"ets_vol{volume}_anwer.pdf"
-
-    if not use_ocr and ocr_path.exists():
-        return load_text_from_ocr_pdf(ocr_path)
-
-    if orig_path.exists():
-        if not use_ocr and not ocr_path.exists():
-            log.info(
-                "OCR PDF 없음 (%s) — 원본에서 직접 OCR 수행. "
-                "Acrobat으로 OCR 처리한 파일을 %s 에 저장하면 더 나은 결과를 얻을 수 있습니다.",
-                ocr_path.name,
-                ocr_path,
-            )
-        return ocr_from_original(orig_path)
-
-    # Neither file found: provide clear guidance
-    raise FileNotFoundError(
-        f"Vol{volume}: 정답 PDF를 찾을 수 없습니다.\n"
-        f"  OCR PDF 경로: {ocr_path}\n"
-        f"  원본 PDF 경로: {orig_path}\n"
-        f"Adobe Acrobat으로 OCR 처리 후 {ocr_path.name} 으로 저장하거나,\n"
-        f"원본 이미지 PDF를 {orig_path.name} 으로 저장하십시오."
-    )
-
-
-# ---------------------------------------------------------------------------
-# Answer grid parsing
-# ---------------------------------------------------------------------------
-
-# Strict pattern: 101(B), 102(C) etc.
-_GRID_STRICT = re.compile(
-    r"(\d{3})\s*\(\s*([A-Da-d])\s*\)"
-)
-
-# Fuzzy pattern: includes OCR misreads (8=B, 4=A, 0/O/o=C, ㅁ=D)
-_GRID_FUZZY = re.compile(
-    r"(\d{3})\s*[\(\[]\s*([A-Da-d0-9ㅁOo])\s*[\)\]]"
-)
-
-
-def _correct_letter(raw: str) -> str:
-    """Apply OCR correction to a single answer letter."""
-    c = raw.strip()
-    if c in VALID_ANSWERS:
-        return c
-    upper = c.upper()
-    if upper in VALID_ANSWERS:
-        return upper
-    corrected = OCR_LETTER_MAP.get(c)
-    return corrected if corrected else c
-
-
-def parse_answer_grid(text: str) -> dict[int, str]:
-    """
-    Parse answer grid from OCR text.
-    Tries strict ABCD pattern first; falls back to fuzzy OCR-corrected pattern.
-    Returns {question_number: answer_letter} for all question numbers found.
-    Grid answers are the most reliable source; duplicates keep first occurrence.
-    """
-    results: dict[int, str] = {}
-
-    # First pass: strict pattern (clean OCR, no corrections needed)
-    for m in _GRID_STRICT.finditer(text):
-        qnum = int(m.group(1))
-        letter = m.group(2).upper()
-        if qnum not in results:
-            results[qnum] = letter
-
-    # Second pass: fuzzy pattern for any missed questions
-    for m in _GRID_FUZZY.finditer(text):
-        qnum = int(m.group(1))
-        if qnum in results:
-            continue  # already found by strict pass
-        raw_letter = m.group(2)
-        letter = _correct_letter(raw_letter)
-        results[qnum] = letter
-
-    return results
-
-
-# ---------------------------------------------------------------------------
-# Explanation parsing
-# ---------------------------------------------------------------------------
-
-# Test boundary markers (OCR may insert spaces between Korean chars)
-_TEST_BOUNDARY = re.compile(
-    r"(?:기\s*출\s*)?TEST\s*(\d+)", re.IGNORECASE
-)
-
-# Question block start: 3-digit number at start of line / after newline
-_Q_BLOCK_SPLIT = re.compile(r"\n\s*(\d{3})\s+")
-
-# Answer within explanation: (A)/(B)/(C)/(D) followed by Korean/English text then 정답
-_ANSWER_IN_EXPL = re.compile(
-    r"\(([A-D])\)\s*\S+.*?정\s*답", re.DOTALL
-)
-
-# Section markers (with possible OCR spacing between Korean chars)
-_HAESUL = re.compile(r"해\s*설")
-_BUNYUK = re.compile(r"번\s*역")
-_EOHWI = re.compile(r"어\s*휘")
-
-
-def _remove_spaces_korean(s: str) -> str:
-    """Remove spaces between Korean characters (OCR artifact)."""
-    return re.sub(r"([\uac00-\ud7a3])\s+([\uac00-\ud7a3])", r"\1\2", s)
-
-
-def _clean_korean_spaces(s: str) -> str:
-    """Iteratively remove spaces between Korean chars until stable."""
-    prev = ""
-    while prev != s:
-        prev = s
-        s = _remove_spaces_korean(s)
-    return s
-
-
-def split_by_test(text: str) -> dict[int, str]:
-    """
-    Split full PDF text into per-test chunks.
-    Returns {test_number: text_chunk}.
-    """
-    markers = list(_TEST_BOUNDARY.finditer(text))
-    if not markers:
-        log.warning("테스트 경계를 찾을 수 없음 — 전체 텍스트를 TEST 1로 처리")
-        return {1: text}
-
-    tests: dict[int, str] = {}
-    for i, m in enumerate(markers):
-        test_num = int(m.group(1))
-        start = m.start()
-        end = markers[i + 1].start() if i + 1 < len(markers) else len(text)
-        if test_num not in tests:
-            tests[test_num] = text[start:end]
-        else:
-            # Append if test marker appears multiple times
-            # (e.g., answer grid page + explanation pages)
-            tests[test_num] += "\n" + text[start:end]
-
-    log.info("  테스트 경계 감지: %s", sorted(tests.keys()))
     return tests
 
 
-def parse_explanations(text: str) -> dict[int, dict]:
-    """
-    Parse explanation blocks from a single test's text.
-    Only returns entries for Part 5 questions (Q_START–Q_END).
-    Returns {question_number: {category, answer, explanation, translation}}.
-    """
-    results: dict[int, dict] = {}
+def _get_vision_client():
+    """Google Vision API 클라이언트 싱글톤."""
+    if not hasattr(_get_vision_client, "_client"):
+        from google.cloud import vision
+        _get_vision_client._client = vision.ImageAnnotatorClient()
+    return _get_vision_client._client
 
-    # Split into question blocks
-    # parts[0] = pre-amble, then alternating [qnum_str, block_text, ...]
-    parts = _Q_BLOCK_SPLIT.split(text)
 
-    i = 1
-    while i < len(parts) - 1:
-        qnum_str = parts[i]
-        block = parts[i + 1]
-        i += 2
+def ocr_page_vision(page: pymupdf.Page, cache_path: Path | None = None) -> str:
+    """Google Vision API로 PDF 페이지를 OCR. 2단 레이아웃을 좌우 분할하여 처리."""
+    if cache_path and cache_path.exists():
+        return cache_path.read_text(encoding="utf-8")
 
-        try:
-            qnum = int(qnum_str)
-        except ValueError:
+    from google.cloud import vision
+    from PIL import Image as PILImage
+
+    client = _get_vision_client()
+
+    matrix = pymupdf.Matrix(2.0, 2.0)  # 144 DPI
+    pixmap = page.get_pixmap(matrix=matrix, alpha=False)
+    img = PILImage.open(io.BytesIO(pixmap.tobytes("png")))
+
+    w, h = img.size
+    mid = w // 2
+
+    texts = []
+    for crop_box in [(0, 0, mid, h), (mid, 0, w, h)]:
+        half = img.crop(crop_box)
+        buf = io.BytesIO()
+        half.save(buf, format="PNG")
+        image = vision.Image(content=buf.getvalue())
+        response = client.text_detection(image=image)
+        t = response.full_text_annotation.text if response.full_text_annotation else ""
+        texts.append(t)
+
+    text = texts[0] + "\n" + texts[1]
+
+    if cache_path:
+        cache_path.parent.mkdir(parents=True, exist_ok=True)
+        cache_path.write_text(text, encoding="utf-8")
+
+    return text
+
+
+def parse_part5_explanations(full_text: str) -> dict[int, dict]:
+    """Part5 해설 텍스트를 파싱하여 {문항번호: {category, explanation}} 반환."""
+    explanations = {}
+
+    # 문항 패턴: "101 대명사 자리" or "101 대명사" 등
+    # Split by question numbers
+    q_pattern = re.compile(r"(?:^|\n)(\d{3})\s+(.+?)(?=\n\d{3}\s|\Z)", re.DOTALL)
+    matches = list(q_pattern.finditer(full_text))
+
+    if not matches:
+        # Try alternative pattern
+        q_pattern2 = re.compile(r"(\d{3})\s+(.*?)(?=\d{3}\s+[가-힣]|\Z)", re.DOTALL)
+        matches = list(q_pattern2.finditer(full_text))
+
+    for match in matches:
+        q_num = int(match.group(1))
+        if q_num < 101 or q_num > 130:
             continue
 
-        # Only Part 5 questions
-        if qnum < Q_START or qnum > Q_END:
+        raw_text = match.group(2).strip()
+        parsed = _parse_single_explanation(raw_text)
+        if parsed:
+            explanations[q_num] = parsed
+
+    return explanations
+
+
+def _parse_single_explanation(raw: str) -> dict | None:
+    """단일 문항 해설 텍스트를 파싱."""
+    lines = raw.split("\n")
+
+    category = ""
+    explanation = ""
+    translation = ""
+    vocabulary = ""
+
+    current = "category"
+
+    for line in lines:
+        line = line.strip()
+        if not line:
             continue
 
-        # Keep first occurrence
-        if qnum in results:
+        # Skip noise
+        if re.match(r"^TEST\s*\d", line):
+            continue
+        if re.match(r"^동영상\s*강의", line):
             continue
 
-        info: dict = {
-            "question_number": qnum,
-            "category": None,
-            "answer": None,
-            "explanation": None,
-            "translation": None,
-        }
+        if current == "category":
+            category = line
+            current = "waiting"
+            continue
 
-        # --- Category: first line before 해설 ---
-        haesul_m = _HAESUL.search(block)
-        if haesul_m:
-            category_raw = block[: haesul_m.start()]
-        else:
-            first_line_end = block.find("\n")
-            category_raw = block[:first_line_end] if first_line_end > 0 else block[:40]
+        if line.startswith("해설"):
+            current = "explanation"
+            rest = line[2:].strip()
+            if rest:
+                explanation += rest + " "
+            continue
+        elif line.startswith("번역"):
+            current = "translation"
+            rest = line[2:].strip()
+            if rest:
+                translation += rest + " "
+            continue
+        elif line.startswith("어휘"):
+            current = "vocabulary"
+            rest = line[2:].strip()
+            if rest:
+                vocabulary += rest + " "
+            continue
 
-        cat_clean = _clean_korean_spaces(category_raw).strip()
-        cat_clean = re.sub(r"^[\s_\-.,。·]+", "", cat_clean)
-        cat_clean = re.sub(r"[\s_\-.,。·]+$", "", cat_clean)
-        if cat_clean:
-            info["category"] = normalize_category(cat_clean)
+        if current == "explanation":
+            explanation += line + " "
+        elif current == "translation":
+            translation += line + " "
+        elif current == "vocabulary":
+            vocabulary += line + " "
+        elif current == "waiting":
+            if line.startswith("해설"):
+                current = "explanation"
+                rest = line[2:].strip()
+                if rest:
+                    explanation += rest + " "
+            else:
+                category += " " + line
 
-        # --- Answer from explanation text (secondary source) ---
-        answer_m = _ANSWER_IN_EXPL.search(block)
-        if answer_m:
-            info["answer"] = answer_m.group(1)
+    # Clean up
+    category = re.sub(r"\s{2,}", " ", category).strip()
+    explanation = re.sub(r"\s{2,}", " ", explanation).strip()
+    translation = re.sub(r"\s{2,}", " ", translation).strip()
+    vocabulary = re.sub(r"\s{2,}", " ", vocabulary).strip()
 
-        # --- Explanation: text between 해설 and 번역 ---
-        if haesul_m:
-            bunyuk_m2 = _BUNYUK.search(block)
-            eohwi_m2 = _EOHWI.search(block)
-            end_markers = []
-            if bunyuk_m2 and bunyuk_m2.start() > haesul_m.end():
-                end_markers.append(bunyuk_m2.start())
-            if eohwi_m2 and eohwi_m2.start() > haesul_m.end():
-                end_markers.append(eohwi_m2.start())
+    parts = []
+    if explanation:
+        parts.append(explanation)
+    if translation:
+        parts.append(f"[번역] {translation}")
+    if vocabulary:
+        parts.append(f"[어휘] {vocabulary}")
 
-            expl_end = min(end_markers) if end_markers else len(block)
-            expl_raw = block[haesul_m.end() : expl_end]
-            expl_clean = _clean_korean_spaces(expl_raw).strip()
-            if expl_clean:
-                info["explanation"] = expl_clean
+    if not parts:
+        return None
 
-        # --- Translation: text after 번역 until 어휘 or end ---
-        bunyuk_m = _BUNYUK.search(block)
-        if bunyuk_m:
-            remainder = block[bunyuk_m.end() :]
-            eohwi_m = _EOHWI.search(remainder)
-            trans_raw = remainder[: eohwi_m.start()] if eohwi_m else remainder
-            trans_clean = _clean_korean_spaces(trans_raw).strip()
-            if trans_clean:
-                info["translation"] = trans_clean
-
-        results[qnum] = info
-
-    return results
-
-
-# ---------------------------------------------------------------------------
-# Answer resolution: grid takes priority
-# ---------------------------------------------------------------------------
-
-
-def resolve_answers(
-    grid: dict[int, str],
-    explanations: dict[int, dict],
-) -> dict[int, str]:
-    """
-    Resolve final answers for each question.
-
-    Priority (highest to lowest):
-      1. Answer grid (strict A-D) — most reliable
-      2. Answer grid (OCR-corrected, possibly ambiguous)
-      3. Explanation-derived answer
-
-    Cross-validation: if both grid and explanation are valid ABCD and differ,
-    log a warning but keep grid answer (grid is authoritative).
-    """
-    merged: dict[int, str] = {}
-
-    all_qnums = sorted(set(grid.keys()) | set(explanations.keys()))
-    for qnum in all_qnums:
-        grid_ans = grid.get(qnum)
-        expl_ans = explanations.get(qnum, {}).get("answer")
-
-        if grid_ans and grid_ans in VALID_ANSWERS:
-            # Grid has a clean answer — use it unconditionally
-            merged[qnum] = grid_ans
-            # Cross-validate for logging only
-            if (
-                expl_ans
-                and expl_ans in VALID_ANSWERS
-                and expl_ans != grid_ans
-            ):
-                log.warning(
-                    "  Q%d: 그리드(%s) vs 해설(%s) 불일치 — 그리드 정답 우선",
-                    qnum,
-                    grid_ans,
-                    expl_ans,
-                )
-        elif expl_ans and expl_ans in VALID_ANSWERS:
-            # No valid grid answer; fall back to explanation
-            merged[qnum] = expl_ans
-        elif grid_ans:
-            # Grid answer present but not clean ABCD (OCR ambiguous)
-            merged[qnum] = grid_ans
-        elif expl_ans:
-            merged[qnum] = expl_ans
-
-    return merged
-
-
-# ---------------------------------------------------------------------------
-# Backup helper
-# ---------------------------------------------------------------------------
-
-
-def _backup_json(json_path: Path) -> Path:
-    """Create a .bak copy of a JSON file. Returns backup path."""
-    bak_path = json_path.with_suffix(".json.bak")
-    shutil.copy2(str(json_path), str(bak_path))
-    log.info("  백업 생성: %s", bak_path.name)
-    return bak_path
-
-
-# ---------------------------------------------------------------------------
-# Merge with existing question JSONs
-# ---------------------------------------------------------------------------
-
-
-def merge_into_volume(
-    volume: int,
-    answers_by_test: dict[int, dict[int, str]],
-    explanations_by_test: dict[int, dict[int, dict]],
-    dry_run: bool = False,
-) -> dict:
-    """
-    Load the volume's Part 5 JSON once, apply all test updates, save once.
-    Creates a .bak backup before writing.
-
-    answers_by_test:      {test_num: {qnum: answer_letter}}
-    explanations_by_test: {test_num: {qnum: expl_info_dict}}
-
-    Returns aggregate stats dict.
-    """
-    json_path = QUESTIONS_DIR / f"vol{volume}_part5.json"
-    if not json_path.exists():
-        log.warning("JSON 파일 없음: %s", json_path)
-        return {"error": "file_not_found"}
-
-    with open(json_path, "r", encoding="utf-8") as f:
-        questions = json.load(f)
-
-    total_stats = {
-        "updated_answer": 0,
-        "updated_category": 0,
-        "updated_explanation": 0,
-        "skipped": 0,
+    return {
+        "category": category,
+        "explanation": "\n".join(parts),
     }
 
-    for q in questions:
-        test_num = q["test"]
-        qnum = q["question_number"]
 
-        answers = answers_by_test.get(test_num, {})
-        explanations = explanations_by_test.get(test_num, {})
+def parse_part67_explanations(full_text: str, part: int) -> dict[int, dict]:
+    """Part6/7 해설 텍스트를 파싱."""
+    explanations = {}
 
-        # -- Answer (grid priority already resolved before calling this) --
-        if qnum in answers:
-            new_ans = answers[qnum]
-            if new_ans in VALID_ANSWERS:
-                if q.get("answer") != new_ans:
-                    q["answer"] = new_ans
-                    total_stats["updated_answer"] += 1
-            else:
-                log.warning(
-                    "  TEST%d Q%d: 유효하지 않은 정답 '%s' — 건너뜀",
-                    test_num, qnum, new_ans,
-                )
-                total_stats["skipped"] += 1
+    # Part 6/7 questions: 131-146 (Part6) or 147-200 (Part7)
+    q_pattern = re.compile(r"(?:^|\n)(\d{3})\s+(.+?)(?=\n\d{3}\s|\Z)", re.DOTALL)
+    matches = list(q_pattern.finditer(full_text))
 
-        # -- Category (from explanation) --
-        expl_info = explanations.get(qnum, {})
-        if expl_info.get("category"):
-            new_cat = expl_info["category"]
-            if q.get("category") != new_cat:
-                old_cat = q.get("category")
-                q["category"] = new_cat
-                total_stats["updated_category"] += 1
-                if old_cat:
-                    log.debug(
-                        "  TEST%d Q%d: 카테고리 변경 '%s' → '%s'",
-                        test_num, qnum, old_cat, new_cat,
-                    )
+    for match in matches:
+        q_num = int(match.group(1))
+        raw_text = match.group(2).strip()
 
-        # -- Explanation (with translation appended) --
-        if expl_info.get("explanation"):
-            expl_text = expl_info["explanation"]
-            if expl_info.get("translation"):
-                expl_text += "\n\n[번역] " + expl_info["translation"]
-            if q.get("explanation") != expl_text:
-                q["explanation"] = expl_text
-                total_stats["updated_explanation"] += 1
-
-    if not dry_run:
-        # Create backup before overwriting
-        _backup_json(json_path)
-        with open(json_path, "w", encoding="utf-8") as f:
-            json.dump(questions, f, ensure_ascii=False, indent=2)
-        log.info("  저장 완료: %s", json_path)
-    else:
-        log.info("  [DRY RUN] 변경사항 미저장 (백업 생성 안 함)")
-
-    return total_stats
-
-
-# ---------------------------------------------------------------------------
-# Main processing
-# ---------------------------------------------------------------------------
-
-
-def process_volume(volume: int, use_ocr: bool = False, dry_run: bool = False) -> None:
-    """Extract answers from a volume's answer PDF and merge into question JSON."""
-    log.info("=" * 60)
-    log.info("Vol%d 처리 시작 (ocr=%s, dry_run=%s)", volume, use_ocr, dry_run)
-    log.info("=" * 60)
-
-    # Get text — handle missing PDF gracefully
-    try:
-        text = get_text_for_volume(volume, use_ocr)
-    except FileNotFoundError as e:
-        log.error("파일 없음: %s", e)
-        return
-
-    # Parse global answer grid across entire text
-    global_grid = parse_answer_grid(text)
-    log.info("전역 답안 그리드: %d개 항목", len(global_grid))
-
-    # Split text into per-test chunks
-    test_chunks = split_by_test(text)
-    if not test_chunks:
-        log.error("Vol%d: 텍스트에서 테스트 경계를 찾을 수 없음", volume)
-        return
-
-    # Collect per-test answers and explanations, then merge once
-    answers_by_test: dict[int, dict[int, str]] = {}
-    explanations_by_test: dict[int, dict[int, dict]] = {}
-
-    for test_num in sorted(test_chunks.keys()):
-        if test_num < 1 or test_num > 10:
-            log.debug("테스트 번호 범위 초과, 건너뜀: %d", test_num)
+        if part == 6 and not (131 <= q_num <= 146):
+            continue
+        if part == 7 and not (147 <= q_num <= 200):
             continue
 
-        chunk = test_chunks[test_num]
-        log.info("-" * 40)
-        log.info("TEST %d 처리 중", test_num)
+        parsed = _parse_single_explanation(raw_text)
+        if parsed:
+            explanations[q_num] = parsed
 
-        # Answer grid from this test's chunk
-        test_grid = parse_answer_grid(chunk)
+    return explanations
 
-        # Supplement from global grid for Part 5 questions not found in chunk
-        for qnum in range(FULL_Q_START, FULL_Q_END + 1):
-            if qnum not in test_grid and qnum in global_grid:
-                test_grid[qnum] = global_grid[qnum]
 
-        # Explanation blocks
-        test_expl = parse_explanations(chunk)
+def process_volume(vol: int):
+    """하나의 볼륨 처리."""
+    pdf_path = RAW_DIR / f"ets_answer_vol{vol}.pdf"
+    if not pdf_path.exists():
+        logger.error(f"PDF 없음: {pdf_path}")
+        return
 
-        # Resolve final answers (grid takes priority)
-        final_answers = resolve_answers(test_grid, test_expl)
+    doc = pymupdf.open(str(pdf_path))
+    logger.info(f"=== Vol {vol} ({len(doc)} pages) ===")
 
-        # Per-test stats
-        grid_count = sum(1 for q in range(Q_START, Q_END + 1) if q in test_grid)
-        expl_count = sum(1 for q in range(Q_START, Q_END + 1) if q in test_expl)
-        answer_count = sum(1 for q in range(Q_START, Q_END + 1) if q in final_answers)
-        cat_count = sum(
-            1 for q in range(Q_START, Q_END + 1)
-            if test_expl.get(q, {}).get("category")
+    vol_cache = CACHE_DIR / f"vol{vol}"
+    vol_cache.mkdir(parents=True, exist_ok=True)
+
+    # 1. PDF 구조 파악
+    tests = find_test_structure(doc, vol_cache)
+    logger.info(f"  {len(tests)}개 테스트 발견")
+
+    all_answers: dict[tuple[int, int], str] = {}
+    all_explanations: dict[tuple[int, int], dict] = {}
+
+    for test_idx, test in enumerate(tests):
+        test_num = test_idx + 1
+        answers = test["answers"]
+
+        for q_num, answer in answers.items():
+            all_answers[(test_num, q_num)] = answer
+
+        logger.info(
+            f"  Test {test_num}: 정답 {len(answers)}개, "
+            f"Part5 pages={test['part5_pages']}, "
+            f"Part6 pages={test['part6_pages']}, "
+            f"Part7 pages={test['part7_pages']}"
         )
 
-        log.info(
-            "  그리드 정답(Part5): %d/30, 해설 블록: %d/30, "
-            "최종 정답: %d/30, 카테고리: %d/30",
-            grid_count, expl_count, answer_count, cat_count,
+        # 2. Part5 해설 OCR
+        if test["part5_pages"]:
+            part5_text = ""
+            for page_idx in test["part5_pages"]:
+                cache_file = vol_cache / f"page_{page_idx + 1:04d}.txt"
+                page_text = ocr_page_vision(doc[page_idx], cache_file)
+                part5_text += page_text + "\n"
+
+            explanations = parse_part5_explanations(part5_text)
+            for q_num, expl in explanations.items():
+                all_explanations[(test_num, q_num)] = expl
+            logger.info(f"    Part5 해설: {len(explanations)}개 추출")
+
+        # 3. Part6 해설 OCR
+        if test["part6_pages"]:
+            part6_text = ""
+            for page_idx in test["part6_pages"]:
+                cache_file = vol_cache / f"page_{page_idx + 1:04d}.txt"
+                page_text = ocr_page_vision(doc[page_idx], cache_file)
+                part6_text += page_text + "\n"
+
+            explanations = parse_part67_explanations(part6_text, part=6)
+            for q_num, expl in explanations.items():
+                all_explanations[(test_num, q_num)] = expl
+            logger.info(f"    Part6 해설: {len(explanations)}개 추출")
+
+        # 4. Part7 해설 OCR
+        if test["part7_pages"]:
+            part7_text = ""
+            for page_idx in test["part7_pages"]:
+                cache_file = vol_cache / f"page_{page_idx + 1:04d}.txt"
+                page_text = ocr_page_vision(doc[page_idx], cache_file)
+                part7_text += page_text + "\n"
+
+            explanations = parse_part67_explanations(part7_text, part=7)
+            for q_num, expl in explanations.items():
+                all_explanations[(test_num, q_num)] = expl
+            logger.info(f"    Part7 해설: {len(explanations)}개 추출")
+
+    doc.close()
+
+    # 5. JSON 파일 업데이트
+    for part in [5, 6, 7]:
+        json_path = QUESTIONS_DIR / f"vol{vol}_part{part}.json"
+        if not json_path.exists():
+            continue
+
+        with open(json_path, "r", encoding="utf-8") as f:
+            questions = json.load(f)
+
+        updated_answer = 0
+        updated_expl = 0
+        updated_cat = 0
+
+        for q in questions:
+            test = q["test"]
+            q_num = q.get("question_number")
+
+            if q_num is None:
+                # Part 6/7: raw_text 형태 → 정답을 딕셔너리로 저장
+                if q.get("answer") is None:
+                    test_answers = {
+                        str(k): v for (t, k), v in all_answers.items() if t == test
+                    }
+                    if test_answers:
+                        q["answer"] = test_answers
+                        updated_answer += 1
+
+                # Part 6/7: 해설도 딕셔너리로 저장
+                test_explanations = {}
+                for (t, qn), expl in all_explanations.items():
+                    if t == test:
+                        q_range = range(131, 147) if part == 6 else range(147, 201)
+                        if qn in q_range:
+                            test_explanations[str(qn)] = expl["explanation"]
+                if test_explanations:
+                    existing = q.get("explanation") or {}
+                    if isinstance(existing, str):
+                        existing = {}
+                    existing.update(test_explanations)
+                    q["explanation"] = existing
+                    updated_expl += 1
+                continue
+
+            key = (test, q_num)
+
+            # 정답 업데이트
+            if key in all_answers:
+                old = q.get("answer")
+                new = all_answers[key]
+                if old is None or old != new:
+                    q["answer"] = new
+                    updated_answer += 1
+
+            # 해설 업데이트 (항상 최신 OCR 결과로 덮어씀)
+            if key in all_explanations:
+                expl_data = all_explanations[key]
+                if expl_data["explanation"]:
+                    q["explanation"] = expl_data["explanation"]
+                    updated_expl += 1
+                if expl_data.get("category"):
+                    q["category"] = expl_data["category"]
+                    updated_cat += 1
+
+        with open(json_path, "w", encoding="utf-8") as f:
+            json.dump(questions, f, ensure_ascii=False, indent=2)
+
+        logger.info(
+            f"  vol{vol}_part{part}.json: "
+            f"정답 {updated_answer}개, 해설 {updated_expl}개, "
+            f"카테고리 {updated_cat}개 업데이트"
         )
-
-        if log.isEnabledFor(logging.DEBUG):
-            for qnum in sorted(final_answers.keys()):
-                if Q_START <= qnum <= Q_END:
-                    ans = final_answers[qnum]
-                    cat = test_expl.get(qnum, {}).get("category", "-")
-                    log.debug("    Q%d: %s [%s]", qnum, ans, cat)
-
-        answers_by_test[test_num] = final_answers
-        explanations_by_test[test_num] = test_expl
-
-    # Single load-update-save cycle for the entire volume
-    total_stats = merge_into_volume(
-        volume, answers_by_test, explanations_by_test, dry_run=dry_run
-    )
-
-    # Summary
-    log.info("=" * 60)
-    log.info("Vol%d 처리 완료:", volume)
-    log.info(
-        "  정답 업데이트: %d | 카테고리 업데이트: %d | 해설 업데이트: %d | 건너뜀: %d",
-        total_stats.get("updated_answer", 0),
-        total_stats.get("updated_category", 0),
-        total_stats.get("updated_explanation", 0),
-        total_stats.get("skipped", 0),
-    )
-    log.info("=" * 60)
-
-
-# ---------------------------------------------------------------------------
-# CLI
-# ---------------------------------------------------------------------------
 
 
 def main():
-    parser = argparse.ArgumentParser(
-        description="ETS 정답/해설 PDF에서 정답 추출 및 기존 문제 JSON에 병합"
-    )
-    parser.add_argument("--volume", type=int, choices=range(1, 6), metavar="N",
-                        help="처리할 볼륨 번호 (1–5)")
-    parser.add_argument("--all", action="store_true",
-                        help="모든 볼륨 처리 (1–5)")
+    parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--ocr", action="store_true",
-        help="원본 이미지 PDF에서 직접 Tesseract OCR 수행 (Acrobat OCR PDF 무시)",
+        "--vol", type=int, nargs="+", default=[4, 5],
+        help="처리할 볼륨 번호 (기본: 4 5)"
     )
-    parser.add_argument(
-        "--dry-run", action="store_true",
-        help="추출 결과만 표시, JSON 파일 및 백업 수정 없음",
-    )
-    parser.add_argument("--debug", action="store_true", help="디버그 로그 출력")
     args = parser.parse_args()
 
-    if args.debug:
-        logging.getLogger().setLevel(logging.DEBUG)
+    logger.info("ETS 정답 및 해설 추출 시작")
+    logger.info(f"PDF 경로: {RAW_DIR}")
+    logger.info(f"JSON 경로: {QUESTIONS_DIR}")
+    logger.info(f"처리 대상: vol {args.vol}")
 
-    if args.volume:
-        process_volume(args.volume, use_ocr=args.ocr, dry_run=args.dry_run)
-    elif args.all:
-        for v in range(1, 6):
-            process_volume(v, use_ocr=args.ocr, dry_run=args.dry_run)
-    else:
-        parser.print_help()
+    for vol in args.vol:
+        process_volume(vol)
+
+    logger.info("완료!")
 
 
 if __name__ == "__main__":

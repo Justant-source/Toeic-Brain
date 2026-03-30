@@ -1,0 +1,1425 @@
+[
+  {
+    "word": "check in",
+    "meaning_kr": "체크인하다, 숙박 수속을 하다",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0689",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "compensate",
+    "meaning_kr": "보상하다\n(compensation 보상)",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0690",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "complimentary",
+    "meaning_kr": "무료의, 우대의",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0691",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "chef",
+    "meaning_kr": "주방장",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0692",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "container",
+    "meaning_kr": "용기, 그릇",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0693",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "elegant",
+    "meaning_kr": "우아한, 고상한",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0694",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "flavor",
+    "meaning_kr": "맛, 풍미",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0695",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "accommodate",
+    "meaning_kr": "(건물 등이)~을 수용하다, 숙박시키다;(충분한 공간을) 제공하다\n(조건, 요구 등을)만족시키다",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0696",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "available",
+    "meaning_kr": "(사물이)이용 가능한;\n(사람이) 시간이 있는",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0697",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "reception",
+    "meaning_kr": "환영회; (호텔, 회사, 병원 등의)접수처",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0698",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "in advance",
+    "meaning_kr": "미리, 사전에",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0699",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "refreshments",
+    "meaning_kr": "다과, 가벼운 음식물",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0700",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "make",
+    "meaning_kr": "~을 하다, ~을 만들다",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0701",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "cater",
+    "meaning_kr": "(연회 등의)음식물을 공급하다",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0702",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "reservation",
+    "meaning_kr": "예약, 지정; 보호구역",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0703",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "beverage",
+    "meaning_kr": "음료",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0704",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "confirm",
+    "meaning_kr": "확인하다",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0705",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "cancel",
+    "meaning_kr": "취소하다",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0706",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "rate",
+    "meaning_kr": "요금",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0707",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "conviniently",
+    "meaning_kr": "편리하게",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0708",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "decorate",
+    "meaning_kr": "장식하다",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0709",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "information",
+    "meaning_kr": "정보, 자료",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0710",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "retain",
+    "meaning_kr": "유지하다, 보유하다",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0711",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "atmosphere",
+    "meaning_kr": "분위기, 환경",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0712",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "cuisine",
+    "meaning_kr": "(독특한)요리",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0713",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "sequence",
+    "meaning_kr": "순서, 차례",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0714",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "extensive",
+    "meaning_kr": "광범위한, 넓은",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0715",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "prior",
+    "meaning_kr": "전의, 먼저의",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0716",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "book",
+    "meaning_kr": "예약하다",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0717",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "amenity",
+    "meaning_kr": "편의 시설",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0718",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "belongings",
+    "meaning_kr": "소지품, 소유물",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0719",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "entirely",
+    "meaning_kr": "완전히",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0720",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "ease",
+    "meaning_kr": "완화시키다, 쉬움, 용이함",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0721",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "ingredient",
+    "meaning_kr": "재료, 성분",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0722",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "sip",
+    "meaning_kr": "음미하며 마시다, 홀짝거리다",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0723",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "stir",
+    "meaning_kr": "휘젓다, 뒤섞다",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0724",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "choice",
+    "meaning_kr": "선택물, 선택 사항, 선택",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0725",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "complication",
+    "meaning_kr": "복잡한 문제",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0726",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "freshness",
+    "meaning_kr": "신선함",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0727",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "occupancy",
+    "meaning_kr": "(호텔등의)이용률",
+    "day": 18,
+    "level": "기초",
+    "id": "hw_0728",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "a glass of",
+    "meaning_kr": "~한 잔",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2374",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "wait for a table",
+    "meaning_kr": "테이블에 자리가 나기를 기다리다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2375",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "appetizer",
+    "meaning_kr": "전채요리, 에피타이저",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2376",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "agreeably",
+    "meaning_kr": "쾌적하게, 기분 좋게",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2377",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "bottle",
+    "meaning_kr": "병에 담다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2378",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "amazed",
+    "meaning_kr": "놀란",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2379",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "chop",
+    "meaning_kr": "잘게 썰다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2380",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "competitiveness",
+    "meaning_kr": "경쟁력",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2381",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "countertop",
+    "meaning_kr": "계산대, 조리대",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2382",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "explain to",
+    "meaning_kr": "~을 설명하다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2383",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "diner",
+    "meaning_kr": "식사하는 사람",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2384",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "organizer",
+    "meaning_kr": "조직자, 창시자",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2385",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "dining area",
+    "meaning_kr": "식당",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2386",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "progressively",
+    "meaning_kr": "계속해서",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2387",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "dining supplies",
+    "meaning_kr": "주방용품",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2388",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "recognized",
+    "meaning_kr": "인정된, 알려진",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2389",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "dust off",
+    "meaning_kr": "먼지를 털다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2390",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "refer",
+    "meaning_kr": "참조하게 하다, 조회하다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2391",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "food supplier",
+    "meaning_kr": "음식 공급업체",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2392",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "seemingly",
+    "meaning_kr": "외견상으로는, 겉보기에는",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2393",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "frosting",
+    "meaning_kr": "설탕을 입힘",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2394",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "thickly",
+    "meaning_kr": "두껍게, 두툼하게",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2395",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "frozen food product",
+    "meaning_kr": "냉동식품",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2396",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "accommodation",
+    "meaning_kr": "거처, 숙소, 시설",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2397",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "gather up",
+    "meaning_kr": "주워 모으다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2398",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "booking",
+    "meaning_kr": "예약",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2399",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "get the food ready",
+    "meaning_kr": "음식을 준비하다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2400",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "brew",
+    "meaning_kr": "끓이다, 양조하다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2401",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "grain",
+    "meaning_kr": "곡물",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2402",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "caterer",
+    "meaning_kr": "요리조달자",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2403",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "grill",
+    "meaning_kr": "석쇠",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2404",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "catering service",
+    "meaning_kr": "출장 요리 서비스",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2405",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "gusty",
+    "meaning_kr": "(바람이) 세찬",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2406",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "eat up",
+    "meaning_kr": "다 먹다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2407",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "have a light dinner",
+    "meaning_kr": "저녁을 가볍게 먹다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2408",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "gently",
+    "meaning_kr": "다정하게, 부드럽게",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2409",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "have a meal",
+    "meaning_kr": "식사하다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2410",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "overnight stay",
+    "meaning_kr": "1박",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2411",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "kettle",
+    "meaning_kr": "주전자",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2412",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "parking facility",
+    "meaning_kr": "주차시설",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2413",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "kitchen appliance",
+    "meaning_kr": "주방용품",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2414",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "polish",
+    "meaning_kr": "~을 닦다, ~의 윤을 내다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2415",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "lost and found",
+    "meaning_kr": "분실물 보관소",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2416",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "squeeze",
+    "meaning_kr": "짜다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2417",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "order a meal",
+    "meaning_kr": "식사를 주문하다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2418",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "suite",
+    "meaning_kr": "(호텔의) 스위트룸",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2419",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "patio",
+    "meaning_kr": "테라스, 베란다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2420",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "utensil",
+    "meaning_kr": "(부엌에서 쓰는) 도구, 기구",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2421",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "patron",
+    "meaning_kr": "고객",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2422",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "vegetarian",
+    "meaning_kr": "채식주의자",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2423",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "peel off",
+    "meaning_kr": "~의 껍질을 벗기다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2424",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "vinegar",
+    "meaning_kr": "식초",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2425",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "potholder",
+    "meaning_kr": "뜨거운 냄비를 들 때 쓰는 천",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2426",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "wake-up call",
+    "meaning_kr": "모닝콜",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2427",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "pour",
+    "meaning_kr": "~을 붓다, ~을 따르다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2428",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "serving(=helping, portion)",
+    "meaning_kr": "음식 시중, 한 끼 분의 음식",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2429",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "set the table",
+    "meaning_kr": "식탁을 차리다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2430",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "snack shop",
+    "meaning_kr": "매점",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2431",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "specialty",
+    "meaning_kr": "전공, 전문",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2432",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "spoil",
+    "meaning_kr": "상하다, 못쓰게 되다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2433",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "starving",
+    "meaning_kr": "배고픈",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2434",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "stove",
+    "meaning_kr": "(요리용) 스토브",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2435",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "tablecloth",
+    "meaning_kr": "식탁보",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2436",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "take an order",
+    "meaning_kr": "주문을 받다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2437",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "teapot",
+    "meaning_kr": "찻주전자",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2438",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "trial",
+    "meaning_kr": "재판, 공판",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2439",
+    "pos": [
+      "noun",
+      "verb",
+      "adjective"
+    ]
+  },
+  {
+    "word": "unpack",
+    "meaning_kr": "(짐을) 풀다",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2440",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "valuables",
+    "meaning_kr": "귀중품",
+    "day": 18,
+    "level": "800",
+    "id": "hw_2441",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "batch",
+    "meaning_kr": "무리, 집단",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3797",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "atrium",
+    "meaning_kr": "중앙홀",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3798",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "garner",
+    "meaning_kr": "얻다, 모으다",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3799",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "forfeit",
+    "meaning_kr": "(벌로써 권리·재산 등을) 몰수당하다",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3800",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "wait on",
+    "meaning_kr": "시중을 들다",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3801",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "batter",
+    "meaning_kr": "반죽",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3802",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "themed",
+    "meaning_kr": "특정한 테마의 분위기를 살린",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3803",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "parlor",
+    "meaning_kr": "가게",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3804",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "grab a bite",
+    "meaning_kr": "간단히 먹다",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3805",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "gourmet",
+    "meaning_kr": "미식가",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3806",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "shut down",
+    "meaning_kr": "폐점하다",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3807",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "garnish",
+    "meaning_kr": "(음식을) 장식하다",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3808",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "palate",
+    "meaning_kr": "미각",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3809",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "thriving",
+    "meaning_kr": "번성하는, 잘 자라는",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3810",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "cloakroom",
+    "meaning_kr": "(식당·극장의) 휴대품 보관소",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3811",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "room attendant",
+    "meaning_kr": "객실 청소부",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3812",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "as a courtesy",
+    "meaning_kr": "호의를 담아, 무료로",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3813",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "sanitary",
+    "meaning_kr": "위생의",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3814",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "scoop",
+    "meaning_kr": "퍼내다, 퍼올리다",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3815",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "assorted",
+    "meaning_kr": "여러 가지 종류의, 다채로운",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3816",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "pick up the check",
+    "meaning_kr": "돈을 내다",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3817",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "meal pass",
+    "meaning_kr": "식권",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3818",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "culinary",
+    "meaning_kr": "요리의",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3819",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "indigenous",
+    "meaning_kr": "지역 고유의, 토착의",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3820",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "slurp",
+    "meaning_kr": "소리 내어 마시다",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3821",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "concierge",
+    "meaning_kr": "(호텔의) 안내인",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3822",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "sift",
+    "meaning_kr": "체로 치다",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3823",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "corridor",
+    "meaning_kr": "복도",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3824",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "double occupancy",
+    "meaning_kr": "2인실 사용",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3825",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "preheat",
+    "meaning_kr": "(오븐을) 예열하다",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3826",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "help oneself to the food",
+    "meaning_kr": "자유로이 먹다, 가져다 먹다",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3827",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "decaffeinated",
+    "meaning_kr": "카페인을 제거한",
+    "day": 18,
+    "level": "900",
+    "id": "hw_3828",
+    "pos": [
+      "adjective"
+    ]
+  }
+]

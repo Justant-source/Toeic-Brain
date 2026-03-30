@@ -1,0 +1,1440 @@
+[
+  {
+    "word": "completely",
+    "meaning_kr": "전적으로, 완전히",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0608",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "refuse",
+    "meaning_kr": "거절하다",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0609",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "temporarily",
+    "meaning_kr": "일시적으로\n(temporary 일시적인, 잠정적인, 임시고용인)",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0610",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "dealer",
+    "meaning_kr": "판매업자, 상인",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0611",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "bulk",
+    "meaning_kr": "대량의",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0612",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "inventory",
+    "meaning_kr": "재고품, 재고목록",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0613",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "short",
+    "meaning_kr": "부족한",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0614",
+    "pos": [
+      "adjective",
+      "noun",
+      "adverb",
+      "verb"
+    ]
+  },
+  {
+    "word": "cost",
+    "meaning_kr": "비용",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0615",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "selection",
+    "meaning_kr": "선택된 것, 정선품",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0616",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "commercial",
+    "meaning_kr": "상업의, 상업적인, 광고",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0617",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "order",
+    "meaning_kr": "주문하다, 주문, 주문품",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0618",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "provide",
+    "meaning_kr": "공급하다, 제공하다",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0619",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "contact",
+    "meaning_kr": "~와 연락하다,\n(상업적 목적으로)교섭하고 있는 사람",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0620",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "invoice",
+    "meaning_kr": "송장",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0621",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "move",
+    "meaning_kr": "옮기다, 움직이다, 조치, 수단;\n이동, 이사",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0622",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "supply",
+    "meaning_kr": "공급하다, 공급; (-s)비품, 소모품",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0623",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "discount",
+    "meaning_kr": "할인",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0624",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "distribute",
+    "meaning_kr": "배포하다, 배급하다",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0625",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "acquisition",
+    "meaning_kr": "인수; 구입한 것",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0626",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "assure",
+    "meaning_kr": "~에게 보장하다, ~을 안심시키다, 장담하다",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0627",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "subject",
+    "meaning_kr": "~의 영향을 받기 쉬운;\n(동의 등을)조건으로 하는,\n~에게(~을) 받게 하다",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0628",
+    "pos": [
+      "adjective",
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "seek",
+    "meaning_kr": "구하다, 찾다",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0629",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "satisfactory",
+    "meaning_kr": "만족스러운",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0630",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "confirmation",
+    "meaning_kr": "확인, 확증",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0631",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "unable",
+    "meaning_kr": "~할 수 없는",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0632",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "payment",
+    "meaning_kr": "지불(금액),납입(금액)",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0633",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "measure",
+    "meaning_kr": "대책, 조치, 수단\n측정하다",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0634",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "bargain",
+    "meaning_kr": "특가품, 흥정",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0635",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "stock",
+    "meaning_kr": "재고; 주식",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0636",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "affordability",
+    "meaning_kr": "감당할 수 있는 비용",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0637",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "clientele",
+    "meaning_kr": "(집합적)고객들,\n(변호사,건축가 등의)모든 의뢰인",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0638",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "acclaim",
+    "meaning_kr": "호평, 찬사",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0639",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "represent",
+    "meaning_kr": "~을 대표하다",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0640",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "rating",
+    "meaning_kr": "등급, 평가",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0641",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "encompass",
+    "meaning_kr": "포함하다, 둘러싸다",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0642",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "finalize",
+    "meaning_kr": "마무리 짓다, 완결하다",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0643",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "market",
+    "meaning_kr": "시장",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0644",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "retail",
+    "meaning_kr": "소매",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0645",
+    "pos": [
+      "noun",
+      "adjective",
+      "verb"
+    ]
+  },
+  {
+    "word": "commodity",
+    "meaning_kr": "상품, 산물",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0646",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "quote",
+    "meaning_kr": "견적(액), 견적을 내다",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0647",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "consignment",
+    "meaning_kr": "위탁 판매(consign위탁하다)",
+    "day": 16,
+    "level": "기초",
+    "id": "hw_0648",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "back away from",
+    "meaning_kr": "~에서 뒷걸음치다, 물러나다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2238",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "perceptive",
+    "meaning_kr": "통찰력 있는",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2239",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "be closed for the day",
+    "meaning_kr": "(영업시간이 끝나) 문을 닫다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2240",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "reasonably",
+    "meaning_kr": "합리적으로, 적당하게",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2241",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "be determined to do",
+    "meaning_kr": "~하기로 결심하다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2242",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "transformation",
+    "meaning_kr": "변화, 변신",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2243",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "business day",
+    "meaning_kr": "영업일",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2244",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "attain",
+    "meaning_kr": "(목표를) 달성하다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2245",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "commercial space",
+    "meaning_kr": "상업공간",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2246",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "barter",
+    "meaning_kr": "물물 교환하다, 물물 교환",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2247",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "day after tomorrow",
+    "meaning_kr": "모레",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2248",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "boycott",
+    "meaning_kr": "불매하다, 불매 운동",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2249",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "front-page story",
+    "meaning_kr": "1면 기사",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2250",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "capitalize on",
+    "meaning_kr": "~을 이용하다, 기회로 삼다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2251",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "give a good price",
+    "meaning_kr": "좋은 가격에 주다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2252",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "council",
+    "meaning_kr": "이사회, 의회",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2253",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "headline",
+    "meaning_kr": "기사 제목",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2254",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "Department of Commerce",
+    "meaning_kr": "상무부",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2255",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "in stock",
+    "meaning_kr": "재고가 있는",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2256",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "depot",
+    "meaning_kr": "창고, 저장소",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2257",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "lead (up/down) to",
+    "meaning_kr": "~로 이어지다, ~로 통하다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2258",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "diminish",
+    "meaning_kr": "감소하다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2259",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "make a recording",
+    "meaning_kr": "녹음하다, 녹화하다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2260",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "duty-free",
+    "meaning_kr": "관세가 없는, 면세의",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2261",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "normal operating hours",
+    "meaning_kr": "정상 영업시간",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2262",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "election",
+    "meaning_kr": "선거",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2263",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "on sale",
+    "meaning_kr": "판매되고 있는",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2264",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "exercise one's right",
+    "meaning_kr": "권리를 행사하다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2265",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "on the market",
+    "meaning_kr": "시판 중인",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2266",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "federal",
+    "meaning_kr": "연방의",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2267",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "out of print",
+    "meaning_kr": "절판된",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2268",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "hold power",
+    "meaning_kr": "권력을 쥐다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2269",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "out of stock",
+    "meaning_kr": "재고가 없는",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2270",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "inclination",
+    "meaning_kr": "의향, 뜻",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2271",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "overcharge",
+    "meaning_kr": "바가지 씌우다, 부당한 값을 요구하다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2272",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "inevitable",
+    "meaning_kr": "불가피한",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2273",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "payment option",
+    "meaning_kr": "결제 방법",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2274",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "loyal customer",
+    "meaning_kr": "단골 고객",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2275",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "place an order",
+    "meaning_kr": "주문하다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2276",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "outside provider",
+    "meaning_kr": "외부 공급자",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2277",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "put A out for sale",
+    "meaning_kr": "A를 판매하기 위해 내놓다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2278",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "poll",
+    "meaning_kr": "여론 조사",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2279",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "retail store",
+    "meaning_kr": "소매점",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2280",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "possession",
+    "meaning_kr": "소유물, 소유",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2281",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "run out of",
+    "meaning_kr": "~을 다 써 버리다, ~이 바닥나다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2282",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "scarce",
+    "meaning_kr": "부족한",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2283",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "sales presentation",
+    "meaning_kr": "제품 소개",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2284",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "status",
+    "meaning_kr": "지위",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2285",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "salesperson",
+    "meaning_kr": "판매원, 외판원",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2286",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "switch A to B",
+    "meaning_kr": "A를 B를 바꾸다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2287",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "sold out",
+    "meaning_kr": "매진된",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2288",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "wholesaler",
+    "meaning_kr": "도매업자",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2289",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "stay open late",
+    "meaning_kr": "늦게까지 영업하다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2290",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "withstand",
+    "meaning_kr": "견디다, 이겨내다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2291",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "stockroom",
+    "meaning_kr": "물품 보관소",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2292",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "storage facility",
+    "meaning_kr": "창고 시설",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2293",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "storeroom",
+    "meaning_kr": "저장실",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2294",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "take inventory",
+    "meaning_kr": "재고 목록을 만들다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2295",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "accordingly",
+    "meaning_kr": "그에 알맞게, 따라서",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2296",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "adaptable",
+    "meaning_kr": "적응할 수 있는",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2297",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "along with",
+    "meaning_kr": "~와 함께",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2298",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "at the latest",
+    "meaning_kr": "늦어도",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2299",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "compliant",
+    "meaning_kr": "준수하는",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2300",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "correspond",
+    "meaning_kr": "일치하다, 부합하다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2301",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "cultivation",
+    "meaning_kr": "우호 증진, 양성",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2302",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "do business with",
+    "meaning_kr": "~와 거래하다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2303",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "had better do",
+    "meaning_kr": "~하는 편이 낫다, ~ 해야 한다",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2304",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "honorable",
+    "meaning_kr": "고결한, 정직한",
+    "day": 16,
+    "level": "800",
+    "id": "hw_2305",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "run an article",
+    "meaning_kr": "기사를 게재하다",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3733",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "step down",
+    "meaning_kr": "물러나다",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3734",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "come to power",
+    "meaning_kr": "권력을 잡다",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3735",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "write up",
+    "meaning_kr": "(사건을) 기록하다, 쓰다",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3736",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "barring",
+    "meaning_kr": "~이 없다면",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3737",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "itemized",
+    "meaning_kr": "항목별로 구분된",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3738",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "protocol",
+    "meaning_kr": "의정서",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3739",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "drawback",
+    "meaning_kr": "약점, 문제점",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3740",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "parliament",
+    "meaning_kr": "의회, 국회",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3741",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "peddler",
+    "meaning_kr": "행상인",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3742",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "be closed to the public",
+    "meaning_kr": "일반인 출입이 금지되다",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3743",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "profoundly",
+    "meaning_kr": "깊이",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3744",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "take an action against",
+    "meaning_kr": "~를 고소하다",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3745",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "contend with",
+    "meaning_kr": "~와 다투다",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3746",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "in the prepaid envelope",
+    "meaning_kr": "우편요금이 선납 된 봉투에",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3747",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "cast a ballot",
+    "meaning_kr": "투표하다",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3748",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "nationalize",
+    "meaning_kr": "국영화하다",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3749",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "diversified",
+    "meaning_kr": "다양한, 여러 가지의",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3750",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "in place of",
+    "meaning_kr": "~을 대신하여",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3751",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "keep track of",
+    "meaning_kr": "~을 계속 알고 있다",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3752",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "breaking news",
+    "meaning_kr": "속보",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3753",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "scarcity",
+    "meaning_kr": "부족",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3754",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "surrender",
+    "meaning_kr": "양도하다; 항복하다",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3755",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "predominantly",
+    "meaning_kr": "대개, 대부분",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3756",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "facilitator",
+    "meaning_kr": "조력자, 협력자",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3757",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "summit",
+    "meaning_kr": "정상 회담",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3758",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "third party",
+    "meaning_kr": "제삼자",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3759",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "bureaucracy",
+    "meaning_kr": "관료 제도",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3760",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "constituency",
+    "meaning_kr": "단골, 고객층; 선거구, 유권자",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3761",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "unsuccessful candidate",
+    "meaning_kr": "불합격자, 낙선 후보",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3762",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "price quote",
+    "meaning_kr": "견적서",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3763",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "engrave",
+    "meaning_kr": "(문자·도안 등을) ~에 새기다",
+    "day": 16,
+    "level": "900",
+    "id": "hw_3764",
+    "pos": [
+      "verb"
+    ]
+  }
+]

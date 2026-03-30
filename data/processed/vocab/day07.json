@@ -1,0 +1,1401 @@
+[
+  {
+    "word": "survey",
+    "meaning_kr": "설문조사",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0245",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "analysis",
+    "meaning_kr": "분석",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0246",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "respondent",
+    "meaning_kr": "응답자",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0247",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "competition",
+    "meaning_kr": "경쟁",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0248",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "consistently",
+    "meaning_kr": "항상, 일관되게",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0249",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "demand",
+    "meaning_kr": "수요, 요구하다",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0250",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "do one's utmost",
+    "meaning_kr": "전력을 다하다",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0251",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "expand",
+    "meaning_kr": "확장하다, 확대하다",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0252",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "advanced",
+    "meaning_kr": "고급의; 진보한, 앞선",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0253",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "postpone",
+    "meaning_kr": "연기하다, 뒤로 미루다",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0254",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "additional",
+    "meaning_kr": "추가의, 부가적인",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0255",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "appreciate",
+    "meaning_kr": "고맙게 생각하다; 높이 평가하다; 감상하다",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0256",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "demonstration",
+    "meaning_kr": "설명; 드러냄, 시연",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0257",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "buy",
+    "meaning_kr": "사다, 구입하다",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0258",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "examine",
+    "meaning_kr": "조사하다",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0259",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "effective",
+    "meaning_kr": "효과적인; (법률 등이)발표되는, 시행되는",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0260",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "like",
+    "meaning_kr": "좋아하다",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0261",
+    "pos": [
+      "verb",
+      "preposition",
+      "conjunction"
+    ]
+  },
+  {
+    "word": "especially",
+    "meaning_kr": "특히",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0262",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "closely",
+    "meaning_kr": "면밀히, 엄밀히",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0263",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "reserve",
+    "meaning_kr": "예약하다, 지정하다; 보존하다",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0264",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "cooperate",
+    "meaning_kr": "협력하다, 협동하다",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0265",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "very",
+    "meaning_kr": "매우, 대단히, 아주",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0266",
+    "pos": [
+      "adjective",
+      "adverb"
+    ]
+  },
+  {
+    "word": "consecutive",
+    "meaning_kr": "연속적인",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0267",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "expectation",
+    "meaning_kr": "예상, 기대",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0268",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "publicize",
+    "meaning_kr": "공표하다; 광고하다, 선전하다",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0269",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "raise",
+    "meaning_kr": "높이다, 올리다; (의문을)제기하다",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0270",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "extremely",
+    "meaning_kr": "극도로, 대단히",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0271",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "affect",
+    "meaning_kr": "~에 영향을 미치다, 불리하게 작용하다",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0272",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "target",
+    "meaning_kr": "목표, 목표로 삼다",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0273",
+    "pos": [
+      "noun",
+      "verb",
+      "adjective"
+    ]
+  },
+  {
+    "word": "campaign",
+    "meaning_kr": "운동, 캠페인",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0274",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "probable",
+    "meaning_kr": "개연성이 높은, 유망한",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0275",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "focus",
+    "meaning_kr": "집중시키다, 집중하다",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0276",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "seasonal",
+    "meaning_kr": "계절의, 계절적인",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0277",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "impact",
+    "meaning_kr": "영향, 충격",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0278",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "comparison",
+    "meaning_kr": "비교",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0279",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "gap",
+    "meaning_kr": "격차",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0280",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "mounting",
+    "meaning_kr": "증가하는, 오르는",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0281",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "reflective",
+    "meaning_kr": "반영하는",
+    "day": 7,
+    "level": "기초",
+    "id": "hw_0282",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "all the way",
+    "meaning_kr": "내내,멀리서",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1631",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "dumping",
+    "meaning_kr": "덤핑(투매)",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1632",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "appealing",
+    "meaning_kr": "호소하는,매력적인",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1633",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "first priority",
+    "meaning_kr": "최우선 사항",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1634",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "at once",
+    "meaning_kr": "즉시,동시에",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1635",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "fixed price",
+    "meaning_kr": "정가",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1636",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "definite",
+    "meaning_kr": "분명한,명확한",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1637",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "have control over",
+    "meaning_kr": "~을 제어하다",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1638",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "distinguish",
+    "meaning_kr": "구별하다",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1639",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "have little chance of -ing",
+    "meaning_kr": "~할 확률이 적다",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1640",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "extraordinary",
+    "meaning_kr": "이례적인,훌륭한",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1641",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "in favor of",
+    "meaning_kr": "~에 찬성하여, ~에 이익이 되도록",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1642",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "good for",
+    "meaning_kr": "~에 유용한,좋은",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1643",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "keep A informed of B",
+    "meaning_kr": "A에게 B에 대해 알려주다",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1644",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "in bloom",
+    "meaning_kr": "(꽃이)핀",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1645",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "make an assessment",
+    "meaning_kr": "평가를 내리다",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1646",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "in reference to",
+    "meaning_kr": "~에 관하여,~과 관련하여",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1647",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "mediate",
+    "meaning_kr": "중재하다",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1648",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "market stall",
+    "meaning_kr": "시장 가판대",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1649",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "minimize the risk of",
+    "meaning_kr": "~의 위험을 최소화하다",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1650",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "mechanism",
+    "meaning_kr": "기계 장치,메커니즘",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1651",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "modestly",
+    "meaning_kr": "겸손하게",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1652",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "metropolitan area",
+    "meaning_kr": "대도시 지역",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1653",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "persistent",
+    "meaning_kr": "끊임없는,계속되는",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1654",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "national holiday",
+    "meaning_kr": "국경일",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1655",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "publicity",
+    "meaning_kr": "선전,(대중매체의)관심",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1656",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "on schedule",
+    "meaning_kr": "예정대로,시간표대로",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1657",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "release date",
+    "meaning_kr": "발표 일시",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1658",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "over the lnternet",
+    "meaning_kr": "인터넷을 통해",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1659",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "stay competitive",
+    "meaning_kr": "경쟁력을 유지하다",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1660",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "preview",
+    "meaning_kr": "예고편,시사회",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1661",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "striking difference",
+    "meaning_kr": "두드러지는 차이점",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1662",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "public display",
+    "meaning_kr": "공개 전시",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1663",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "take a long time",
+    "meaning_kr": "오래걸리다",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1664",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "run a campaign",
+    "meaning_kr": "캠페인을 벌이다",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1665",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "take action",
+    "meaning_kr": "조치를 취하다",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1666",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "serve a customer",
+    "meaning_kr": "손님을 상대하다",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1667",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "trademark",
+    "meaning_kr": "상표",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1668",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "spouse",
+    "meaning_kr": "배우자",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1669",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "turn to",
+    "meaning_kr": "~쪽으로 향하다,~에 의지하다",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1670",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "upside down",
+    "meaning_kr": "거꾸로,뒤집혀",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1671",
+    "pos": [
+      "adverb",
+      "adjective"
+    ]
+  },
+  {
+    "word": "unacceptable",
+    "meaning_kr": "받아들일 수 없는",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1672",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "vending machine",
+    "meaning_kr": "자동판매기",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1673",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "verify",
+    "meaning_kr": "증명하다",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1674",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "visible",
+    "meaning_kr": "보이는,알아볼 수 있는",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1675",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "with the exception of",
+    "meaning_kr": "~을 제외하고",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1676",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "as opposed to",
+    "meaning_kr": "~과는 대조적으로",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1677",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "without notice",
+    "meaning_kr": "예고 없이",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1678",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "boldly",
+    "meaning_kr": "대담하게",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1679",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "a piece of equipment",
+    "meaning_kr": "장비 하나",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1680",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "call on",
+    "meaning_kr": "~를 방문하다,부르다",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1681",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "randomly",
+    "meaning_kr": "임의로,무작위로",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1682",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "excluding",
+    "meaning_kr": "~을 제외하고",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1683",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "suitable",
+    "meaning_kr": "적합한,알맞은",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1684",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "expectancy",
+    "meaning_kr": "기대,예상",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1685",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "forgetfully",
+    "meaning_kr": "깜빡 잊어서,소홀하게도",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1686",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "noteworthy",
+    "meaning_kr": "주목할 만한",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1687",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "perception",
+    "meaning_kr": "인식,지각",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1688",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "potentially",
+    "meaning_kr": "가능성 있게,잠재적으로",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1689",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "a complete line of",
+    "meaning_kr": "~의 전 제품",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1690",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "accept the offer",
+    "meaning_kr": "제안을 수락하다",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1691",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "astonishingly",
+    "meaning_kr": "놀랍게도",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1692",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "be noted for",
+    "meaning_kr": "~으로 유명하다",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1693",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "claim",
+    "meaning_kr": "(사실·소유권의)주장,요구,청구",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1694",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "classified ad",
+    "meaning_kr": "짧은 신문 광고",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1695",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "compilation",
+    "meaning_kr": "편집,편집물",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1696",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "comprehensible",
+    "meaning_kr": "이해할 수 있는,알기 쉬운",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1697",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "criticize",
+    "meaning_kr": "비평하다,비난하다",
+    "day": 7,
+    "level": "800",
+    "id": "hw_1698",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "all-out",
+    "meaning_kr": "총력을 다한",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3448",
+    "pos": [
+      "adjective",
+      "adverb"
+    ]
+  },
+  {
+    "word": "all walks of life",
+    "meaning_kr": "모든 계층",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3449",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "at a stretch",
+    "meaning_kr": "계속해서",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3450",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "back up",
+    "meaning_kr": "지지하다, 입증하다, (교통이)정체되다",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3451",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "focus group",
+    "meaning_kr": "표적 집단",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3452",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "misleading",
+    "meaning_kr": "오도하는, 그릇된 인상을 주는",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3453",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "capture",
+    "meaning_kr": "(감정·분위기 등을) 담아내다, 포착하다",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3454",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "consolidate",
+    "meaning_kr": "(권력·지휘 등을) 강화하다",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3455",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "contend",
+    "meaning_kr": "(문제에)대처하다, (곤란과) 싸우다",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3456",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "gauge",
+    "meaning_kr": "측정하다",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3457",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "momentum",
+    "meaning_kr": "추진력, 탄성",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3458",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "recognizable",
+    "meaning_kr": "알아볼 수 있는",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3459",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "segment",
+    "meaning_kr": "부분, 조각",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3460",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "telling",
+    "meaning_kr": "효과적인, 감정을 드러내는",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3461",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "confiscation",
+    "meaning_kr": "몰수, 압수",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3462",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "constitute",
+    "meaning_kr": "~을 구성하다",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3463",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "drive up",
+    "meaning_kr": "(값을) 올리다",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3464",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "endorsement",
+    "meaning_kr": "(공개적인) 지지",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3465",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "feasibility study",
+    "meaning_kr": "예비 조사, 타당성 조사",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3466",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "intervention",
+    "meaning_kr": "간섭",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3467",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "irretrievable",
+    "meaning_kr": "회복할 수 없는, 돌이킬 수 없는",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3468",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "jeopardize",
+    "meaning_kr": "위태롭게 하다, 위험에 빠뜨리다",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3469",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "legible",
+    "meaning_kr": "읽기 쉬운",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3470",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "lose ground",
+    "meaning_kr": "약세를 보이다, 세력을 잃다",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3471",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "public profile",
+    "meaning_kr": "인지도, 대중의 관심",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3472",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "reputable",
+    "meaning_kr": "평판이 좋은",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3473",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "set forth",
+    "meaning_kr": "(여행에) 나서다, 설명하다",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3474",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "set out",
+    "meaning_kr": "(여행에) 나서다, 설명하다",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3475",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "setback",
+    "meaning_kr": "방해, 퇴보",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3476",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "take a stand against",
+    "meaning_kr": "~에 반대하다, 맞서다",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3477",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "underlying",
+    "meaning_kr": "근본적인",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3478",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "vanish",
+    "meaning_kr": "사라지다, 없어지다",
+    "day": 7,
+    "level": "900",
+    "id": "hw_3479",
+    "pos": [
+      "verb"
+    ]
+  }
+]

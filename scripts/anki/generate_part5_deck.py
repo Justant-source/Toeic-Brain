@@ -12,6 +12,7 @@ Usage
 
 import sys
 import json
+import html
 import argparse
 from pathlib import Path
 from collections import defaultdict
@@ -110,6 +111,11 @@ def make_tags(q: dict) -> list:
     ]
 
 
+def escape_field(text: str) -> str:
+    """HTML-escape plain text and convert newlines to <br> for Anki display."""
+    return html.escape(text).replace("\n", "<br>")
+
+
 def question_to_note(q: dict, model: genanki.Model) -> genanki.Note:
     """Convert a question dict to a genanki.Note."""
     choices  = q.get("choices") or {}
@@ -122,20 +128,25 @@ def question_to_note(q: dict, model: genanki.Model) -> genanki.Note:
     else:
         answer_text = ""
 
+    explanation_raw = q.get("explanation") or "해설 준비 중"
+
+    # Stable GUID from the question's unique ID so re-imports update, not duplicate
+    note_id = q.get("id") or f"vol{q.get('volume',0)}_part5_{q.get('question_number',0)}"
     note = genanki.Note(
+        guid=genanki.guid_for(note_id),
         model=model,
         fields=[
             str(q.get("volume", "")),
             str(q.get("question_number", "")),
             category,
-            q.get("sentence", ""),
-            choices.get("A", ""),
-            choices.get("B", ""),
-            choices.get("C", ""),
-            choices.get("D", ""),
+            escape_field(q.get("sentence", "")),
+            escape_field(choices.get("A", "")),
+            escape_field(choices.get("B", "")),
+            escape_field(choices.get("C", "")),
+            escape_field(choices.get("D", "")),
             answer,
-            answer_text,
-            q.get("explanation") or "해설 준비 중",
+            escape_field(answer_text),
+            escape_field(explanation_raw),
             "",  # VocabInfo — will be populated later by mapping
         ],
         tags=make_tags(q),
@@ -184,13 +195,19 @@ def load_questions(volume_filter) -> list:
             )
             continue
 
-        before  = len(data)
-        valid   = [q for q in data if q.get("sentence", "").strip()]
-        skipped = before - len(valid)
+        before   = len(data)
+        deleted  = [q for q in data if q.get("deleted")]
+        active   = [q for q in data if not q.get("deleted")]
+        valid    = [q for q in active if q.get("sentence", "").strip()]
+        skipped  = len(active) - len(valid)
+        if deleted:
+            print(f"  [{filepath.name}] Skipped {len(deleted)} deleted card(s).")
         if skipped:
             print(f"  [{filepath.name}] Skipped {skipped} question(s) with no sentence.")
-        else:
+        if not deleted and not skipped:
             print(f"  [{filepath.name}] Loaded {len(valid)} question(s).")
+        else:
+            print(f"  [{filepath.name}] Loaded {len(valid)} question(s) (of {before}).")
 
         questions.extend(valid)
 

@@ -1,0 +1,1428 @@
+[
+  {
+    "word": "purchase",
+    "meaning_kr": "구매하다, 구매",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0363",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "installment",
+    "meaning_kr": "할부",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0364",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "affordable",
+    "meaning_kr": "(가격이)알맞은, 감당할 수 있는",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0365",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "exactly",
+    "meaning_kr": "정확히",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0366",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "auction",
+    "meaning_kr": "경매",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0367",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "authentic",
+    "meaning_kr": "진정한, 진짜의, 진품의",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0368",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "charge",
+    "meaning_kr": "요금,청구,금액;책임,의무\n~을 청구하다; (외상으로)달아놓다",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0369",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "notice",
+    "meaning_kr": "통지, 공고",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0370",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "experienced",
+    "meaning_kr": "경험이 있는, 노련한, 능숙한",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0371",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "instruction",
+    "meaning_kr": "설명, 지시 (instruct 가르치다, 지시하다, instructor교사, 강사)",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0372",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "expert",
+    "meaning_kr": "전문가, 전문가의, 전문적인",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0373",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "warranty",
+    "meaning_kr": "(품질 등의)보증, 보증서",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0374",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "refund",
+    "meaning_kr": "환불, 환불금",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0375",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "subscriber",
+    "meaning_kr": "가입자, 구독자",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0376",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "delivery",
+    "meaning_kr": "배달",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0377",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "price",
+    "meaning_kr": "가격",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0378",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "receipt",
+    "meaning_kr": "영수증",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0379",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "offer",
+    "meaning_kr": "제공하다, 제공,오퍼",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0380",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "carefully",
+    "meaning_kr": "주의깊게, 신중히",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0381",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "benefit",
+    "meaning_kr": "혜택, 이익, 혜택을 보다, 이익을 얻다",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0382",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "exclusively",
+    "meaning_kr": "오로지, 독점적으로",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0383",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "description",
+    "meaning_kr": "(제품등의)설명, 해설",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0384",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "relatively",
+    "meaning_kr": "상대적으로",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0385",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "spare",
+    "meaning_kr": "아끼다, 할애하다, 예비의, 여분의",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0386",
+    "pos": [
+      "verb",
+      "adjective"
+    ]
+  },
+  {
+    "word": "preparation",
+    "meaning_kr": "준비, 대비",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0387",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "area",
+    "meaning_kr": "지역, 구역",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0388",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "clearance",
+    "meaning_kr": "정리, 없애기; 허가",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0389",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "alter",
+    "meaning_kr": "(성질, 형상을)고치다, 바꾸다",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0390",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "apply",
+    "meaning_kr": "적용하다; 지원하다",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0391",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "mutually",
+    "meaning_kr": "서로, 상호 간에 (mutuality 상호관계, 상호의존)",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0392",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "method",
+    "meaning_kr": "방식, 방법",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0393",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "acceptable",
+    "meaning_kr": "용인되는, 받아들일 수 있는;\n훌륭한, 만족스러운",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0394",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "desire",
+    "meaning_kr": "욕구, 갈망, 원하다, 바라다",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0395",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "redeemable",
+    "meaning_kr": "(현금,상품과)교환할 수 있는, 환급할 수 있는( redeem 상환하다)",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0396",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "officially",
+    "meaning_kr": "공식적으로",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0397",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "consumption",
+    "meaning_kr": "소비(량), 소모 (consumptive 소모적인)",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0398",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "qualify",
+    "meaning_kr": "~의 자격을 얻다",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0399",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "fabric",
+    "meaning_kr": "섬유, 천",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0400",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "valid",
+    "meaning_kr": "유효한",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0401",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "vendor",
+    "meaning_kr": "노점상, 가판대; 판매업체",
+    "day": 10,
+    "level": "기초",
+    "id": "hw_0402",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "at the moment",
+    "meaning_kr": "지금",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1835",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "outerwear",
+    "meaning_kr": "겉옷, 외투",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1836",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "celebrate",
+    "meaning_kr": "축하하다",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1837",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "outlet",
+    "meaning_kr": "판매 대리점, 소매점, 콘센트",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1838",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "decorative item",
+    "meaning_kr": "장식품",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1839",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "portable",
+    "meaning_kr": "휴대용의",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1840",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "discounted coupon",
+    "meaning_kr": "할인권",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1841",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "readership",
+    "meaning_kr": "독자의 수",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1842",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "for sale",
+    "meaning_kr": "팔려고 내놓은",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1843",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "readily",
+    "meaning_kr": "즉시, 손쉽게",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1844",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "half price",
+    "meaning_kr": "반값",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1845",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "refundable",
+    "meaning_kr": "환불 가능한, 변제 가능한",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1846",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "have A strapped to one's shoulder",
+    "meaning_kr": "~의 어깨에 A를 메고 있다",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1847",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "value",
+    "meaning_kr": "가치, 가격",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1848",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "instead",
+    "meaning_kr": "대신에",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1849",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "a selection of",
+    "meaning_kr": "~의 모음",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1850",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "make a purchase",
+    "meaning_kr": "구입하다",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1851",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "a variety of (= various)",
+    "meaning_kr": "다양한",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1852",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "make no difference",
+    "meaning_kr": "상관없다, 중요하지 않다",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1853",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "at a discounted price",
+    "meaning_kr": "할인가로",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1854",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "make payment",
+    "meaning_kr": "지불하다",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1855",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "by check",
+    "meaning_kr": "수표로",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1856",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "Not that I'm aware of",
+    "meaning_kr": "내가 아는 한 아니다.",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1857",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "by credit card",
+    "meaning_kr": "신용카드로",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1858",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "out of town",
+    "meaning_kr": "시내에 없는, 다른 곳으로 떠난",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1859",
+    "pos": [
+      "adjective",
+      "adverb"
+    ]
+  },
+  {
+    "word": "by no means",
+    "meaning_kr": "결코 ~이 아닌",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1860",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "overcoat",
+    "meaning_kr": "외투",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1861",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "extra charge",
+    "meaning_kr": "추가 비용",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1862",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "pay in cash",
+    "meaning_kr": "현찰로 지불하다",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1863",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "get in line",
+    "meaning_kr": "줄에 들어가 서다",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1864",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "put out for display",
+    "meaning_kr": "~을 전시해 놓다, 진열해 놓다",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1865",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "give a discount",
+    "meaning_kr": "할인하다",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1866",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "shoelace",
+    "meaning_kr": "신발 끈",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1867",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "in cash",
+    "meaning_kr": "현금으로",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1868",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "shopkeeper",
+    "meaning_kr": "가게 주인",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1869",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "merchandise",
+    "meaning_kr": "상품, 제품",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1870",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "showroom",
+    "meaning_kr": "진열실, 전시실",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1871",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "no later than",
+    "meaning_kr": "늦어도 ~까지",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1872",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "sleeve",
+    "meaning_kr": "(옷) 소매",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1873",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "showcase",
+    "meaning_kr": "유리 진열장, 공개 행사",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1874",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "souvenir",
+    "meaning_kr": "기념품",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1875",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "textile",
+    "meaning_kr": "직물, 섬유",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1876",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "stack",
+    "meaning_kr": "더미, 쌓아 올리다",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1877",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "thrifty",
+    "meaning_kr": "검소한, 검약하는",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1878",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "stand in line",
+    "meaning_kr": "줄을 서다",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1879",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "under warranty",
+    "meaning_kr": "보증 기간 중인",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1880",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "storefront",
+    "meaning_kr": "가게 앞 공간",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1881",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "valid for",
+    "meaning_kr": "~에 유효한, ~동안 유효한",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1882",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "stylish",
+    "meaning_kr": "패션 감각이 있는, 멋진",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1883",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "voucher",
+    "meaning_kr": "(현금 대용의) 상품권",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1884",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "tag",
+    "meaning_kr": "(물건에 붙어 있는) 꼬리표",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1885",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "wholesale",
+    "meaning_kr": "도매의, 다량의",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1886",
+    "pos": [
+      "adjective",
+      "adverb",
+      "noun"
+    ]
+  },
+  {
+    "word": "take the order",
+    "meaning_kr": "주문을 받다",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1887",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "wrap a present",
+    "meaning_kr": "선물을 포장하다",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1888",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "try on",
+    "meaning_kr": "(옷 따위를) 입어 보다",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1889",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "underline",
+    "meaning_kr": "밑줄을 긋다, 강조하다",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1890",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "watch band",
+    "meaning_kr": "(손목시계의) 시곗줄",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1891",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "window-shopping",
+    "meaning_kr": "아이쇼핑",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1892",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "afford to do",
+    "meaning_kr": "~할 수 있다, ~할 여유가 있다",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1893",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "apparel",
+    "meaning_kr": "의복, 의류",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1894",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "dairy products",
+    "meaning_kr": "유제품",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1895",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "elsewhere",
+    "meaning_kr": "다른 장소에서는, 다른 경우에는",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1896",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "gift certificate",
+    "meaning_kr": "상품권",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1897",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "glassware",
+    "meaning_kr": "유리 제품",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1898",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "inexpensive",
+    "meaning_kr": "비싸지 않은",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1899",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "lately",
+    "meaning_kr": "최근에",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1900",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "latest",
+    "meaning_kr": "최신의",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1901",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "luxury",
+    "meaning_kr": "사치, 사치품, 값비싼",
+    "day": 10,
+    "level": "800",
+    "id": "hw_1902",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "automotive repair shop",
+    "meaning_kr": "자동차 수리점",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3544",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "awning",
+    "meaning_kr": "(창・문 등의) 차양, 덮개",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3545",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "cash register",
+    "meaning_kr": "금전 등록기, 계산대",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3546",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "cooking utensil (= cookware)",
+    "meaning_kr": "조리 기구",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3547",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "display case",
+    "meaning_kr": "진열 상자, 진열함",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3548",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "garment",
+    "meaning_kr": "의류",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3549",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "look different",
+    "meaning_kr": "다르게 보이다",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3550",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "tailor",
+    "meaning_kr": "재단사, 맞춤 제작하다",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3551",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "wind a watch",
+    "meaning_kr": "시계 태엽을 감다",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3552",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "collectable",
+    "meaning_kr": "모을 수 있는",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3553",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "conversely",
+    "meaning_kr": "거꾸로, 반대로",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3554",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "dilute",
+    "meaning_kr": "희석하다",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3555",
+    "pos": [
+      "verb",
+      "adjective"
+    ]
+  },
+  {
+    "word": "exposition",
+    "meaning_kr": "박람회, 전시회",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3556",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "generic",
+    "meaning_kr": "회사 이름이 붙지 않은, 일반적인",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3557",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "high-end",
+    "meaning_kr": "최고급의",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3558",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "merchant",
+    "meaning_kr": "상인, 상업(용)의, 무역의",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3559",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "observably",
+    "meaning_kr": "눈에 띄게",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3560",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "predictably",
+    "meaning_kr": "예상대로",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3561",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "secondhand",
+    "meaning_kr": "중고의, 간접의",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3562",
+    "pos": [
+      "adjective",
+      "adverb"
+    ]
+  },
+  {
+    "word": "stylishly",
+    "meaning_kr": "현대식으로, 유행에 따르게",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3563",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "at a substantial discount",
+    "meaning_kr": "엄청난 할인가에",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3564",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "bargain over prices",
+    "meaning_kr": "가격을 흥정하다",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3565",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "embellish",
+    "meaning_kr": "장식하다, 꾸미다",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3566",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "embroider",
+    "meaning_kr": "수놓다",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3567",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "equivalent",
+    "meaning_kr": "~에 상당하는, 맞먹는",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3568",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "exhilarating",
+    "meaning_kr": "아주 신나는",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3569",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "exorbitant price",
+    "meaning_kr": "터무니없이 비싼 가격",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3570",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "exquisite",
+    "meaning_kr": "정교한, 우아한",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3571",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "extravagance",
+    "meaning_kr": "사치품, 낭비",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3572",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "lavish",
+    "meaning_kr": "사치스러운",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3573",
+    "pos": [
+      "adjective",
+      "verb"
+    ]
+  },
+  {
+    "word": "redeem",
+    "meaning_kr": "바꾸다",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3574",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "undercharge",
+    "meaning_kr": "너무 낮은 가격에 팔다",
+    "day": 10,
+    "level": "900",
+    "id": "hw_3575",
+    "pos": [
+      "verb"
+    ]
+  }
+]

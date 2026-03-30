@@ -1,0 +1,1429 @@
+[
+  {
+    "word": "host",
+    "meaning_kr": "(대회 등을)주최하다",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0895",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "annual",
+    "meaning_kr": "매년의",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0896",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "purpose",
+    "meaning_kr": "목적, 의도",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0897",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "enroll",
+    "meaning_kr": "등록하다",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0898",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "lecture",
+    "meaning_kr": "강의, 강연",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0899",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "participant",
+    "meaning_kr": "참가자",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0900",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "attend",
+    "meaning_kr": "참석하다, 출석하다",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0901",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "encourage",
+    "meaning_kr": "장려하다, 복돋아주다",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0902",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "leave",
+    "meaning_kr": "휴가, 떠나다, 남기다",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0903",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "recommendation",
+    "meaning_kr": "추천사항, 추천",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0904",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "conference",
+    "meaning_kr": "회의, 회담",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0905",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "schedule",
+    "meaning_kr": "~을 예정하다",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0906",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "include",
+    "meaning_kr": "포함하다",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0907",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "result",
+    "meaning_kr": "결과,(~의 결과로)되다",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0908",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "register",
+    "meaning_kr": "등록하다",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0909",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "require",
+    "meaning_kr": "요구하다",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0910",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "grateful",
+    "meaning_kr": "고마워하는, 감사하는",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0911",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "overtime",
+    "meaning_kr": "초과근무, 야근",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0912",
+    "pos": [
+      "noun",
+      "adverb"
+    ]
+  },
+  {
+    "word": "responsibility",
+    "meaning_kr": "부담, 책임, 의무",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0913",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "assent",
+    "meaning_kr": "찬성하다, 승인, 동의\n(approval 승인)\n(approve 찬성하다)\n(prove 증명하다)",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0914",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "regard",
+    "meaning_kr": "~을 -으로 간주하다, 여기다,\n관심,배려",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0915",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "tentative",
+    "meaning_kr": "임시적인, 잠정적인",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0916",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "welcome",
+    "meaning_kr": "반가운, 기꺼이 받아들여지는",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0917",
+    "pos": [
+      "adjective",
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "function",
+    "meaning_kr": "행사, 연회",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0918",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "commence",
+    "meaning_kr": "시작되다",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0919",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "objective",
+    "meaning_kr": "목표, 목적",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0920",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "excited",
+    "meaning_kr": "신이 난, 들뜬",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0921",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "reimbursement",
+    "meaning_kr": "상환, 변제, 배상",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0922",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "treatment",
+    "meaning_kr": "대우, 처우",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0923",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "honor",
+    "meaning_kr": "존경, 명예",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0924",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "emphasize",
+    "meaning_kr": "강조하다",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0925",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "entry",
+    "meaning_kr": "(경기 등의)참가자, 출품물",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0926",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "bonus",
+    "meaning_kr": "상여금, 보너스",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0927",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "salary",
+    "meaning_kr": "급여",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0928",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "earn",
+    "meaning_kr": "(금전 등을)벌다; (평판을)받다, 얻다",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0929",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "arise",
+    "meaning_kr": "(문제 등이)발생하다, 일어나다 = occur",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0930",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "labor",
+    "meaning_kr": "노동",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0931",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "union",
+    "meaning_kr": "노동조합",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0932",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "existing",
+    "meaning_kr": "기존의, 현행의",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0933",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "exploit",
+    "meaning_kr": "착취하다, 부당하게 이용하다\n(exploitation 개발,개척,약탈,착취)",
+    "day": 23,
+    "level": "기초",
+    "id": "hw_0934",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "a letter of gratitude",
+    "meaning_kr": "감사편지",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2713",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "extra pay",
+    "meaning_kr": "추가급여",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2714",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "check out",
+    "meaning_kr": "(책을) 대여하다, 빌리다",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2715",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "featured speaker",
+    "meaning_kr": "특별 연사",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2716",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "child care",
+    "meaning_kr": "육아, 보육",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2717",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "generous",
+    "meaning_kr": "관대한",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2718",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "don't have nerve to do",
+    "meaning_kr": "~할 용기가 없다",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2719",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "laugh away",
+    "meaning_kr": "~을 웃음으로 넘기다",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2720",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "give a raise",
+    "meaning_kr": "임금을 인상해주다",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2721",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "merit",
+    "meaning_kr": "장점",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2722",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "going away party",
+    "meaning_kr": "송별회",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2723",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "night shift",
+    "meaning_kr": "야간 근무",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2724",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "it's about time",
+    "meaning_kr": "~할 때이다",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2725",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "occupational safety and health",
+    "meaning_kr": "직장 안전 및 건강",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2726",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "it's no use-ing",
+    "meaning_kr": "~해봤자 소용없다",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2727",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "overtime allowance",
+    "meaning_kr": "초과근무수당",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2728",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "job satisfaction",
+    "meaning_kr": "업무 만족도",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2729",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "overtime rate",
+    "meaning_kr": "초과근무수당",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2730",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "just in case",
+    "meaning_kr": "~할 경우를 대비해, 만일을 위해서",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2731",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "paid vacation",
+    "meaning_kr": "유급 휴가",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2732",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "keep A up to date",
+    "meaning_kr": "A에게 최근 소식을 계속 알려주다",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2733",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "pay increase",
+    "meaning_kr": "임금 인상",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2734",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "know like the back of one's hand",
+    "meaning_kr": "A를 아주 잘 알고 있다",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2735",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "pension",
+    "meaning_kr": "연금",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2736",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "miserable",
+    "meaning_kr": "비참한, 슬픔",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2737",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "poorly paid",
+    "meaning_kr": "박봉의",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2738",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "paid leave",
+    "meaning_kr": "유급 휴가",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2739",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "preservation area",
+    "meaning_kr": "보호구역",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2740",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "pick up one's paycheck",
+    "meaning_kr": "급여를 수령하다",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2741",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "reference number",
+    "meaning_kr": "조회번호",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2742",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "pity",
+    "meaning_kr": "유감, 동정",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2743",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "regional allowance",
+    "meaning_kr": "특별 근무지 수당",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2744",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "privately",
+    "meaning_kr": "개인적으로",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2745",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "regular working hours",
+    "meaning_kr": "정규 근무 시간",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2746",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "psychological",
+    "meaning_kr": "정신적인",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2747",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "retirement party",
+    "meaning_kr": "은퇴 기념 파티",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2748",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "put in some overtime",
+    "meaning_kr": "초과근무를 하다",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2749",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "retirement plan",
+    "meaning_kr": "퇴직 연금 제도",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2750",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "safety drill",
+    "meaning_kr": "안전훈련",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2751",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "salary and benefits",
+    "meaning_kr": "급여와 복리후생",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2752",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "sensitivity",
+    "meaning_kr": "감수성",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2753",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "sheltered housing",
+    "meaning_kr": "(노인·장애인)보호 시설",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2754",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "show around",
+    "meaning_kr": "안내하다, 관광 시키다",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2755",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "sick leave",
+    "meaning_kr": "병가",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2756",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "stacks of books",
+    "meaning_kr": "서고, 서가",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2757",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "strong-willed",
+    "meaning_kr": "의지가 강한, 완고한",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2758",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "surprisingly",
+    "meaning_kr": "놀랍게도",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2759",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "time-off",
+    "meaning_kr": "결석, 휴가",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2760",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "take place",
+    "meaning_kr": "일어나다, 발생하다",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2761",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "welfare",
+    "meaning_kr": "복지",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2762",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "take some time off",
+    "meaning_kr": "휴식을 취하다, 일을 쉬다",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2763",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "work environment",
+    "meaning_kr": "작업환경, 근무환경",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2764",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "terribly",
+    "meaning_kr": "몹시, 형편없이",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2765",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "working condition",
+    "meaning_kr": "근무조건",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2766",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "terrific",
+    "meaning_kr": "훌륭한",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2767",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "the next best",
+    "meaning_kr": "차선",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2768",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "thrilling",
+    "meaning_kr": "짜릿한, 흥분되는",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2769",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "credit A with B(credit B to A)",
+    "meaning_kr": "B를 A의 공으로 믿다",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2770",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "intentionally",
+    "meaning_kr": "고의로, 의도적으로",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2771",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "meanwhile",
+    "meaning_kr": "그동안에, 한편",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2772",
+    "pos": [
+      "adverb",
+      "conjunction"
+    ]
+  },
+  {
+    "word": "respectfully",
+    "meaning_kr": "공손하게, 정중하게",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2773",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "sign up",
+    "meaning_kr": "등록하다, 참가하다",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2774",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "unused",
+    "meaning_kr": "사용하지 않은",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2775",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "be tired of",
+    "meaning_kr": "~에 실증이 나다",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2776",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "biannual",
+    "meaning_kr": "연 2회의",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2777",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "charitable",
+    "meaning_kr": "자선의",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2778",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "course of study",
+    "meaning_kr": "교육과정",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2779",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "depressed",
+    "meaning_kr": "낙담한",
+    "day": 23,
+    "level": "800",
+    "id": "hw_2780",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "distort",
+    "meaning_kr": "왜곡하다",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3956",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "fringe benefits",
+    "meaning_kr": "부가 급부",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3957",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "give in",
+    "meaning_kr": "굴복하다, 양보하다",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3958",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "straightforward",
+    "meaning_kr": "정직한; 간단한",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3959",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "nursing",
+    "meaning_kr": "간호, 간호학",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3960",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "cut benefits",
+    "meaning_kr": "복리후생을 줄이다, 수당을 줄이다",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3961",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "flatter",
+    "meaning_kr": "아첨하다, 듣기 좋은 칭찬을 하다",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3962",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "sabotage",
+    "meaning_kr": "(고의적인) 방해 행위",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3963",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "hearty",
+    "meaning_kr": "마음에서 우러난; (음식의 양이) 풍부한",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3964",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "spry",
+    "meaning_kr": "기운찬, 활발한",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3965",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "flextime",
+    "meaning_kr": "자율 근무 시간제",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3966",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "yearn",
+    "meaning_kr": "열망하다",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3967",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "chronological",
+    "meaning_kr": "시간 순의, 연대 순의",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3968",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "severance pay",
+    "meaning_kr": "퇴직금",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3969",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "commemorate",
+    "meaning_kr": "기념하다",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3970",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "maternity leave",
+    "meaning_kr": "출산 휴가",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3971",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "nursery",
+    "meaning_kr": "유아원, 놀이방; 보육",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3972",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "pique",
+    "meaning_kr": "화, 불쾌",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3973",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "get reimbursed for",
+    "meaning_kr": "~을 환급 받다",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3974",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "conjunction",
+    "meaning_kr": "연합, 공동",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3975",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "misuse",
+    "meaning_kr": "오용, 악용",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3976",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "knock off",
+    "meaning_kr": "업무를 마치다",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3977",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "exhibitor",
+    "meaning_kr": "(전시회의) 출품자",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3978",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "labor costs",
+    "meaning_kr": "인건비",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3979",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "off-peak",
+    "meaning_kr": "한산할 때의, 비수기의",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3980",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "discriminate",
+    "meaning_kr": "차별하다",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3981",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "kindhearted",
+    "meaning_kr": "친절한",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3982",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "salary review",
+    "meaning_kr": "연봉 심사",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3983",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "second",
+    "meaning_kr": "찬성하다, 지지하다",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3984",
+    "pos": [
+      "verb",
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "citation",
+    "meaning_kr": "인용구, 인용, 표창장",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3985",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "labor dispute",
+    "meaning_kr": "노동 쟁의, 노사 분규",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3986",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "goodwill",
+    "meaning_kr": "호의",
+    "day": 23,
+    "level": "900",
+    "id": "hw_3987",
+    "pos": [
+      "noun"
+    ]
+  }
+]

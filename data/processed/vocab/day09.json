@@ -1,0 +1,1423 @@
+[
+  {
+    "word": "stagnant",
+    "meaning_kr": "침체된, 불경기의, (stagnance침체, 정체, 불황)",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0323",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "dramatically",
+    "meaning_kr": "극적으로",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0324",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "brisk",
+    "meaning_kr": "활발한, 호황의",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0325",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "unstable",
+    "meaning_kr": "불안정한, 변하기 쉬운",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0326",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "rapidly",
+    "meaning_kr": "급속히, 빨리",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0327",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "soar",
+    "meaning_kr": "(물가 등이)폭등하다, 높이 치솟다",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0328",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "assert",
+    "meaning_kr": "단언하다, 주장하다 (assertion 단언, 주장)",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0329",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "boost",
+    "meaning_kr": "(경기를)부양시키다, 상승시키다",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0330",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "analyst",
+    "meaning_kr": "분석가",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0331",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "potential",
+    "meaning_kr": "잠재적인",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0332",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "pleased",
+    "meaning_kr": "만족해하는, 기쁜",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0333",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "remain",
+    "meaning_kr": "계속~한 상태이다; 아직 ~해야한다",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0334",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "limited",
+    "meaning_kr": "제한된, 한정된",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0335",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "costly",
+    "meaning_kr": "비용이 많이 드는, 손실이 큰",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0336",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "particular",
+    "meaning_kr": "특정한, 독특한, 세심한 (partocularly 특히)",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0337",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "drastic",
+    "meaning_kr": "과감한, 급격한",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0338",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "evenly",
+    "meaning_kr": "고르게, 균등하게",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0339",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "evidence",
+    "meaning_kr": "증거",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0340",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "prospect",
+    "meaning_kr": "전망, 예상 (prospective 장래의, 미래의, 기대되는)",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0341",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "lead",
+    "meaning_kr": "이글다, 지휘하다; (어떤 결과에)이르다",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0342",
+    "pos": [
+      "noun",
+      "verb",
+      "adjective"
+    ]
+  },
+  {
+    "word": "fall",
+    "meaning_kr": "(값, 가치가)하락하다",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0343",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "period",
+    "meaning_kr": "기간, 시기",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0344",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "indicator",
+    "meaning_kr": "지표, 지수",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0345",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "industry",
+    "meaning_kr": "산업",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0346",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "likely",
+    "meaning_kr": "~할 것 같은",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0347",
+    "pos": [
+      "adjective",
+      "adverb"
+    ]
+  },
+  {
+    "word": "boom",
+    "meaning_kr": "붐, 호황",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0348",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "director",
+    "meaning_kr": "임원, 책임자",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0349",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "substitute",
+    "meaning_kr": "대용품, 대신하다(substitution 대용, 대체)",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0350",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "consequence",
+    "meaning_kr": "결과",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0351",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "fairly",
+    "meaning_kr": "상당히, 꽤",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0352",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "economical",
+    "meaning_kr": "경제적인, 절약되는",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0353",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "thrive",
+    "meaning_kr": "번영하다, 성공하다",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0354",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "implication",
+    "meaning_kr": "영향, 밀접한 관계 (implicate 관련시키다, 관련되었음을 나타내다)",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0355",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "wane",
+    "meaning_kr": "감소, 감퇴",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0356",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "prosperity",
+    "meaning_kr": "번영 (prosper 번영하다)",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0357",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "depression",
+    "meaning_kr": "불황 (depress 하락시키다, 약하게하다)",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0358",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "dwindle",
+    "meaning_kr": "줄어들다, 감소되다",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0359",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "impede",
+    "meaning_kr": "저해하다, 방해하다",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0360",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "promising",
+    "meaning_kr": "유망한, 전망이 좋은",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0361",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "adversity",
+    "meaning_kr": "역경, 불운",
+    "day": 9,
+    "level": "기초",
+    "id": "hw_0362",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "blueprint",
+    "meaning_kr": "청사진, 계획",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1767",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "flourish",
+    "meaning_kr": "번창하다, 융성하다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1768",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "business deal",
+    "meaning_kr": "사업 거래",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1769",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "for large purchases",
+    "meaning_kr": "대량 구매에 대해서",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1770",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "family-run",
+    "meaning_kr": "가족이 운영하는",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1771",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "for the benefit of",
+    "meaning_kr": "~의 이익을 위해",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1772",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "fluctuation",
+    "meaning_kr": "변동, 오르내림",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1773",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "foremost",
+    "meaning_kr": "선두의, 으뜸가는",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1774",
+    "pos": [
+      "adjective",
+      "adverb"
+    ]
+  },
+  {
+    "word": "for business",
+    "meaning_kr": "사업상",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1775",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "forerunner",
+    "meaning_kr": "선구자",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1776",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "foreign trade",
+    "meaning_kr": "해외 무역",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1777",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "from around the globe",
+    "meaning_kr": "전 세계에서",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1778",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "go into business",
+    "meaning_kr": "사업을 시작하다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1779",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "infrastructure",
+    "meaning_kr": "사회 기반 시설, 경제 기반 시설",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1780",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "go out of business",
+    "meaning_kr": "폐업하다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1781",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "marketable",
+    "meaning_kr": "시장성이 높은",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1782",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "mutual",
+    "meaning_kr": "상호의",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1783",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "momentary",
+    "meaning_kr": "순간적인, 잠깐의",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1784",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "nationwide",
+    "meaning_kr": "전국적인",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1785",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "multinational corporation",
+    "meaning_kr": "다국적 기업",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1786",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "need monitoring",
+    "meaning_kr": "관찰이 필요하다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1787",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "multi-regional",
+    "meaning_kr": "다지역의",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1788",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "neighboring",
+    "meaning_kr": "이웃의, 인접한",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1789",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "nationality",
+    "meaning_kr": "국적",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1790",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "real estate sale",
+    "meaning_kr": "부동산 매매",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1791",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "net income",
+    "meaning_kr": "순수입, 실수입",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1792",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "recession",
+    "meaning_kr": "경기 후퇴",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1793",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "penalize",
+    "meaning_kr": "벌하다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1794",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "relieve pain",
+    "meaning_kr": "고통을 덜어주다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1795",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "put forth",
+    "meaning_kr": "~을 내밀다, 내뿜다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1796",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "role model",
+    "meaning_kr": "역할 모델",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1797",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "ratio",
+    "meaning_kr": "비율",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1798",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "unplug",
+    "meaning_kr": "플러그를 뽑다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1799",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "set up",
+    "meaning_kr": "~을 세우다, 시작하다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1800",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "worsen",
+    "meaning_kr": "악화되다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1801",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "skyrocket",
+    "meaning_kr": "(가격 등이) 치솟다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1802",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "accumulation",
+    "meaning_kr": "축적, 누적",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1803",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "so far(=to date)",
+    "meaning_kr": "지금까지",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1804",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "ascend",
+    "meaning_kr": "오르다, 올라가다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1805",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "surge",
+    "meaning_kr": "(물가가) 급등하다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1806",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "commerce",
+    "meaning_kr": "통상, 교역",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1807",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "synergy",
+    "meaning_kr": "상승효과",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1808",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "indifferent",
+    "meaning_kr": "무관심한, 중요하지 않은",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1809",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "synthesis",
+    "meaning_kr": "종합, 통합",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1810",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "prolong",
+    "meaning_kr": "연장시키다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1811",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "tactics",
+    "meaning_kr": "전략",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1812",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "relevantly",
+    "meaning_kr": "관련되어",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1813",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "unemployment",
+    "meaning_kr": "실업",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1814",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "stimulate",
+    "meaning_kr": "자극하다, 격려하다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1815",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "variable",
+    "meaning_kr": "변하기 쉬운, 변덕스러운",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1816",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "supplement",
+    "meaning_kr": "보완하다, 보충하다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1817",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "vicious cycle",
+    "meaning_kr": "악순환",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1818",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "tedious",
+    "meaning_kr": "지루한, 싫증나는",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1819",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "without a doubt",
+    "meaning_kr": "의심할 바 없이",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1820",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "unavoidable",
+    "meaning_kr": "불가피한",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1821",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "be related to",
+    "meaning_kr": "~에 관련되다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1822",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "bring in",
+    "meaning_kr": "(시스템을)도입하다, (돈을)벌다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1823",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "brokerage",
+    "meaning_kr": "중개, 중개업소",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1824",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "business management",
+    "meaning_kr": "경영(학)",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1825",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "business practice",
+    "meaning_kr": "사업 관행",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1826",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "collapse",
+    "meaning_kr": "붕괴",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1827",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "cope with",
+    "meaning_kr": "~에 대처하다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1828",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "cost-effective",
+    "meaning_kr": "비용 효율적인",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1829",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "descending",
+    "meaning_kr": "내려가는, 하향의",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1830",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "dominate",
+    "meaning_kr": "지배하다, 우위를 차지하다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1831",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "downturn",
+    "meaning_kr": "(경기) 침체",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1832",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "entail",
+    "meaning_kr": "~을 수반하다, ~을 유발하다",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1833",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "exchange rate",
+    "meaning_kr": "환율",
+    "day": 9,
+    "level": "800",
+    "id": "hw_1834",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "billing address",
+    "meaning_kr": "청구서 주소",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3512",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "government grant",
+    "meaning_kr": "정부 보조금",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3513",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "market value",
+    "meaning_kr": "시가, 시세",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3514",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "pull down",
+    "meaning_kr": "~을 끌어내리다, ~을 하락시키다",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3515",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "stationary",
+    "meaning_kr": "움직이지 않는, 정지된",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3516",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "abate",
+    "meaning_kr": "누그러지다, 약해지다, 감소하다",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3517",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "cease",
+    "meaning_kr": "중지하다, 그치다",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3518",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "conspicuously",
+    "meaning_kr": "눈에 띄게, 두드러지게",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3519",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "deteriorate",
+    "meaning_kr": "악화되다, 나빠지다",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3520",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "implicitly",
+    "meaning_kr": "암암리에, 절대적으로",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3521",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "leisurely",
+    "meaning_kr": "느긋한, 여유있는, 천천히",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3522",
+    "pos": [
+      "adjective",
+      "adverb"
+    ]
+  },
+  {
+    "word": "menace",
+    "meaning_kr": "위협하다",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3523",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "perceptible",
+    "meaning_kr": "상당한 정도의, 인지할 수 있는",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3524",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "placement",
+    "meaning_kr": "놓기, 배치, 취업 알선",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3525",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "remark",
+    "meaning_kr": "주의하다, 말하다",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3526",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "retrieval",
+    "meaning_kr": "복구, 만회",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3527",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "slowdown",
+    "meaning_kr": "경기 후퇴",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3528",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "solitary",
+    "meaning_kr": "혼자의, 외로운",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3529",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "ailing",
+    "meaning_kr": "병든, 괴로워하는",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3530",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "financial statement",
+    "meaning_kr": "재무제표",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3531",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "have a monopoly on",
+    "meaning_kr": "~의 독점권을 갖다",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3532",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "in demand",
+    "meaning_kr": "수요가 있는",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3533",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "multilateral",
+    "meaning_kr": "다국간의",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3534",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "nontransferable",
+    "meaning_kr": "양도할 수 없는",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3535",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "parent company",
+    "meaning_kr": "모회사",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3536",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "privatization",
+    "meaning_kr": "민영화",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3537",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "rebound",
+    "meaning_kr": "회복, 다시 일어서다",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3538",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "runner-up",
+    "meaning_kr": "2위의 경기자, 차점자",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3539",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "secondary effect",
+    "meaning_kr": "부차적 영향",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3540",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "sluggish",
+    "meaning_kr": "불경기의",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3541",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "stagnation",
+    "meaning_kr": "침체, 불경기",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3542",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "volatile",
+    "meaning_kr": "(가격 등이) 심하게 변동하는",
+    "day": 9,
+    "level": "900",
+    "id": "hw_3543",
+    "pos": [
+      "adjective"
+    ]
+  }
+]

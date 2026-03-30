@@ -1,0 +1,1458 @@
+[
+  {
+    "word": "delinquent",
+    "meaning_kr": "(세금 등이)연체된, 미불의",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1016",
+    "pos": [
+      "adjective",
+      "noun"
+    ]
+  },
+  {
+    "word": "overdue",
+    "meaning_kr": "(지불,반납 등의)기한이 지난, 지불 기한이 넘은",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1017",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "regrettably",
+    "meaning_kr": "유감스럽게도",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1018",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "balance",
+    "meaning_kr": "잔고, 차감 잔액",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1019",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "deposit",
+    "meaning_kr": "입금하다, 예금하다",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1020",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "investigation",
+    "meaning_kr": "조사 (investigate 연구하다, 조사하다)",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1021",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "account",
+    "meaning_kr": "계좌; 설명; 고려",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1022",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "statement",
+    "meaning_kr": "명세서, 성명서",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1023",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "amount",
+    "meaning_kr": "액수, 양",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1024",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "withdrawal",
+    "meaning_kr": "(예금의)인출",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1025",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "previously",
+    "meaning_kr": "이전에",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1026",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "due",
+    "meaning_kr": "만기가 된, 지불 기일이 된;\n(금전 등이)~에게 마땅히 지급되어야 할",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1027",
+    "pos": [
+      "adjective",
+      "adverb",
+      "preposition"
+    ]
+  },
+  {
+    "word": "receive",
+    "meaning_kr": "받다, 수취하다",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1028",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "expect",
+    "meaning_kr": "예상하다, 기대하다",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1029",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "certificate",
+    "meaning_kr": "증명서, 증서",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1030",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "document",
+    "meaning_kr": "서류, 문서",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1031",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "spending",
+    "meaning_kr": "소비; 지출",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1032",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "successfully",
+    "meaning_kr": "성공적으로",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1033",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "bill",
+    "meaning_kr": "~에게 청구서를 보내다, 청구서, 계산서",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1034",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "pleasure",
+    "meaning_kr": "즐거움, 기쁜, 영광",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1035",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "study",
+    "meaning_kr": "연구",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1036",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "summary",
+    "meaning_kr": "요약, 개요\n(emphasize 강조하다)",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1037",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "temporary",
+    "meaning_kr": "임시의",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1038",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "lower",
+    "meaning_kr": "(양,가격을)줄이다",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1039",
+    "pos": [
+      "verb",
+      "adjective",
+      "adverb"
+    ]
+  },
+  {
+    "word": "transaction",
+    "meaning_kr": "거래, 업무",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1040",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "double",
+    "meaning_kr": "두배로 만들다",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1041",
+    "pos": [
+      "verb",
+      "adjective",
+      "noun",
+      "adverb"
+    ]
+  },
+  {
+    "word": "identification",
+    "meaning_kr": "신분증, 신분 증명서",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1042",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "dissatisfaction",
+    "meaning_kr": "불만, 불평",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1043",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "in common",
+    "meaning_kr": "공통으로, 공동으로",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1044",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "interest",
+    "meaning_kr": "관심; 권리; 이자",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1045",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "reject",
+    "meaning_kr": "거절하다, 거부하다",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1046",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "relation",
+    "meaning_kr": "관계",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1047",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "tentatively",
+    "meaning_kr": "임시로, 시험적으로\n(tentative 시험적인, 임시의, 가설)",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1048",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "alternatively",
+    "meaning_kr": "그렇지 않으면, 그 대신에",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1049",
+    "pos": [
+      "adverb",
+      "conjunction"
+    ]
+  },
+  {
+    "word": "attentive",
+    "meaning_kr": "주의 깊은, 세심한",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1050",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "convert",
+    "meaning_kr": "전환하다, 변환하다",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1051",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "heavily",
+    "meaning_kr": "몹시, 심하게",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1052",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "loan",
+    "meaning_kr": "대출, 대출금",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1053",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "unexpected",
+    "meaning_kr": "예기치 않은",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1054",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "cash",
+    "meaning_kr": "현금으로 바꾸다",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1055",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "mortgage",
+    "meaning_kr": "(담보)대출",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1056",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "payable",
+    "meaning_kr": "지불해야 하는",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1057",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "personal",
+    "meaning_kr": "개인의",
+    "day": 26,
+    "level": "기초",
+    "id": "hw_1058",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "awfully",
+    "meaning_kr": "대단히, 정말",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2917",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "account payable",
+    "meaning_kr": "지급 계정",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2918",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "bank loan",
+    "meaning_kr": "은행 대출금",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2919",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "bank account",
+    "meaning_kr": "계좌",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2920",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "bank teller",
+    "meaning_kr": "은행출납원",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2921",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "be highly regarded",
+    "meaning_kr": "높이 평가되다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2922",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "be amazed at",
+    "meaning_kr": "~에 놀라다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2923",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "be of particular interest to",
+    "meaning_kr": "~가 특별히 관심을 가질만하다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2924",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "be caught in",
+    "meaning_kr": "~에 붙잡히다, ~에 걸리다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2925",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "billing information",
+    "meaning_kr": "청구서 정보",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2926",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "be spread out",
+    "meaning_kr": "펼쳐져 있다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2927",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "credit",
+    "meaning_kr": "신용",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2928",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "every other day",
+    "meaning_kr": "격일로, 이틀에 한 번",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2929",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "creditor",
+    "meaning_kr": "채권자",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2930",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "flawed",
+    "meaning_kr": "결함이 있는",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2931",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "currency",
+    "meaning_kr": "통화",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2932",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "foreign currency",
+    "meaning_kr": "외화",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2933",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "debit card",
+    "meaning_kr": "(은행) 직불카드",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2934",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "gaze into",
+    "meaning_kr": "~을 뚫어지게 보다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2935",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "debt",
+    "meaning_kr": "빚",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2936",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "get a loan",
+    "meaning_kr": "대출을 받다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2937",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "expiration date",
+    "meaning_kr": "만기일",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2938",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "give out",
+    "meaning_kr": "나눠주다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2939",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "financial history",
+    "meaning_kr": "신용거래실적",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2940",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "glance at",
+    "meaning_kr": "~을 힐끗보다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2941",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "for the sake of",
+    "meaning_kr": "~을 위하여",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2942",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "go wrong with",
+    "meaning_kr": "~이 잘못되다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2943",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "forge",
+    "meaning_kr": "위조하다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2944",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "hang out",
+    "meaning_kr": "시간을 보내다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2945",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "forgery",
+    "meaning_kr": "위조하다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2946",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "have around",
+    "meaning_kr": "~을 가지고 다니다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2947",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "forthcoming",
+    "meaning_kr": "다가오는",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2948",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "if possible",
+    "meaning_kr": "가능하다면",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2949",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "midtown",
+    "meaning_kr": "(도심지와 시 외곽 사이의) 중간지대",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2950",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "if you insist",
+    "meaning_kr": "굳이 원하신다면",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2951",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "owe",
+    "meaning_kr": "빚지고 있다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2952",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "I'll bet",
+    "meaning_kr": "장담하건대",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2953",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "paid with",
+    "meaning_kr": "(특정한 결제수단으로) 지불된",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2954",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "locally",
+    "meaning_kr": "장소상으로",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2955",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "PIN(personal identification number)",
+    "meaning_kr": "개인 식별 번호",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2956",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "pay off",
+    "meaning_kr": "빚을 다 갚다, 이익이 되다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2957",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "pop up",
+    "meaning_kr": "불쑥 나타나다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2958",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "perhaps",
+    "meaning_kr": "아마, 어쩌면",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2959",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "public holiday",
+    "meaning_kr": "공휴일",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2960",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "put in",
+    "meaning_kr": "예금하다, 투자하다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2961",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "reluctant",
+    "meaning_kr": "마음이 내키지 않는",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2962",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "savings",
+    "meaning_kr": "저축",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2963",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "requisition",
+    "meaning_kr": "요구, 요구서",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2964",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "short-term deposit",
+    "meaning_kr": "단기예금",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2965",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "scrutinize",
+    "meaning_kr": "세밀히 조사하다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2966",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "the following day",
+    "meaning_kr": "그 다음날",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2967",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "sustain",
+    "meaning_kr": "지속하다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2968",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "until the first next month",
+    "meaning_kr": "다음달 1일까지",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2969",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "across from",
+    "meaning_kr": "~에 바로 맞은편에",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2970",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "alarming",
+    "meaning_kr": "걱정스러운, 두려움",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2971",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "anymore",
+    "meaning_kr": "이제는, 더 이상은",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2972",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "at a time",
+    "meaning_kr": "한 번에, 동시에",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2973",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "indeed",
+    "meaning_kr": "실로, 정말",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2974",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "otherwise",
+    "meaning_kr": "다르게, 달리, 만약 그렇지 않으면",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2975",
+    "pos": [
+      "adverb",
+      "conjunction"
+    ]
+  },
+  {
+    "word": "owing to",
+    "meaning_kr": "~로 인하여",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2976",
+    "pos": [
+      "preposition"
+    ]
+  },
+  {
+    "word": "partial",
+    "meaning_kr": "부분적인, 편파적인",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2977",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "pay out",
+    "meaning_kr": "지불하다, 치르다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2978",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "receptive",
+    "meaning_kr": "수용하다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2979",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "simplify",
+    "meaning_kr": "간소화하다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2980",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "someday",
+    "meaning_kr": "언젠가, 머지않다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2981",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "turn down",
+    "meaning_kr": "거절하다",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2982",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "twofold",
+    "meaning_kr": "두 배로, 이중으로, 두 배의, 이중의",
+    "day": 26,
+    "level": "800",
+    "id": "hw_2983",
+    "pos": [
+      "adjective",
+      "adverb",
+      "noun"
+    ]
+  },
+  {
+    "word": "wire money to",
+    "meaning_kr": "~에게 송금하다",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4052",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "wire transfer",
+    "meaning_kr": "전신 송금",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4053",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "draw a check",
+    "meaning_kr": "수표를 발행하다",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4054",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "direct deposit",
+    "meaning_kr": "은행 자동 이체",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4055",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "remit",
+    "meaning_kr": "송금하다, 면제해 주다",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4056",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "collateral",
+    "meaning_kr": "담보, 저당물",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4057",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "secured",
+    "meaning_kr": "보증된",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4058",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "confiscate",
+    "meaning_kr": "압수하다, 몰수하다",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4059",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "counterfeit",
+    "meaning_kr": "가짜, 모조품",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4060",
+    "pos": [
+      "noun",
+      "adjective",
+      "verb"
+    ]
+  },
+  {
+    "word": "trust company",
+    "meaning_kr": "신탁 회사, 신탁 은행",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4061",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "credit money to one's account",
+    "meaning_kr": "~의 계좌에 돈을 입금하다",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4062",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "on standby",
+    "meaning_kr": "대기 중인",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4063",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "deterrent",
+    "meaning_kr": "제지하는 것, 방해물",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4064",
+    "pos": [
+      "noun",
+      "adjective"
+    ]
+  },
+  {
+    "word": "bounce",
+    "meaning_kr": "(수표 등이) 부도가 나 되돌아오다",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4065",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "fortnight",
+    "meaning_kr": "2주간",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4066",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "contender",
+    "meaning_kr": "도전자, 경쟁자",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4067",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "overdrawn",
+    "meaning_kr": "잔액이 부족한",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4068",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "deposit slip",
+    "meaning_kr": "예금 전표",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4069",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "take out a loan",
+    "meaning_kr": "융자를 받다",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4070",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "credible",
+    "meaning_kr": "신용할 수 있는, 확실한",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4071",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "belatedly",
+    "meaning_kr": "뒤늦게",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4072",
+    "pos": [
+      "adverb"
+    ]
+  },
+  {
+    "word": "spurious",
+    "meaning_kr": "허위의, 잘못된",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4073",
+    "pos": [
+      "adjective"
+    ]
+  },
+  {
+    "word": "make a withdrawal",
+    "meaning_kr": "돈을 인출하다",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4074",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "redemption",
+    "meaning_kr": "구원, 구함",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4075",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "crash",
+    "meaning_kr": "(주가의) 폭락",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4076",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "take out insurance on",
+    "meaning_kr": "~에 보험을 들다",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4077",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "curb",
+    "meaning_kr": "억제하다",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4078",
+    "pos": [
+      "verb",
+      "noun"
+    ]
+  },
+  {
+    "word": "be held up",
+    "meaning_kr": "잡히다; 지연되다",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4079",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "cluster",
+    "meaning_kr": "무리",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4080",
+    "pos": [
+      "noun",
+      "verb"
+    ]
+  },
+  {
+    "word": "accrue",
+    "meaning_kr": "축적하다, 모으다",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4081",
+    "pos": [
+      "verb"
+    ]
+  },
+  {
+    "word": "trustee",
+    "meaning_kr": "피(被)신탁인, 수탁자",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4082",
+    "pos": [
+      "noun"
+    ]
+  },
+  {
+    "word": "on loan",
+    "meaning_kr": "대부하여",
+    "day": 26,
+    "level": "900",
+    "id": "hw_4083",
+    "pos": [
+      "noun"
+    ]
+  }
+]
