@@ -5,6 +5,8 @@ Extracted from scripts/process/map_words.py so that multiple modules
 (find_ets_examples, map_words, etc.) can import them without circular deps.
 """
 
+from collections import defaultdict
+
 # ── spaCy / fallback lemmatisation ────────────────────────────────────────────
 
 _nlp = None  # spaCy model, loaded lazily
@@ -106,3 +108,36 @@ def _build_word_family(word: str, lemma: str, synonyms: list[str]) -> set[str]:
 
     forms = {f for f in forms if len(f) >= _MIN_STEM}
     return forms
+
+
+# ── Inverted index ────────────────────────────────────────────────────────────
+
+def build_inverted_index(
+    vocab: list[dict],
+    use_spacy: bool,
+) -> tuple[dict[str, set[str]], dict[str, set[str]]]:
+    """
+    Build two maps:
+      form_to_vocab_ids : word_form (lower) → {vocab_id, ...}
+      vocab_id_to_forms : vocab_id          → {word_form, ...}
+
+    Returns (form_to_vocab_ids, vocab_id_to_forms).
+    """
+    form_to_ids: dict[str, set[str]] = defaultdict(set)
+    id_to_forms: dict[str, set[str]] = {}
+
+    for entry in vocab:
+        vid = entry.get("id", "")
+        word = entry.get("word", "").strip()
+        if not word:
+            continue
+
+        lemma = get_lemma(word) if use_spacy or True else _fallback_lemma(word)
+        synonyms = entry.get("synonyms") or []
+        family = _build_word_family(word, lemma, synonyms)
+
+        id_to_forms[vid] = family
+        for form in family:
+            form_to_ids[form].add(vid)
+
+    return dict(form_to_ids), id_to_forms

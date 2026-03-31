@@ -10,7 +10,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 import pytest
 
-from scripts.process.map_words import (
+from scripts.utils.nlp import (
     _fallback_lemma,
     _build_word_family,
     build_inverted_index,
