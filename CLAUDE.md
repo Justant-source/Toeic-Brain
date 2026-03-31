@@ -19,7 +19,6 @@ TOEIC RC 학습 시스템. ETS 기출문제 1000제(5권, 총 5000문항)와 Hac
 - NLP: spaCy (lemmatization)
 - Anki 생성: genanki
 - 데이터 처리: pandas
-- 테스트: pytest
 
 ---
 
@@ -66,8 +65,6 @@ Toeic Brain/
 │   ├── scripts/                       # map_words.py, generate_obsidian_vault.py 등
 │   └── data/                          # ocr_examples_vol*.json 등 중간 산출물
 │
-├── tessdata/                          # Tesseract OCR 학습 데이터 (git 미추적, 별도 설치)
-├── tests/                             # pytest 테스트
 ├── .request/                          # 작업지시서
 ├── .result/                           # 완료 보고서
 └── .claude/                           # Claude Code 설정
@@ -252,12 +249,6 @@ __pycache__/
 - Python 표준: PEP 8
 - 타입 힌트 사용 권장
 - docstring: 한국어 가능, 매개변수/반환값은 영문 타입 표기
-
-### 테스트
-
-- `pytest` 사용
-- 테스트 파일명: `test_*.py`
-- 최소 커버리지: 추출/가공 모듈은 반드시 테스트 포함
 
 ### 데이터 처리 원칙
 

@@ -41,9 +41,6 @@ vault/
 .obsidian/
 /.secret/
 
-# OCR 학습 데이터 (29MB, 별도 설치)
-tessdata/
-
 # 모의고사 HTML 결과물
 exam/result/
 
@@ -57,3 +54,4 @@ data/mapped/restore_progress/
 
 # 백업 파일 (대용량)
 data/mapped/*.backup.json
+/.result/

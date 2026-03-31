@@ -66,7 +66,6 @@ Toeic Brain/
 │   ├── anki/                         # 생성된 .apkg (git 미추적)
 │   └── reports/                      # 분석 리포트 HTML
 │
-├── tests/                            # pytest 테스트
 ├── archive/                          # 사용 종료된 스크립트·데이터 보관
 ├── .request/                         # 작업지시서 (git 미추적)
 ├── .result/                          # 완료 보고서
@@ -166,14 +165,6 @@ py exam/generate_vocab_quiz.py --count 50 --day 1 --level 기초
 ```
 
 생성된 HTML을 브라우저에서 열면 바로 풀이할 수 있습니다. 상세 옵션: `exam/README.md`
-
----
-
-## 테스트
-
-```bash
-pytest tests/
-```
 
 ---
 
