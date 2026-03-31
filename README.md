@@ -139,6 +139,8 @@ Toeic Brain/
 | `fix_pos.py` | Claude API를 사용한 POS 교정. 배치 처리로 오류 POS 수정 | `day{NN}.json` → POS 교정 JSON | **활성** |
 | `apply_pos_corrections.py` | 여러 POS 교정 파일을 합쳐서 단어 JSON에 일괄 적용 | 교정 JSON → `day{NN}.json` 업데이트 | **활성** |
 | `create_chapter_map.py` | `all_vocab.json`에서 Day/Chapter별 단어 그룹핑 → `chapter_map.json` 생성 | `all_vocab.json` → `chapter_map.json` | **활성** |
+| `fill_blanks.py` | 예문 내 `-------` 빈칸을 정답으로 채움. Part5/6 문제 DB와 정규화 매칭 → 빈칸에 **정답** 삽입, 미매칭 예문 제거 | `questions/*.json` + `word_ets_examples.json` → `data/mapped/fill_patches_vol{N}.json` | **활성** |
+| `apply_fill_patches.py` | 권별 fill_patches 파일을 `word_ets_examples.json`에 일괄 적용 후 Anki 덱 재생성 | `fill_patches_vol{N}.json` → `word_ets_examples.json` 업데이트 + Anki 덱 재생성 | **활성** |
 
 ### `scripts/generate/` — Obsidian Vault 생성 (Phase 3-A)
 
@@ -219,6 +221,15 @@ Chapter별 단어 구조 (Obsidian Vault 생성용). chapter, title, words[] 구
 
 OCR 캐시 기반 예문 검색 중간 결과 (권별). `merge_ocr_examples.py`로 `word_ets_examples.json`에 병합.
 
+### `data/mapped/fill_patches_vol{N}.json`
+
+`fill_blanks.py`의 권별 출력. 예문의 `-------` 빈칸을 정답으로 채운 패치 데이터.
+
+- 형식: `{ "단어": [{ "idx": 예문인덱스, "new_sentence": "채워진 예문" }] }`
+- `apply_fill_patches.py`로 `word_ets_examples.json`에 일괄 적용
+- 모든 빈칸이 이미 적용된 상태라면 `{}` (빈 객체)가 정상 — 재처리 불필요를 의미
+- 재생성: `py -3 scripts/process/fill_blanks.py --vol 1 2 3 4 5`
+
 ### `data/mapped/word_question_map.json`
 
 `map_words.py`의 출력 대상이나, **현재 비어있음** (0 bytes). `word_ets_examples.json`이 사실상 이 역할을 대체.
@@ -273,6 +284,8 @@ python scripts/process/create_chapter_map.py      # Chapter 구조 생성
 python scripts/process/find_ets_examples.py       # 기출 예문 전수 검색
 python scripts/process/find_examples_from_ocr_cache.py  # OCR 기반 보완 검색
 python scripts/process/merge_ocr_examples.py      # OCR 예문 병합
+python scripts/process/fill_blanks.py             # 예문 빈칸을 정답으로 채움
+python scripts/process/apply_fill_patches.py      # 패치 적용 + Anki 덱 재생성
 
 # ── Phase 3: 덱·Vault 생성 ──
 python scripts/anki/generate_vocab_deck.py        # Anki 단어장 덱

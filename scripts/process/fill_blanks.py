@@ -81,7 +81,7 @@ def build_part5_lookup(vol: int) -> dict[str, dict]:
             if not sentence or not answer or answer not in choices:
                 continue
             answer_text = str(choices[answer]).strip()
-            filled = _BLANK_RE.sub(answer_text, sentence, count=1)
+            filled = _BLANK_RE.sub(lambda _: answer_text, sentence, count=1)
             key = _norm(sentence)
             exact[key] = {
                 "answer_text": answer_text,
@@ -194,9 +194,9 @@ def build_part6_lookup(vol: int) -> dict[str, dict]:
 
                     if is_sentence_blank:
                         # Replace the blank marker with the answer sentence
-                        filled = re.sub(r"-{3,}\s*[.,]?", ans_text, sent_stripped, count=1).strip()
+                        filled = re.sub(r"-{3,}\s*[.,]?", lambda _: ans_text, sent_stripped, count=1).strip()
                     else:
-                        filled = _BLANK_RE.sub(ans_text, sent_stripped, count=1)
+                        filled = _BLANK_RE.sub(lambda _: ans_text, sent_stripped, count=1)
 
                     key = _norm(sent)
                     lookup[key] = {
@@ -228,7 +228,7 @@ def fill_sentence(
         ans = info["answer_text"]
         # Re-build filled with bold on answer
         raw = re.sub(r"\*\*", "", sentence)  # strip old bold
-        filled = _BLANK_RE.sub(f"**{ans}**", raw, count=1)
+        filled = _BLANK_RE.sub(lambda _: f"**{ans}**", raw, count=1)
         return filled
 
     # Try Part 6 (exact)
@@ -236,7 +236,7 @@ def fill_sentence(
         info = part6_lookup[norm]
         ans = info["answer_text"]
         raw = re.sub(r"\*\*", "", sentence)
-        filled = _BLANK_RE.sub(f"**{ans}**", raw, count=1)
+        filled = _BLANK_RE.sub(lambda _: f"**{ans}**", raw, count=1)
         return filled
 
     # Fuzzy: check if any Part 5 key is substring of norm (or vice versa)
@@ -250,7 +250,7 @@ def fill_sentence(
         if p5_stripped in norm or norm in p5key:
             ans = info["answer_text"]
             raw = re.sub(r"\*\*", "", sentence)
-            filled = _BLANK_RE.sub(f"**{ans}**", raw, count=1)
+            filled = _BLANK_RE.sub(lambda _: f"**{ans}**", raw, count=1)
             return filled
 
     return None  # no match
