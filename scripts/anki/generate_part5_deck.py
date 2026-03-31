@@ -13,6 +13,7 @@ Usage
 import sys
 import json
 import html
+import re
 import argparse
 from pathlib import Path
 from collections import defaultdict
@@ -75,6 +76,8 @@ def build_model(front_html: str, back_html: str, css: str) -> genanki.Model:
             {"name": "Answer"},
             {"name": "AnswerText"},
             {"name": "Explanation"},
+            {"name": "Translation"},
+            {"name": "Vocabulary"},
             {"name": "VocabInfo"},
             {"name": "FilledSentence"},
         ],
@@ -118,10 +121,51 @@ def escape_field(text: str) -> str:
 
 
 def make_filled_sentence(sentence: str, answer_text: str) -> str:
-    """Return HTML sentence with ------- replaced by <b>answer</b>."""
+    """Return HTML sentence with blank replaced by <b>answer</b>.
+
+    Handles multiple blank patterns from OCR:
+    - ------- (standard 7 dashes)
+    - —■ (em dash + block character)
+    - —— (double em dash)
+    - ........ (dots)
+    - Single — between words (em dash used as blank)
+    Falls back to appending answer if no blank found.
+    Ensures a space exists on both sides of the inserted answer.
+    """
+    # Fix caret → apostrophe before processing
+    sentence = sentence.replace("^s ", "'s ").replace("^ ", "'s ")
+
     escaped = html.escape(sentence)
     bolded  = f"<b>{html.escape(answer_text)}</b>"
-    return escaped.replace("-------", bolded, 1)
+
+    # Try each blank pattern in order of specificity
+    patterns = [
+        "-------",          # standard 7 dashes
+        html.escape("—■"),  # em dash + block
+        html.escape("——"),  # double em dash
+        "........",         # dots
+    ]
+
+    result = None
+    for pat in patterns:
+        if pat in escaped:
+            result = escaped.replace(pat, bolded, 1)
+            break
+
+    # Single em dash between word characters (used as blank, not punctuation)
+    if result is None:
+        em_escaped = html.escape("—")
+        if em_escaped in escaped:
+            result = escaped.replace(em_escaped, bolded, 1)
+
+    # No blank marker found — append answer in brackets as fallback
+    if result is None:
+        return f"{escaped} [→ {bolded}]"
+
+    # Ensure space before and after the bolded answer
+    result = re.sub(r'(\S)(<b>)', r'\1 \2', result)
+    result = re.sub(r'(</b>)(\S)', r'\1 \2', result)
+    return result
 
 
 def question_to_note(q: dict, model: genanki.Model) -> genanki.Note:
@@ -136,9 +180,29 @@ def question_to_note(q: dict, model: genanki.Model) -> genanki.Note:
     else:
         answer_text = ""
 
-    explanation_raw = q.get("explanation") or "해설 준비 중"
-    # Insert blank line before [번역] so it renders with <br><br> spacing
-    explanation_spaced = explanation_raw.replace("\n[번역]", "\n\n[번역]")
+    # Read separate fields (new format) or parse from combined string (legacy)
+    explanation_raw = q.get("explanation") or ""
+    translation_raw = q.get("translation") or ""
+    vocabulary_raw = q.get("vocabulary") or ""
+
+    # Legacy fallback: if translation/vocabulary are empty but explanation contains [번역]/[어휘]
+    if not translation_raw and "[번역]" in explanation_raw:
+        parts = explanation_raw.split("[번역]")
+        explanation_raw = parts[0].strip()
+        rest = parts[1] if len(parts) > 1 else ""
+        if "[어휘]" in rest:
+            t_parts = rest.split("[어휘]")
+            translation_raw = t_parts[0].strip()
+            vocabulary_raw = t_parts[1].strip() if len(t_parts) > 1 else ""
+        else:
+            translation_raw = rest.strip()
+    elif not vocabulary_raw and "[어휘]" in explanation_raw:
+        parts = explanation_raw.split("[어휘]")
+        explanation_raw = parts[0].strip()
+        vocabulary_raw = parts[1].strip() if len(parts) > 1 else ""
+
+    if not explanation_raw:
+        explanation_raw = "해설 준비 중"
 
     # Stable GUID from the question's unique ID so re-imports update, not duplicate
     note_id = q.get("id") or f"vol{q.get('volume',0)}_part5_{q.get('question_number',0)}"
@@ -156,7 +220,9 @@ def question_to_note(q: dict, model: genanki.Model) -> genanki.Note:
             escape_field(choices.get("D", "")),
             answer,
             escape_field(answer_text),
-            escape_field(explanation_spaced),
+            escape_field(explanation_raw),
+            escape_field(translation_raw),
+            escape_field(vocabulary_raw),
             "",  # VocabInfo — will be populated later by mapping
             make_filled_sentence(q.get("sentence", ""), answer_text),
         ],

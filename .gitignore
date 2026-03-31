@@ -49,3 +49,11 @@ exam/result/
 
 # 아카이브 데이터
 archive/data/
+
+# 임시 배치/진행 파일 (AI 처리용 중간 산출물)
+data/mapped/blank_batches/
+data/mapped/restore_batches/
+data/mapped/restore_progress/
+
+# 백업 파일 (대용량)
+data/mapped/*.backup.json

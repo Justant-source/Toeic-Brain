@@ -54,9 +54,11 @@ def get_lemma(word: str) -> str:
 
 # Derivation patterns: (suffix_to_detect, replacements_to_try)
 _DERIV_PATTERNS = [
-    ("e",    ["ion", "tion", "ation", "er", "or", "ment", "ence", "ance"]),
+    ("e",    ["ion", "tion", "ation", "er", "or", "ment", "ence", "ance",
+               "ed", "es", "ing", "ings"]),
     ("",     ["ion", "tion", "ation", "ment", "ence", "ance", "er", "or",
-               "ness", "ity", "al", "ous", "ive", "able", "ible", "ful", "ly"]),
+               "ness", "ity", "al", "ous", "ive", "able", "ible", "ful", "ly",
+               "s", "es", "ed", "ing", "ings"]),
     ("tion", ["t", "te", "tive", "tional", "tionally"]),
     ("sion", ["de", "se", "sive", "sional"]),
     ("ment", ["", "al", "ally"]),

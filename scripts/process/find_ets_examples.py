@@ -297,11 +297,43 @@ def split_into_sentences(text: str) -> list[str]:
 # ── Word family index ────────────────────────────────────────────────────────
 
 
+_STOP_WORDS = frozenset({
+    "a", "an", "the", "is", "are", "was", "were", "be", "been", "being",
+    "have", "has", "had", "do", "does", "did", "will", "would", "shall",
+    "should", "may", "might", "can", "could", "must",
+    "in", "on", "at", "to", "for", "of", "with", "by", "from", "up",
+    "about", "into", "through", "during", "before", "after", "above",
+    "below", "between", "out", "off", "over", "under", "again",
+    "and", "but", "or", "nor", "not", "so", "yet", "both", "either",
+    "neither", "each", "every", "all", "any", "few", "more", "most",
+    "other", "some", "such", "no", "only", "own", "same", "than",
+    "too", "very", "just", "because", "as", "until", "while",
+    "it", "its", "he", "she", "they", "them", "their", "his", "her",
+    "we", "us", "our", "you", "your", "my", "me", "one", "ones",
+    "this", "that", "these", "those", "what", "which", "who", "whom",
+    "how", "when", "where", "why",
+})
+
+
+def _extract_content_words(phrase: str) -> list[str]:
+    """Extract content words from a multi-word phrase for matching.
+
+    For phrases like "achieve one's goal", returns ["achieve", "goal"].
+    Strips stop words, possessives, and short tokens.
+    """
+    import re as _re
+    tokens = _re.findall(r"[a-zA-Z]+", phrase.lower())
+    return [t for t in tokens if len(t) >= 3 and t not in _STOP_WORDS]
+
+
 def build_word_families(
     chapter_map: list[dict],
 ) -> tuple[dict[str, set[str]], dict[str, dict]]:
     """
     For each word in chapter_map, build the word family using _build_word_family().
+
+    For multi-word phrases, also builds families from individual content words
+    so that e.g. "achieve one's goal" matches sentences containing "achieve".
 
     Returns:
         form_to_words: {word_form_lowercase: set of original_word_keys it belongs to}
@@ -333,6 +365,14 @@ def build_word_families(
             # Build word family: includes morphological variants
             lemma = get_lemma(word)
             family = _build_word_family(word, lemma, related + synonyms)
+
+            # For multi-word phrases, also build families from content words
+            content_words = _extract_content_words(word)
+            if len(content_words) > 1 or (len(content_words) == 1 and content_words[0] != word.lower()):
+                for cw in content_words:
+                    cw_lemma = get_lemma(cw)
+                    cw_family = _build_word_family(cw, cw_lemma, [])
+                    family |= cw_family
 
             # Map each form back to the original word
             for form in family:

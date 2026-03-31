@@ -273,20 +273,14 @@ def _parse_single_explanation(raw: str) -> dict | None:
     translation = re.sub(r"\s{2,}", " ", translation).strip()
     vocabulary = re.sub(r"\s{2,}", " ", vocabulary).strip()
 
-    parts = []
-    if explanation:
-        parts.append(explanation)
-    if translation:
-        parts.append(f"[번역] {translation}")
-    if vocabulary:
-        parts.append(f"[어휘] {vocabulary}")
-
-    if not parts:
+    if not any([explanation, translation, vocabulary]):
         return None
 
     return {
         "category": category,
-        "explanation": "\n".join(parts),
+        "explanation": explanation,
+        "translation": translation,
+        "vocabulary": vocabulary,
     }
 
 
@@ -445,8 +439,13 @@ def process_volume(vol: int):
             # 해설 업데이트 (항상 최신 OCR 결과로 덮어씀)
             if key in all_explanations:
                 expl_data = all_explanations[key]
-                if expl_data["explanation"]:
+                if expl_data.get("explanation"):
                     q["explanation"] = expl_data["explanation"]
+                if expl_data.get("translation"):
+                    q["translation"] = expl_data["translation"]
+                if expl_data.get("vocabulary"):
+                    q["vocabulary"] = expl_data["vocabulary"]
+                if any(expl_data.get(k) for k in ("explanation", "translation", "vocabulary")):
                     updated_expl += 1
                 if expl_data.get("category"):
                     q["category"] = expl_data["category"]

@@ -99,7 +99,7 @@ def build_exam_examples(
     - Old format (word_question_map.json): mapping_entry with occurrences[].context
     - New format (word_ets_examples.json): ets_entry with examples[].sentence + source
     """
-    MAX_EXAMPLES = 5
+    MAX_EXAMPLES = 20
 
     # ── New format: word_ets_examples.json ───────────────────────────────────
     if ets_entry is not None:
