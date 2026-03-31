@@ -34,7 +34,6 @@ Thumbbs.db
 /.request/
 /.result/
 /.secret/
-vault/
 .obsidian/
 .ipynb_checkpoints/
 exam/result/
