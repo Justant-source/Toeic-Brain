@@ -69,9 +69,9 @@ def red(s: str)    -> str: return f"{RED}{s}{RESET}"
 def bold(s: str)   -> str: return f"{BOLD}{s}{RESET}"
 
 
-# ── Import word-family utilities from map_words ──────────────────────────────
+# ── Import word-family utilities from shared NLP module ──────────────────────
 
-from scripts.process.map_words import (
+from scripts.utils.nlp import (
     _build_word_family,
     get_lemma,
     _fallback_lemma,
