@@ -31,11 +31,6 @@ anki:
     name: "Toeic Brain::Part5 기출"
     id: 2026032902
 
-vault:
-  output_dir: "vault"
-  chapter_map: "data/processed/vocab/chapter_map.json"
-  word_examples: "data/mapped/word_ets_examples.json"
-
 categories:
   - "품사"
   - "동사시제/태"
