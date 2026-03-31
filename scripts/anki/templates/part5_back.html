@@ -7,21 +7,22 @@
 <body>
 <div class="card">
 
-  <!-- Question header (repeated for context) -->
+  <!-- Question header: same layout as front -->
   <div class="question-header">
     <span class="tag tag-correct">Part5</span>
     <span class="tag tag-volume">Vol.{{Volume}}</span>
     <span class="tag tag-category">Q.{{QuestionNumber}}</span>
+  </div>
+
+  <!-- Category type -->
+  <div style="margin-bottom: 14px;">
     <span class="tag tag-category">유형: {{Category}}</span>
   </div>
 
-  <!-- Correct answer highlight -->
-  <ul class="choices">
-    <li class="choice-item answer-correct">
-      <span class="choice-label">정답 ({{Answer}})</span>
-      <span>{{AnswerText}}</span>
-    </li>
-  </ul>
+  <!-- Sentence with answer filled in bold -->
+  <div class="example-sentence" style="font-size: 16px; font-weight: 500;">
+    {{FilledSentence}}
+  </div>
 
   <hr class="section-divider">
 

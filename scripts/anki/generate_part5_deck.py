@@ -76,6 +76,7 @@ def build_model(front_html: str, back_html: str, css: str) -> genanki.Model:
             {"name": "AnswerText"},
             {"name": "Explanation"},
             {"name": "VocabInfo"},
+            {"name": "FilledSentence"},
         ],
         templates=[
             {
@@ -116,6 +117,13 @@ def escape_field(text: str) -> str:
     return html.escape(text).replace("\n", "<br>")
 
 
+def make_filled_sentence(sentence: str, answer_text: str) -> str:
+    """Return HTML sentence with ------- replaced by <b>answer</b>."""
+    escaped = html.escape(sentence)
+    bolded  = f"<b>{html.escape(answer_text)}</b>"
+    return escaped.replace("-------", bolded, 1)
+
+
 def question_to_note(q: dict, model: genanki.Model) -> genanki.Note:
     """Convert a question dict to a genanki.Note."""
     choices  = q.get("choices") or {}
@@ -129,6 +137,8 @@ def question_to_note(q: dict, model: genanki.Model) -> genanki.Note:
         answer_text = ""
 
     explanation_raw = q.get("explanation") or "해설 준비 중"
+    # Insert blank line before [번역] so it renders with <br><br> spacing
+    explanation_spaced = explanation_raw.replace("\n[번역]", "\n\n[번역]")
 
     # Stable GUID from the question's unique ID so re-imports update, not duplicate
     note_id = q.get("id") or f"vol{q.get('volume',0)}_part5_{q.get('question_number',0)}"
@@ -146,8 +156,9 @@ def question_to_note(q: dict, model: genanki.Model) -> genanki.Note:
             escape_field(choices.get("D", "")),
             answer,
             escape_field(answer_text),
-            escape_field(explanation_raw),
+            escape_field(explanation_spaced),
             "",  # VocabInfo — will be populated later by mapping
+            make_filled_sentence(q.get("sentence", ""), answer_text),
         ],
         tags=make_tags(q),
     )
