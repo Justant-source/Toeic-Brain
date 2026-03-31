@@ -31,13 +31,14 @@ Toeic Brain/
 ├── config.yaml                        # 전역 설정
 ├── requirements.txt                   # Python 의존성
 │
+├── 00. Reference/                     # 원본 PDF/Excel (git 미추적, 저작권)
+│
 ├── data/
-│   ├── raw/                           # 원본 PDF/Excel (git 미추적)
-│   ├── processed/                     # 파싱 완료 JSON
+│   ├── json/                          # 구조화 JSON (git 미추적)
 │   │   ├── questions/                 # vol{N}_part{5,6,7}.json
-│   │   └── vocab/                     # day{NN}.json, all_vocab.json, chapter_map.json
-│   └── mapped/                        # 핵심 매핑 결과만
-│       └── word_ets_examples.json     # 유일한 핵심 매핑 파일 (28MB)
+│   │   ├── hackers_vocab.json         # 단어장 통합 JSON
+│   │   └── word_ets_examples.json     # 단어-기출 매핑 (28MB)
+│   └── anki/                          # Anki 덱 생성용 중간 데이터
 │
 ├── scripts/
 │   ├── README.md                      # 스크립트 사용법 가이드
@@ -62,8 +63,7 @@ Toeic Brain/
 │   └── reports/                       # HTML 리포트
 │
 ├── archive/                           # 사용 종료된 파일 보관
-│   ├── scripts/                       # map_words.py, generate_obsidian_vault.py 등
-│   └── data/                          # ocr_examples_vol*.json 등 중간 산출물
+│   └── scripts/                       # map_words.py, generate_obsidian_vault.py 등
 │
 ├── .request/                          # 작업지시서
 ├── .result/                           # 완료 보고서
@@ -76,7 +76,7 @@ Toeic Brain/
 
 ### Question JSON (기출문제)
 
-파일 위치: `data/processed/questions/vol{N}_part{N}.json`
+파일 위치: `data/json/questions/vol{N}_part{N}.json`
 
 ```json
 {
@@ -99,7 +99,7 @@ Toeic Brain/
 
 ### Vocab JSON (단어장)
 
-파일 위치: `data/processed/vocab/day{NN}.json`
+파일 위치: `data/json/hackers_vocab.json`
 
 ```json
 {
@@ -118,7 +118,7 @@ Toeic Brain/
 
 ### Mapping JSON (단어-기출 매핑)
 
-파일 위치: `data/mapped/word_ets_examples.json`
+파일 위치: `data/json/word_ets_examples.json`
 
 ```json
 {
@@ -222,11 +222,10 @@ difficulty::easy / medium / hard       # 난이도
 ### .gitignore 필수 항목
 
 ```
-data/raw/          # 원본 PDF (저작권)
+00. Reference/     # 원본 PDF/Excel (저작권)
+data/json/         # 구조화 JSON (대용량)
 output/anki/*.apkg # 생성된 덱
-tessdata/          # OCR 학습 데이터 (29MB)
 exam/result/       # 모의고사 HTML 결과물
-archive/data/      # 아카이브 데이터
 .env
 __pycache__/
 ```
@@ -237,7 +236,7 @@ __pycache__/
 
 - **개인 학습 목적만 허용**: 이 프로젝트의 모든 산출물은 개인 학습용으로만 사용
 - **외부 공유 금지**: 추출된 데이터, 생성된 Anki 덱, 모의고사 HTML의 외부 배포 금지
-- **원본 git 미추적**: `data/raw/` 내 PDF 파일은 반드시 `.gitignore`에 포함
+- **원본 git 미추적**: `00. Reference/` 내 PDF/Excel 파일은 반드시 `.gitignore`에 포함
 - ETS 기출문제 1000제, Hackers 노랭이 단어장의 저작권은 각 출판사에 귀속
 
 ---
@@ -252,8 +251,8 @@ __pycache__/
 
 ### 데이터 처리 원칙
 
-- 원본 PDF → JSON 변환은 `scripts/extract/`에서만 수행
-- 추출 결과는 항상 `data/processed/`에 JSON으로 저장
+- 원본 PDF/Excel → JSON 변환은 `scripts/extract/`에서만 수행
+- 추출 결과는 항상 `data/json/`에 JSON으로 저장
 - 매핑/분류 등 가공은 `scripts/process/`에서 수행
 - Anki 덱 생성은 `scripts/anki/`에서 수행, 결과는 `output/anki/`에 저장
 - 모의고사 생성은 `exam/`에서 수행, 결과는 `exam/result/`에 저장

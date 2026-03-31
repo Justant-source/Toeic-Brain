@@ -12,7 +12,8 @@ from pathlib import Path
 import nltk
 from nltk.corpus import wordnet as wn
 
-VOCAB_DIR = Path(__file__).resolve().parent.parent.parent / "data" / "processed" / "vocab"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
+VOCAB_DIR = PROJECT_ROOT / "data" / "json"
 
 # WordNet POS → 우리 POS 매핑
 WN_POS_MAP = {
@@ -413,23 +414,17 @@ def main():
     total = 0
     pos_stats: dict[str, int] = {}
 
-    files = sorted(VOCAB_DIR.glob("day*.json"))
-    for filepath in files:
-        count = process_file(filepath)
-        total += count
-        print(f"  {filepath.name}: {count} words")
+    # hackers_vocab.json 업데이트
+    vocab_path = VOCAB_DIR / "hackers_vocab.json"
+    if vocab_path.exists():
+        total = process_file(vocab_path)
+        print(f"  hackers_vocab.json: {total} words")
 
         # 통계 수집
-        with open(filepath, encoding="utf-8") as f:
+        with open(vocab_path, encoding="utf-8") as f:
             for entry in json.load(f):
                 pos = entry["pos"]
                 pos_stats[pos] = pos_stats.get(pos, 0) + 1
-
-    # all_vocab.json도 업데이트
-    all_vocab_path = VOCAB_DIR / "all_vocab.json"
-    if all_vocab_path.exists():
-        count = process_file(all_vocab_path)
-        print(f"  all_vocab.json: {count} words")
 
     print(f"\nTotal: {total} words processed")
     print("\nPOS distribution:")

@@ -40,9 +40,9 @@ PROJECT_ROOT = SCRIPT_DIR.parent.parent
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-RAW_PDF_PATH = PROJECT_ROOT / "data" / "raw" / "hackers_vocab.pdf"
-OUTPUT_PATH = PROJECT_ROOT / "data" / "processed" / "vocab" / "chapter_map.json"
-OCR_CACHE_DIR = PROJECT_ROOT / "data" / "processed" / "vocab" / "_ocr_cache"
+RAW_PDF_PATH = PROJECT_ROOT / "00. Reference" / "hackers_vocab.pdf"
+OUTPUT_PATH = PROJECT_ROOT / "data" / "json" / "chapter_map.json"
+OCR_CACHE_DIR = PROJECT_ROOT / "data" / "json" / "_ocr_cache"
 
 # ---------------------------------------------------------------------------
 # 로깅 설정

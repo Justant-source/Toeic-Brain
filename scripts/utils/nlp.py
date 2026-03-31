@@ -5,7 +5,9 @@ Extracted from scripts/process/map_words.py so that multiple modules
 (find_ets_examples, map_words, etc.) can import them without circular deps.
 """
 
+import json
 from collections import defaultdict
+from pathlib import Path
 
 # ── spaCy / fallback lemmatisation ────────────────────────────────────────────
 
@@ -143,3 +145,21 @@ def build_inverted_index(
             form_to_ids[form].add(vid)
 
     return dict(form_to_ids), id_to_forms
+
+
+# ── Chapter map builder ──────────────────────────────────────────────────────
+
+def build_chapter_map_from_vocab(vocab_path: Path) -> list[dict]:
+    """hackers_vocab.json → chapter_map 형식 변환"""
+    with open(vocab_path, encoding="utf-8") as f:
+        vocab = json.load(f)
+    by_day: dict[int, list[dict]] = {}
+    for entry in vocab:
+        day = entry.get("day", 0)
+        by_day.setdefault(day, []).append({
+            "word": entry["word"],
+            "id": entry["id"],
+            "related_words": [],
+            "synonyms": []
+        })
+    return [{"chapter": d, "words": by_day[d]} for d in sorted(by_day)]

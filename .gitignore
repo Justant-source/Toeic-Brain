@@ -1,8 +1,13 @@
-# Raw data (copyrighted materials)
-data/raw/
-data/raw/question/*.pdf
+# ── Step 1: 원본 자료 (저작권) ──
+00. Reference/
 
-# Python
+# ── Step 2: 구조화 JSON (대용량, local only) ──
+data/json/
+
+# ── Step 4: Anki 덱 출력 ──
+output/anki/*.apkg
+
+# ── Python ──
 __pycache__/
 *.py[cod]
 *$py.class
@@ -14,44 +19,22 @@ build/
 venv/
 env/
 
-# IDE
+# ── IDE ──
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# OS
+# ── OS ──
 .DS_Store
-Thumbs.db
+Thumbbs.db
 
-# Output (large binary files)
-output/anki/*.apkg
-
-# Jupyter
-.ipynb_checkpoints/
-
-# Environment
+# ── 기타 ──
 .env
 /.request/
-
-# Obsidian vault (copyrighted content)
-vault/
-
-# Obsidian config
-.obsidian/
-/.secret/
-
-# 모의고사 HTML 결과물
-exam/result/
-
-# 아카이브 데이터
-archive/data/
-
-# 임시 배치/진행 파일 (AI 처리용 중간 산출물)
-data/mapped/blank_batches/
-data/mapped/restore_batches/
-data/mapped/restore_progress/
-
-# 백업 파일 (대용량)
-data/mapped/*.backup.json
 /.result/
+/.secret/
+vault/
+.obsidian/
+.ipynb_checkpoints/
+exam/result/

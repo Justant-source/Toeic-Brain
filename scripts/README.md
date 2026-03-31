@@ -16,8 +16,8 @@ scripts/
 ### Phase 1: 데이터 추출 (초기 1회)
 
 ```bash
-python scripts/extract/extract_vocab.py          # 노랭이 PDF → day01~30.json
-python scripts/extract/extract_vocab_excel.py     # 노랭이 Excel → all_vocab.json
+python scripts/extract/extract_vocab.py          # 노랭이 PDF → hackers_vocab.json
+python scripts/extract/extract_vocab_excel.py     # 노랭이 Excel → hackers_vocab.json
 python scripts/extract/extract_chapters.py        # 노랭이 PDF → chapter_map.json
 python scripts/extract/extract_ets.py             # ETS PDF → vol{N}_part{5,6,7}.json
 python scripts/extract/extract_answers.py         # 해설 PDF → 정답/해설 병합
@@ -66,43 +66,43 @@ python scripts/analyze/word_frequency.py          # 빈출 단어 분석
 
 ### extract/extract_ets.py
 - **역할**: ETS 문제 PDF에서 Part5/6/7 문제 추출
-- **입력**: `data/raw/question/*.pdf`
-- **출력**: `data/processed/questions/vol{N}_part{N}.json`
+- **입력**: `00. Reference/*.pdf (ETS 기출)`
+- **출력**: `data/json/questions/vol{N}_part{N}.json`
 - **의존성**: PyMuPDF, PyYAML
 
 ### extract/extract_answers.py
 - **역할**: ETS 해설 PDF에서 정답·해설 추출 후 문제 JSON에 병합
-- **입력**: `data/raw/answer/*.pdf`
-- **출력**: `data/processed/questions/vol{N}_*.json` (answer/explanation 필드 추가)
+- **입력**: `00. Reference/*.pdf (ETS 해설)`
+- **출력**: `data/json/questions/vol{N}_*.json` (answer/explanation 필드 추가)
 - **의존성**: PyMuPDF, pytesseract
 
 ### extract/extract_vocab.py
 - **역할**: 노랭이 PDF에서 단어 추출 (word, POS, 뜻, 예문, Day, 유의어)
-- **입력**: `data/raw/hackers_vocab.pdf`
-- **출력**: `data/processed/vocab/day{NN}.json`
+- **입력**: `00. Reference/hackers_vocab.pdf`
+- **출력**: `data/json/hackers_vocab.json`
 - **의존성**: PyMuPDF, pytesseract, PIL
 
 ### extract/extract_vocab_excel.py
 - **역할**: 노랭이 Excel에서 단어 추출 (기초/800점/900점 레벨별)
-- **입력**: `data/raw/voca/*.xlsx`
-- **출력**: `data/processed/vocab/all_vocab.json`, `day{NN}.json`
+- **입력**: `00. Reference/*.xlsx`
+- **출력**: `data/json/hackers_vocab.json`
 - **의존성**: openpyxl
 
 ### extract/extract_chapters.py
 - **역할**: 노랭이 PDF에서 Chapter 구조 + 900점 단어 추출
-- **입력**: `data/raw/hackers_vocab.pdf`
-- **출력**: `data/processed/vocab/chapter_map.json`
+- **입력**: `00. Reference/hackers_vocab.pdf`
+- **출력**: `data/json/chapter_map.json`
 - **의존성**: PyMuPDF
 
 ### extract/ocr_question_pdf.py
 - **역할**: ETS 문제 PDF 텍스트 추출 (PyMuPDF → Tesseract 폴백), 페이지별 캐싱
-- **입력**: `data/raw/question/*.pdf`
-- **출력**: `data/raw/question/ocr_cache/`
+- **입력**: `00. Reference/*.pdf (ETS 기출)`
+- **출력**: `00. Reference/ocr_cache/`
 - **의존성**: PyMuPDF, pytesseract
 
 ### extract/ocr_answer_pdf.py
 - **역할**: ETS 해설 PDF에 OCR 투명 텍스트 레이어 삽입
-- **입력**: `data/raw/answer/*.pdf`
+- **입력**: `00. Reference/*.pdf (ETS 해설)`
 - **출력**: 검색 가능 PDF
 - **의존성**: pytesseract, PIL, PyMuPDF
 
@@ -113,7 +113,7 @@ python scripts/analyze/word_frequency.py          # 빈출 단어 분석
 
 ### process/validate.py
 - **역할**: 문제·단어 JSON 무결성 검증 (필수 필드, 데이터 타입, 이상값)
-- **입력**: `data/processed/**/*.json`
+- **입력**: `data/json/**/*.json`
 - **출력**: 검증 리포트 (콘솔)
 
 ### process/categorize.py
@@ -123,36 +123,36 @@ python scripts/analyze/word_frequency.py          # 빈출 단어 분석
 
 ### process/add_pos.py
 - **역할**: NLTK WordNet + 접미사 패턴으로 POS 자동 태깅
-- **입력**: `day{NN}.json`
+- **입력**: `hackers_vocab.json`
 - **출력**: 같은 파일에 `pos` 필드 추가
 - **의존성**: nltk
 
 ### process/fix_pos.py
 - **역할**: Claude API로 POS 교정 (배치 처리)
-- **입력**: `day{NN}.json`
+- **입력**: `hackers_vocab.json`
 - **출력**: POS 교정 JSON
 - **의존성**: anthropic
 
 ### process/apply_pos_corrections.py
 - **역할**: POS 교정 파일을 단어 JSON에 일괄 적용
-- **입력**: 교정 JSON + `day{NN}.json`
-- **출력**: 업데이트된 `day{NN}.json`
+- **입력**: 교정 JSON + `hackers_vocab.json`
+- **출력**: 업데이트된 `hackers_vocab.json`
 
 ### process/create_chapter_map.py
-- **역할**: `all_vocab.json`에서 Day/Chapter별 단어 그룹핑
-- **입력**: `data/processed/vocab/all_vocab.json`
-- **출력**: `data/processed/vocab/chapter_map.json`
+- **역할**: `hackers_vocab.json`에서 Day/Chapter별 단어 그룹핑
+- **입력**: `data/json/hackers_vocab.json`
+- **출력**: `data/json/chapter_map.json`
 
 ### process/find_ets_examples.py
 - **역할**: 단어별 ETS 기출 예문 전수 검색 (Part5/6/7, spaCy lemmatization)
-- **입력**: `chapter_map.json` + `questions/*.json`
-- **출력**: `data/mapped/word_ets_examples.json`
+- **입력**: `hackers_vocab.json` + `questions/*.json`
+- **출력**: `data/json/word_ets_examples.json`
 - **의존성**: scripts.utils.nlp
 
 ### process/find_examples_from_ocr_cache.py
 - **역할**: OCR 캐시 텍스트에서 직접 예문 검색 (구조화 JSON 대신 raw OCR)
-- **입력**: `data/raw/question/ocr_cache/`
-- **출력**: `data/mapped/ocr_examples_vol{N}.json`
+- **입력**: `00. Reference/ocr_cache/`
+- **출력**: `data/json/ocr_examples_vol{N}.json`
 
 ### process/merge_ocr_examples.py
 - **역할**: 권별 OCR 예문을 `word_ets_examples.json`에 병합 (중복 제거)
@@ -162,7 +162,7 @@ python scripts/analyze/word_frequency.py          # 빈출 단어 분석
 ### process/fill_blanks.py
 - **역할**: 예문 내 `-------` 빈칸을 정답으로 채움
 - **입력**: `questions/*.json` + `word_ets_examples.json`
-- **출력**: `data/mapped/fill_patches_vol{N}.json`
+- **출력**: `data/json/fill_patches_vol{N}.json`
 
 ### process/apply_fill_patches.py
 - **역할**: fill_patches를 `word_ets_examples.json`에 적용 + Anki 덱 재생성
@@ -171,7 +171,7 @@ python scripts/analyze/word_frequency.py          # 빈출 단어 분석
 
 ### anki/generate_vocab_deck.py
 - **역할**: 노랭이 단어 + 기출 예문 → Anki 단어장 덱
-- **입력**: `all_vocab.json` + `word_ets_examples.json`
+- **입력**: `hackers_vocab.json` + `word_ets_examples.json`
 - **출력**: `output/anki/toeic_vocab.apkg`
 - **의존성**: genanki
 
@@ -188,7 +188,7 @@ python scripts/analyze/word_frequency.py          # 빈출 단어 분석
 
 ### analyze/coverage_report.py
 - **역할**: 노랭이 단어의 기출 커버리지 분석 (Day별 등장률)
-- **입력**: `vocab/*.json` + `questions/*.json`
+- **입력**: `hackers_vocab.json` + `word_ets_examples.json`
 - **출력**: `output/reports/coverage_report.html`
 
 ### analyze/word_frequency.py

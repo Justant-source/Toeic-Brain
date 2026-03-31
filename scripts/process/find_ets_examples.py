@@ -2,17 +2,17 @@
 ETS 기출문제 5권에서 단어별 예문을 전수 검색한다.
 
 Input:
-  data/processed/vocab/chapter_map.json     — 챕터별 단어 목록 (Phase 1 산출물)
-  data/processed/questions/vol*_part5.json  — Part 5 구조화된 문제
-  data/processed/questions/vol*_part6.json  — Part 6 원문 (raw_text)
-  data/processed/questions/vol*_part7.json  — Part 7 원문 (raw_text)
+  data/json/hackers_vocab.json             — 단어 목록 (chapter_map을 인메모리 생성)
+  data/json/questions/vol*_part5.json      — Part 5 구조화된 문제
+  data/json/questions/vol*_part6.json      — Part 6 원문 (raw_text)
+  data/json/questions/vol*_part7.json      — Part 7 원문 (raw_text)
 
 Output:
-  data/mapped/word_ets_examples.json        — 단어별 ETS 예문 매핑
+  data/json/word_ets_examples.json         — 단어별 ETS 예문 매핑
 
 Usage:
   python find_ets_examples.py                           # Default paths
-  python find_ets_examples.py --chapter-map path.json   # Custom chapter map
+  python find_ets_examples.py --vocab path.json         # Custom vocab file
   python find_ets_examples.py --questions-dir path/     # Custom questions dir
   python find_ets_examples.py --output path.json        # Custom output
   python find_ets_examples.py --no-spacy                # Disable spaCy
@@ -42,9 +42,9 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-DEFAULT_CHAPTER_MAP = PROJECT_ROOT / "data" / "processed" / "vocab" / "chapter_map.json"
-DEFAULT_QUESTIONS_DIR = PROJECT_ROOT / "data" / "processed" / "questions"
-DEFAULT_OUTPUT = PROJECT_ROOT / "data" / "mapped" / "word_ets_examples.json"
+DEFAULT_VOCAB_PATH = PROJECT_ROOT / "data" / "json" / "hackers_vocab.json"
+DEFAULT_QUESTIONS_DIR = PROJECT_ROOT / "data" / "json" / "questions"
+DEFAULT_OUTPUT = PROJECT_ROOT / "data" / "json" / "word_ets_examples.json"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -76,6 +76,7 @@ from scripts.utils.nlp import (
     get_lemma,
     _fallback_lemma,
     _load_spacy,
+    build_chapter_map_from_vocab,
 )
 
 
@@ -617,11 +618,11 @@ def main() -> None:
         description="ETS 기출문제 5권에서 단어별 예문을 전수 검색한다.",
     )
     parser.add_argument(
-        "--chapter-map",
+        "--vocab",
         type=Path,
-        default=DEFAULT_CHAPTER_MAP,
+        default=DEFAULT_VOCAB_PATH,
         metavar="PATH",
-        help="Path to chapter_map.json (default: %(default)s)",
+        help="Path to hackers_vocab.json (default: %(default)s)",
     )
     parser.add_argument(
         "--questions-dir",
@@ -668,8 +669,11 @@ def main() -> None:
     else:
         print(yellow("  spaCy disabled — using fallback lemmatiser"))
 
-    # ── Load chapter map ─────────────────────────────────────────────────────
-    chapter_map = load_chapter_map(args.chapter_map)
+    # ── Load chapter map (built from vocab) ─────────────────────────────────
+    chapter_map = build_chapter_map_from_vocab(args.vocab) if args.vocab.exists() else []
+    if chapter_map:
+        total_words = sum(len(ch.get("words", [])) for ch in chapter_map)
+        print(f"  Loaded {len(chapter_map)} chapters, {total_words:,} words from {args.vocab.name}")
     if not chapter_map:
         print(yellow("[WARN] No chapter data found. Writing empty output."))
         _write_output({}, args.output)

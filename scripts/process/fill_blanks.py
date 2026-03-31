@@ -5,7 +5,7 @@ word_ets_examples.json 의 ------- 빈칸을 정답으로 채운다.
 - Part 6 passage 예문: raw_text 파싱 → 정답 choice 삽입
 - Part 7 잡음 빈칸: 제거
 
-Output: data/mapped/fill_patches_vol{N}.json
+Output: data/json/fill_patches_vol{N}.json
   { word: [ { "idx": N, "new_sentence": "..." }, ... ] }
 
 Usage:
@@ -29,9 +29,9 @@ if sys.stdout.encoding != "utf-8":
         pass
 
 PROJECT_ROOT   = Path(__file__).resolve().parent.parent.parent
-QUESTIONS_DIR  = PROJECT_ROOT / "data" / "processed" / "questions"
-ETS_EXAMPLES   = PROJECT_ROOT / "data" / "mapped" / "word_ets_examples.json"
-PATCHES_DIR    = PROJECT_ROOT / "data" / "mapped"
+QUESTIONS_DIR  = PROJECT_ROOT / "data" / "json" / "questions"
+ETS_EXAMPLES   = PROJECT_ROOT / "data" / "json" / "word_ets_examples.json"
+PATCHES_DIR    = PROJECT_ROOT / "data" / "json"
 
 logging.basicConfig(
     level=logging.INFO,

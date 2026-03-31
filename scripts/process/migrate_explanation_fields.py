@@ -80,7 +80,7 @@ def migrate_file(filepath: Path) -> dict:
 
 
 def main():
-    base = Path(__file__).resolve().parent.parent.parent / "data" / "processed" / "questions"
+    base = Path(__file__).resolve().parent.parent.parent / "data" / "json" / "questions"
     files = sorted(base.glob("vol*_part5.json"))
 
     if not files:

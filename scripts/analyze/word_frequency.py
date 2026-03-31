@@ -13,7 +13,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 # ── paths ─────────────────────────────────────────────────────────────────────
 
 ROOT = Path(__file__).resolve().parents[2]
-DATA_DIR = ROOT / "data" / "processed" / "questions"
+DATA_DIR = ROOT / "data" / "json" / "questions"
 OUTPUT_DIR = ROOT / "output" / "reports"
 
 # ── stop words ────────────────────────────────────────────────────────────────

@@ -95,9 +95,7 @@ def build_exam_examples(
 ) -> str:
     """Return an HTML string of numbered exam examples, or a fallback message.
 
-    Supports two data formats:
-    - Old format (word_question_map.json): mapping_entry with occurrences[].context
-    - New format (word_ets_examples.json): ets_entry with examples[].sentence + source
+    Uses word_ets_examples.json: ets_entry with examples[].sentence + source
     """
     MAX_EXAMPLES = 20
 
@@ -129,32 +127,7 @@ def build_exam_examples(
                 parts.append(f'<div style="margin-bottom:6px;">{i}. {sentence}{meta_str}</div>')
             return "\n".join(parts)
 
-    # ── Old format: word_question_map.json ────────────────────────────────────
-    if mapping_entry is None:
-        return "기출 예문 없음"
-
-    occurrences = mapping_entry.get("occurrences") or []
-    if not occurrences:
-        return "기출 예문 없음"
-
-    parts = []
-    for i, occ in enumerate(occurrences[:MAX_EXAMPLES], start=1):
-        context = (occ.get("context") or "").strip()
-        question_id = occ.get("question_id", "")
-        form_used = occ.get("form_used", "")
-
-        meta_parts: list[str] = []
-        if question_id:
-            meta_parts.append(f"Q{question_id}")
-        if form_used and form_used.lower() != (mapping_entry.get("word") or word or "").lower():
-            meta_parts.append(f"형태: {form_used}")
-        if occ.get("as_answer"):
-            meta_parts.append("정답")
-
-        meta_str = f' <span style="color:#9CA3AF;font-size:12px;">({", ".join(meta_parts)})</span>' if meta_parts else ""
-        parts.append(f'<div style="margin-bottom:6px;">{i}. {context}{meta_str}</div>')
-
-    return "\n".join(parts)
+    return "기출 예문 없음"
 
 
 def build_book_example(entry: dict) -> str:
@@ -236,20 +209,14 @@ def parse_args() -> argparse.Namespace:
     p.add_argument(
         "--vocab",
         type=Path,
-        default=PROJECT_ROOT / "data/processed/vocab/hackers_vocab.json",
-        help="Path to vocab JSON (default: data/processed/vocab/hackers_vocab.json)",
-    )
-    p.add_argument(
-        "--mapping",
-        type=Path,
-        default=PROJECT_ROOT / "data/mapped/word_question_map.json",
-        help="Path to mapping JSON (default: data/mapped/word_question_map.json)",
+        default=PROJECT_ROOT / "data/json/hackers_vocab.json",
+        help="Path to vocab JSON (default: data/json/hackers_vocab.json)",
     )
     p.add_argument(
         "--ets-examples",
         type=Path,
-        default=PROJECT_ROOT / "data/mapped/word_ets_examples.json",
-        help="Path to word_ets_examples.json (default: data/mapped/word_ets_examples.json)",
+        default=PROJECT_ROOT / "data/json/word_ets_examples.json",
+        help="Path to word_ets_examples.json (default: data/json/word_ets_examples.json)",
     )
     p.add_argument(
         "--output",
@@ -281,20 +248,7 @@ def main() -> None:
         print("[ERROR] Vocab JSON must be a list of objects.", file=sys.stderr)
         sys.exit(1)
 
-    # ── Load mapping (optional, old format) ──────────────────────────────────
-    mapping_raw = load_json(args.mapping)
-    if mapping_raw is None:
-        print(f"[INFO] Mapping file not found ({args.mapping.name}). Generating without old-format exam examples.")
-        mapping_by_id: dict[str, dict] = {}
-    else:
-        # Support both list and dict shapes
-        if isinstance(mapping_raw, list):
-            mapping_by_id = {str(m.get("vocab_id", m.get("word", ""))): m for m in mapping_raw}
-        else:
-            mapping_by_id = {str(k): v for k, v in mapping_raw.items()}
-        print(f"[INFO] Mapping loaded: {len(mapping_by_id)} entries.")
-
-    # ── Load ETS examples (optional, new format) ──────────────────────────────
+    # ── Load ETS examples ──────────────────────────────────────────────────────
     ets_raw = load_json(args.ets_examples)
     if ets_raw is None:
         print(f"[INFO] ETS examples file not found ({args.ets_examples.name}). Skipping.")
@@ -362,18 +316,12 @@ def main() -> None:
     tag_stats: dict[str, int] = {}
 
     for entry in sorted_vocab:
-        vocab_id = str(entry.get("id") or entry.get("word") or "")
         word_lower = (entry.get("word") or "").lower()
 
-        # Try lookup by vocab_id, then by word (old mapping format)
-        mapping_entry = mapping_by_id.get(vocab_id) or mapping_by_id.get(
-            str(entry.get("word") or "")
-        )
-
-        # Lookup in new ETS examples format (case-insensitive by word)
+        # Lookup in ETS examples format (case-insensitive by word)
         ets_entry = ets_by_word.get(word_lower)
 
-        note = build_note(model, entry, mapping_entry, ets_entry=ets_entry)
+        note = build_note(model, entry, None, ets_entry=ets_entry)
         deck.add_note(note)
         for tag in note.tags:
             tag_stats[tag] = tag_stats.get(tag, 0) + 1

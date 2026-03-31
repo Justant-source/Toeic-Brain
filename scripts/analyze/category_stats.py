@@ -9,7 +9,7 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parents[2]
-DATA_DIR = ROOT / "data" / "processed" / "questions"
+DATA_DIR = ROOT / "data" / "json" / "questions"
 OUTPUT_DIR = ROOT / "output" / "reports"
 
 CATEGORIES = [

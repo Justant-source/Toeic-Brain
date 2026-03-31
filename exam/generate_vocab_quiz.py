@@ -22,8 +22,8 @@ from datetime import datetime
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
-VOCAB_DIR = PROJECT_ROOT / "data" / "processed" / "vocab"
-EXAMPLES_PATH = PROJECT_ROOT / "data" / "mapped" / "word_ets_examples.json"
+JSON_DIR = PROJECT_ROOT / "data" / "json"
+EXAMPLES_PATH = JSON_DIR / "word_ets_examples.json"
 RESULT_DIR = SCRIPT_DIR / "result"
 
 # ── HTML escape helper ────────────────────────────────────────────────────────
@@ -35,19 +35,20 @@ def esc(s: str) -> str:
 # ── Data loading ──────────────────────────────────────────────────────────────
 
 def load_vocab(days: list[int] | None = None, levels: list[str] | None = None) -> list[dict]:
-    """Load vocabulary from day{NN}.json files."""
-    files = sorted(VOCAB_DIR.glob("day*.json"))
+    """Load vocabulary from hackers_vocab.json, filtering by day and level."""
+    vocab_path = JSON_DIR / "hackers_vocab.json"
+    if not vocab_path.exists():
+        return []
+    with open(vocab_path, encoding="utf-8") as fh:
+        all_entries = json.load(fh)
     vocab = []
-    for f in files:
-        with open(f, encoding="utf-8") as fh:
-            entries = json.load(fh)
-        for e in entries:
-            if days and e.get("day") not in days:
-                continue
-            if levels and e.get("level") not in levels:
-                continue
-            if e.get("word") and e.get("meaning_kr"):
-                vocab.append(e)
+    for e in all_entries:
+        if days and e.get("day") not in days:
+            continue
+        if levels and e.get("level") not in levels:
+            continue
+        if e.get("word") and e.get("meaning_kr"):
+            vocab.append(e)
     return vocab
 
 

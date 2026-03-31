@@ -1,7 +1,7 @@
 """
 해커스 노랭이 단어장 PDF에서 단어 데이터를 추출하여 JSON으로 변환한다.
-입력: data/raw/hackers_vocab.pdf
-출력: data/processed/vocab/hackers_vocab.json
+입력: 00. Reference/hackers_vocab.pdf
+출력: data/json/hackers_vocab.json
 
 사용법:
   python extract_vocab.py                    # 전체 PDF 처리
@@ -35,10 +35,10 @@ if sys.stdout.encoding != "utf-8":
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent.parent  # scripts/extract/ → project root
 
-RAW_PDF_PATH = PROJECT_ROOT / "data" / "raw" / "hackers_vocab.pdf"
-OUTPUT_JSON_PATH = PROJECT_ROOT / "data" / "processed" / "vocab" / "hackers_vocab.json"
-OCR_CACHE_DIR = PROJECT_ROOT / "data" / "processed" / "vocab" / "_ocr_cache"
-RENDER_DIR = PROJECT_ROOT / "data" / "processed" / "vocab" / "_rendered"
+RAW_PDF_PATH = PROJECT_ROOT / "00. Reference" / "hackers_vocab.pdf"
+OUTPUT_JSON_PATH = PROJECT_ROOT / "data" / "json" / "hackers_vocab.json"
+OCR_CACHE_DIR = PROJECT_ROOT / "data" / "json" / "_ocr_cache"
+RENDER_DIR = PROJECT_ROOT / "data" / "json" / "_rendered"
 
 # ---------------------------------------------------------------------------
 # ロギング設定

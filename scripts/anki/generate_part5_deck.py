@@ -34,8 +34,8 @@ except ImportError:
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
-PROJECT_ROOT  = Path(r"C:\Data\Toeic Brain")
-PROCESSED_DIR = PROJECT_ROOT / "data" / "processed" / "questions"
+PROJECT_ROOT  = Path(__file__).resolve().parents[2]
+PROCESSED_DIR = PROJECT_ROOT / "data" / "json" / "questions"
 OUTPUT_DIR    = PROJECT_ROOT / "output" / "anki"
 TEMPLATES_DIR = PROJECT_ROOT / "scripts" / "anki" / "templates"
 STYLES_DIR    = PROJECT_ROOT / "scripts" / "anki" / "styles"

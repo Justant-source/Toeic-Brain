@@ -166,7 +166,7 @@ def classify(question: dict) -> str:
 
 # ── I/O helpers ───────────────────────────────────────────────────────────────
 
-DATA_DIR = Path(__file__).resolve().parents[2] / "data" / "processed" / "questions"
+DATA_DIR = Path(__file__).resolve().parents[2] / "data" / "json" / "questions"
 
 CATEGORIES = [
     "품사", "동사시제/태", "접속사/전치사", "관계대명사",

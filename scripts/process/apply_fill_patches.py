@@ -21,9 +21,9 @@ if sys.stdout.encoding != "utf-8":
         pass
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-MAPPED_DIR   = PROJECT_ROOT / "data" / "mapped"
-ETS_EXAMPLES = MAPPED_DIR / "word_ets_examples.json"
-VOCAB_FILE   = PROJECT_ROOT / "data" / "processed" / "vocab" / "all_vocab.json"
+JSON_DIR     = PROJECT_ROOT / "data" / "json"
+ETS_EXAMPLES = JSON_DIR / "word_ets_examples.json"
+VOCAB_FILE   = JSON_DIR / "hackers_vocab.json"
 ANKI_SCRIPT  = PROJECT_ROOT / "scripts" / "anki" / "generate_vocab_deck.py"
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", datefmt="%H:%M:%S")
@@ -38,7 +38,7 @@ def main():
     ets_data: dict = json.loads(ETS_EXAMPLES.read_text(encoding="utf-8"))
     print(f"  Loaded {len(ets_data):,} words")
 
-    patch_files = sorted(MAPPED_DIR.glob("fill_patches_vol*.json"))
+    patch_files = sorted(JSON_DIR.glob("fill_patches_vol*.json"))
     if not patch_files:
         print("[ERROR] fill_patches_vol*.json 파일이 없습니다.")
         sys.exit(1)

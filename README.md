@@ -16,19 +16,20 @@
 ```
 Toeic Brain/
 │
+├── 00. Reference/                    # 원본 PDF/Excel (git 미추적, 저작권)
+│
 ├── data/
-│   ├── raw/                          # 원본 PDF/Excel (git 미추적, 저작권)
-│   ├── processed/
+│   ├── json/                         # 구조화 JSON (git 미추적)
 │   │   ├── questions/                # 기출문제 JSON (vol1~5 × part5/6/7, 15개)
-│   │   └── vocab/                    # 단어장 JSON (day01~30, all_vocab, chapter_map 등)
-│   └── mapped/
-│       └── word_ets_examples.json    # 단어별 기출 예문 매핑 (4,206단어, 298,393예문)
+│   │   ├── hackers_vocab.json        # 단어장 통합 JSON
+│   │   └── word_ets_examples.json    # 단어별 기출 예문 매핑 (4,206단어, 298,393예문)
+│   └── anki/                         # Anki 덱 생성용 중간 데이터
 │
 ├── scripts/
 │   ├── extract/                      # Phase 1: PDF/Excel → JSON
 │   │   ├── extract_ets.py            # ETS 기출 PDF → Part5/6/7 문제 JSON
 │   │   ├── extract_answers.py        # ETS 해설 PDF → 정답·해설 추출
-│   │   ├── extract_vocab_excel.py    # 노랭이 Excel → day{01-30}.json
+│   │   ├── extract_vocab_excel.py    # 노랭이 Excel → hackers_vocab.json
 │   │   ├── ocr_question_pdf.py       # 문제 PDF 텍스트 추출·캐싱
 │   │   └── ocr_utils.py              # OCR 공유 유틸리티
 │   │
@@ -66,7 +67,8 @@ Toeic Brain/
 │   ├── anki/                         # 생성된 .apkg (git 미추적)
 │   └── reports/                      # 분석 리포트 HTML
 │
-├── archive/                          # 사용 종료된 스크립트·데이터 보관
+├── archive/                          # 사용 종료된 스크립트 보관
+│   └── scripts/
 ├── .request/                         # 작업지시서 (git 미추적)
 ├── .result/                          # 완료 보고서
 ├── CLAUDE.md                         # 상세 개발 가이드 (스키마, 규칙, 규약)
@@ -110,9 +112,7 @@ py exam/generate_vocab_quiz.py            # 단어장 50문제 4지선다
 
 ```
 1. 원본 데이터 배치
-   data/raw/question/  ← ETS 기출 PDF (5권)
-   data/raw/answer/    ← ETS 정답·해설 PDF (5권)
-   data/raw/           ← 노랭이 Excel
+   00. Reference/      ← ETS 기출 PDF (5권), 정답·해설 PDF (5권), 노랭이 Excel
 
 2. 추출 (Phase 1)
    py scripts/extract/extract_ets.py        # 문제 JSON 생성
@@ -174,4 +174,4 @@ ETS 기출문제 및 해커스 단어장은 저작권 자료입니다.
 
 - **개인 학습 목적으로만 사용**
 - Anki 덱·모의고사 HTML의 **외부 공유·배포 금지**
-- 원본 PDF/Excel은 `data/raw/` (git 미추적)
+- 원본 PDF/Excel은 `00. Reference/` (git 미추적)

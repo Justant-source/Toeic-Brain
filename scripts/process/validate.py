@@ -565,8 +565,6 @@ def build_arg_parser() -> argparse.ArgumentParser:
                    help="Validate question files only")
     p.add_argument("--vocab", action="store_true",
                    help="Validate vocabulary file only")
-    p.add_argument("--mapping", action="store_true",
-                   help="Validate mapping file only")
     p.add_argument("--verbose", "-v", action="store_true",
                    help="Show all details including warnings")
     p.add_argument("--fix", action="store_true",
@@ -579,9 +577,8 @@ def main() -> int:
     args   = parser.parse_args()
 
     # If no target flag supplied, validate everything
-    run_questions = args.questions or not (args.vocab or args.mapping)
-    run_vocab     = args.vocab     or not (args.questions or args.mapping)
-    run_mapping   = args.mapping   or not (args.questions or args.vocab)
+    run_questions = args.questions or not args.vocab
+    run_vocab     = args.vocab     or not args.questions
 
     # Resolve project root relative to this script
     script_dir   = Path(__file__).resolve().parent
@@ -589,31 +586,15 @@ def main() -> int:
 
     # Try to load config for path overrides
     config_path = project_root / "config.yaml"
-    processed_dir = project_root / "data" / "processed"
-    mapped_dir    = project_root / "data" / "mapped"
+    json_dir = project_root / "data" / "json"
 
-    if config_path.exists():
-        try:
-            import yaml  # type: ignore
-            with config_path.open(encoding="utf-8") as fh:
-                cfg = yaml.safe_load(fh)
-            paths = cfg.get("paths", {})
-            if "processed_data" in paths:
-                processed_dir = project_root / paths["processed_data"]
-            if "mapped_data" in paths:
-                mapped_dir = project_root / paths["mapped_data"]
-        except ImportError:
-            pass  # pyyaml not installed – use defaults
-
-    questions_dir = processed_dir / "questions"
-    vocab_path    = processed_dir / "vocab" / "hackers_vocab.json"
-    mapping_path  = mapped_dir / "word_question_map.json"
+    questions_dir = json_dir / "questions"
+    vocab_path    = json_dir / "hackers_vocab.json"
 
     print(bold(f"\nToeic Brain — Data Validator"))
     print(f"  Project root : {project_root}")
     print(f"  Questions    : {questions_dir}")
     print(f"  Vocab        : {vocab_path}")
-    print(f"  Mapping      : {mapping_path}")
     print()
 
     all_results: list[ValidationResult] = []
@@ -658,27 +639,6 @@ def main() -> int:
             print(f"\n{bold('Vocab issues:')}")
             for issue in res_v.issues:
                 print(str(issue))
-
-    # ── Mapping ────────────────────────────────────────────────────────────────
-    if run_mapping:
-        res_m = ValidationResult(target="mapping")
-
-        if not mapping_path.exists():
-            if args.mapping:
-                # Explicitly requested but missing → error
-                res_m.add_issue("error", mapping_path.name, "<file>", "file",
-                                "Mapping file not found")
-            else:
-                print(yellow("  [INFO] Mapping file not found — skipping mapping validation"))
-        else:
-            validate_mapping(mapping_path, question_index, vocab_index,
-                             res_m, args.verbose)
-            all_results.append(res_m)
-
-            if args.verbose:
-                print(f"\n{bold('Mapping issues:')}")
-                for issue in res_m.issues:
-                    print(str(issue))
 
     if not all_results:
         print(yellow("  Nothing to validate."))

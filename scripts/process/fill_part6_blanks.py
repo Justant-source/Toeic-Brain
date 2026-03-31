@@ -18,8 +18,8 @@ from pathlib import Path
 from collections import defaultdict
 
 BASE_DIR = Path(__file__).parent.parent.parent
-QUESTIONS_DIR = BASE_DIR / "data/processed/questions"
-EXAMPLES_FILE = BASE_DIR / "data/mapped/word_ets_examples.json"
+QUESTIONS_DIR = BASE_DIR / "data" / "json" / "questions"
+EXAMPLES_FILE = BASE_DIR / "data" / "json" / "word_ets_examples.json"
 
 BLANK_RE = re.compile(r'-{5,}')
 

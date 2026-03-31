@@ -6,7 +6,7 @@ AI 에이전트가 처리할 수 있는 배치 JSON 파일로 저장.
 
 사용법:
   py scripts/process/create_restore_batches.py
-  # 결과: data/mapped/restore_batches/batch_001.json, ...
+  # 결과: data/json/restore_batches/batch_001.json, ...
 """
 
 import json
@@ -15,8 +15,8 @@ from pathlib import Path
 import sys
 
 BASE_DIR = Path(__file__).parent.parent.parent
-INPUT_FILE = BASE_DIR / "data/mapped/word_ets_examples.json"
-BATCHES_DIR = BASE_DIR / "data/mapped/restore_batches"
+INPUT_FILE = BASE_DIR / "data" / "json" / "word_ets_examples.json"
+BATCHES_DIR = BASE_DIR / "data" / "json" / "restore_batches"
 BATCHES_DIR.mkdir(exist_ok=True)
 
 # OCR 오류 감지 정규식

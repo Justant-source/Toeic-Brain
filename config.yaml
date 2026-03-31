@@ -2,14 +2,16 @@
 
 project:
   name: "Toeic Brain"
-  version: "1.0.0"
+  version: "2.0.0"
   description: "ETS 기출문제 + 노랭이 단어장 → Anki 학습 시스템"
 
 paths:
-  raw_data: "data/raw"
-  raw_questions: "data/raw/question"
-  processed_data: "data/processed"
-  mapped_data: "data/mapped"
+  reference: "00. Reference"
+  json_data: "data/json"
+  json_questions: "data/json/questions"
+  json_vocab: "data/json/hackers_vocab.json"
+  json_word_examples: "data/json/word_ets_examples.json"
+  anki_data: "data/anki"
   output: "output"
   templates: "scripts/anki/templates"
   styles: "scripts/anki/styles"
@@ -17,10 +19,12 @@ paths:
 ets:
   volumes: [1, 2, 3, 4, 5]
   parts: [5, 6, 7]
-  file_pattern: "data/raw/question/ets_vol{volume}.pdf"
 
 vocab:
-  source: "hackers_vocab.pdf"
+  source_files:
+    basic: "00. Reference/hackers_vocab_basic.xlsx"
+    score_800: "00. Reference/hackers_vocab_800.xlsx"
+    score_900: "00. Reference/hackers_vocab_900.xlsx"
   total_days: 30
 
 anki:

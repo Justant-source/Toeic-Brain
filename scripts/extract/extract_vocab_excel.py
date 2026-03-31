@@ -1,7 +1,7 @@
 """
 해커스 노랭이 단어장 Excel에서 단어 데이터를 추출하여 JSON으로 변환한다.
-입력: data/raw/voca/노랭이_기초단어.xlsx, 노랭이_800점.xlsx, 노랭이_900점.xlsx
-출력: data/processed/vocab/all_vocab.json (통합), data/processed/vocab/day{NN}.json (일별)
+입력: 00. Reference/hackers_vocab_basic.xlsx, hackers_vocab_800.xlsx, hackers_vocab_900.xlsx
+출력: data/json/hackers_vocab.json (통합)
 """
 
 import sys
@@ -20,8 +20,8 @@ import openpyxl
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent.parent
-VOCA_DIR = PROJECT_ROOT / "data" / "raw" / "voca"
-OUTPUT_DIR = PROJECT_ROOT / "data" / "processed" / "vocab"
+REFERENCE_DIR = PROJECT_ROOT / "00. Reference"
+OUTPUT_DIR = PROJECT_ROOT / "data" / "json"
 
 
 def extract_기초(path: Path) -> list[dict]:
@@ -138,13 +138,13 @@ def main():
     print("=== 노랭이 단어장 Excel → JSON 변환 시작 ===\n")
 
     # 추출
-    기초 = extract_기초(VOCA_DIR / "노랭이_기초단어.xlsx")
+    기초 = extract_기초(REFERENCE_DIR / "hackers_vocab_basic.xlsx")
     print(f"기초단어: {len(기초)}개")
 
-    팔백 = extract_800(VOCA_DIR / "노랭이_800점.xlsx")
+    팔백 = extract_800(REFERENCE_DIR / "hackers_vocab_800.xlsx")
     print(f"800점: {len(팔백)}개")
 
-    구백 = extract_900(VOCA_DIR / "노랭이_900점.xlsx")
+    구백 = extract_900(REFERENCE_DIR / "hackers_vocab_900.xlsx")
     print(f"900점: {len(구백)}개")
 
     all_entries = 기초 + 팔백 + 구백
@@ -152,22 +152,8 @@ def main():
     print(f"\n총 단어 수: {len(all_entries)}개")
 
     # 통합 파일 저장
-    save_json(all_entries, OUTPUT_DIR / "all_vocab.json")
-    print(f"저장: {OUTPUT_DIR / 'all_vocab.json'}")
-
-    # Day별 파일 저장
-    from collections import defaultdict
-    by_day: dict[int, list] = defaultdict(list)
-    for e in all_entries:
-        by_day[e["day"]].append(e)
-
-    for day in sorted(by_day.keys()):
-        if day == 0:
-            continue
-        filename = f"day{day:02d}.json"
-        save_json(by_day[day], OUTPUT_DIR / filename)
-
-    print(f"Day별 파일: {len([d for d in by_day if d > 0])}개 생성")
+    save_json(all_entries, OUTPUT_DIR / "hackers_vocab.json")
+    print(f"저장: {OUTPUT_DIR / 'hackers_vocab.json'}")
 
     # 통계
     levels = defaultdict(int)

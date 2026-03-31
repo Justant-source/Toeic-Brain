@@ -11,8 +11,8 @@ from collections import Counter, defaultdict
 sys.stdout.reconfigure(encoding="utf-8")
 
 ROOT = Path(__file__).resolve().parents[2]
-VOCAB_PATH = ROOT / "data" / "processed" / "vocab" / "hackers_vocab.json"
-MAP_PATH   = ROOT / "data" / "mapped" / "word_question_map.json"
+VOCAB_PATH = ROOT / "data" / "json" / "hackers_vocab.json"
+ETS_EXAMPLES_PATH = ROOT / "data" / "json" / "word_ets_examples.json"
 OUTPUT_DIR = ROOT / "output" / "reports"
 
 # ── loading helpers ───────────────────────────────────────────────────────────
@@ -328,8 +328,8 @@ def main():
     print("Loading vocab file...")
     vocab_data = load_json(VOCAB_PATH, "hackers_vocab.json")
 
-    print("Loading word-question map...")
-    map_data = load_json(MAP_PATH, "word_question_map.json")
+    print("Loading word-ETS examples...")
+    map_data = load_json(ETS_EXAMPLES_PATH, "word_ets_examples.json")
 
     if vocab_data is None and map_data is None:
         print("[ERROR] Both input files are missing. Nothing to report.")
@@ -347,10 +347,19 @@ def main():
 
     # ── build map structure ──
     if map_data is not None:
-        wq_map = parse_word_question_map(map_data)
-        print(f"  Map  : {len(wq_map):,} words with question links")
+        # word_ets_examples.json is dict keyed by word with examples[]
+        if isinstance(map_data, dict):
+            wq_map = {}
+            for word, entry in map_data.items():
+                w = word.strip().lower()
+                examples = entry.get("examples", [])
+                wq_map[w] = [ex.get("source", "") for ex in examples]
+            print(f"  Map  : {len(wq_map):,} words with ETS examples")
+        else:
+            wq_map = parse_word_question_map(map_data)
+            print(f"  Map  : {len(wq_map):,} words with question links")
     else:
-        print("[WARN] No word-question map — coverage stats will be zero.")
+        print("[WARN] No word-ETS examples — coverage stats will be zero.")
         wq_map = {}
 
     print("\nComputing coverage...")

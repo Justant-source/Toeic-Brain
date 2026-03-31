@@ -1,7 +1,7 @@
 """
 ETS 기출문제 1000제 PDF에서 Part별 문제를 추출하여 JSON으로 변환한다.
-입력: data/raw/ets_vol{1-5}.pdf
-출력: data/processed/questions/vol{N}_part{5,6,7}.json
+입력: 00. Reference/ets_vol{1-5}.pdf
+출력: data/json/questions/vol{N}_part{5,6,7}.json
 """
 
 import sys
@@ -482,8 +482,8 @@ def main() -> None:
     args = parser.parse_args()
 
     config = load_config()
-    raw_dir = PROJECT_ROOT / config["paths"]["raw_data"]
-    out_dir = PROJECT_ROOT / config["paths"]["processed_data"] / "questions"
+    raw_dir = PROJECT_ROOT / "00. Reference"
+    out_dir = PROJECT_ROOT / "data" / "json" / "questions"
     file_pattern: str = config["ets"]["file_pattern"]
     all_volumes: list[int] = config["ets"]["volumes"]
 

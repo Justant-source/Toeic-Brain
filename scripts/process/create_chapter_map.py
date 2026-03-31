@@ -1,8 +1,8 @@
 """
-all_vocab.json을 읽어 chapter_map.json을 생성한다.
+hackers_vocab.json을 읽어 chapter_map.json을 생성한다.
 
-Input:  data/processed/vocab/all_vocab.json
-Output: data/processed/vocab/chapter_map.json
+Input:  data/json/hackers_vocab.json
+Output: data/json/chapter_map.json
 
 Format:
 [
@@ -29,13 +29,13 @@ if sys.stdout.encoding != "utf-8":
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent.parent
 
-INPUT_PATH = PROJECT_ROOT / "data" / "processed" / "vocab" / "all_vocab.json"
-OUTPUT_PATH = PROJECT_ROOT / "data" / "processed" / "vocab" / "chapter_map.json"
+INPUT_PATH = PROJECT_ROOT / "data" / "json" / "hackers_vocab.json"
+OUTPUT_PATH = PROJECT_ROOT / "data" / "json" / "chapter_map.json"
 
 
 def main() -> None:
     if not INPUT_PATH.exists():
-        print(f"[ERROR] all_vocab.json not found: {INPUT_PATH}", file=sys.stderr)
+        print(f"[ERROR] hackers_vocab.json not found: {INPUT_PATH}", file=sys.stderr)
         sys.exit(1)
 
     all_vocab: list[dict] = json.loads(INPUT_PATH.read_text(encoding="utf-8"))

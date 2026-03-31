@@ -12,8 +12,8 @@ import re
 from pathlib import Path
 import anthropic
 
-BASE_DIR = Path("C:/Data/Toeic Brain")
-VOCAB_DIR = BASE_DIR / "data/processed/vocab"
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+VOCAB_DIR = BASE_DIR / "data" / "json"
 BATCH_SIZE = 50
 MAX_CONCURRENT = 8
 
@@ -21,14 +21,14 @@ client = anthropic.Anthropic()
 
 
 def load_all_vocab() -> tuple[dict[str, list], list[dict]]:
-    """day별 파일과 전체 단어 목록 로드."""
+    """hackers_vocab.json에서 전체 단어 목록 로드."""
+    vocab_path = VOCAB_DIR / "hackers_vocab.json"
     file_map: dict[str, list] = {}
     all_words: list[dict] = []
-    for path in sorted(VOCAB_DIR.glob("day*.json")):
-        with open(path, encoding="utf-8") as f:
-            words = json.load(f)
-        file_map[str(path)] = words
-        all_words.extend(words)
+    if vocab_path.exists():
+        with open(vocab_path, encoding="utf-8") as f:
+            all_words = json.load(f)
+        file_map[str(vocab_path)] = all_words
     return file_map, all_words
 
 
@@ -169,14 +169,6 @@ async def main():
 
     stats = apply_corrections(file_map, corrections)
     print(f"\n[결과] 변경: {stats['updated']}개, 유지: {stats['unchanged']}개, 미응답: {stats['not_found']}개")
-
-    # all_vocab.json 재생성
-    all_updated = []
-    for words in file_map.values():
-        all_updated.extend(words)
-    all_updated.sort(key=lambda w: w["id"])
-    with open(VOCAB_DIR / "all_vocab.json", "w", encoding="utf-8") as f:
-        json.dump(all_updated, f, ensure_ascii=False, indent=2)
 
     save_files(file_map)
     print("\n=== 완료 ===")

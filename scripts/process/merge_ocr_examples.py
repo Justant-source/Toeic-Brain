@@ -23,9 +23,9 @@ if sys.stdout.encoding != "utf-8":
         pass
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
-MAPPED_DIR   = PROJECT_ROOT / "data" / "mapped"
-ETS_EXAMPLES = MAPPED_DIR / "word_ets_examples.json"
-VOCAB_FILE   = PROJECT_ROOT / "data" / "processed" / "vocab" / "all_vocab.json"
+JSON_DIR     = PROJECT_ROOT / "data" / "json"
+ETS_EXAMPLES = JSON_DIR / "word_ets_examples.json"
+VOCAB_FILE   = JSON_DIR / "hackers_vocab.json"
 ANKI_SCRIPT  = PROJECT_ROOT / "scripts" / "anki" / "generate_vocab_deck.py"
 
 logging.basicConfig(
@@ -75,7 +75,7 @@ def main() -> None:
 
     # Merge each vol file
     new_examples_total = 0
-    vol_files = sorted(MAPPED_DIR.glob("ocr_examples_vol*.json"))
+    vol_files = sorted(JSON_DIR.glob("ocr_examples_vol*.json"))
     if not vol_files:
         print("[ERROR] ocr_examples_vol*.json 파일이 없습니다. find_examples_from_ocr_cache.py 를 먼저 실행하세요.")
         sys.exit(1)

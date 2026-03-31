@@ -23,7 +23,7 @@ from datetime import datetime
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
-QUESTIONS_DIR = PROJECT_ROOT / "data" / "processed" / "questions"
+QUESTIONS_DIR = PROJECT_ROOT / "data" / "json" / "questions"
 RESULT_DIR = SCRIPT_DIR / "result"
 
 # ── Category normalisation ────────────────────────────────────────────────────

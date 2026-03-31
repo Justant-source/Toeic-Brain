@@ -4,7 +4,7 @@ ETS 기출문제 PDF 텍스트 추출 파이프라인.
 각 권(Volume)의 PDF를 페이지 단위로 처리한다:
   1. PyMuPDF 내장 텍스트 추출 시도 (page.get_text())
   2. 추출 텍스트가 너무 짧으면 (< 50자, 스캔 이미지) OCR 폴백
-  3. 결과를 data/raw/question/ocr_cache/vol{N}/page_{NNNN}.txt 에 저장
+  3. 결과를 00. Reference/ocr_cache/vol{N}/page_{NNNN}.txt 에 저장
 
 사용 예시:
   # 전 권 처리
@@ -41,7 +41,7 @@ if str(_SCRIPT_DIR) not in sys.path:
 # 상수
 # ---------------------------------------------------------------------------
 
-PDF_DIR = _PROJECT_ROOT / "data" / "raw" / "question"
+PDF_DIR = _PROJECT_ROOT / "00. Reference"
 CACHE_ROOT = PDF_DIR / "ocr_cache"
 
 TEXT_MIN_LEN = 50       # 이보다 짧으면 스캔 페이지로 간주, OCR 폴백

@@ -1,15 +1,15 @@
 """
-data/raw/question/ocr_cache/ 의 OCR 텍스트에서 단어별 예문을 검색한다.
+00. Reference/ocr_cache/ 의 OCR 텍스트에서 단어별 예문을 검색한다.
 
 find_ets_examples.py 와 달리, 구조화된 JSON 대신 OCR 원문을 직접 파싱하므로
 JSON 추출 시 누락된 문장까지 포괄적으로 검색한다.
 
 Input:
-  data/raw/question/ocr_cache/vol{N}/page_XXXX.txt
-  data/processed/vocab/all_vocab.json
+  00. Reference/ocr_cache/vol{N}/page_XXXX.txt
+  data/json/hackers_vocab.json
 
 Output:
-  data/mapped/ocr_examples_vol{N}.json  — 볼륨별 중간 결과
+  data/json/ocr_examples_vol{N}.json  — 볼륨별 중간 결과
   (merge_ocr_examples.py 가 최종 병합)
 
 Usage:
@@ -37,9 +37,9 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-OCR_CACHE_DIR  = PROJECT_ROOT / "data" / "raw" / "question" / "ocr_cache"
-VOCAB_FILE     = PROJECT_ROOT / "data" / "processed" / "vocab" / "all_vocab.json"
-OUTPUT_DIR     = PROJECT_ROOT / "data" / "mapped"
+OCR_CACHE_DIR  = PROJECT_ROOT / "00. Reference" / "ocr_cache"
+VOCAB_FILE     = PROJECT_ROOT / "data" / "json" / "hackers_vocab.json"
+OUTPUT_DIR     = PROJECT_ROOT / "data" / "json"
 
 logging.basicConfig(
     level=logging.INFO,

@@ -28,9 +28,9 @@ logger = logging.getLogger(__name__)
 import pymupdf
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
-RAW_DIR = BASE_DIR / "data" / "raw" / "answer"
-QUESTIONS_DIR = BASE_DIR / "data" / "processed" / "questions"
-CACHE_DIR = BASE_DIR / "data" / "raw" / "answer" / "ocr_cache"
+RAW_DIR = BASE_DIR / "00. Reference"
+QUESTIONS_DIR = BASE_DIR / "data" / "json" / "questions"
+CACHE_DIR = BASE_DIR / "00. Reference" / "ocr_cache"
 
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = str(
     BASE_DIR / ".secret" / "key.json"
