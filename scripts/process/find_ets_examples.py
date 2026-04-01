@@ -15,7 +15,6 @@ Usage:
   python find_ets_examples.py --vocab path.json         # Custom vocab file
   python find_ets_examples.py --questions-dir path/     # Custom questions dir
   python find_ets_examples.py --output path.json        # Custom output
-  python find_ets_examples.py --no-spacy                # Disable spaCy
   python find_ets_examples.py --verbose                 # Debug logging
 """
 
@@ -74,10 +73,24 @@ def bold(s: str)   -> str: return f"{BOLD}{s}{RESET}"
 from scripts.utils.nlp import (
     _build_word_family,
     get_lemma,
-    _fallback_lemma,
-    _load_spacy,
+    get_sentence_lemmas,
     build_chapter_map_from_vocab,
+    GRAMMAR_PLACEHOLDERS,
+    PATTERN_MARKERS,
 )
+
+
+class MatchScore:
+    """매칭 스코어 상수"""
+    EXACT_MATCH = 1.0
+    LEMMA_MATCH = 0.95
+    WORD_FAMILY_MATCH = 0.85
+    ALL_CONTENT_WORDS = 1.0
+    ADJACENCY_BONUS = 0.05
+    ORDER_BONUS = 0.03
+    PLACEHOLDER_MATCH = 0.90
+    SINGLE_WORD_THRESHOLD = 0.85
+    PHRASE_THRESHOLD = 0.90
 
 
 # ── Loading functions ────────────────────────────────────────────────────────
@@ -327,21 +340,139 @@ def _extract_content_words(phrase: str) -> list[str]:
     return [t for t in tokens if len(t) >= 3 and t not in _STOP_WORDS]
 
 
+def classify_phrase(word: str) -> str:
+    """다중 단어 구의 유형을 분류한다."""
+    w = word.lower()
+    if w.startswith("be "):
+        return "TYPE_A_BE"
+    if "oneself" in w:
+        return "TYPE_B_ONESELF"
+    if "one's" in w:
+        return "TYPE_C_ONES"
+    if " to do" in w or w.endswith(" to do"):
+        return "TYPE_D_TODO"
+    tokens = w.split()
+    if len(tokens) <= 3 and all(t not in _STOP_WORDS for t in tokens):
+        return "TYPE_E_NOUN_PHRASE"
+    return "TYPE_F_GENERAL"
+
+
+_PHRASE_CONTENT_PREPOSITIONS = frozenset({
+    "by", "in", "on", "at", "for", "of", "with", "from", "up",
+    "out", "off", "over", "into", "through", "about", "against",
+    "between", "under", "above", "below", "after", "before", "during",
+})
+
+
+def build_phrase_spec(word: str, phrase_type: str) -> dict:
+    """다중 단어 구의 매칭 사양(spec)을 생성한다."""
+    # "to do" 패턴 마커 제거 (문법 패턴 표기이므로 매칭 불필요)
+    word_clean = re.sub(r"\bto\s+do\b", "", word.lower()).strip()
+    tokens = re.findall(r"[a-zA-Z']+", word_clean)
+    spec = {
+        "phrase_type": phrase_type,
+        "content_words": [],
+        "content_word_families": [],
+        "required_all": True,
+        "placeholder_families": [],
+        "require_placeholders": phrase_type in ("TYPE_A_BE", "TYPE_B_ONESELF"),
+        "check_adjacency": False,
+    }
+
+    for token in tokens:
+        if token in GRAMMAR_PLACEHOLDERS:
+            spec["placeholder_families"].append(GRAMMAR_PLACEHOLDERS[token])
+            continue
+        if token in PATTERN_MARKERS:
+            continue
+        # Stop words 제외 — 단, 전치사는 구(phrase)에서 의미가 있으므로 유지
+        if token in _STOP_WORDS and token not in _PHRASE_CONTENT_PREPOSITIONS:
+            continue
+        # 짧은 전치사(by, in, on 등)는 _build_word_family의 _MIN_STEM 필터에 걸리므로
+        # exact match family로 직접 생성
+        if len(token) < 3:
+            family = {token}
+        else:
+            lemma = get_lemma(token)
+            family = _build_word_family(token, lemma, [])
+        spec["content_words"].append(token)
+        spec["content_word_families"].append(family)
+
+    # 명사구: 인접성 필수
+    if phrase_type == "TYPE_E_NOUN_PHRASE":
+        spec["check_adjacency"] = True
+        spec["max_distance"] = len(spec["content_words"])
+    # 짧은 전치사 포함 구: 근접성 확인 (false positive 방지)
+    elif len(spec["content_words"]) <= 3 and any(
+        w in _PHRASE_CONTENT_PREPOSITIONS and len(w) <= 3
+        for w in spec["content_words"]
+    ):
+        spec["check_adjacency"] = True
+        spec["max_distance"] = len(spec["content_words"]) + 1
+
+    return spec
+
+
+def verify_phrase_match(sentence: str, spec: dict) -> float:
+    """다중 단어 구의 매칭을 정밀 검증한다. Returns 0.0 ~ 1.0 스코어."""
+    tokens_lc = [t.lower() for t in re.findall(r"[a-zA-Z']+", sentence)]
+    lemma_map = get_sentence_lemmas(sentence)
+    token_lemmas = [lemma_map.get(t, t) for t in tokens_lc]
+
+    content_total = len(spec["content_word_families"])
+    if content_total == 0:
+        return 0.0
+
+    content_found = 0
+    for family in spec["content_word_families"]:
+        if any(t in family or l in family for t, l in zip(tokens_lc, token_lemmas)):
+            content_found += 1
+
+    if content_found < content_total:
+        return 0.0
+
+    score = MatchScore.ALL_CONTENT_WORDS
+
+    # Placeholder families: required for TYPE_A_BE/TYPE_B_ONESELF, bonus for others
+    for ph_family in spec["placeholder_families"]:
+        ph_found = any(t in ph_family for t in tokens_lc)
+        if spec.get("require_placeholders") and not ph_found:
+            return 0.0  # 필수 placeholder 미발견 → 매칭 실패
+        if ph_found:
+            score += 0.02
+
+    if spec["check_adjacency"]:
+        positions = []
+        for family in spec["content_word_families"]:
+            for i, (t, l) in enumerate(zip(tokens_lc, token_lemmas)):
+                if t in family or l in family:
+                    positions.append(i)
+                    break
+        max_dist = spec.get("max_distance", len(spec["content_words"]))
+        if not positions or len(positions) < content_total:
+            return 0.0
+        if max(positions) - min(positions) > max_dist:
+            return 0.0  # content words가 너무 멀리 떨어져 있음
+        if max(positions) - min(positions) <= len(positions):
+            score += MatchScore.ADJACENCY_BONUS
+
+    return min(score, 1.0)
+
+
 def build_word_families(
     chapter_map: list[dict],
-) -> tuple[dict[str, set[str]], dict[str, dict]]:
+) -> tuple[dict[str, set[str]], dict[str, dict], dict[str, dict]]:
     """
-    For each word in chapter_map, build the word family using _build_word_family().
-
-    For multi-word phrases, also builds families from individual content words
-    so that e.g. "achieve one's goal" matches sentences containing "achieve".
+    Build word family index. For multi-word phrases, also builds phrase_specs.
 
     Returns:
-        form_to_words: {word_form_lowercase: set of original_word_keys it belongs to}
+        form_to_words: {word_form_lowercase: set of original_word_keys}
         word_info: {original_word_lower: {"vocab_id": ..., "chapter": ..., "word": ...}}
+        phrase_specs: {word_key: spec_dict} for multi-word phrases
     """
     form_to_words: dict[str, set[str]] = defaultdict(set)
     word_info: dict[str, dict] = {}
+    phrase_specs: dict[str, dict] = {}
 
     for chapter in chapter_map:
         chapter_num = chapter.get("chapter", 0)
@@ -355,7 +486,6 @@ def build_word_families(
             related = entry.get("related_words") or []
             synonyms = entry.get("synonyms") or []
 
-            # First occurrence wins if duplicate word across chapters
             if word_key not in word_info:
                 word_info[word_key] = {
                     "vocab_id": vocab_id,
@@ -363,24 +493,28 @@ def build_word_families(
                     "word": word,
                 }
 
-            # Build word family: includes morphological variants
-            lemma = get_lemma(word)
-            family = _build_word_family(word, lemma, related + synonyms)
+            if " " not in word:
+                # === 단일 단어: 기존 로직 유지 ===
+                lemma = get_lemma(word)
+                family = _build_word_family(word, lemma, related + synonyms)
+                for form in family:
+                    form_to_words[form].add(word_key)
+            else:
+                # === 다중 단어 구: 신규 로직 ===
+                phrase_type = classify_phrase(word)
+                spec = build_phrase_spec(word, phrase_type)
+                phrase_specs[word_key] = spec
 
-            # For multi-word phrases, also build families from content words
-            content_words = _extract_content_words(word)
-            if len(content_words) > 1 or (len(content_words) == 1 and content_words[0] != word.lower()):
-                for cw in content_words:
-                    cw_lemma = get_lemma(cw)
-                    cw_family = _build_word_family(cw, cw_lemma, [])
-                    family |= cw_family
+                for cw_family in spec["content_word_families"]:
+                    for form in cw_family:
+                        form_to_words[form].add(word_key)
 
-            # Map each form back to the original word
-            for form in family:
-                form_to_words[form].add(word_key)
+                for ph_family in spec["placeholder_families"]:
+                    for form in ph_family:
+                        form_to_words[form].add(word_key)
 
-    print(f"  Built index: {len(word_info):,} words, {len(form_to_words):,} distinct forms")
-    return dict(form_to_words), word_info
+    print(f"  Built index: {len(word_info):,} words, {len(form_to_words):,} distinct forms, {len(phrase_specs):,} phrase specs")
+    return dict(form_to_words), word_info, phrase_specs
 
 
 # ── Searching ────────────────────────────────────────────────────────────────
@@ -392,31 +526,43 @@ _MIN_MATCH_LEN = 3
 def search_sentence(
     sentence: str,
     form_to_words: dict[str, set[str]],
+    phrase_specs: dict[str, dict] | None = None,
 ) -> list[tuple[str, str]]:
     """
     Check one sentence for word family matches.
-
-    Tokenize with re.findall(r'[a-zA-Z]+', sentence).
-    Returns list of (original_word_key, matched_form) tuples.
-    Use word boundary matching: only match complete tokens.
+    For multi-word phrases, performs 2-stage verification.
     """
     if not sentence:
         return []
 
     tokens = re.findall(r"[a-zA-Z]+", sentence)
+    lemma_map = get_sentence_lemmas(sentence)
     matches: list[tuple[str, str]] = []
-    seen_keys: set[str] = set()  # one match per original word per sentence
+    seen_keys: set[str] = set()
 
     for token in tokens:
         if len(token) < _MIN_MATCH_LEN:
             continue
         token_lc = token.lower()
-        if token_lc not in form_to_words:
-            continue
-        for word_key in form_to_words[token_lc]:
-            if word_key not in seen_keys:
-                seen_keys.add(word_key)
-                matches.append((word_key, token))  # preserve original case
+        token_lemma = lemma_map.get(token_lc, token_lc)
+
+        candidates: set[str] = set()
+        if token_lc in form_to_words:
+            candidates.update(form_to_words[token_lc])
+        if token_lemma != token_lc and token_lemma in form_to_words:
+            candidates.update(form_to_words[token_lemma])
+
+        for word_key in candidates:
+            if word_key in seen_keys:
+                continue
+
+            if phrase_specs and word_key in phrase_specs:
+                score = verify_phrase_match(sentence, phrase_specs[word_key])
+                if score < MatchScore.PHRASE_THRESHOLD:
+                    continue
+
+            seen_keys.add(word_key)
+            matches.append((word_key, token))
 
     return matches
 
@@ -424,13 +570,9 @@ def search_sentence(
 def search_part5(
     questions: list[dict],
     form_to_words: dict[str, set[str]],
+    phrase_specs: dict[str, dict] | None = None,
 ) -> dict[str, list[dict]]:
-    """
-    Search Part 5 structured questions.
-
-    For each question, tokenize sentence + choices, check against form_to_words.
-    Record: sentence (with blank filled if answer known), source, matched_form.
-    """
+    """Search Part 5 structured questions."""
     matches: dict[str, list[dict]] = defaultdict(list)
     total = 0
 
@@ -442,17 +584,14 @@ def search_part5(
         choices: dict[str, str] = q.get("choices") or {}
         answer = q.get("answer")
 
-        # Combine sentence + all choice texts for searching
-        full_text = sentence + " " + " ".join(str(v) for v in choices.values())
-
-        # If answer is known, build a filled sentence for display
+        # Bug 1 fix: search display_sentence only (not full_text with all choices)
         display_sentence = sentence
         if answer and answer in choices and "-------" in sentence:
             display_sentence = sentence.replace("-------", choices[answer], 1)
 
         source = f"Vol {volume}, TEST {test:02d}, Q.{qnum}"
 
-        found = search_sentence(full_text, form_to_words)
+        found = search_sentence(display_sentence, form_to_words, phrase_specs)
         for word_key, matched_form in found:
             matches[word_key].append({
                 "sentence": display_sentence,
@@ -473,6 +612,7 @@ def search_part67(
     entries: list[dict],
     form_to_words: dict[str, set[str]],
     part: int,
+    phrase_specs: dict[str, dict] | None = None,
 ) -> dict[str, list[dict]]:
     """
     Search Part 6/7 raw_text data.
@@ -506,7 +646,7 @@ def search_part67(
             source = f"Vol {volume}, TEST {test:02d}, Part {part}"
 
             for sent in sentences:
-                found = search_sentence(sent, form_to_words)
+                found = search_sentence(sent, form_to_words, phrase_specs)
                 for word_key, matched_form in found:
                     matches[word_key].append({
                         "sentence": sent,
@@ -639,11 +779,6 @@ def main() -> None:
         help="Output JSON path (default: %(default)s)",
     )
     parser.add_argument(
-        "--no-spacy",
-        action="store_true",
-        help="Disable spaCy; use fallback suffix-stripping lemmatiser",
-    )
-    parser.add_argument(
         "--verbose",
         action="store_true",
         help="Enable debug logging",
@@ -657,17 +792,7 @@ def main() -> None:
     print(bold("=== ETS 기출 예문 검색 (find_ets_examples) ==="))
     print()
 
-    # ── spaCy setup ──────────────────────────────────────────────────────────
-    use_spacy = not args.no_spacy
-    if use_spacy:
-        print("  Loading spaCy model ... ", end="", flush=True)
-        if _load_spacy():
-            print(green("ok"))
-        else:
-            use_spacy = False
-            print(yellow("not available — using fallback lemmatiser"))
-    else:
-        print(yellow("  spaCy disabled — using fallback lemmatiser"))
+    print("  spaCy lemmatiser: " + green("loaded"))
 
     # ── Load chapter map (built from vocab) ─────────────────────────────────
     chapter_map = build_chapter_map_from_vocab(args.vocab) if args.vocab.exists() else []
@@ -681,7 +806,7 @@ def main() -> None:
 
     # ── Build word family index ──────────────────────────────────────────────
     print("  Building word-family index ... ", end="", flush=True)
-    form_to_words, word_info = build_word_families(chapter_map)
+    form_to_words, word_info, phrase_specs = build_word_families(chapter_map)
     print(green("done"))
 
     # ── Load ETS question data ───────────────────────────────────────────────
@@ -706,7 +831,7 @@ def main() -> None:
     # Part 5
     if part5_questions:
         print(f"  Part 5: searching {len(part5_questions):,} questions ... ", end="", flush=True)
-        p5_matches = search_part5(part5_questions, form_to_words)
+        p5_matches = search_part5(part5_questions, form_to_words, phrase_specs)
         p5_total = sum(len(v) for v in p5_matches.values())
         for word_key, examples in p5_matches.items():
             all_matches[word_key].extend(examples)
@@ -715,7 +840,7 @@ def main() -> None:
     # Part 6
     if part6_data:
         print(f"  Part 6: searching {len(part6_data):,} entries ... ", flush=True)
-        p6_matches = search_part67(part6_data, form_to_words, part=6)
+        p6_matches = search_part67(part6_data, form_to_words, part=6, phrase_specs=phrase_specs)
         p6_total = sum(len(v) for v in p6_matches.values())
         for word_key, examples in p6_matches.items():
             all_matches[word_key].extend(examples)
@@ -724,7 +849,7 @@ def main() -> None:
     # Part 7
     if part7_data:
         print(f"  Part 7: searching {len(part7_data):,} entries ... ", flush=True)
-        p7_matches = search_part67(part7_data, form_to_words, part=7)
+        p7_matches = search_part67(part7_data, form_to_words, part=7, phrase_specs=phrase_specs)
         p7_total = sum(len(v) for v in p7_matches.values())
         for word_key, examples in p7_matches.items():
             all_matches[word_key].extend(examples)

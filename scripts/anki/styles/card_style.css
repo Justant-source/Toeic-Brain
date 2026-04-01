@@ -39,6 +39,12 @@
   line-height: 1.6;
 }
 
+/* Matched word highlight in example sentences (mobile-safe) */
+.example-sentence b {
+  font-weight: 700;
+  color: #1D4ED8;
+}
+
 /* ----- Tags ------------------------------------------------ */
 .tag {
   display: inline-block;
@@ -303,6 +309,19 @@
   border-radius: 4px;
   padding: 1px 7px;
   margin-top: 4px;
+}
+
+/* ============================================================
+   Part 5 — Filled sentence (back side, answer bold)
+   ============================================================ */
+.filled-sentence {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.filled-sentence b {
+  font-weight: 700 !important;
+  color: #1D4ED8;
 }
 
 /* AnkiDroid safe reset */

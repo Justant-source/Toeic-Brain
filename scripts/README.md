@@ -61,8 +61,8 @@ python scripts/analyze/word_frequency.py          # 빈출 단어 분석
 ### utils/nlp.py
 - **역할**: NLP 공유 유틸리티 (lemmatisation, 단어 패밀리 확장, 역인덱스)
 - **직접 실행 안 함** — 다른 스크립트에서 import
-- **주요 함수**: `_load_spacy()`, `get_lemma()`, `_fallback_lemma()`, `_build_word_family()`, `build_inverted_index()`
-- **의존성**: spaCy (선택, 없으면 접미사 기반 폴백)
+- **주요 함수**: `get_lemma()`, `get_sentence_lemmas()`, `_build_word_family()`, `build_inverted_index()`
+- **의존성**: spaCy (필수, en_core_web_sm 모델)
 
 ### extract/extract_ets.py
 - **역할**: ETS 문제 PDF에서 Part5/6/7 문제 추출

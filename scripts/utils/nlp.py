@@ -1,55 +1,80 @@
 """
 Shared NLP utilities for lemmatisation and word-family expansion.
 
-Extracted from scripts/process/map_words.py so that multiple modules
-(find_ets_examples, map_words, etc.) can import them without circular deps.
+Uses spaCy (en_core_web_sm) as the sole lemmatization engine.
+Provides both single-token and context-aware sentence lemmatization.
 """
 
 import json
 from collections import defaultdict
 from pathlib import Path
 
-# ── spaCy / fallback lemmatisation ────────────────────────────────────────────
+import spacy
 
-_nlp = None  # spaCy model, loaded lazily
+# spaCy 모델 로드 (모듈 임포트 시 즉시 로드)
+_nlp = spacy.load("en_core_web_sm", disable=["ner"])
+
+# ── 문법 대용어 / 패턴 마커 ──────────────────────────────────────────────────
+
+# 문법 대용어 → 실제 출현 형태 매핑
+GRAMMAR_PLACEHOLDERS = {
+    "be": {"be", "is", "are", "was", "were", "been", "being", "am"},
+    "oneself": {
+        "oneself", "myself", "yourself", "himself", "herself",
+        "itself", "ourselves", "yourselves", "themselves",
+    },
+    "one's": {"my", "your", "his", "her", "its", "our", "their"},
+    "someone": {"someone", "somebody", "anyone", "anybody", "everyone", "everybody"},
+    "do": {"do", "does", "did", "done", "doing"},
+    "have": {"have", "has", "had", "having"},
+}
+
+# 문법 패턴 표기로 사용되어 매칭에서 제외해야 하는 토큰
+PATTERN_MARKERS = {"do", "doing", "sth", "sb", "something", "somebody"}
 
 
-def _load_spacy() -> bool:
-    """Try to load spaCy en_core_web_sm. Returns True on success."""
-    global _nlp
-    try:
-        import spacy  # noqa: F401
-        _nlp = spacy.load("en_core_web_sm", disable=["parser", "ner"])
-        return True
-    except Exception:
-        return False
-
-
-# Ordered longest-first so greedy suffix stripping is stable.
-_SUFFIXES = [
-    "tion", "sion", "ment", "ness", "ity",
-    "ing", "ed", "er", "est",
-    "ous", "ive", "able", "ible",
-    "al", "ly", "ful",
-]
-
-
-def _fallback_lemma(word: str) -> str:
-    """Strip common English suffixes to approximate a base form."""
-    w = word.lower()
-    for suf in _SUFFIXES:
-        if w.endswith(suf) and len(w) - len(suf) >= 3:
-            return w[: -len(suf)]
-    return w
-
+# ── Lemmatisation ────────────────────────────────────────────────────────────
 
 def get_lemma(word: str) -> str:
-    """Return the lemma of *word* using spaCy when available."""
-    if _nlp is not None:
-        doc = _nlp(word.lower())
-        if doc:
-            return doc[0].lemma_
-    return _fallback_lemma(word)
+    """Return the lemma of a single word using spaCy."""
+    doc = _nlp(word.lower())
+    if doc:
+        return doc[0].lemma_
+    return word.lower()
+
+
+# Sentence lemma cache (LRU-style, bounded)
+_sentence_lemma_cache: dict[str, dict[str, str]] = {}
+_CACHE_MAX_SIZE = 50000
+
+
+def get_sentence_lemmas(sentence: str) -> dict[str, str]:
+    """문장 전체를 spaCy로 처리하여 {token_lower: lemma} 매핑을 반환한다.
+
+    문장 단위로 처리하면 POS 태깅이 정확해져 lemma 품질이 향상된다.
+    예: "left" → 문맥에 따라 "leave"(동사) 또는 "left"(형용사)
+    """
+    cache_key = sentence
+    if cache_key in _sentence_lemma_cache:
+        return _sentence_lemma_cache[cache_key]
+
+    doc = _nlp(sentence)
+    result: dict[str, str] = {}
+    for token in doc:
+        tl = token.text.lower()
+        # 같은 토큰이 여러 번 나오면 첫 번째 lemma 유지
+        if tl not in result:
+            result[tl] = token.lemma_.lower()
+
+    # Cache management
+    if len(_sentence_lemma_cache) >= _CACHE_MAX_SIZE:
+        # Remove oldest 20% of entries
+        keys_to_remove = list(_sentence_lemma_cache.keys())[:_CACHE_MAX_SIZE // 5]
+        for k in keys_to_remove:
+            del _sentence_lemma_cache[k]
+    _sentence_lemma_cache[cache_key] = result
+
+    return result
 
 
 # ── Word-family expansion ─────────────────────────────────────────────────────
@@ -118,7 +143,6 @@ def _build_word_family(word: str, lemma: str, synonyms: list[str]) -> set[str]:
 
 def build_inverted_index(
     vocab: list[dict],
-    use_spacy: bool,
 ) -> tuple[dict[str, set[str]], dict[str, set[str]]]:
     """
     Build two maps:
@@ -136,7 +160,7 @@ def build_inverted_index(
         if not word:
             continue
 
-        lemma = get_lemma(word) if use_spacy or True else _fallback_lemma(word)
+        lemma = get_lemma(word)
         synonyms = entry.get("synonyms") or []
         family = _build_word_family(word, lemma, synonyms)
 
