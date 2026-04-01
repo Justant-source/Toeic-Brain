@@ -3,6 +3,7 @@
 
 # ── Step 2: 구조화 JSON (대용량, local only) ──
 data/json/
+data/mapped/
 
 # ── Step 4: Anki 덱 출력 ──
 output/anki/*.apkg
