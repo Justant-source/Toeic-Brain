@@ -87,36 +87,67 @@ def select_questions(
     count: int,
     categories: list[str] | None = None,
 ) -> list[dict]:
-    """Select questions, optionally filtered by canonical category."""
+    """Select questions with a combined-fixed-1 + proportional allocation strategy.
+
+    기타문법·관계대명사·비교급/최상급 세 카테고리의 합산 풀에서 1문제만 뽑고,
+    나머지 (count - 1)문제는 다른 카테고리에서 풀 크기 비례로 배정한다.
+    """
+    # 세 소수 카테고리를 합산해 1문제만 출제
+    COMBINED_ONE = {"기타문법", "관계대명사", "비교급/최상급"}
+
     if categories:
         cat_set = set(categories)
         questions = [q for q in questions if normalise_category(q.get("category", "")) in cat_set]
 
     if len(questions) <= count:
-        selected = questions[:]
-    else:
-        # Try to distribute evenly across canonical categories
-        by_cat: dict[str, list[dict]] = {}
-        for q in questions:
-            cat = normalise_category(q.get("category", ""))
-            by_cat.setdefault(cat, []).append(q)
+        return questions[:]
 
-        selected = []
-        per_cat = max(1, count // len(by_cat)) if by_cat else count
-        for cat, qs in by_cat.items():
-            random.shuffle(qs)
-            selected.extend(qs[:per_cat])
+    # 카테고리별 그룹화 및 셔플
+    by_cat: dict[str, list[dict]] = {}
+    for q in questions:
+        cat = normalise_category(q.get("category", ""))
+        by_cat.setdefault(cat, []).append(q)
+    for qs in by_cat.values():
+        random.shuffle(qs)
 
-        # Fill remaining slots randomly
-        if len(selected) < count:
-            remaining = [q for q in questions if q not in selected]
-            random.shuffle(remaining)
-            selected.extend(remaining[: count - len(selected)])
+    selected: list[dict] = []
 
-        random.shuffle(selected)
-        selected = selected[:count]
+    # 1단계: COMBINED_ONE 전체 합산 풀에서 1문제 랜덤 선택
+    combined_pool: list[dict] = []
+    for cat in COMBINED_ONE:
+        combined_pool.extend(by_cat.get(cat, []))
+    if combined_pool:
+        selected.append(random.choice(combined_pool))
 
-    return selected
+    # 2단계: 나머지 카테고리에서 (count - len(selected))문제를 풀 크기 비례로 배정
+    remaining_count = count - len(selected)
+    flex_cats = {cat: qs for cat, qs in by_cat.items() if cat not in COMBINED_ONE}
+    flex_pool = sum(len(qs) for qs in flex_cats.values())
+
+    alloc: dict[str, int] = {}
+    for cat, qs in flex_cats.items():
+        alloc[cat] = max(1, round(len(qs) / flex_pool * remaining_count))
+        alloc[cat] = min(alloc[cat], len(qs))
+
+    # 총합을 remaining_count 에 정확히 맞춤 (오차 보정)
+    diff = sum(alloc.values()) - remaining_count
+    for cat in sorted(flex_cats.keys(), key=lambda c: -len(flex_cats[c])):
+        if diff == 0:
+            break
+        if diff > 0:
+            cut = min(alloc[cat] - 1, diff)
+            alloc[cat] -= cut
+            diff -= cut
+        else:
+            add = min(len(by_cat[cat]) - alloc[cat], -diff)
+            alloc[cat] += add
+            diff += add
+
+    for cat, n in alloc.items():
+        selected.extend(by_cat[cat][:n])
+
+    random.shuffle(selected)
+    return selected[:count]
 
 
 # ── HTML generation ───────────────────────────────────────────────────────────
@@ -301,6 +332,27 @@ body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Not
 .result-actions button.primary {{ background: #1B2A4A; color: #C4A35A; border-color: #1B2A4A; }}
 .result-actions button.save {{ border-color: #2e7d32; color: #2e7d32; }}
 .result-actions button.save:hover {{ background: #f1f8f0; }}
+
+/* ── Star button ── */
+.star-btn {{ border: none; background: none; cursor: pointer; font-size: 20px; line-height: 1;
+             padding: 0 2px; color: #ccc; transition: color 0.15s, transform 0.1s; margin-left: auto; }}
+.star-btn:hover {{ color: #f59e0b; transform: scale(1.2); }}
+.star-btn.starred {{ color: #f59e0b; }}
+.question-card.starred-card {{ border-left-color: #f59e0b; }}
+
+/* starred result section */
+.starred-result-card {{ background: #fff; border-radius: 12px; padding: 20px;
+                        box-shadow: 0 1px 6px rgba(0,0,0,0.08); margin-bottom: 14px;
+                        border-left: 4px solid #f59e0b; }}
+.starred-result-card .sr-meta {{ font-size: 12px; color: #999; margin-bottom: 6px;
+                                  display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }}
+.starred-result-card .sr-cat  {{ color: #b45309; font-weight: 600; }}
+.starred-result-card .sr-result {{ margin-left: auto; font-weight: 700; font-size: 13px; }}
+.starred-result-card .sr-sentence {{ font-size: 14px; line-height: 1.7; color: #222; margin: 8px 0 12px; }}
+.starred-expl {{ background: #fffdf0; border: 1px solid #f0e0a0; border-radius: 6px;
+                 padding: 12px 14px; margin-top: 10px;
+                 font-size: 13px; line-height: 1.8; color: #444; white-space: pre-wrap; }}
+.starred-expl .translation {{ color: #2E7D32; margin-bottom: 8px; font-style: italic; }}
 </style>
 </head>
 <body>
@@ -332,6 +384,7 @@ const Q = {q_json};
 const TOTAL = Q.length;
 const TEST_FILE = "{filename}";
 const answered = new Array(TOTAL).fill(null);
+const starred = new Array(TOTAL).fill(false);
 let startTime = Date.now();
 let timerInterval;
 let _lastResult = null;
@@ -371,12 +424,21 @@ function buildQuiz() {{
         <span class="q-num">Q${{q.idx}}</span>
         <span class="q-cat">${{esc(q.category)}}</span>
         <span class="q-src">Vol.${{q.vol}} TEST${{q.test}}</span>
+        <button class="star-btn" id="star-${{i}}" onclick="toggleStar(${{i}})" title="별표 표시">☆</button>
       </div>
       <div class="q-sentence">${{renderSentence(q.sentence)}}</div>
       <div class="choices">${{choicesHtml}}</div>`;
 
     area.appendChild(card);
   }});
+}}
+
+function toggleStar(i) {{
+  starred[i] = !starred[i];
+  const btn = document.getElementById('star-' + i);
+  btn.textContent = starred[i] ? '★' : '☆';
+  btn.classList.toggle('starred', starred[i]);
+  document.getElementById('card-' + i).classList.toggle('starred-card', starred[i]);
 }}
 
 function choose(btn) {{
@@ -477,6 +539,39 @@ function submitExam() {{
     </div>`;
   }});
 
+  /* ─ Starred cards ─ */
+  const starredItems = correctItems.filter((_, i) => starred[i]);
+  let starredHtml = '';
+  starredItems.forEach(q => {{
+    const corrTxt = q.choices[q.answer] || '';
+    const userTxt = q.choices[q.userAnswer] || '(미답변)';
+    const resultLabel = q.isCorrect
+      ? '<span class="sr-result" style="color:#43a047">✅ 정답</span>'
+      : '<span class="sr-result" style="color:#e53935">❌ 오답</span>';
+    const explBody = (q.translation ? '<div class="translation">📘 ' + esc(q.translation) + '</div>' : '')
+      + (q.explanation ? esc(q.explanation) : '');
+    starredHtml += `<div class="starred-result-card">
+      <div class="sr-meta">
+        <span>★ Q${{q.idx}}</span>
+        <span class="sr-cat">${{esc(q.category)}}</span>
+        <span>Vol.${{q.vol}} TEST${{q.test}} #${{q.qnum}}</span>
+        ${{resultLabel}}
+      </div>
+      <div class="sr-sentence">${{renderSentence(q.sentence)}}</div>
+      <div class="answer-row correct-row">
+        <span class="ar-label">✅ 정답</span>
+        <span class="ar-key">(${{q.answer}})</span>
+        <span class="ar-text">${{esc(corrTxt)}}</span>
+      </div>
+      ${{!q.isCorrect ? `<div class="answer-row wrong-row">
+        <span class="ar-label">❌ 내 답</span>
+        <span class="ar-key">(${{q.userAnswer}})</span>
+        <span class="ar-text">${{esc(userTxt)}}</span>
+      </div>` : ''}}
+      ${{explBody ? `<div class="starred-expl">${{explBody}}</div>` : ''}}
+    </div>`;
+  }});
+
   /* ─ Claude prompt ─ */
   let promptLines = [
     `TOEIC Part5 모의고사 결과를 분석해주세요.`,
@@ -522,6 +617,11 @@ function submitExam() {{
     <div class="result-body">
       <div class="section-title">📊 유형별 정답률</div>
       ${{catHtml}}
+
+      ${{starredItems.length > 0 ? `
+      <div class="section-title">⭐ 별표 문제 해설 (${{starredItems.length}}문제)</div>
+      ${{starredHtml}}
+      ` : ''}}
 
       ${{wrongItems.length > 0 ? `
       <div class="section-title">❌ 오답 분석 (${{wrongItems.length}}문제)</div>
