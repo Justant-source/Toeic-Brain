@@ -1905,7 +1905,7 @@
     "test": 4,
     "part": 5,
     "question_number": 112,
-    "sentence": "The posters must be completed soon........ they can be put up in advance of the gala.",
+    "sentence": "The posters must be completed soon------- they can be put up in advance of the gala.",
     "choices": {
       "A": "so that",
       "B": "despite",
@@ -4105,7 +4105,7 @@
     "test": 8,
     "part": 5,
     "question_number": 108,
-    "sentence": "Beachside Inn is the perfect place to 0....... an event for your corporate clients.",
+    "sentence": "Beachside Inn is the perfect place to ------- an event for your corporate clients.",
     "choices": {
       "A": "entertain",
       "B": "gather",
