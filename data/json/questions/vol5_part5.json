@@ -5,7 +5,7 @@
     "test": 1,
     "part": 5,
     "question_number": 101,
-    "sentence": "The lecture will take place at 6:00 P.M., \" which attendees may ask questions.",
+    "sentence": "The lecture will take place at 6:00 P.M., ------- which attendees may ask questions.",
     "choices": {
       "A": "across",
       "B": "after",
@@ -328,7 +328,7 @@
     "test": 1,
     "part": 5,
     "question_number": 118,
-    "sentence": "The finance director gave his approval \" the project can move forward.",
+    "sentence": "The finance director gave his approval ------- the project can move forward.",
     "choices": {
       "A": "along",
       "B": "furthermore",
@@ -442,7 +442,7 @@
     "test": 1,
     "part": 5,
     "question_number": 124,
-    "sentence": "The City of Doyle's new downtown parking \" have been met with opposition by residents and visitors.",
+    "sentence": "The City of Doyle's new downtown parking ------- have been met with opposition by residents and visitors.",
     "choices": {
       "A": "restricts",
       "B": "restricted",
@@ -765,7 +765,7 @@
     "test": 2,
     "part": 5,
     "question_number": 112,
-    "sentence": "During Mr. Nagahori*s tenure as CEO at Unten Properties, the company has grown",
+    "sentence": "During Mr. Nagahori's tenure as CEO at Unten Properties, the company has grown",
     "choices": {
       "A": "signify",
       "B": "significance",
@@ -1031,7 +1031,7 @@
     "test": 2,
     "part": 5,
     "question_number": 126,
-    "sentence": "Several Seoul-based companies have \" redesigned their workplaces to be more colorful and comfortable.",
+    "sentence": "Several Seoul-based companies have ------- redesigned their workplaces to be more colorful and comfortable.",
     "choices": {
       "A": "note",
       "B": "noted",
@@ -1088,7 +1088,7 @@
     "test": 2,
     "part": 5,
     "question_number": 129,
-    "sentence": "Pink Geranium Coffee has struggled to \" its new bottled espresso from similar beverages on the market.",
+    "sentence": "Pink Geranium Coffee has struggled to ------- its new bottled espresso from similar beverages on the market.",
     "choices": {
       "A": "participate",
       "B": "distinguish",
@@ -1145,7 +1145,7 @@
     "test": 3,
     "part": 5,
     "question_number": 102,
-    "sentence": "Most of the materials distributed at last month*s accounting conference are now \" online.",
+    "sentence": "Most of the materials distributed at last month's accounting conference are now ------- online.",
     "choices": {
       "A": "available",
       "B": "intended",
@@ -1240,7 +1240,7 @@
     "test": 3,
     "part": 5,
     "question_number": 107,
-    "sentence": "The heavy traffic on the way to the airport \" caused Ms. Ikeda to miss her flight.",
+    "sentence": "The heavy traffic on the way to the airport ------- caused Ms. Ikeda to miss her flight.",
     "choices": {
       "A": "nearly",
       "B": "near",
@@ -1487,7 +1487,7 @@
     "test": 3,
     "part": 5,
     "question_number": 120,
-    "sentence": "Our popular online training materials have \" been shown to improve job seekers* skills.",
+    "sentence": "Our popular online training materials have ------- been shown to improve job seekers* skills.",
     "choices": {
       "A": "consistently",
       "B": "emotionally",
@@ -1544,7 +1544,7 @@
     "test": 3,
     "part": 5,
     "question_number": 123,
-    "sentence": "A monthly newsletter is an excellent way to \" your group's activities and events.",
+    "sentence": "A monthly newsletter is an excellent way to ------- your group's activities and events.",
     "choices": {
       "A": "realize",
       "B": "propose",
@@ -1620,7 +1620,7 @@
     "test": 3,
     "part": 5,
     "question_number": 127,
-    "sentence": "Opal City*s Community Theater is holding \" for its spring production during the first week of December.",
+    "sentence": "Opal City's Community Theater is holding ------- for its spring production during the first week of December.",
     "choices": {
       "A": "to audition",
       "B": "auditioned",
@@ -1715,7 +1715,7 @@
     "test": 4,
     "part": 5,
     "question_number": 102,
-    "sentence": "Mr. Kashnitz will interview the applicants \" the holiday.",
+    "sentence": "Mr. Kashnitz will interview the applicants ------- the holiday.",
     "choices": {
       "A": "above",
       "B": "before",
@@ -1867,7 +1867,7 @@
     "test": 4,
     "part": 5,
     "question_number": 110,
-    "sentence": "The Pacific Coast Sunset Run has been \" to August 31 because of bad weather.",
+    "sentence": "The Pacific Coast Sunset Run has been ------- to August 31 because of bad weather.",
     "choices": {
       "A": "canceled",
       "B": "combined",
@@ -2133,7 +2133,7 @@
     "test": 4,
     "part": 5,
     "question_number": 124,
-    "sentence": "We would like to attend the retreat, but \" we are unavailable on that date.",
+    "sentence": "We would like to attend the retreat, but ------- we are unavailable on that date.",
     "choices": {
       "A": "regrettably",
       "B": "scarcely",
@@ -2722,7 +2722,7 @@
     "test": 5,
     "part": 5,
     "question_number": 125,
-    "sentence": "Ideal for conference rooms, our soundproof panels have been specially designed to \" unwanted background noise.",
+    "sentence": "Ideal for conference rooms, our soundproof panels have been specially designed to ------- unwanted background noise.",
     "choices": {
       "A": "compete",
       "B": "absorb",
@@ -2779,7 +2779,7 @@
     "test": 5,
     "part": 5,
     "question_number": 128,
-    "sentence": "Belker Auto offers a ten-year warranty for \" who want greater peace of mind.",
+    "sentence": "Belker Auto offers a ten-year warranty for ------- who want greater peace of mind.",
     "choices": {
       "A": "this",
       "B": "those",
@@ -2836,7 +2836,7 @@
     "test": 6,
     "part": 5,
     "question_number": 101,
-    "sentence": "On Saturday, the Edbridge Orchestra will \" a new work by local composer Nina B X fstein.",
+    "sentence": "On Saturday, the Edbridge Orchestra will ------- a new work by local composer Nina B X fstein.",
     "choices": {
       "A": "make",
       "B": "operate",
@@ -2910,7 +2910,7 @@
     "test": 6,
     "part": 5,
     "question_number": 105,
-    "sentence": "Online ordering is------- on Naito Cafe*s Web site.",
+    "sentence": "Online ordering is------- on Naito Cafe's Web site.",
     "choices": {
       "A": "called",
       "B": "printed",
@@ -2967,7 +2967,7 @@
     "test": 6,
     "part": 5,
     "question_number": 108,
-    "sentence": "Mr. Aponte*s photograph of the autumn foliage will be featured on the front-------of Outward Expansion Magazine.",
+    "sentence": "Mr. Aponte's photograph of the autumn foliage will be featured on the front-------of Outward Expansion Magazine.",
     "choices": {
       "A": "cover",
       "B": "coverage",
@@ -3252,7 +3252,7 @@
     "test": 6,
     "part": 5,
     "question_number": 123,
-    "sentence": "Commercial property insurance covers the \" associated with repairing or rebuilding a business property after certain events.",
+    "sentence": "Commercial property insurance covers the ------- associated with repairing or rebuilding a business property after certain events.",
     "choices": {
       "A": "expenses",
       "B": "symptoms",
@@ -3480,7 +3480,7 @@
     "test": 7,
     "part": 5,
     "question_number": 105,
-    "sentence": "Dumbbells, also known as % ee weights, are \" for keeping fit at home.",
+    "sentence": "Dumbbells, also known as % ee weights, are ------- for keeping fit at home.",
     "choices": {
       "A": "use",
       "B": "using",
@@ -3801,7 +3801,7 @@
     "test": 7,
     "part": 5,
     "question_number": 122,
-    "sentence": "The security officer at the front gate will \" delivery drivers as to where to drop off packages.",
+    "sentence": "The security officer at the front gate will ------- delivery drivers as to where to drop off packages.",
     "choices": {
       "A": "invite",
       "B": "instruct",
@@ -3972,7 +3972,7 @@
     "test": 8,
     "part": 5,
     "question_number": 101,
-    "sentence": "Sydney Fashion Week drew thousands of \" visitors to the city last week.",
+    "sentence": "Sydney Fashion Week drew thousands of ------- visitors to the city last week.",
     "choices": {
       "A": "excite",
       "B": "excited",
@@ -4217,7 +4217,7 @@
     "test": 8,
     "part": 5,
     "question_number": 114,
-    "sentence": "The Oak Hill Art Museum offers several \" exhibits and a series of limited-time exhibits.",
+    "sentence": "The Oak Hill Art Museum offers several ------- exhibits and a series of limited-time exhibits.",
     "choices": {
       "A": "previous",
       "B": "permanent",
@@ -4502,7 +4502,7 @@
     "test": 8,
     "part": 5,
     "question_number": 129,
-    "sentence": "Collaboration between multiple agencies is \" challenging, but our project-based consulting can simplify the process for you.",
+    "sentence": "Collaboration between multiple agencies is ------- challenging, but our project-based consulting can simplify the process for you.",
     "choices": {
       "A": "well",
       "B": "often",
@@ -4521,7 +4521,7 @@
     "test": 8,
     "part": 5,
     "question_number": 130,
-    "sentence": "The desserts we had at Giovanni’s Bistro were not as delicious as------- we enjoyed at Monteverdi*s Taverna.",
+    "sentence": "The desserts we had at Giovanni’s Bistro were not as delicious as------- we enjoyed at Monteverdi's Taverna.",
     "choices": {
       "A": "whose",
       "B": "those",
@@ -4673,7 +4673,7 @@
     "test": 9,
     "part": 5,
     "question_number": 108,
-    "sentence": "The company picnic at Floral Park will begin at noon on Saturday and end /← \" 4:00 P.M.",
+    "sentence": "The company picnic at Floral Park will begin at noon on Saturday and end ------- 4:00 P.M.",
     "choices": {
       "A": "around",
       "B": "until",
@@ -5127,7 +5127,7 @@
     "test": 10,
     "part": 5,
     "question_number": 102,
-    "sentence": "Last summer, jazz musician Jay Deswani \" on the main concert stage at Waterfront Park.",
+    "sentence": "Last summer, jazz musician Jay Deswani ------- on the main concert stage at Waterfront Park.",
     "choices": {
       "A": "located",
       "B": "requested",
@@ -5146,7 +5146,7 @@
     "test": 10,
     "part": 5,
     "question_number": 103,
-    "sentence": "The purchasing department ordered six \" cases of ink toner.",
+    "sentence": "The purchasing department ordered six ------- cases of ink toner.",
     "choices": {
       "A": "add",
       "B": "additional",
@@ -5222,7 +5222,7 @@
     "test": 10,
     "part": 5,
     "question_number": 107,
-    "sentence": "Patrons are asked to silence their phones \" the show begins.",
+    "sentence": "Patrons are asked to silence their phones ------- the show begins.",
     "choices": {
       "A": "when",
       "B": "which",
@@ -5336,7 +5336,7 @@
     "test": 10,
     "part": 5,
     "question_number": 113,
-    "sentence": "Carter Department Store allows customers \" items on hold for up to 24 hK jrs.",
+    "sentence": "Carter Department Store allows customers ------- items on hold for up to 24 hK jrs.",
     "choices": {
       "A": "place",
       "B": "to place",

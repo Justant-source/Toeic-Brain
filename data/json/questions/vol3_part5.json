@@ -3742,7 +3742,7 @@
     "test": 7,
     "part": 5,
     "question_number": 120,
-    "sentence": "Should anyone need to------- with Ms. De Sola, be sure to do so prior to today*s meeting.",
+    "sentence": "Should anyone need to------- with Ms. De Sola, be sure to do so prior to today's meeting.",
     "choices": {
       "A": "reflect",
       "B": "arrange",
@@ -4572,7 +4572,7 @@
     "test": 9,
     "part": 5,
     "question_number": 105,
-    "sentence": "Janet Rhodes was commended for------- defending the company*s reputation.",
+    "sentence": "Janet Rhodes was commended for------- defending the company's reputation.",
     "choices": {
       "A": "assertively",
       "B": "assert",
@@ -5157,7 +5157,7 @@
     "test": 10,
     "part": 5,
     "question_number": 106,
-    "sentence": "Our company*s efforts to hire new workers have intensified------- so many employees have recently retired.",
+    "sentence": "Our company's efforts to hire new workers have intensified------- so many employees have recently retired.",
     "choices": {
       "A": "because",
       "B": "although",
