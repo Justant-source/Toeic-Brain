@@ -1048,7 +1048,7 @@
     "test": 2,
     "part": 5,
     "question_number": 126,
-    "sentence": "Corners Gym offers its members a 什ee lesson in how to use-------properly.",
+    "sentence": "Corners Gym offers its members a free lesson in how to use-------properly.",
     "choices": {
       "A": "weighs",
       "B": "weights",
@@ -1979,7 +1979,7 @@
     "test": 4,
     "part": 5,
     "question_number": 113,
-    "sentence": "Leeann’s Organic Fruit Spreads can be purchased-------什om the company's Web site.",
+    "sentence": "Leeann’s Organic Fruit Spreads can be purchased-------from the company's Web site.",
     "choices": {
       "A": "direction",
       "B": "directly",
@@ -4580,7 +4580,7 @@
     "test": 9,
     "part": 5,
     "question_number": 104,
-    "sentence": "Tonight at Harbor Falls Library, writer Delroy Greene will be------- stories 什om his childhood in Jamaica.",
+    "sentence": "Tonight at Harbor Falls Library, writer Delroy Greene will be------- stories from his childhood in Jamaica.",
     "choices": {
       "A": "dividing",
       "B": "sharing",
@@ -5358,7 +5358,7 @@
     "sentence": "Because Ms. Garcia enjoys creating charts and graphs, her supervisor------- asks her to make materials for presentations.",
     "choices": {
       "A": "Sequent",
-      "B": "什equents",
+      "B": "frequents",
       "C": "frequenting",
       "D": "frequently"
     },

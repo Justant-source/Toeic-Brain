@@ -3046,7 +3046,7 @@
     "sentence": "Mr. Okada met------- with the building manager to discuss the demolition project.",
     "choices": {
       "A": "frequent",
-      "B": "什equenting",
+      "B": "frequenting",
       "C": "frequently",
       "D": "frequented"
     },
@@ -3138,7 +3138,7 @@
     "test": 6,
     "part": 5,
     "question_number": 113,
-    "sentence": "Mr. Montri politely------- the job offer 什om Barranca Shipping Company.",
+    "sentence": "Mr. Montri politely------- the job offer from Barranca Shipping Company.",
     "choices": {
       "A": "declined",
       "B": "decreased",
@@ -3309,7 +3309,7 @@
     "test": 6,
     "part": 5,
     "question_number": 125,
-    "sentence": "Both tasty and healthy, the tomato salad at Al什edi’s Bistro is also large------- to be served as a main dish.",
+    "sentence": "Both tasty and healthy, the tomato salad at Alfredi’s Bistro is also large------- to be served as a main dish.",
     "choices": {
       "A": "enough",
       "B": "fully",
@@ -3590,7 +3590,7 @@
     "test": 7,
     "part": 5,
     "question_number": 111,
-    "sentence": "------- necklace that is shipped 斤om Gillis Designers is given a thorough quality check.",
+    "sentence": "------- necklace that is shipped from Gillis Designers is given a thorough quality check.",
     "choices": {
       "A": "Whenever",
       "B": "Also",

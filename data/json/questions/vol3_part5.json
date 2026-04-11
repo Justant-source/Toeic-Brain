@@ -1088,7 +1088,7 @@
     "test": 2,
     "part": 5,
     "question_number": 128,
-    "sentence": "Call Gislason Insurance today to speak to a ------- agent for a 什ee quote.",
+    "sentence": "Call Gislason Insurance today to speak to a ------- agent for a free quote.",
     "choices": {
       "A": "licensed",
       "B": "maximum",
@@ -2152,7 +2152,7 @@
     "test": 4,
     "part": 5,
     "question_number": 126,
-    "sentence": "Use this coupon to-------a 打ee quote for cloud storage services.",
+    "sentence": "Use this coupon to-------a free quote for cloud storage services.",
     "choices": {
       "A": "advertise",
       "B": "discount",
@@ -4800,7 +4800,7 @@
     "test": 9,
     "part": 5,
     "question_number": 117,
-    "sentence": "Enjoy one month 斤ee when you start your company on Rooster’s e-mail------- Web hosting service.",
+    "sentence": "Enjoy one month free when you start your company on Rooster’s e-mail------- Web hosting service.",
     "choices": {
       "A": "then",
       "B": "yet",
@@ -4862,7 +4862,7 @@
       "A": "lasting",
       "B": "lasts",
       "C": "last",
-      "D": "lastly m (广 VO"
+      "D": "lastly"
     },
     "answer": "A",
     "category": "현재분사 명사수식",
