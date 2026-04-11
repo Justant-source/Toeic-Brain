@@ -121,7 +121,7 @@ def select_questions(
 
 # ── HTML generation ───────────────────────────────────────────────────────────
 
-def generate_html(questions: list[dict], shuffle_choices: bool) -> str:
+def generate_html(questions: list[dict], shuffle_choices: bool, filename: str = "") -> str:
     """Generate a self-contained HTML test page (all questions at once, report at end)."""
     q_data = []
     for i, q in enumerate(questions):
@@ -299,6 +299,8 @@ body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Not
                           font-size: 14px; font-weight: 600; cursor: pointer; background: #fff;
                           color: #1B2A4A; }}
 .result-actions button.primary {{ background: #1B2A4A; color: #C4A35A; border-color: #1B2A4A; }}
+.result-actions button.save {{ border-color: #2e7d32; color: #2e7d32; }}
+.result-actions button.save:hover {{ background: #f1f8f0; }}
 </style>
 </head>
 <body>
@@ -328,9 +330,11 @@ body {{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Not
 <script>
 const Q = {q_json};
 const TOTAL = Q.length;
+const TEST_FILE = "{filename}";
 const answered = new Array(TOTAL).fill(null);
 let startTime = Date.now();
 let timerInterval;
+let _lastResult = null;
 
 /* ── Timer ── */
 timerInterval = setInterval(() => {{
@@ -417,6 +421,8 @@ function submitExam() {{
     else wrongItems.push({{ ...q, userAnswer: userAns }});
     correctItems.push({{ ...q, userAnswer: userAns, isCorrect }});
   }});
+
+  _lastResult = {{ score, elapsed, catCorrect, catTotal, correctItems }};
 
   const pct = Math.round(score / TOTAL * 100);
   const mm = String(Math.floor(elapsed/60)).padStart(2,'0');
@@ -532,6 +538,7 @@ function submitExam() {{
 
       <div class="result-actions">
         <button class="primary" onclick="location.reload()">🔄 다시 풀기</button>
+        <button class="save" onclick="saveResult()">💾 결과 저장 (JSON)</button>
         <button onclick="window.print()">🖨 인쇄</button>
       </div>
     </div>`;
@@ -548,6 +555,59 @@ function copyPrompt() {{
     t.style.display = 'inline';
     setTimeout(() => t.style.display = 'none', 2000);
   }});
+}}
+
+function saveResult() {{
+  if (!_lastResult) return;
+  const {{ score, elapsed, catCorrect, catTotal, correctItems }} = _lastResult;
+
+  const now = new Date();
+  const pad = n => String(n).padStart(2, '0');
+  const iso = now.getFullYear() + '-' + pad(now.getMonth()+1) + '-' + pad(now.getDate())
+    + 'T' + pad(now.getHours()) + ':' + pad(now.getMinutes()) + ':' + pad(now.getSeconds());
+  const stamp = now.getFullYear() + pad(now.getMonth()+1) + pad(now.getDate())
+    + '_' + pad(now.getHours()) + pad(now.getMinutes());
+
+  const catOrder = ['품사','동사','접속사/전치사','관계대명사','어휘','대명사','비교급/최상급','기타문법'];
+  const catStats = {{}};
+  catOrder.filter(c => catTotal[c]).forEach(cat => {{
+    const c = catCorrect[cat] || 0, t = catTotal[cat];
+    catStats[cat] = {{ total: t, correct: c, rate: Math.round(c / t * 1000) / 10 }};
+  }});
+
+  const questions = correctItems.map((q, i) => ({{
+    index: i,
+    id: q.id,
+    sentence: q.sentence,
+    choices: q.choices,
+    correct_answer: q.answer,
+    user_answer: q.userAnswer,
+    is_correct: q.isCorrect,
+    category: q.category,
+    volume: q.vol,
+    test: q.test,
+    question_number: q.qnum
+  }}));
+
+  const payload = {{
+    test_file: TEST_FILE,
+    submitted_at: iso,
+    total: TOTAL,
+    score: score,
+    elapsed_seconds: elapsed,
+    category_stats: catStats,
+    questions: questions
+  }};
+
+  const blob = new Blob([JSON.stringify(payload, null, 2)], {{ type: 'application/json' }});
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'result_' + stamp + '.json';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
 }}
 
 const now = "{now}";
@@ -577,11 +637,10 @@ def main():
     selected = select_questions(questions, args.count, args.category)
     print(f"총 {len(questions)}문제 중 {len(selected)}문제 선택")
 
-    html_content = generate_html(selected, args.shuffle)
-
     RESULT_DIR.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M")
     output_path = RESULT_DIR / f"part5_test_{timestamp}.html"
+    html_content = generate_html(selected, args.shuffle, filename=output_path.name)
     output_path.write_text(html_content, encoding="utf-8")
     print(f"생성 완료: {output_path}")
 

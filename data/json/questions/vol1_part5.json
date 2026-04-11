@@ -233,7 +233,7 @@
     "test": 1,
     "part": 5,
     "question_number": 113,
-    "sentence": "One of Grommer Consulting^ goals is to enhance the relationship-------salespeople and their customers.",
+    "sentence": "One of Grommer Consulting goals is to enhance the relationship-------salespeople and their customers.",
     "choices": {
       "A": "inside",
       "B": "within",
@@ -299,7 +299,7 @@
     },
     "answer": "B",
     "category": "명사 자리 전치사의 목적어 어휘",
-    "explanation": "빈칸은 전치사 in의 목적어 자리로, any의 수식을 받을 수 있는 명사가 들어가야 한다. 보기에서 명사인 (B) correspondence 와 (D) correspondent 중 하나를 선택해야 하는데, '서신에 제 품의 일련번호를 포함해 달라'라는 내용이 되어야 자연스러우므 '로, '서신, 편지'를 의미하는 (B) correspondence가 정답이다. (D) correspondent는 '특파원, 편지를 쓰는 사람'을 의미하는 사람 명사이므로 빈칸에 적절하지 않다.",
+    "explanation": "빈칸은 전치사 in의 목적어 자리로, any의 수식을 받을 수 있는 명사가 들어가야 한다. 보기에서 명사인 (B) correspondence 와 (D) correspondent 중 하나를 선택해야 하는데, '서신에 제 품의 일련번호를 포함해 달라'라는 내용이 되어야 자연스러우므로, '서신, 편지'를 의미하는 (B) correspondence가 정답이다. (D) correspondent는 '특파원, 편지를 쓰는 사람'을 의미하는 사람 명사이므로 빈칸에 적절하지 않다.",
     "translation": "고객 서비스 부서와 주고받는 모든 서신에 귀하의 제품 일련번호를 포 함해 주십시오.",
     "vocabulary": "include 포함하다 serial number 일련번호 department 부서"
   },
