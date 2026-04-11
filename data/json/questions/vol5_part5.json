@@ -518,7 +518,7 @@
     "test": 1,
     "part": 5,
     "question_number": 128,
-    "sentence": "Milltown HospitaPs cafeteria serves lunch seven days a week------- only on weekdays.",
+    "sentence": "Milltown Hospital's cafeteria serves lunch seven days a week------- only on weekdays.",
     "choices": {
       "A": "up to",
       "B": "as though",
@@ -2532,7 +2532,7 @@
     "test": 5,
     "part": 5,
     "question_number": 115,
-    "sentence": "Cayfair GlobaPs------- mission is to transport and deliver client goods in a timely manner.",
+    "sentence": "Cayfair Global's------- mission is to transport and deliver client goods in a timely manner.",
     "choices": {
       "A": "prompt",
       "B": "primary",
@@ -2741,7 +2741,7 @@
     "test": 5,
     "part": 5,
     "question_number": 126,
-    "sentence": "Mr. Sato will call into the meeting-------the hotePs wireless network.",
+    "sentence": "Mr. Sato will call into the meeting-------the hotel's wireless network.",
     "choices": {
       "A": "used",
       "B": "using",

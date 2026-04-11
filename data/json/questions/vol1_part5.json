@@ -366,7 +366,7 @@
     "test": 1,
     "part": 5,
     "question_number": 120,
-    "sentence": "Belden HospitaPs chief of staff meets regularly with the staff to ensure that procedures------- correctly.",
+    "sentence": "Belden Hospital's chief of staff meets regularly with the staff to ensure that procedures------- correctly.",
     "choices": {
       "A": "to be performed",
       "B": "would have performed",
@@ -1278,7 +1278,7 @@
     "test": 3,
     "part": 5,
     "question_number": 109,
-    "sentence": "A wooden bridge crossing the wading pond -------to the hotePs nine-hole golf course.",
+    "sentence": "A wooden bridge crossing the wading pond -------to the hotel's nine-hole golf course.",
     "choices": {
       "A": "prepares",
       "B": "leads",
@@ -2931,7 +2931,7 @@
     "test": 6,
     "part": 5,
     "question_number": 106,
-    "sentence": "Mr. WinkePs-------responsibilities include auditing and financial review of large clients.",
+    "sentence": "Mr. Winkel's-------responsibilities include auditing and financial review of large clients.",
     "choices": {
       "A": "accounts",
       "B": "accounted",
