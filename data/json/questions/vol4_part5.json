@@ -2570,7 +2570,7 @@
     "question_number": 117,
     "sentence": "Ito Auto Group is offering excellent------- on pre-owned vehicles this month.",
     "choices": {
-      "A": "trips 어",
+      "A": "trips",
       "B": "reasons m L/l",
       "C": "customs VI H",
       "D": "deals Ui"
@@ -4887,7 +4887,7 @@
       "A": "made",
       "B": "makes",
       "C": "make",
-      "D": "making 근 \\D"
+      "D": "making"
     },
     "answer": "C",
     "category": "동사 어형_조동사 + 동사원형",
