@@ -4901,15 +4901,15 @@
     "test": 9,
     "part": 5,
     "question_number": 121,
-    "sentence": "The company’s latest video game, Hunting for Treasure, has been praised - reviewers.",
+    "sentence": "The company's latest video game, Hunting for Treasure, has been praised ------- by reviewers.",
     "choices": {
       "A": "enthusiastically",
       "B": "enthusiastic",
       "C": "enthusiasm",
-      "D": "enthusiast by"
+      "D": "enthusiast"
     },
     "answer": "A",
-    "category": "부사 자리 _ 동사 수식 -",
+    "category": "부사 자리 _ 동사 수식",
     "explanation": "수동태로 쓰인 완전한 절(The company's latest video game has been praised) 뒤에서 동사구 has been praised를 수식하는 자리이므로 부사가 들어가야 한다. 따라서 '열렬히, 열광적으로'라는 뜻의 부사 (A) enthusiastically가 정답이다. (B) enthusiastic은 형 용사, (C) enthusiasm과 (D) enthusiast는 명사이므로 품사상 오 답이다.",
     "translation": "이 회사의 최신 비디오 게임인 <보물 사냥>은 평가단으로부터 열렬히 찬사를 받았다.",
     "vocabulary": "latest 최신의 treasure 보물 praise 칭찬하다 reviewer 평가자, 논평가 enthusiasm 열정 enthusiast 열심히 하는 사람"
