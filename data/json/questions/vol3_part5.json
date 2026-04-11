@@ -1278,7 +1278,7 @@
     "test": 3,
     "part": 5,
     "question_number": 110,
-    "sentence": "The directions for Mas니da’s do-it-yourself projects are comprehensive enough for ------- a novice builder.",
+    "sentence": "The directions for Masuda's do-it-yourself projects are comprehensive enough for ------- a novice builder.",
     "choices": {
       "A": "right",
       "B": "soon",
@@ -3347,7 +3347,7 @@
     "test": 6,
     "part": 5,
     "question_number": 129,
-    "sentence": "One distinctive aspect of the painter Chapin K니rek’s portrait style is her almost comic ------- of facial features.",
+    "sentence": "One distinctive aspect of the painter Chapin Kurek's portrait style is her almost comic ------- of facial features.",
     "choices": {
       "A": "exaggerate",
       "B": "exaggerated",
@@ -5480,7 +5480,7 @@
     "test": 10,
     "part": 5,
     "question_number": 123,
-    "sentence": "Abelos Cafe sources its vegetables and 什니it 什om local farms------- possible.",
+    "sentence": "Abelos Cafe sources its vegetables and fruit from local farms------- possible.",
     "choices": {
       "A": "anyhow",
       "B": "whenever",
